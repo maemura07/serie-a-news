@@ -1,0 +1,71 @@
+{
+  "_help": "巡回するニュースソースの設定ファイル。enabled を false にすると巡回停止。tag は milan / inter / juventus / roma / lazio / atalanta / fiorentina / altro のいずれか。altro のフィードは記事内容からAIがクラブを自動判定します。",
+  "sources": [
+    {
+      "name": "Gazzetta dello Sport",
+      "url": "https://www.gazzetta.it/rss/calcio.xml",
+      "tag": "altro",
+      "enabled": true
+    },
+    {
+      "name": "Corriere dello Sport",
+      "url": "https://www.corrieredellosport.it/rss/calcio",
+      "tag": "altro",
+      "enabled": true
+    },
+    {
+      "name": "ANSA Calcio",
+      "url": "https://www.ansa.it/sito/notizie/sport/calcio/calcio_rss.xml",
+      "tag": "altro",
+      "enabled": true
+    },
+    {
+      "name": "Google News (Serie A 全体)",
+      "url": "https://news.google.com/rss/search?q=%22Serie%20A%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+      "tag": "altro",
+      "enabled": true
+    },
+    {
+      "name": "Google News (Milan)",
+      "url": "https://news.google.com/rss/search?q=%22AC%20Milan%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+      "tag": "milan",
+      "enabled": true
+    },
+    {
+      "name": "Google News (Inter)",
+      "url": "https://news.google.com/rss/search?q=%22Inter%22%20calcio%20when:1d&hl=it&gl=IT&ceid=IT:it",
+      "tag": "inter",
+      "enabled": true
+    },
+    {
+      "name": "Google News (Juventus)",
+      "url": "https://news.google.com/rss/search?q=%22Juventus%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+      "tag": "juventus",
+      "enabled": true
+    },
+    {
+      "name": "Google News (Roma)",
+      "url": "https://news.google.com/rss/search?q=%22AS%20Roma%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+      "tag": "roma",
+      "enabled": true
+    },
+    {
+      "name": "Google News (Lazio)",
+      "url": "https://news.google.com/rss/search?q=%22Lazio%22%20calcio%20when:1d&hl=it&gl=IT&ceid=IT:it",
+      "tag": "lazio",
+      "enabled": true
+    },
+    {
+      "name": "Google News (Atalanta)",
+      "url": "https://news.google.com/rss/search?q=%22Atalanta%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+      "tag": "atalanta",
+      "enabled": true
+    },
+    {
+      "name": "Google News (Fiorentina)",
+      "url": "https://news.google.com/rss/search?q=%22Fiorentina%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+      "tag": "fiorentina",
+      "enabled": true
+    }
+  ]
+}

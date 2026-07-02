@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SERIE A OGGI — セリエA現地報道まとめ</title>
+<meta name="description" content="セリエA全クラブの現地報道を日本語で自動要約。移籍・人事・負傷・審判関連を数時間ごとに更新。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --rosa:#F4DEE2;          /* ガゼッタのピンク紙 */
+    --carta:#FFFDFB;         /* カード（紙面の白） */
+    --ink:#221A1E;           /* インク黒 */
+    --ink-soft:#6E5C62;      /* 薄いインク */
+    --rosso:#C8102E;         /* 赤（アクセント） */
+    --line:#D9BFC6;
+    --alta:#0E6B3A;          /* 確度高 */
+    --media-c:#B07000;       /* 確度中 */
+    --bassa:#8A7A7E;         /* 確度低 */
+    --c-milan:#DA1820; --c-inter:#0068A8; --c-juventus:#111111;
+    --c-roma:#8E1F2F; --c-lazio:#5EB6DD; --c-atalanta:#1B5497;
+    --c-fiorentina:#61259E; --c-altro:#6E5C62;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--rosa);
+    color:var(--ink);
+    font-family:"Noto Sans JP",sans-serif;
+    line-height:1.7;
+    padding-bottom:64px;
+  }
+  .wrap{max-width:780px;margin:0 auto;padding:0 16px}
+
+  /* ---- マストヘッド（スポーツ紙の題字） ---- */
+  header{padding-top:28px}
+  .masthead{
+    border-top:4px solid var(--ink);
+    border-bottom:1.5px solid var(--ink);
+    padding:10px 0 8px;
+    position:relative;
+  }
+  .masthead::after{ /* 二重罫線 */
+    content:"";display:block;height:4px;background:var(--ink);margin-top:3px;
+  }
+  .masthead h1{
+    font-family:"Anton","Noto Sans JP",sans-serif;
+    font-size:clamp(2.4rem,9vw,4.2rem);
+    letter-spacing:.02em;
+    line-height:1;
+    text-transform:uppercase;
+  }
+  .masthead h1 .oggi{color:var(--rosso)}
+  .dateline{
+    display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;
+    font-size:.78rem;font-weight:700;letter-spacing:.08em;
+    padding:6px 2px 0;color:var(--ink);
+  }
+  .dateline .sub{color:var(--ink-soft);font-weight:500}
+  .tagline{font-size:.82rem;color:var(--ink-soft);padding:10px 2px 0}
+
+  /* ---- フィルターチップ ---- */
+  nav.filters{
+    position:sticky;top:0;z-index:5;
+    background:linear-gradient(var(--rosa) 85%,transparent);
+    padding:14px 0 12px;
+    display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;
+  }
+  nav.filters::-webkit-scrollbar{display:none}
+  .chip{
+    flex:0 0 auto;
+    font:700 .82rem/1 "Noto Sans JP",sans-serif;
+    padding:9px 14px;
+    border:1.5px solid var(--ink);
+    border-radius:999px;
+    background:var(--carta);
+    color:var(--ink);
+    cursor:pointer;
+    display:flex;align-items:center;gap:7px;
+    transition:transform .1s ease;
+  }
+  .chip:active{transform:scale(.96)}
+  .chip .dot{width:9px;height:9px;border-radius:50%;background:var(--dot,var(--ink))}
+  .chip .n{font-weight:500;color:var(--ink-soft);font-size:.75rem}
+  .chip[aria-pressed="true"]{background:var(--ink);color:var(--rosa)}
+  .chip[aria-pressed="true"] .n{color:var(--rosa);opacity:.7}
+  .chip:focus-visible{outline:3px solid var(--rosso);outline-offset:2px}
+
+  /* ---- 記事カード ---- */
+  .card{
+    background:var(--carta);
+    border:1.5px solid var(--ink);
+    border-radius:10px;
+    padding:16px 18px 14px;
+    margin-bottom:14px;
+    box-shadow:3px 3px 0 rgba(34,26,30,.15);
+  }
+  .card .meta-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+  .club{
+    font:900 .72rem/1 "Noto Sans JP",sans-serif;
+    color:#fff;background:var(--club,#6E5C62);
+    padding:5px 10px;border-radius:4px;letter-spacing:.06em;
+  }
+  .club.lazio-tag{color:var(--ink)}
+  .badge{
+    font:700 .7rem/1 "Noto Sans JP",sans-serif;
+    padding:4px 9px;border-radius:4px;letter-spacing:.1em;
+  }
+  .badge.high{background:var(--alta);color:#fff}
+  .badge.medium{background:transparent;color:var(--media-c);border:1.5px solid var(--media-c)}
+  .badge.low{background:transparent;color:var(--bassa);border:1.5px dashed var(--bassa)}
+  .badge.new{background:var(--rosso);color:#fff;letter-spacing:.15em}
+  .card h2{font-size:1.08rem;font-weight:900;line-height:1.5;margin-bottom:6px}
+  .card p{font-size:.92rem;color:#3d3237;margin-bottom:12px}
+  .meta-bottom{
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    font-size:.76rem;color:var(--ink-soft);
+    border-top:1px solid var(--line);padding-top:10px;
+  }
+  .meta-bottom .src{font-weight:700;color:var(--ink)}
+  .meta-bottom a{
+    margin-left:auto;color:var(--rosso);font-weight:700;text-decoration:none;
+    border-bottom:1.5px solid currentColor;
+  }
+  .meta-bottom a:hover{opacity:.75}
+  .meta-bottom a:focus-visible{outline:3px solid var(--rosso);outline-offset:2px}
+
+  /* ---- 状態表示 ---- */
+  .state{
+    text-align:center;padding:60px 20px;color:var(--ink-soft);font-size:.95rem;
+  }
+  .state strong{display:block;font-size:1.15rem;color:var(--ink);margin-bottom:8px}
+  footer{
+    text-align:center;font-size:.75rem;color:var(--ink-soft);
+    padding-top:28px;border-top:1.5px solid var(--ink);margin-top:10px;
+  }
+  footer .note{margin-top:4px}
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none!important;animation:none!important}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="masthead">
+      <h1>Serie A <span class="oggi">Oggi</span></h1>
+    </div>
+    <div class="dateline">
+      <span id="today"></span>
+      <span class="sub" id="updated">読み込み中…</span>
+    </div>
+    <p class="tagline">セリエA全クラブの現地報道を、日本語で自動要約。移籍・人事・負傷・審判関連のみを掲載。要約はAIによる自動生成です — 必ず原文リンクで一次情報を確認してください。</p>
+  </header>
+
+  <nav class="filters" id="filters" aria-label="クラブで絞り込み"></nav>
+
+  <main id="feed" aria-live="polite">
+    <div class="state"><strong>読み込み中…</strong></div>
+  </main>
+
+  <footer>
+    <div>SERIE A OGGI — 自動収集・自動要約による非公式ニュースダイジェスト</div>
+    <div class="note">各記事の著作権は各媒体に帰属します。本ページは見出し・リード文をもとにした短い紹介と原文リンクのみを掲載しています。</div>
+  </footer>
+</div>
+
+<script>
+const CLUBS = [
+  {id:"all",        label:"すべて",          color:"var(--ink)"},
+  {id:"milan",      label:"ミラン",          color:"var(--c-milan)"},
+  {id:"inter",      label:"インテル",        color:"var(--c-inter)"},
+  {id:"juventus",   label:"ユベントス",      color:"var(--c-juventus)"},
+  {id:"roma",       label:"ローマ",          color:"var(--c-roma)"},
+  {id:"lazio",      label:"ラツィオ",        color:"var(--c-lazio)"},
+  {id:"atalanta",   label:"アタランタ",      color:"var(--c-atalanta)"},
+  {id:"fiorentina", label:"フィオレンティーナ", color:"var(--c-fiorentina)"},
+  {id:"altro",      label:"その他/リーグ",   color:"var(--c-altro)"}
+];
+const CLUB_LABEL = Object.fromEntries(CLUBS.map(c=>[c.id,c.label]));
+const CONF = {high:"確度高", medium:"確度中", low:"確度低"};
+const NEW_HOURS = 24;
+
+let articles = [];
+let current = "all";
+
+function esc(s){const d=document.createElement("div");d.textContent=s??"";return d.innerHTML;}
+
+function timeAgo(iso){
+  if(!iso) return "";
+  const diff = Date.now() - new Date(iso).getTime();
+  const h = Math.floor(diff/3600000);
+  if (h < 1) return "1時間以内";
+  if (h < 24) return h + "時間前";
+  const d = Math.floor(h/24);
+  if (d < 7) return d + "日前";
+  const dt = new Date(iso);
+  return (dt.getMonth()+1) + "/" + dt.getDate();
+}
+
+function isNew(a){
+  const t = a.addedAt || a.publishedAt;
+  return t && (Date.now() - new Date(t).getTime()) < NEW_HOURS*3600000;
+}
+
+function renderFilters(){
+  const nav = document.getElementById("filters");
+  nav.innerHTML = "";
+  CLUBS.forEach(c=>{
+    const count = c.id==="all" ? articles.length : articles.filter(a=>a.club===c.id).length;
+    if (c.id!=="all" && count===0) return;
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.style.setProperty("--dot", c.color);
+    b.setAttribute("aria-pressed", String(current===c.id));
+    b.innerHTML = `<span class="dot" aria-hidden="true"></span>${esc(c.label)}<span class="n">${count}</span>`;
+    b.addEventListener("click", ()=>{ current=c.id; renderFilters(); renderFeed(); });
+    nav.appendChild(b);
+  });
+}
+
+function renderFeed(){
+  const feed = document.getElementById("feed");
+  const list = current==="all" ? articles : articles.filter(a=>a.club===current);
+  if (!list.length){
+    feed.innerHTML = `<div class="state"><strong>記事がまだありません</strong>次回の自動収集をお待ちください（数時間ごとに更新されます）。</div>`;
+    return;
+  }
+  feed.innerHTML = list.map(a=>{
+    const club = CLUB_LABEL[a.club] ? a.club : "altro";
+    const conf = CONF[a.confidence] ? a.confidence : "low";
+    // 7クラブ以外は実際のクラブ名（例: ナポリ）をチップに表示。フィルター上は「その他/リーグ」に含まれる
+    const chipLabel = (club === "altro" && a.clubLabel) ? a.clubLabel : CLUB_LABEL[club];
+    return `<article class="card">
+      <div class="meta-top">
+        <span class="club ${club==="lazio"?"lazio-tag":""}" style="--club:var(--c-${club})">${esc(chipLabel)}</span>
+        <span class="badge ${conf}">${CONF[conf]}</span>
+        ${isNew(a) ? '<span class="badge new">NEW</span>' : ""}
+      </div>
+      <h2>${esc(a.headline)}</h2>
+      <p>${esc(a.summary)}</p>
+      <div class="meta-bottom">
+        <span class="src">${esc(a.source)}</span>
+        <span>${timeAgo(a.publishedAt || a.addedAt)}</span>
+        <a href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">原文を読む →</a>
+      </div>
+    </article>`;
+  }).join("");
+}
+
+async function init(){
+  const now = new Date();
+  const giorni = ["DOMENICA","LUNEDÌ","MARTEDÌ","MERCOLEDÌ","GIOVEDÌ","VENERDÌ","SABATO"];
+  document.getElementById("today").textContent =
+    `${giorni[now.getDay()]} · ${now.getFullYear()}年${now.getMonth()+1}月${now.getDate()}日`;
+  try{
+    const res = await fetch("data/articles.json?t=" + Math.floor(Date.now()/300000)); // 5分キャッシュ
+    if(!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    articles = (data.articles||[]).slice()
+      .sort((x,y)=> new Date(y.publishedAt||y.addedAt||0) - new Date(x.publishedAt||x.addedAt||0));
+    document.getElementById("updated").textContent =
+      data.updated ? "最終更新: " + timeAgo(data.updated) : "初回収集待ち";
+    renderFilters();
+    renderFeed();
+  }catch(e){
+    document.getElementById("updated").textContent = "";
+    document.getElementById("feed").innerHTML =
+      `<div class="state"><strong>データを読み込めませんでした</strong>時間をおいて再読み込みしてください。</div>`;
+  }
+}
+init();
+</script>
+</body>
+</html>

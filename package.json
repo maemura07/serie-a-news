@@ -1,0 +1,12 @@
+{
+  "name": "serie-a-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "セリエA現地ニュースの日本語自動要約ページ",
+  "scripts": {
+    "update": "node scripts/update.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
