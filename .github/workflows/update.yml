@@ -1,0 +1,41 @@
+name: ニュース自動更新
+
+on:
+  schedule:
+    - cron: "0 */2 * * *" # 2時間ごと（UTC基準・多少の遅延あり）
+  workflow_dispatch: {} # 手動実行ボタンも有効化
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリ取得
+        uses: actions/checkout@v4
+
+      - name: Node.js セットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 依存パッケージ インストール
+        run: npm install --no-audit --no-fund
+
+      - name: 記事収集・要約
+        run: node scripts/update.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: 変更をコミット
+        run: |
+          git config user.name "news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "自動更新: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
