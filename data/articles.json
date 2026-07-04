@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-04T08:13:56.680Z",
+ "updated": "2026-07-04T14:51:43.998Z",
  "feedStatus": [
   {
    "name": "Gazzetta dello Sport",
@@ -9,55 +9,264 @@
   {
    "name": "Corriere dello Sport",
    "ok": true,
-   "newItems": 29
+   "newItems": 23
   },
   {
    "name": "ANSA Calcio",
    "ok": true,
-   "newItems": 61
+   "newItems": 57
   },
   {
    "name": "Google News (Serie A 全体)",
    "ok": true,
-   "newItems": 97
+   "newItems": 95
   },
   {
    "name": "Google News (Milan)",
    "ok": true,
-   "newItems": 91
+   "newItems": 92
   },
   {
    "name": "Google News (Inter)",
    "ok": true,
-   "newItems": 52
+   "newItems": 38
   },
   {
    "name": "Google News (Juventus)",
    "ok": true,
-   "newItems": 86
+   "newItems": 88
   },
   {
    "name": "Google News (Roma)",
    "ok": true,
-   "newItems": 95
+   "newItems": 94
   },
   {
    "name": "Google News (Lazio)",
    "ok": true,
-   "newItems": 35
+   "newItems": 46
   },
   {
    "name": "Google News (Atalanta)",
    "ok": true,
-   "newItems": 97
+   "newItems": 93
   },
   {
    "name": "Google News (Fiorentina)",
    "ok": true,
-   "newItems": 94
+   "newItems": 98
   }
  ],
  "articles": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR0pkOC1qajVJTWM2ZXdGT1lzSjV2bm9KX3h4a2tqNDlNT0l1amFnTzczTXRVdVlqRUEySUdZdUUyRXVsRG5OQk1DLTlKWlJqMlB5aDA3S1l5OTBnZzdIVVJNYUN5QU9GTjFBVnBFOVE5YWZlZ01sTGlqZ2M0d2NmRHlhTktuOVBfTkxtUkZsZzJwVkpXN3JtTzdhbHNIMGZZLTNIbW85cU0xQlJRTjNOeUlBTXFjaW5peHFEM3NnRC10NDJVY01HNXVn?oc=5",
+   "source": "Google News (Milan)",
+   "club": "milan",
+   "clubLabel": "ミラン",
+   "confidence": "low",
+   "headline": "アモリム監督候補、ムリーニョとデゼルビの融合型と評価",
+   "summary": "ミランの監督候補として名前が挙がるアモリム氏について、独自のサッカースタイルを持つ人物として評価されている。ムリーニョとデゼルビのスタイルを融合させた指揮官とみられている。",
+   "publishedAt": "2026-07-04T14:46:43.000Z",
+   "addedAt": "2026-07-04T14:51:15.996Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWWRLUzNiYUlidzJFWmc4UXF4WGZOeDF0WWZtWV81OUdiaXhYbFoxRk9pN2ZDZnAwLTVQVWk1UkVWUHZaSV9WOU9XdWU2QVlUSV9KNUdqT25wSE1VTTNiMkhlckpqNXItZ2c3SzNJbTBEUFpuQ3paQWNqYlYxUWx1NjdXblJKME1WM3FHempmT2hIdjd4OEF6LWhvY0RZNF9NRjlIWkxEMFR0b2lKaE5RMmFpVVMzeFV5empscjVRdGlLVTVLN0V2SUJSTWhhU1hraTJfaTZyMkRoLXfSAXhBVV95cUxPdnY4WndVLXk5SFJPZFhXWFh5Tzd0ZkdjRjh5N2d4RVpUa1l3MFh2OU1MUEdUb2hCR2xkRlctSWVoNmw0aDFmMXdlNE9yMk1pNl9GRDdNelpHdzJmUmpsV2NBRVlUVml3ZWl4aUZNb3N2d2dSQ1BvcWI?oc=5",
+   "source": "Google News (Fiorentina)",
+   "club": "fiorentina",
+   "clubLabel": "フィオレンティーナ",
+   "confidence": "medium",
+   "headline": "フィオレンティーナ、2006年生まれアイボリー人選手オウライへのアプローチ継続",
+   "summary": "フィオレンティーナが2006年生まれのコートジボワール人選手オウライの獲得に向けて引き続き積極的に動いている。ヴィオラは同選手に強い関心を寄せている。",
+   "publishedAt": "2026-07-04T14:35:00.000Z",
+   "addedAt": "2026-07-04T14:51:15.996Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTdnMUxIVjhiVnBMaG5CckxKcW1PY25kb0hIVmlyQXNoeEQ2bEo2ei14RzQ4dmt0WDlNanB4bzJJMUV0cTcwalJmLW9HNG5tam5nTU8wX2xPNUpvSThQRjFEVEJvc3FYaHVBNEdfdmVxZ0VXTVh3RTJ2ZF9EbVdIbi03MUllZGhmVjZJRGZaSU96VmEzXzZMSlRTWmtIRFhGODdmSHJsaHFyZHJNTGxoTmZXQ2I5X0VqRUZZamszMVUtd1ljMW9j0gHMAUFVX3lxTFBodHlqcGZnRHZsdzYwRFpUM0N6SWl3elFvMDZHb1JpV3g4eVVhbHBUY2ZodWJUNzdvMTI4Y1JsaE5pcVdqbVUwNXo0WGNKSjZIZ0ItZkZiV3JmbWVVd2s0WDh2NkQ4MUloX2RkdnZRS0hrbjQxRWVHNDFVWGpPQnB2UUUzTTJPbkI5bHp2UDRzZzY4WWRmNW1MVGJCT2RCaUJIazR2Szl3cFJRYjUwZDNDQjB2dV9mZkVZQTdUajZwSkFxbC1MQVBvVjhmTg?oc=5",
+   "source": "Google News (Fiorentina)",
+   "club": "fiorentina",
+   "clubLabel": "フィオレンティーナ",
+   "confidence": "low",
+   "headline": "ボルパート選手、フィオレンティーナへの加入に言及も課題残る",
+   "summary": "ボルパート選手がフィオレンティーナについて「大きなクラブで監督のことも知っている。選ぶ理由はたくさんある」と述べつつも、現在のところ課題があると言及している。",
+   "publishedAt": "2026-07-04T14:32:04.000Z",
+   "addedAt": "2026-07-04T14:51:15.996Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYVVHOUdFSXZMYzNEVGVBV0ZPZlV0RnhkQWVwM2w5YVpRSFZ1emRNVlU3X3Zfb3huSlNsd2UxSW15dkdQUXJSbDVDLVAxZnEyQW9uSEhCNHdEQUtyR3VJTDdacGdjNUswWnhMX1BuNlhTcTBKYzJteXE5Z0IxZmtTSzN2Z21MTW4tTTJiTTlEcEZiaVpoME1lMDlWTmxydE1xZVIySUxNTW1YUDF5cWpkME9oRUZjakE?oc=5",
+   "source": "Google News (Atalanta)",
+   "club": "atalanta",
+   "clubLabel": "アタランタ",
+   "confidence": "medium",
+   "headline": "アタランタがラツィオのジラに合意していた",
+   "summary": "アタランタはディフェンダーのジラの獲得についてラツィオと合意が成立していたことが明らかになった。移籍交渉の舞台裏が報じられている。",
+   "publishedAt": "2026-07-04T14:25:00.000Z",
+   "addedAt": "2026-07-04T14:51:22.913Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdllfa3dPQUtDU2JYRjhEZzFBbzFPNnU5bWRIbXRmY0RxcVZNQVd4cVJYbnNKS01qMG5CM01FZHF5dWhFUGZTcFBpTld3U25IZU5TWnlQcHBhRXlxOG14dzJlWVFjbTZOOHljcGUxa0RidHhwYU1MdzFvRmNwT0swdmpwZkZDcHYtS3BQdDZrQTZmOWxUQ2NfUEMyYk9tLTJaX1E?oc=5",
+   "source": "Google News (Atalanta)",
+   "club": "milan",
+   "clubLabel": "ミラン",
+   "confidence": "medium",
+   "headline": "ミラン・アタランタの間でヤシャリ獲得を巡る動き",
+   "summary": "ミランとアタランタがヤシャリの獲得を巡って関心を示しており、選手のエージェントが活動している。ヤシャリの今後のキャリアについて協議が進められている。",
+   "publishedAt": "2026-07-04T14:23:59.000Z",
+   "addedAt": "2026-07-04T14:51:22.913Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQZzc3SUlYSnZZaEc5TzVlN2V1TUdxNVJGeXFRWkJJbk0xY3YzYlBsUTRvT2RLX01yZDMzd1JxbHN4QWcxRWtsdWxrNktjbkZ1d3BKYmVwQzJoakRrVDZWbUsweUN4VGlfQkRMVnV6QjlEcFRzaGwzdTBHTjRJS2ZKc1FhM1M5X0IxN1J5bHRyTnRrVXExZkJHbEtTcUtONjloZmduNFZ4T0lKbnlrUzU4LXJaWjNrZzhPTzdOMHZhLWkwV0o0dFJsT3NscE4tV1Y2U1pFT00tV2hYd0s1Z19BMFNSOU9ZVzl2dUk5aFdUeGR3dmhZS1hDM19OUWk4cjBIX0Y4LVBMMnphQQ?oc=5",
+   "source": "Google News (Roma)",
+   "club": "roma",
+   "clubLabel": "ローマ",
+   "confidence": "medium",
+   "headline": "ローマ、ドヴブィクの放出を検討。トレゾルディ獲得資金化へ",
+   "summary": "ローマはストライカーのドヴブィクを完全移籍で売却することを計画しており、その売却益を使ってトレゾルディ獲得に資金を充てる予定である。",
+   "publishedAt": "2026-07-04T14:17:48.000Z",
+   "addedAt": "2026-07-04T14:51:22.913Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaDVsYWk2MVFDamk5Ri1teGlRaTdMZ2p4a2QwcUY0MWIxNWpDbGRDVFVSWExlWnBxcHJKR1VINEY1TTFrOEVHOXE5YndPanEtOF9oTHU5djhqUF9FNFZpMXlvTDBwaHo1TGdzZmtTcXExVVpFcDh0WjFXVWltMUhLZFVnMWFORVZ0WkdZZllpaVVaZTFDUDl4TjZlcnAyZXF2c0R6dXliZGJBbXJtM1BaUDkzc0lzS19aNXlkUXF30gHAAUFVX3lxTFAwSHNlX0RHUkhHak51WjRGN1FCdjRMSXo1TklXM3h1VVJldHlyYUhXdFlyZmhzekdibklfZ2c0OHFiY0dYNmxUbXVJcmRGT0JHd0l3dUgwdFg4alhZWFZfMkZXQkpENjZvcE1HSGk3ZEJ1WWZyeEU4UTlDNk1uUDdfd3FEcHNpcWgteC0tOG1EQ1hIa0xCcEhGT0lETndrd2Z5VUoxN3puNE9BSkRYNXIxVDkwZ1k1OVdhT2xSX2RHbw?oc=5",
+   "source": "Google News (Fiorentina)",
+   "club": "fiorentina",
+   "clubLabel": "フィオレンティーナ",
+   "confidence": "medium",
+   "headline": "フィオレンティーナ、トラブゾンスポルの20歳イナオ・ウライに関心",
+   "summary": "フィオレンティーナはトラブゾンスポルの20歳ウインガー、イナオ・ウライへの獲得に向けて継続的に接触を続けており、選手の価格設定について協議されている。",
+   "publishedAt": "2026-07-04T14:15:15.000Z",
+   "addedAt": "2026-07-04T14:51:22.913Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdDk4Ml9NUm41aVZJTmJtdmxDSXpJeTAyUExDN3JmeWl4WEJjMmZ2RVA3Ymg1UDRGSERRZlJxTy1Oam9FT005RXZEbVFxRUh3bGpsVW4ya0d1d0xMSGY0Q1pOZjJhUEVTdnpqeDZKTFBEYjlXYXlHa25DaG1zak85UTg0MFR1dk1icUcyUmpSS1RMdGttbEE1X2k1Y2ZVTFo1emYxOUFwakt3OW9ObUh3TnhjVEw5NUZOQ09BMC1iYU55ZnVrUlh3eFdNOHhRQnp4Y0VfdXB0UjNXYU3SAXhBVV95cUxPNTNOa1ZncWN4QThJaWVhTHNSUWlmMHNrbWpjNW9EVlZIc1lRVEZkR0s3QnQ3MGhXUWpub3F2Wl9VTloyUDhxU0dEd0c0RTBmOW5STHAwcVhGdFhheURITndLM1Zjb2F2aHRJTjNuajBucjNxODIyTFY?oc=5",
+   "source": "Google News (Fiorentina)",
+   "club": "fiorentina",
+   "clubLabel": "フィオレンティーナ",
+   "confidence": "high",
+   "headline": "フィオレンティーナ、グロッソ体制始動",
+   "summary": "フィオレンティーナが新監督グロッソの就任を発表した。プレシーズンのスケジュールとテストマッチの日程が決定している。",
+   "publishedAt": "2026-07-04T14:10:41.000Z",
+   "addedAt": "2026-07-04T14:51:31.708Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWXhFN0Z2TXlocHAyV084clJFTzdmbEhWOEpYVzJnQVNSZ1R0Q3B0Y3lwVUVKMThObTRQLUsyZWFHUmowUk50QWh4Q1p6dDRZT3NNLVVSdjRfZjRPWmRMOHZqRnJ0bXdTM0o1bEwxa0RJUkNSbDhTeDh4cFpQanpfY1Z1MzFTZnVNY1otOF9HLU9MYXVhd0l2SHRZMA?oc=5",
+   "source": "Google News (Fiorentina)",
+   "club": "fiorentina",
+   "clubLabel": "セリエA",
+   "confidence": "high",
+   "headline": "フィオレンティーナ元選手がボローニャに移籍",
+   "summary": "フィオレンティーナの元選手がボローニャへの移籍が正式に決定した。取引は完了している。",
+   "publishedAt": "2026-07-04T14:10:11.000Z",
+   "addedAt": "2026-07-04T14:51:31.708Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVk00U3lZSkN5YUctS3dWeHkzd3BwWE9WaHRzZmM3TnJQMmdMYVFZM2lVX3NjZVFnSEhoZTFKYVd2REV6RVE0VjNTSjJzVWpUbkQxYkJReVRCSWd2dFNMTXJDeEJqY1hKalY1R0VPLWNlaHNHV0syU3RJbGd1bGNfeGNrWDNUSTZEUFI1TFB0clFveG45dVHSAZgBQVVfeXFMUDNfY3BYYmRJNEpRM3lTRW8xYUZtQmpQeVhNaU9tSHVlaGNIbVFxWVFJVzhIME9XTFFUVEk0V3EzSGpacl9OaDJCQVJweThPeTFkazNlWWtSTHhNYlJObVR1amdjMm1ReTgtOFJyNTVhMUpaSUVJUlp0R09FR2FITHVEXzRaZWZTSnBfVFJJV1VYZjlTa0VKYUk?oc=5",
+   "source": "Google News (Juventus)",
+   "club": "juventus",
+   "clubLabel": "ユヴェントス",
+   "confidence": "medium",
+   "headline": "ユヴェントス、ムハレモビッチ獲得へ動く",
+   "summary": "ユヴェントスの移籍市場で活発な動きが続いており、ムハレモビッチの復帰が近づいている。ゴレツカも引き続き狙いの対象である。",
+   "publishedAt": "2026-07-04T14:08:01.000Z",
+   "addedAt": "2026-07-04T14:51:31.708Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQkh0SWtDQTBYQ2d0WGlvTUU3SEtjU3pFTlB2dXhIZko1bEJRdkRCbVV3YnJwUmo5QjRtYTA2cGZJSUowcXlMTG5QLTF5S3EyOUhPZDdxVzRGaEpoTzJ6SDRkdFJYa1BWYk1sOVgtRml2N2JPM0hGUXpuVnVva09KTVJQYVZ5RTFkV01qZWtUNEtfV1RjcXEtYzRhT2ZFWXhHckt3?oc=5",
+   "source": "Google News (Juventus)",
+   "club": "juventus",
+   "clubLabel": "ユヴェントス",
+   "confidence": "medium",
+   "headline": "ユヴェントス、ブレメル巡りバイエルンと競争",
+   "summary": "バイエルン・ミュンヘンがブレメルの獲得で激しく求めており、ユヴェントスはその後継者確保を目指して複数クラブとの争奪戦に臨んでいる。",
+   "publishedAt": "2026-07-04T14:07:39.000Z",
+   "addedAt": "2026-07-04T14:51:31.708Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS0tqREc5SVhmbDZ6VmEwVGdSeTJsbHI2aXB2RTlUQXQ2RHBZbDhtcjBoRXYtOThBT1hFYVJHc1hsU1hfdi1aTDE0bERzQ3gxa2o5SDYxVDI1Y0JPRE1nTHFxWDNoMm5XSWgyaVRVVzhpY1FRY2dvYnNOV3ZJX1ppM200MDNhdHdGUUhYTlJTcWhWMWM3Z1FDbDdLeVl6N0pYVGpEekJuSlVKU3BJOEp2RTRBODU4REM4VW9XdWlFaFlwMFdvQm9ZedIBzgFBVV95cUxNY2o3TmxJdndYdlFlUHZGRzg3X0xVMmYySVpyV1VyRW1Pc0F1cEZFM19MbzJuckVZRHY2bG9FRHd1RTZBZklZMmd2aGtwU18yZkZhSnhWRXNIbjlXY3hnb1VMbVZYckpmcmY4UU84SGJzWkRkanhiRnhGNFItSHhQeDNZZ1hVQWFWbktYUENuaFlfdFhaZ1U5NmszMXM5bHVmNDQ3Nm9XOFJBbkVhX3ZNY0dyTnQ2ZEN6Vi11U3dObHV1Y2lOZUxqTk5JY1NyQQ?oc=5",
+   "source": "Google News (Milan)",
+   "club": "milan",
+   "clubLabel": "ミラン",
+   "confidence": "medium",
+   "headline": "ミラン、マリオ・ギラの獲得発表へ",
+   "summary": "ペレガッティが報じたところでは、マリオ・ギラがミラン移籍で月曜日に発表される予定。取引の詳細額も明らかにされている。",
+   "publishedAt": "2026-07-04T14:05:31.000Z",
+   "addedAt": "2026-07-04T14:51:31.708Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmNZTVY1LUR1S25kNmFBMjNGbGkxM2hwdEFKLWJuMlprdy1WRjR1d3h3bzJCdlQ3VDNjMUl2X2RQUEl4WW1RZ3ZINGY2VDRIUlo2RWd6N2VhZkg2aXNrRlBhRnV3bGZDVHJ2TUlfdGdOU0ZjR04tV1EzX1psdnBjVkU0MFFlRUh3WDItZFhJX1h1Y21vYzgwMy1MeTdKYjFnTjgxVUZvV3lobTU0bE1DNEdSMmhBMHF3Sk40SjVnTVNPY3FD0gHKAUFVX3lxTE8xd0RrOHNUcHkxV3dHY1Y4X2dtdHFNQUNXWEJIZG14cDlYUDlBNGU5ZFRLck5UY2xuanZReUJCdGpiRWRicW1EMXJSQVBVMTl0dXRXMU4zUTk4VXBsTzZGRmY0WkdmOEZiSUF1TGE1UjhRSi1HazFyNkJCY2UyemJDS1djTWJFVnhDN3RBREFpa2hHcVcxT2ltdTFqT0c1amJXTjVnVDh1UXJpcUtTZEZ1bmZMeXJ4QW5id2dHUUE1VGpyS216WTNYSVE?oc=5",
+   "source": "Google News (Serie A 全体)",
+   "club": "roma",
+   "clubLabel": "ローマ",
+   "confidence": "medium",
+   "headline": "ドヴブィク、ローマがレンタル移籍に前向き",
+   "summary": "ローマはドヴブィクのレンタル移籍に前向きな姿勢を見せており、セリエA内の複数クラブから強い関心が寄せられている。",
+   "publishedAt": "2026-07-04T14:00:31.000Z",
+   "addedAt": "2026-07-04T14:51:37.654Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmNZTVY1LUR1S25kNmFBMjNGbGkxM2hwdEFKLWJuMlprdy1WRjR1d3h3bzJCdlQ3VDNjMUl2X2RQUEl4WW1RZ3ZINGY2VDRIUlo2RWd6N2VhZkg2aXNrRlBhRnV3bGZDVHJ2TUlfdGdOU0ZjR04tV1EzX1psdnBjVkU0MFFlRUh3WDItZFhJX1h1Y21vYzgwMy1MeTdKYjFnTjgxVUZvV3lobTU0bE1DNEdSMmhBMHF3Sk40SjVnTVNPY3FD0gHKAUFVX3lxTE8xd0RrOHNUcHkxV3dHY1Y4X2dtdHFNQUNXWEJIZG14cDlYUDlBNGU5ZFRLck5UY2xuanZReUJCdGpiRWRicW1EMXJSQVBVMTl0dXRXMU4zUTk4VXBsTzZGRmY0WkdmOEZiSUF1TGE1UjhRSi1HazFyNkJCY2UyemJDS1djTWJFVnhDN3RBREFpa2hHcVcxT2ltdTFqT0c1amJXTjVnVDh1UXJpcUtTZEZ1bmZMeXJ4QW5id2dHUUE1VGpyS216WTNYSVE?oc=5",
+   "source": "Google News (Roma)",
+   "club": "roma",
+   "clubLabel": "ローマ",
+   "confidence": "medium",
+   "headline": "ドヴブィク、ローマがレンタル移籍に前向き",
+   "summary": "ローマはドヴブィクのレンタル移籍に前向きな姿勢を見せており、セリエA内の複数クラブから強い関心が寄せられている。",
+   "publishedAt": "2026-07-04T14:00:31.000Z",
+   "addedAt": "2026-07-04T14:51:37.654Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTWtHMkhjRmRCMlZHY0F6WVNMRUJzS3cwOHRqSkoxZGhNVWwzeXU2VjZ3clRIYVNjT3dHUEZ5S3FWMEZVZzBNX2NnU0Q0c0ZQMGktdWZxdHNWcXBrelVGZ3hSc0o1SnNZSGRUc1VBMWdmR0luLTVTeVAydVNNQW51ellaSjVnOTJmUVo2V3hUNG9KUDU0TWk2ZmttaFJtbVB2S1QxSW5KeXk3c1NjcHF2eGpGWXJZV1JvbnRlY1pCbVU4NElPSGNVN0ViOU1UNGQyOWJ5MEtabGZIdHZhRHdJN095clBrZDUtc0VqNUdpT3dsSDZYQXc?oc=5",
+   "source": "Google News (Serie A 全体)",
+   "club": "milan",
+   "clubLabel": "ミラン",
+   "confidence": "low",
+   "headline": "カマルダとコモット、アモリムがツアーで将来を判定",
+   "summary": "ミランの新監督アモリムはカマルダとコモットをプレシーズンツアーに連れていき、今後の起用について判断する予定。",
+   "publishedAt": "2026-07-04T14:00:11.000Z",
+   "addedAt": "2026-07-04T14:51:37.654Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNFhFVlRzR1lRcU1KdE1nZGVhU28xMmdVT05OSkZaaDUzdkRGaUxTaEVmWWFIdU5YUlVCUWlkMnlLR2J5bHhkcXkycnBPRTBBMC1fS3BrQ1lLV0xqU2FNazNrMjZVdHBMd2FMNFlwTjRhUDV1MTVvMVJEb2ktX2pfZk1HMjFoVjV6NGVuNlFQb3RqQnZEemJJdlBqdGhGdVVBX2xULWZsOV8waGNrUVk1cWdyMlhZeFZHZnZGWE9LYmN3TWfSAcgBQVVfeXFMUE5nVlotempieHJkUUx6RjNaZlRyU2s3REhybmh0UTlWM2VvQWF2U2FOS3lOenliSW5hRVBlbjhSTjBJbERocV9mNnJnOFU1NlllRHpWNFFydXFWb0VROWl0S2J5M0UxRGtLMzRnUlN2bW5sMVZzLTJYdU0zTHBuQ3VhTUtBZkp6dXB2R2Nyb3o0MGtVRkNpQ2ZTRVVEYV9qa1FWTzRPRFJMdzByZDZrQmc3NUhUcFZqYjVCaThJLUtnYWNCMEFvTEU?oc=5",
+   "source": "Google News (Milan)",
+   "club": "milan",
+   "clubLabel": "ミラン",
+   "confidence": "low",
+   "headline": "モドリッチの今後がリッチ、ヤシャリ獲得に影響",
+   "summary": "ミランのミッドフィールド戦略はモドリッチの動向に左右される見通し。リッチとヤシャリ獲得に関しては既に決定事項がある。",
+   "publishedAt": "2026-07-04T14:00:07.000Z",
+   "addedAt": "2026-07-04T14:51:37.654Z"
+  },
+  {
+   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/04/camarda-nei-progetti-milan-possibile-trattativa-per-rinnovo_dfa101d3-0c4c-4ebb-b4db-9487262c5524.html",
+   "source": "ANSA Calcio",
+   "club": "milan",
+   "clubLabel": "ミラン",
+   "confidence": "medium",
+   "headline": "カマルダ、ミラン在籍で更新交渉の可能性",
+   "summary": "ミランが若手選手カマルダについて、レッチェからの買い戻しを実現し、来夏にアモリム新監督下での活動を予定している。更新契約に向けた交渉が進められる可能性がある。",
+   "publishedAt": "2026-07-04T13:43:07.000Z",
+   "addedAt": "2026-07-04T14:51:43.998Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOVER4bzFjcGtwYW13WFdfbVNtXzVJZ0ZIUE9KX0dlVi1IeEFvWkQwbEhuYTdaSXl0LVVGS00wTDh2QTd2X0pQMU1DZ3YxZ1d2SHE5SXlBUXdSa1E0REdwWkR5ZkpYZEtlZjRuMHkwRy1hYmlJemRjTkxnZGR1aDNWaU93WjFNbGNWblpGT2tGcl9id1dValpKSzhGTWJtcmZLXzBjYlNDVmZEZTZPUkZKcG4wdFRKVGRPSnJoZ1lmQXNIcGJyWDJqR2JLckdUTW5EOWl1blZicTVxY0pxVVdaZjQ0NEstNmE3ekJNeExPSnRrNzYwNEZxY2RVaFlYRmdlYjFiV0lXbkd6S2wxT01jaQ?oc=5",
+   "source": "Google News (Juventus)",
+   "club": "juventus",
+   "clubLabel": "ユベントス",
+   "confidence": "medium",
+   "headline": "バイエルン、ブレマーへのオファー準備か",
+   "summary": "バイエルン・ミュンヘンがユベントスの守備選手ブレマーへのオファーを準備していると報じられている。ユベントスはルクミ、ムハレモヴィッチ、キムら複数の後補強オプションを検討している。",
+   "publishedAt": "2026-07-04T13:42:00.000Z",
+   "addedAt": "2026-07-04T14:51:43.998Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNel9PNkxoR29ld1lOcUUzUEFjX3g3c082WGhOc0xMNzhCbldWQmJpTVktM1JSdzJxVkE0VXRiRDBxMkliMzFzSHhSdldYV1BieHpwOXhxZ05DNWhIX2V0R1Q0RllUaER3M1VmeDZWY3JmMTVGQm41MVNCd25TTlNJWWk0LUxqU1lkS1UwbmxkeUl3ZUVVRHVEU2Rjb05PT1B6Z1ZZMmxpaGxNRndMU1d5N1ROQW0?oc=5",
+   "source": "Google News (Roma)",
+   "club": "roma",
+   "clubLabel": "ローマ",
+   "confidence": "low",
+   "headline": "グリーンウッド移籍、ローマ前進か",
+   "summary": "ローマへのグリーンウッド移籍について前進があったとの報道。同時にユベントスのゴレツカ獲得やローマのジラ関連の舞台裏の詳細が伝えられている。",
+   "publishedAt": "2026-07-04T13:40:08.000Z",
+   "addedAt": "2026-07-04T14:51:43.998Z"
+  },
   {
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVFjaGpteUpIOXh0ZERsRjl4dVZCclhUM3h3aEU1aExwMF9qQWRFODhHUXFpU1dkWmc1MUtyQkd2aW5UakUwa3FBQWFUV2Y4b3VKajZrSWtTN2xoazRCQzN6YjVYX0dHNFM0anF3WW5XQU9FWDVWMmo1cFlwN3dvbUpKUmQ1aVlXQk1JNWhsOTFiZ2NwNHd5OTlQYU4yelNsRDNLQ3dBb1h2MFhVMXNn?oc=5",
    "source": "Google News (Fiorentina)",
@@ -2094,6 +2303,44 @@
   "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOU9pTUlXenluMFFfckZYY3owLUVPdDZkRzY0OEZFSDdCbndQZXpMQnk5UG9hX2RvMnBXOEVUSndJYkVQTjd1X2NXbzZFQkc3U0VkdVAtd2VleW9xVnJ4SFdFMnlibHplX0xCTDNacjJOOVZtbi0yMVBONmV4ZjRzMklrdTNPSy1oUEp3VQ?oc=5",
   "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcEg1RzUwZ2hRV2YxRWU3Rm9pQmh3ZTl5MDJLZU5naWdxQlFTTHlORV9TYzhteWdyQ21tT0lnV0dCQWhNZHFPRkxKc3IzTHM1NmNBVzl5eTZGck9LUklhMmVrRDBPcUhaU2hqVHd3OWszLUEyVVZBTHVKblpjN3RIb21VMlNvQWZVNVBPZ3R1QnJGVlFZT0JLU194TU5zZmtkRmo3VF9UN3lnTHJURHF5QlJhUFRjcknSAbwBQVVfeXFMT3V6eTFfS3pTSk1oN0ZGM1VDc1VVYk1DcG9idkdXRmZROXNWRTdxdXdWTkVUMnJOcGhVWjNraGdhMjBnUU56ZzNFb2ZwdFc0OGpXMGZ2bUpTNlJ6OVNOQmlXWVhudTlYTk4yakZlT252Z1RHYmdOajlLdWJuckIxR2hCN2x1WHNEZHB1RnBIOFNRWllBcWJoNTZScVZmc1lJT2xvcWltRmNCcFE2WXZhbkZaQ0VlSTN6Q1hSS3I?oc=5",
   "https://www.corrieredellosport.it/news/calcio/mondiali-2026/2026/07/04-149660405/dove_vedere_canada-marocco_mondiali_2026_dazn_o_rai_orario_tv_e_streaming/",
-  "https://news.google.com/rss/articles/CBMingFBVV95cUxPb1F4UVNEa3ZHRm8xeTlPN245VTJIQnVKVDcxSW44SHJhVnlxeWVrRUt4S2RJNElNVzV0UkV0T3pLMUY3NDVOa292bHROVHFWeEQ1aU0zcDltXzRncHB6Ry1Ud05Wa1N1ZGlKZ2JUTS1UTjg2SUNOQUNqUDZWQl9vMFYwbVVTLWdOaC0zTjhwMlRZZ0FwMEowSjZQbk44Zw?oc=5"
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxPb1F4UVNEa3ZHRm8xeTlPN245VTJIQnVKVDcxSW44SHJhVnlxeWVrRUt4S2RJNElNVzV0UkV0T3pLMUY3NDVOa292bHROVHFWeEQ1aU0zcDltXzRncHB6Ry1Ud05Wa1N1ZGlKZ2JUTS1UTjg2SUNOQUNqUDZWQl9vMFYwbVVTLWdOaC0zTjhwMlRZZ0FwMEowSjZQbk44Zw?oc=5",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR0pkOC1qajVJTWM2ZXdGT1lzSjV2bm9KX3h4a2tqNDlNT0l1amFnTzczTXRVdVlqRUEySUdZdUUyRXVsRG5OQk1DLTlKWlJqMlB5aDA3S1l5OTBnZzdIVVJNYUN5QU9GTjFBVnBFOVE5YWZlZ01sTGlqZ2M0d2NmRHlhTktuOVBfTkxtUkZsZzJwVkpXN3JtTzdhbHNIMGZZLTNIbW85cU0xQlJRTjNOeUlBTXFjaW5peHFEM3NnRC10NDJVY01HNXVn?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/04/non-solo-il-migliore-marcatore-al-mondo-lionel-messi-e-diventato-un-fumetto_3bff26cb-5d9b-47e2-a72f-c61927a81f13.html",
+  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzVoeUxLOTYyUXhPaHZGR29yTDljcHhPMWlvZHlqM3ZRaDNoaGNJZXJ3OGxKV1pwcDNOZE5aaXl2N0cxX2RvS2stOVZNSGl3SFJVZEVnc2lSMHJZRGV0cWlDVll1Ul92aHUzdGxaYThLc0xiWlo2SEZUb0dFUG5RVEdWY0RNRVZBTlprTnZWLVBNQ0lKT05nQkJQQlJXNlRvejdtNnJfNUVOZTVnU3Z5dXQ0X3NFR3hoUU5BUy04N1ByaDQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWWRLUzNiYUlidzJFWmc4UXF4WGZOeDF0WWZtWV81OUdiaXhYbFoxRk9pN2ZDZnAwLTVQVWk1UkVWUHZaSV9WOU9XdWU2QVlUSV9KNUdqT25wSE1VTTNiMkhlckpqNXItZ2c3SzNJbTBEUFpuQ3paQWNqYlYxUWx1NjdXblJKME1WM3FHempmT2hIdjd4OEF6LWhvY0RZNF9NRjlIWkxEMFR0b2lKaE5RMmFpVVMzeFV5empscjVRdGlLVTVLN0V2SUJSTWhhU1hraTJfaTZyMkRoLXfSAXhBVV95cUxPdnY4WndVLXk5SFJPZFhXWFh5Tzd0ZkdjRjh5N2d4RVpUa1l3MFh2OU1MUEdUb2hCR2xkRlctSWVoNmw0aDFmMXdlNE9yMk1pNl9GRDdNelpHdzJmUmpsV2NBRVlUVml3ZWl4aUZNb3N2d2dSQ1BvcWI?oc=5",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOHdLZUhOMEJzLUZkWE1kNkRmRHRJM0x2ejZ3TUxnWllabkt0MmVjTDdaYU1tU0hoSlZUamJGemxBWDducGdtQU1scDdpcFA0c1RaV3ZXMnpnc3JyNG4yVHdXbEVzal9VRHgyaGNmbHR5WVdnV1AxNTZpeHlVaElhcG9JVkdNZ3F1R3FQd2N5MjdURmdlYVhUcVFWQ1pDUmZESkFfaVV4YkFBX3c?oc=5",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTdnMUxIVjhiVnBMaG5CckxKcW1PY25kb0hIVmlyQXNoeEQ2bEo2ei14RzQ4dmt0WDlNanB4bzJJMUV0cTcwalJmLW9HNG5tam5nTU8wX2xPNUpvSThQRjFEVEJvc3FYaHVBNEdfdmVxZ0VXTVh3RTJ2ZF9EbVdIbi03MUllZGhmVjZJRGZaSU96VmEzXzZMSlRTWmtIRFhGODdmSHJsaHFyZHJNTGxoTmZXQ2I5X0VqRUZZamszMVUtd1ljMW9j0gHMAUFVX3lxTFBodHlqcGZnRHZsdzYwRFpUM0N6SWl3elFvMDZHb1JpV3g4eVVhbHBUY2ZodWJUNzdvMTI4Y1JsaE5pcVdqbVUwNXo0WGNKSjZIZ0ItZkZiV3JmbWVVd2s0WDh2NkQ4MUloX2RkdnZRS0hrbjQxRWVHNDFVWGpPQnB2UUUzTTJPbkI5bHp2UDRzZzY4WWRmNW1MVGJCT2RCaUJIazR2Szl3cFJRYjUwZDNDQjB2dV9mZkVZQTdUajZwSkFxbC1MQVBvVjhmTg?oc=5",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcVpFb2I4cWNtbDNqd0JuVW5RbkRfM2ZSdmxNR0tEMEpXVmQ0ME53R19UTW04TERlX0YzN0d4bHpkcE1yU2RZRHhKRWxfYTVJS2N2dGRJU1FQWUtnbFhMMUNtRmVTbWtXVG9PQWZVRk54X0xCWW9IVVdoWURQbnVuLUkyNnFyUDljRDU4a0hSMGZka3NSVm1wTlJTNFFoX3ZYWHZTSUxGTzd3a2tsUkw2MDF6a2kzdVl0MWpucNIBvwFBVV95cUxQeXk0VHpXZWlLWjVQdUMzQTBmZ0tfZ0I1UjhsZ0haNHJIclFYNVlSY1haNlBQR3lkaTd6b2VYQnB1YjBDMmF3V2Y1Q2NEWTFVWjFsamV5SEdER3N2LWFWd2hqT2xBanZZN3ZNSWdOSUt5QnN2UUN3bGVkbExRUjFLdDVJUVNqeTU4cG1rOUkxc0J6UWdYVEpadndHMGVKZEJCOGxoMUtrSEtFZVlyQ2pnWnZWcmoyazRSRERqVkFiNA?oc=5",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkFyNm9WSDBvVlVPVmNYNUhxeGN4VkhabmR0NVROZTl5MWFHQ2FmcFJUSjFreThHemZfZmZPWFRyUmlWNmZuUmdEYlo5OXc2SnBSSnJJY2tkOHVQNlo3clhtYTlBTDloUk41anVHVXZaWG1JczZ2ZnJRdk5mZkVoZGYwV25wV0lBSEI2cXFRTWEzZDRYR1pwVjEzUXhrSHVWd3ZjNld3bWl3MGlFWmlfMU93?oc=5",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYVVHOUdFSXZMYzNEVGVBV0ZPZlV0RnhkQWVwM2w5YVpRSFZ1emRNVlU3X3Zfb3huSlNsd2UxSW15dkdQUXJSbDVDLVAxZnEyQW9uSEhCNHdEQUtyR3VJTDdacGdjNUswWnhMX1BuNlhTcTBKYzJteXE5Z0IxZmtTSzN2Z21MTW4tTTJiTTlEcEZiaVpoME1lMDlWTmxydE1xZVIySUxNTW1YUDF5cWpkME9oRUZjakE?oc=5",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdllfa3dPQUtDU2JYRjhEZzFBbzFPNnU5bWRIbXRmY0RxcVZNQVd4cVJYbnNKS01qMG5CM01FZHF5dWhFUGZTcFBpTld3U25IZU5TWnlQcHBhRXlxOG14dzJlWVFjbTZOOHljcGUxa0RidHhwYU1MdzFvRmNwT0swdmpwZkZDcHYtS3BQdDZrQTZmOWxUQ2NfUEMyYk9tLTJaX1E?oc=5",
+  "https://news.google.com/rss/articles/CBMilwJBVV95cUxNbmlXV1BJNzQwN2xuc1FJbEdyYW1sTkoyWXBUcVJwdUxmMC1lNWFPSEFYd21MT2ttNTZGV2xHQmlLNmpOMkx3ZkR3Zmk0ZHZ6Sk9TbERsbFNhU1Fkbmc3NVU4MUxiYnBjcmNCXzF1TkVHcjlnV005Q3dCUDhCOGFfLXgtZEFRdExrZDdwZVZWY1BIeU1pM0F3S2hGMW1EOHkyc2FsVmpRRlJLMnRxUGNDUVRXNUpRb2RWSnlwbzQyM3lMeEdzU2RVRmktTzlFWWw1R192S1ZlalFvOW44RnhOQ1V2RVRQazlZLWpSaVlnR3R1bmgxZlVqeEJiZHRqajJTQ1o4dDZucXB5SkpBaUpIeUxsb2ZXWjA?oc=5",
+  "https://news.google.com/rss/articles/CBMiigJBVV95cUxQZzc3SUlYSnZZaEc5TzVlN2V1TUdxNVJGeXFRWkJJbk0xY3YzYlBsUTRvT2RLX01yZDMzd1JxbHN4QWcxRWtsdWxrNktjbkZ1d3BKYmVwQzJoakRrVDZWbUsweUN4VGlfQkRMVnV6QjlEcFRzaGwzdTBHTjRJS2ZKc1FhM1M5X0IxN1J5bHRyTnRrVXExZkJHbEtTcUtONjloZmduNFZ4T0lKbnlrUzU4LXJaWjNrZzhPTzdOMHZhLWkwV0o0dFJsT3NscE4tV1Y2U1pFT00tV2hYd0s1Z19BMFNSOU9ZVzl2dUk5aFdUeGR3dmhZS1hDM19OUWk4cjBIX0Y4LVBMMnphQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaDVsYWk2MVFDamk5Ri1teGlRaTdMZ2p4a2QwcUY0MWIxNWpDbGRDVFVSWExlWnBxcHJKR1VINEY1TTFrOEVHOXE5YndPanEtOF9oTHU5djhqUF9FNFZpMXlvTDBwaHo1TGdzZmtTcXExVVpFcDh0WjFXVWltMUhLZFVnMWFORVZ0WkdZZllpaVVaZTFDUDl4TjZlcnAyZXF2c0R6dXliZGJBbXJtM1BaUDkzc0lzS19aNXlkUXF30gHAAUFVX3lxTFAwSHNlX0RHUkhHak51WjRGN1FCdjRMSXo1TklXM3h1VVJldHlyYUhXdFlyZmhzekdibklfZ2c0OHFiY0dYNmxUbXVJcmRGT0JHd0l3dUgwdFg4alhZWFZfMkZXQkpENjZvcE1HSGk3ZEJ1WWZyeEU4UTlDNk1uUDdfd3FEcHNpcWgteC0tOG1EQ1hIa0xCcEhGT0lETndrd2Z5VUoxN3puNE9BSkRYNXIxVDkwZ1k1OVdhT2xSX2RHbw?oc=5",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQazZvcE1NODVCbENYSS0xMENONml5NGdEU0F0Tmt4WmxscmhoaFhKaFdybjRvOXhlQW1GWVRsSmZ1X1N3d3h0Y2ZsVUZ1TlQyUE5kTnp6ZXNsSmhOUlVfOXFJOHlNcnFNNm13Vk5nTHZRcU9FdS1hRlRERV9zNzVFay03YmNzNDZUbjI1aWNRMWRtTF9NckZPLWVB?oc=5",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX2VmNHFidWlwdmxLRjdFM2F4Zm1xYWs0XzVRcl81YVVhaXhOTXJvN2stZEpqdDVJckxfaVBGMS0zdTBFak4yb3ZwMzNmTlpVUVhpWFAyYWpRb1BzaVlENXBoNV9BWkdPNDNSZVFqUmptdU5XZVotczk5V0M0MllJWGI5RlM3OXQy?oc=5",
+  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdDk4Ml9NUm41aVZJTmJtdmxDSXpJeTAyUExDN3JmeWl4WEJjMmZ2RVA3Ymg1UDRGSERRZlJxTy1Oam9FT005RXZEbVFxRUh3bGpsVW4ya0d1d0xMSGY0Q1pOZjJhUEVTdnpqeDZKTFBEYjlXYXlHa25DaG1zak85UTg0MFR1dk1icUcyUmpSS1RMdGttbEE1X2k1Y2ZVTFo1emYxOUFwakt3OW9ObUh3TnhjVEw5NUZOQ09BMC1iYU55ZnVrUlh3eFdNOHhRQnp4Y0VfdXB0UjNXYU3SAXhBVV95cUxPNTNOa1ZncWN4QThJaWVhTHNSUWlmMHNrbWpjNW9EVlZIc1lRVEZkR0s3QnQ3MGhXUWpub3F2Wl9VTloyUDhxU0dEd0c0RTBmOW5STHAwcVhGdFhheURITndLM1Zjb2F2aHRJTjNuajBucjNxODIyTFY?oc=5",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWXhFN0Z2TXlocHAyV084clJFTzdmbEhWOEpYVzJnQVNSZ1R0Q3B0Y3lwVUVKMThObTRQLUsyZWFHUmowUk50QWh4Q1p6dDRZT3NNLVVSdjRfZjRPWmRMOHZqRnJ0bXdTM0o1bEwxa0RJUkNSbDhTeDh4cFpQanpfY1Z1MzFTZnVNY1otOF9HLU9MYXVhd0l2SHRZMA?oc=5",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZzVsNE5CT2JSZEEzMnVNZE84bFIwblByM04yZzRiNjUzQi1oeWwyZ1lUN1B3TF92RVNaRnZGc2JVLVRRU193UENoUkZUVk1qMno2QU5BdW1nZEZ3WHkyWGJvZVA2R25xa1c5dEw0aEotbHdCcE9hWThFSGFIT0NybmcxVUtJMFpHSlctN2hYZExnVlBpeTk5MTQtd2lJcUxna01mWjhla21PWVo1Q3p4WWZVeTJSRnR4X3RQVNIBwgFBVV95cUxPX1JwNENMRWNTVFVLcHdGNXBJNUIxcjNzYndscC1pM29LYkZmdy1reFpyRmxwZ29iZzh5TW5IeFpkN2VDRTNZaGxfNHJ0VDFMQ214QmxEd1AtWFFERndWLWR2am5EX2FNVHdXYkRUaUlGb2pybXUyOVFXb2NPN1l0ZThkcTBsZ2Q0OVZyU0VsUXpDX2hHMHNIWWY2LXVOLVRkNTVDelhvdFA0M3hkWHlXMDRBVmttSFZrcXBMVFZJck5aUQ?oc=5",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVk00U3lZSkN5YUctS3dWeHkzd3BwWE9WaHRzZmM3TnJQMmdMYVFZM2lVX3NjZVFnSEhoZTFKYVd2REV6RVE0VjNTSjJzVWpUbkQxYkJReVRCSWd2dFNMTXJDeEJqY1hKalY1R0VPLWNlaHNHV0syU3RJbGd1bGNfeGNrWDNUSTZEUFI1TFB0clFveG45dVHSAZgBQVVfeXFMUDNfY3BYYmRJNEpRM3lTRW8xYUZtQmpQeVhNaU9tSHVlaGNIbVFxWVFJVzhIME9XTFFUVEk0V3EzSGpacl9OaDJCQVJweThPeTFkazNlWWtSTHhNYlJObVR1amdjMm1ReTgtOFJyNTVhMUpaSUVJUlp0R09FR2FITHVEXzRaZWZTSnBfVFJJV1VYZjlTa0VKYUk?oc=5",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQkh0SWtDQTBYQ2d0WGlvTUU3SEtjU3pFTlB2dXhIZko1bEJRdkRCbVV3YnJwUmo5QjRtYTA2cGZJSUowcXlMTG5QLTF5S3EyOUhPZDdxVzRGaEpoTzJ6SDRkdFJYa1BWYk1sOVgtRml2N2JPM0hGUXpuVnVva09KTVJQYVZ5RTFkV01qZWtUNEtfV1RjcXEtYzRhT2ZFWXhHckt3?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS0tqREc5SVhmbDZ6VmEwVGdSeTJsbHI2aXB2RTlUQXQ2RHBZbDhtcjBoRXYtOThBT1hFYVJHc1hsU1hfdi1aTDE0bERzQ3gxa2o5SDYxVDI1Y0JPRE1nTHFxWDNoMm5XSWgyaVRVVzhpY1FRY2dvYnNOV3ZJX1ppM200MDNhdHdGUUhYTlJTcWhWMWM3Z1FDbDdLeVl6N0pYVGpEekJuSlVKU3BJOEp2RTRBODU4REM4VW9XdWlFaFlwMFdvQm9ZedIBzgFBVV95cUxNY2o3TmxJdndYdlFlUHZGRzg3X0xVMmYySVpyV1VyRW1Pc0F1cEZFM19MbzJuckVZRHY2bG9FRHd1RTZBZklZMmd2aGtwU18yZkZhSnhWRXNIbjlXY3hnb1VMbVZYckpmcmY4UU84SGJzWkRkanhiRnhGNFItSHhQeDNZZ1hVQWFWbktYUENuaFlfdFhaZ1U5NmszMXM5bHVmNDQ3Nm9XOFJBbkVhX3ZNY0dyTnQ2ZEN6Vi11U3dObHV1Y2lOZUxqTk5JY1NyQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQXpZWXY0U1ZaWkJpcGRERkRjS0VWY0FqOF84czNtTmtjZVZKUm01aS15LU5pNnFfLXVxWXhiaUxXX19oM1FXWlhfWmxjNkVQQlBad1JNMUh3SUV0bF90VS1iMDdUbkVsTmxUREhST0V2UENTRV9VVW51SXM5RjhxZUdBZGgtd2ROUWpCcjNVZnA3QU4yX21SdXB6MVpRRlRjbnhmUTZjQXk1M2dFUXo4d2FEcFNqTjY4aVRuMFhPMjlaeG1mdVg5ckJKSFp1QTkySWpWWU8xNXMyR01wRlBJUy01TXV2Z2hKWnBSSnNjWnNUTGRiWHp4MWh6YXY?oc=5",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYnF0YlozNUViNEgzUFpCVE1LeDlmWERXbVEtOGYzY3ZjYkY1dkVhTGE3aGg2WmxFM1VfR3FXb2c5MTAzVXlWZ2c1UlpBeHJrdy01alVWZ3Z3Y0VKLWtFd29zMlpWcHIwQzFFSzZBeDJJQUtsMms3ZXZIMFFLWDlzYjBzcUpKNVQtd3haVzNDZEswLWVkNkZjX1dkWWxSWjN2dkE1Mld1TVdSWmNlR0xaZHo3eHI0ZU4zTm9hSnNzampkMlM5QnVIYTl3ZTUyZ9IB0wFBVV95cUxOT3M0Y21KVHE2N2pfeW1hdHg1dHliZEo0Wk5lek9ucTdtWldOSW16czlKaHZzSl91OFJHTGo3Q2EzY09yVjFHdFpTWWdZM0N2Q1kwZUxfVWsyTnFQc2JLTEFBWnhaUlRGU2U2YjB6WkdsQXFkZTFUMHBFN0FxM0NDUzFnaDR2Y1g3ZXFKWTh2aWZaRVg0UDQyaTRrLXZUTmhnNGhUdWM5Mmp5ZWE3U1phX3V1T2UyQTB3b0R6Q0ZCdlJwQVl5bjJHQXljdnFzZURYY0t3?oc=5",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUDFzTWVvanVpNGFESGRuZkJJazdSZC1ZS2dZSW83YWNONmxxSUtKVlZkYmo4cHRzMUVfSVJQcGpacC1maVJlbEJRTHQyUEx4RUVvV002WXhNa3o4WDFMbGRKWXJ2UDZUb3d4cmJsZmZPSHpmWTU4QkFNSWJHc05nWkNSTjIwemJJOUltTUpOcDd0dnhwSkpVbTZwTWpibWE0WlVsWlhKdDVjZw?oc=5",
+  "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmNZTVY1LUR1S25kNmFBMjNGbGkxM2hwdEFKLWJuMlprdy1WRjR1d3h3bzJCdlQ3VDNjMUl2X2RQUEl4WW1RZ3ZINGY2VDRIUlo2RWd6N2VhZkg2aXNrRlBhRnV3bGZDVHJ2TUlfdGdOU0ZjR04tV1EzX1psdnBjVkU0MFFlRUh3WDItZFhJX1h1Y21vYzgwMy1MeTdKYjFnTjgxVUZvV3lobTU0bE1DNEdSMmhBMHF3Sk40SjVnTVNPY3FD0gHKAUFVX3lxTE8xd0RrOHNUcHkxV3dHY1Y4X2dtdHFNQUNXWEJIZG14cDlYUDlBNGU5ZFRLck5UY2xuanZReUJCdGpiRWRicW1EMXJSQVBVMTl0dXRXMU4zUTk4VXBsTzZGRmY0WkdmOEZiSUF1TGE1UjhRSi1HazFyNkJCY2UyemJDS1djTWJFVnhDN3RBREFpa2hHcVcxT2ltdTFqT0c1amJXTjVnVDh1UXJpcUtTZEZ1bmZMeXJ4QW5id2dHUUE1VGpyS216WTNYSVE?oc=5",
+  "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTWtHMkhjRmRCMlZHY0F6WVNMRUJzS3cwOHRqSkoxZGhNVWwzeXU2VjZ3clRIYVNjT3dHUEZ5S3FWMEZVZzBNX2NnU0Q0c0ZQMGktdWZxdHNWcXBrelVGZ3hSc0o1SnNZSGRUc1VBMWdmR0luLTVTeVAydVNNQW51ellaSjVnOTJmUVo2V3hUNG9KUDU0TWk2ZmttaFJtbVB2S1QxSW5KeXk3c1NjcHF2eGpGWXJZV1JvbnRlY1pCbVU4NElPSGNVN0ViOU1UNGQyOWJ5MEtabGZIdHZhRHdJN095clBrZDUtc0VqNUdpT3dsSDZYQXc?oc=5",
+  "https://news.google.com/rss/articles/CBMihwJBVV95cUxNREFHS3JxeDhEYW9MRzRpWkMyYzloUlJVa0gyVEFRYjk4aWdER1A4MXBoemZiNDhXNU5lWDFjSTlGcUdoMG1XY29GeFIyaTFTbzRFd2QtUDdfdjByVVJpRnE1UGJXOG53ZEpuUXJYSkYzaEhqU2l4eVc4MkpBX21yRXBSR3pucDlnc3NwejIzMnNwWVlHS1ZlbTlLR25mYkRwU2tZblRYcFpFYkQyaVpFQmxaZHk5eTZseHlHaXpWVUl3b0x6cVNVZVhqUlZCZ2d6cnltRkllaklFZDVzb2JUYnZxN1Y5Z2V0WEFRY0o5STJPTmp4SEF4N29ZQTFvcDhFNUVVYXQxMA?oc=5",
+  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNFhFVlRzR1lRcU1KdE1nZGVhU28xMmdVT05OSkZaaDUzdkRGaUxTaEVmWWFIdU5YUlVCUWlkMnlLR2J5bHhkcXkycnBPRTBBMC1fS3BrQ1lLV0xqU2FNazNrMjZVdHBMd2FMNFlwTjRhUDV1MTVvMVJEb2ktX2pfZk1HMjFoVjV6NGVuNlFQb3RqQnZEemJJdlBqdGhGdVVBX2xULWZsOV8waGNrUVk1cWdyMlhZeFZHZnZGWE9LYmN3TWfSAcgBQVVfeXFMUE5nVlotempieHJkUUx6RjNaZlRyU2s3REhybmh0UTlWM2VvQWF2U2FOS3lOenliSW5hRVBlbjhSTjBJbERocV9mNnJnOFU1NlllRHpWNFFydXFWb0VROWl0S2J5M0UxRGtLMzRnUlN2bW5sMVZzLTJYdU0zTHBuQ3VhTUtBZkp6dXB2R2Nyb3o0MGtVRkNpQ2ZTRVVEYV9qa1FWTzRPRFJMdzByZDZrQmc3NUhUcFZqYjVCaThJLUtnYWNCMEFvTEU?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/serie-b/juve-stabia/2026/07/04-149668368/antonello_amabile_il_nuovo_vicepresidente_della_juve_stabia_la_nota_ufficiale/",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMlVLUmN4ZkZvcFBRdGRpcU9WR0FVaXB5Tl8wbE4tN1MxZ0NvZlVEanl1LUlRWFZoVEpSTU50VEtYeVJmTEhiQWczbDNsdzh3T1oyME1oc2pMVnZZWDdoUVJBN0RlSFBjdHN0MC1HQzRSdXNVZ3pzOEZwOTY4Sy1RdzVVVnlDTDZOcHlpN1VmRjdXR2JSYXRlQ0hoRjBzYWdYdGJlWVY2N2s0REVGcU5n?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/04/sassuolo-presenta-aquilani-onorato-di-essere-qui-scelta-naturale_dbb329da-fcbe-4354-94d2-537e07cd74b3.html",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxONml3S3AzSUY4dkVIS3Uzd2VRdXlGbGVaQkpzUG12SG96d1cteGJfM1VSc3RIZ2cyemNyVkFnWkhKbTBVakNPbTVMSjZESGRmV1dWZ09NMXZ1ZDUtU0UyZVR5VEZGU1FwYUs3QXhqTWZiNjJRTFRBeUlEU2V0MzJNa1FJWWxOZFRiakpveVIzbkNhazdZN215Rm9mRV80dkVsUFJ2NEVtaFBkM0h1S0c1S252WWtudm5IdTl1Vkk1YnNBOG9zRWhJY3pzMNIBywFBVV95cUxONml3S3AzSUY4dkVIS3Uzd2VRdXlGbGVaQkpzUG12SG96d1cteGJfM1VSc3RIZ2cyemNyVkFnWkhKbTBVakNPbTVMSjZESGRmV1dWZ09NMXZ1ZDUtU0UyZVR5VEZGU1FwYUs3QXhqTWZiNjJRTFRBeUlEU2V0MzJNa1FJWWxOZFRiakpveVIzbkNhazdZN215Rm9mRV80dkVsUFJ2NEVtaFBkM0h1S0c1S252WWtudm5IdTl1Vkk1YnNBOG9zRWhJY3pzMA?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/04/camarda-nei-progetti-milan-possibile-trattativa-per-rinnovo_dfa101d3-0c4c-4ebb-b4db-9487262c5524.html",
+  "https://news.google.com/rss/articles/CBMikAJBVV95cUxOVER4bzFjcGtwYW13WFdfbVNtXzVJZ0ZIUE9KX0dlVi1IeEFvWkQwbEhuYTdaSXl0LVVGS00wTDh2QTd2X0pQMU1DZ3YxZ1d2SHE5SXlBUXdSa1E0REdwWkR5ZkpYZEtlZjRuMHkwRy1hYmlJemRjTkxnZGR1aDNWaU93WjFNbGNWblpGT2tGcl9id1dValpKSzhGTWJtcmZLXzBjYlNDVmZEZTZPUkZKcG4wdFRKVGRPSnJoZ1lmQXNIcGJyWDJqR2JLckdUTW5EOWl1blZicTVxY0pxVVdaZjQ0NEstNmE3ekJNeExPSnRrNzYwNEZxY2RVaFlYRmdlYjFiV0lXbkd6S2wxT01jaQ?oc=5",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNel9PNkxoR29ld1lOcUUzUEFjX3g3c082WGhOc0xMNzhCbldWQmJpTVktM1JSdzJxVkE0VXRiRDBxMkliMzFzSHhSdldYV1BieHpwOXhxZ05DNWhIX2V0R1Q0RllUaER3M1VmeDZWY3JmMTVGQm41MVNCd25TTlNJWWk0LUxqU1lkS1UwbmxkeUl3ZUVVRHVEU2Rjb05PT1B6Z1ZZMmxpaGxNRndMU1d5N1ROQW0?oc=5",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2phazREakFoTzc1OTByZUI5Vk1EbzBUQWNEX3dqQzIxUzFobm1yOC1UWnBjaXFxNWVXSnNpQnJnLXAteWtja2hGenBIRnlZWEdRT2ZaRkhlWkJQTXZYdTZZV19Wb2VmSFhWTzJCLWZwazd2YnI4bW1jTnNzN0hrV3lKYXoxTEtHZlN3OTlORHc2Yno1WEhZU1VQTTF3ZmM?oc=5",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT1ZiT3ZQakg1ZWF1enhIMTB1UWtodzNDdjVCMGF4TDNsQkJ0a2RPTnBQbVZJV0ljVFhpb3BxZlU0QXk3VGZ2Z1N1X1RveXBVRU4zamZRcmt3WnNCMmdHdlFPTy15SG1VaHZBQnRjWXhxNjBkd2hnbnBjQm5HR1hQSnlVazhoMTJFeHhxLWJSRlhXYll5dEJ0YTh3S1N0QWVGcmRUbEo5OUlhYnMzb3p0bGRxcEl0UQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxNejVDMS1lMTRPRzJCNnFuZ3hyeFptbGhpdE1Zc19MYjhFbmdfV1EwQ2Z3VFBEQzZudGZEaEtCUHpZNjNjek9kRkdoX0FNR2pDMEwyWlk0UExpeHVIYTdxVENpb3JBTmZPY0EteS1nYTNtQXZnaTRhVmhoSThENmFnN0xQT1lFQmtlOUtGRmp3UTd6Q2txdEFXMXk2ZzdEaUpVaUNMQ1FXZWJQaVJKU1RQT3c2dnlLV0hXcm9pbEIzdXozQ3o2N3k0MWVB0gF4QVVfeXFMTmxkelhSbTZENGhxeGppd21uRV9SY3E1a1pITm1jYVVwdk9OcjNpQXRCVXN5MlN5V3hKelVSa3ZkUnEzZVU2UG1UV2hOdGN2c0Q5QzUzcnZmemVVaTU4MVQ5clVMX1Z5cHcwaWY2eW1SZGIzTmhPN1l3?oc=5"
  ]
 }
