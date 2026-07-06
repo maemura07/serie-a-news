@@ -61,14 +61,11 @@
   .dateline .sub{color:var(--ink-soft);font-weight:500}
   .tagline{font-size:.82rem;color:var(--ink-soft);padding:10px 2px 0}
 
-  /* ---- フィルターチップ ---- */
+  /* ---- フィルターチップ（折り返し表示・スクロールなし） ---- */
   nav.filters{
-    position:sticky;top:0;z-index:5;
-    background:linear-gradient(var(--rosa) 85%,transparent);
-    padding:14px 0 12px;
-    display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;
+    padding:16px 0 10px;
+    display:flex;gap:8px;flex-wrap:wrap;
   }
-  nav.filters::-webkit-scrollbar{display:none}
   .chip{
     flex:0 0 auto;
     font:700 .82rem/1 "Noto Sans JP",sans-serif;
@@ -105,13 +102,19 @@
   }
   .club.lazio-tag{color:var(--ink)}
   .badge{
-    font:700 .7rem/1 "Noto Sans JP",sans-serif;
-    padding:4px 9px;border-radius:4px;letter-spacing:.1em;
+    font:700 .74rem/1 "Noto Sans JP",sans-serif;
+    padding:5px 10px;border-radius:4px;letter-spacing:.06em;
+    display:inline-flex;align-items:center;gap:4px;
   }
   .badge.high{background:var(--alta);color:#fff}
-  .badge.medium{background:transparent;color:var(--media-c);border:1.5px solid var(--media-c)}
-  .badge.low{background:transparent;color:var(--bassa);border:1.5px dashed var(--bassa)}
+  .badge.medium{background:#FFF3DC;color:#8A5800;border:1.5px solid var(--media-c)}
+  .badge.low{background:#EFE6E9;color:#5d5156;border:1.5px dashed var(--bassa)}
   .badge.new{background:var(--rosso);color:#fff;letter-spacing:.15em}
+  .legend{
+    font-size:.74rem;color:var(--ink-soft);
+    padding:10px 2px 0;line-height:1.9;
+  }
+  .legend .badge{font-size:.68rem;padding:3px 8px;margin-right:2px}
   .card h2{font-size:1.08rem;font-weight:900;line-height:1.5;margin-bottom:6px}
   .card p{font-size:.92rem;color:#3d3237;margin-bottom:12px}
   .meta-bottom{
@@ -153,6 +156,11 @@
       <span class="sub" id="updated">読み込み中…</span>
     </div>
     <p class="tagline">セリエA全クラブの現地報道を、日本語で自動要約。移籍・人事・負傷・審判関連のみを掲載。要約はAIによる自動生成です — 必ず原文リンクで一次情報を確認してください。</p>
+    <p class="legend">
+      <span class="badge high">✓ 公式</span>クラブ発表・本人の発言　
+      <span class="badge medium">● 報道</span>信頼できる記者の情報・交渉中　
+      <span class="badge low">？ 噂</span>未確認情報・当事者の否定あり
+    </p>
   </header>
 
   <nav class="filters" id="filters" aria-label="クラブで絞り込み"></nav>
@@ -180,7 +188,7 @@ const CLUBS = [
   {id:"altro",      label:"その他/リーグ",   color:"var(--c-altro)"}
 ];
 const CLUB_LABEL = Object.fromEntries(CLUBS.map(c=>[c.id,c.label]));
-const CONF = {high:"確度高", medium:"確度中", low:"確度低"};
+const CONF = {high:"✓ 公式", medium:"● 報道", low:"？ 噂"};
 const NEW_HOURS = 24;
 
 let articles = [];
