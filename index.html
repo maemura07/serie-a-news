@@ -60,6 +60,15 @@
     padding:6px 2px 0;color:var(--ink);
   }
   .dateline .sub{color:var(--ink-soft);font-weight:500}
+  .runbtn{
+    font:700 .74rem "Noto Sans JP",sans-serif;
+    padding:5px 12px;border:1.5px solid var(--ink);border-radius:999px;
+    background:var(--carta);color:var(--ink);cursor:pointer;
+  }
+  .runbtn:hover{background:var(--ink);color:var(--rosa)}
+  .runbtn:disabled{opacity:.5;cursor:default}
+  .runbtn:focus-visible{outline:3px solid var(--rosso);outline-offset:2px}
+  .hidden{display:none}
   .tagline{font-size:.82rem;color:var(--ink-soft);padding:10px 2px 0}
 
   /* ---- フィルターチップ（折り返し表示・スクロールなし） ---- */
@@ -162,6 +171,7 @@
     <div class="dateline">
       <span id="today"></span>
       <span class="sub" id="updated">読み込み中…</span>
+      <button id="runNow" class="runbtn hidden" title="ニュース収集を今すぐ実行（管理者用）">🔄 今すぐ更新</button>
     </div>
     <p class="tagline">セリエA全クラブの現地報道を、日本語で自動要約。移籍・人事・負傷・審判関連のみを掲載。要約はAIによる自動生成です — 必ず原文リンクで一次情報を確認してください。</p>
     <p class="legend">
@@ -278,7 +288,39 @@ function renderFeed(){
   }).join("");
 }
 
+// ===== 管理者用: 今すぐ更新ボタン（合鍵を保存済みの端末でだけ表示） =====
+const GH_OWNER = "maemura07", GH_REPO = "serie-a-news", LS_KEY = "sao_gh_token";
+function ghToken(){ try{ return localStorage.getItem(LS_KEY) || ""; }catch{ return ""; } }
+function setupRunButton(){
+  const btn = document.getElementById("runNow");
+  if (!ghToken()) return; // 一般の閲覧者には何も見せない
+  btn.classList.remove("hidden");
+  btn.addEventListener("click", async ()=>{
+    btn.disabled = true;
+    const orig = btn.textContent;
+    btn.textContent = "実行を依頼中…";
+    try{
+      const res = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/update.yml/dispatches`, {
+        method: "POST",
+        headers: {"accept":"application/vnd.github+json","authorization":"Bearer "+ghToken(),"content-type":"application/json"},
+        body: JSON.stringify({ref:"main"}),
+      });
+      if (res.status === 204){
+        btn.textContent = "✓ 実行開始（1〜3分後に再読み込み）";
+      } else if (res.status === 403 || res.status === 404){
+        btn.textContent = "⚠ トークンにActions権限が必要";
+      } else {
+        btn.textContent = "⚠ 失敗（" + res.status + "）";
+      }
+    }catch(e){
+      btn.textContent = "⚠ 通信エラー";
+    }
+    setTimeout(()=>{ btn.textContent = orig; btn.disabled = false; }, 8000);
+  });
+}
+
 async function init(){
+  setupRunButton();
   const now = new Date();
   const giorni = ["DOMENICA","LUNEDÌ","MARTEDÌ","MERCOLEDÌ","GIOVEDÌ","VENERDÌ","SABATO"];
   document.getElementById("today").textContent =
