@@ -24,12 +24,13 @@ const MAX_ARTICLES_KEPT = 300;
 const MAX_SEEN = 5000;
 const EXISTING_IN_PROMPT = 60; // 重複判定のためにAIへ渡す既掲載見出しの数
 const MODEL = "claude-haiku-4-5-20251001";
-const CLUBS = ["milan", "inter", "juventus", "roma", "lazio", "atalanta", "fiorentina"];
+const CLUBS = ["milan", "inter", "juventus", "roma", "lazio", "atalanta", "fiorentina", "napoli"];
 const CONF_LEVELS = ["low", "medium", "high", "official"];
 
 const ROOT = path.join(__dirname, "..");
 const DATA_FILE = path.join(ROOT, "data", "articles.json");
 const SOURCES_FILE = path.join(ROOT, "sources.json");
+const NAMES_FILE = path.join(ROOT, "names.json");
 
 const API_KEY = process.env.ANTHROPIC_API_KEY;
 if (!API_KEY) {
@@ -194,7 +195,7 @@ ${existing}
 【判定ルール】
 - セリエAに関係し、かつ対象トピックに該当する記事だけ relevant を true にする。試合結果のみの記事、他リーグ・他競技の話題、コラム・雑談は false。same_as が付く記事は relevant の判定不要（true でよい）。
 - club: 主役クラブが ${CLUBS.join(" / ")} のいずれかならそれ、それ以外のクラブやリーグ全体・審判関連は "altro"。
-- club_label_ja: 主役クラブの日本語名（例:「ナポリ」）。リーグ全体・審判関連は「セリエA」。
+- club_label_ja: 主役クラブの日本語名（例:「ボローニャ」）。リーグ全体・審判関連は「セリエA」。
 - confidence（情報の確度・内容から判断する）:
   "official"＝クラブ・リーグ・連盟の公式発表、本人が公の場で明言した内容
   "high"＝一次取材に定評のある記者・媒体による確定的な報道（合意済み・メディカル日程確定など）
@@ -205,6 +206,8 @@ ${existing}
 - headline_ja: 日本語の見出し（35字以内、体言止め可）
 - summary_ja: 4〜6文（200〜350字目安）の日本語要約。本文冒頭がある場合はそれを主材料に、移籍金・契約年数・関係者名・交渉状況・経緯など具体的な事実を盛り込む。本文がない場合は見出しとリード文の内容を丁寧に説明し、確実に知っている一般的な背景（選手の所属・ポジション・年齢など）を1文まで補足してよい。不確かな背景は書かない。
 - 原文の意味に忠実な翻訳調で構わないが、自然な日本語を最優先。選手名・監督名は日本のサッカーメディアで一般的なカタカナ表記。
+- 【表記統一リスト】次の人物・クラブは必ずこの表記を使うこと: ${CANONICAL_NAMES.join("、") || "(指定なし)"}
+- 同じ人物の表記を1つの要約の中で揺らさない。初出はフルネーム可、以降は姓のみで統一。
 - 情報を捏造しない。
 
 【出力形式】
@@ -221,6 +224,18 @@ function parseModelJson(text) {
   const end = clean.lastIndexOf("]");
   if (start === -1 || end === -1) throw new Error("JSON配列が見つかりません: " + clean.slice(0, 200));
   return JSON.parse(clean.slice(start, end + 1));
+}
+
+// ====== 表記統一（names.json） ======
+const NAMES = loadJson(NAMES_FILE, { replacements: {} }).replacements || {};
+// 長い表記から先に置換（「ラファエル・レアオ」を「レアオ」より先に処理）
+const NAME_KEYS = Object.keys(NAMES).sort((a, b) => b.length - a.length);
+const CANONICAL_NAMES = [...new Set(Object.values(NAMES))];
+
+function unifyNames(text) {
+  let out = String(text);
+  for (const k of NAME_KEYS) out = out.split(k).join(NAMES[k]);
+  return out;
 }
 
 // ====== メイン ======
@@ -350,8 +365,8 @@ async function main() {
             club: CLUBS.includes(r.club) ? r.club : (CLUBS.includes(src.feedTag) ? src.feedTag : "altro"),
             clubLabel: r.club_label_ja ? String(r.club_label_ja).slice(0, 20) : null,
             confidence: CONF_LEVELS.includes(r.confidence) ? r.confidence : "low",
-            headline: String(r.headline_ja).slice(0, 70),
-            summary: String(r.summary_ja).slice(0, 800),
+            headline: unifyNames(String(r.headline_ja).slice(0, 70)),
+            summary: unifyNames(String(r.summary_ja).slice(0, 800)),
             publishedAt: src.publishedAt,
             addedAt: new Date().toISOString(),
           };

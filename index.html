@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SERIE A OGGI — セリエA現地報道まとめ</title>
+<title>SERIE A NEWS — セリエA現地報道まとめ</title>
 <meta name="description" content="セリエA全クラブの現地報道を日本語で自動要約。移籍・人事・負傷・審判関連を数時間ごとに更新。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     --bassa:#8A7A7E;         /* 確度低 */
     --c-milan:#DA1820; --c-inter:#0068A8; --c-juventus:#111111;
     --c-roma:#8E1F2F; --c-lazio:#5EB6DD; --c-atalanta:#1B5497;
-    --c-fiorentina:#61259E; --c-altro:#6E5C62;
+    --c-fiorentina:#61259E; --c-napoli:#0F87C7; --c-altro:#6E5C62;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -155,7 +155,7 @@
 <div class="wrap">
   <header>
     <div class="masthead">
-      <h1>Serie A <span class="oggi">Oggi</span></h1>
+      <h1>Serie A <span class="oggi">News</span></h1>
     </div>
     <div class="dateline">
       <span id="today"></span>
@@ -177,7 +177,7 @@
   </main>
 
   <footer>
-    <div>SERIE A OGGI — 自動収集・自動要約による非公式ニュースダイジェスト</div>
+    <div>SERIE A NEWS — 自動収集・自動要約による非公式ニュースダイジェスト</div>
     <div class="note">各記事の著作権は各媒体に帰属します。本ページは見出し・リード文をもとにした短い紹介と原文リンクのみを掲載しています。</div>
   </footer>
 </div>
@@ -192,6 +192,7 @@ const CLUBS = [
   {id:"lazio",      label:"ラツィオ",        color:"var(--c-lazio)"},
   {id:"atalanta",   label:"アタランタ",      color:"var(--c-atalanta)"},
   {id:"fiorentina", label:"フィオレンティーナ", color:"var(--c-fiorentina)"},
+  {id:"napoli",     label:"ナポリ",          color:"var(--c-napoli)"},
   {id:"altro",      label:"その他/リーグ",   color:"var(--c-altro)"}
 ];
 const CLUB_LABEL = Object.fromEntries(CLUBS.map(c=>[c.id,c.label]));
@@ -224,7 +225,7 @@ function renderFilters(){
   const nav = document.getElementById("filters");
   nav.innerHTML = "";
   CLUBS.forEach(c=>{
-    const count = c.id==="all" ? articles.length : articles.filter(a=>a.club===c.id).length;
+    const count = c.id==="all" ? articles.length : articles.filter(a=>clubOf(a)===c.id).length;
     if (c.id!=="all" && count===0) return;
     const b = document.createElement("button");
     b.className = "chip";
@@ -236,15 +237,20 @@ function renderFilters(){
   });
 }
 
+function clubOf(a){
+  // 旧データ互換: ナポリ昇格前に「その他」として保存された記事を拾う
+  if (a.club === "altro" && a.clubLabel === "ナポリ") return "napoli";
+  return a.club;
+}
 function renderFeed(){
   const feed = document.getElementById("feed");
-  const list = current==="all" ? articles : articles.filter(a=>a.club===current);
+  const list = current==="all" ? articles : articles.filter(a=>clubOf(a)===current);
   if (!list.length){
     feed.innerHTML = `<div class="state"><strong>記事がまだありません</strong>次回の自動収集をお待ちください（数時間ごとに更新されます）。</div>`;
     return;
   }
   feed.innerHTML = list.map(a=>{
-    const club = CLUB_LABEL[a.club] ? a.club : "altro";
+    const club = CLUB_LABEL[clubOf(a)] ? clubOf(a) : "altro";
     const conf = CONF[a.confidence] ? a.confidence : "low";
     // 7クラブ以外は実際のクラブ名（例: ナポリ）をチップに表示。フィルター上は「その他/リーグ」に含まれる
     const chipLabel = (club === "altro" && a.clubLabel) ? a.clubLabel : CLUB_LABEL[club];

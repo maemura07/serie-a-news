@@ -1,71 +1,136 @@
 {
-  "_help": "巡回するニュースソースの設定ファイル。enabled を false にすると巡回停止。tag は milan / inter / juventus / roma / lazio / atalanta / fiorentina / altro のいずれか。altro のフィードは記事内容からAIがクラブを自動判定します。",
-  "sources": [
+  "_help": "巡回するニュースソースの設定。globalSources＝リーグ全体をカバーする媒体／clubSources＝クラブごとの参照サイト欄（クラブ単位でフィードを足し引きできる）。enabled を false にすると巡回停止。filterByTrusted が true のフィードは trustedPublishers に載っている媒体の記事だけを通す（表記は完全一致・大小文字無視）。",
+  "trustedPublishers": [
+    "La Gazzetta dello Sport",
+    "Gazzetta dello Sport",
+    "Corriere dello Sport",
+    "Corriere dello Sport - Stadio",
+    "Tuttosport",
+    "Sky Sport",
+    "Sky Sport Italia",
+    "Sky TG24",
+    "Agenzia ANSA",
+    "ANSA.it",
+    "Calciomercato.com",
+    "TUTTOmercatoWEB.com",
+    "Tuttomercatoweb",
+    "TMW",
+    "Gianluca Di Marzio",
+    "GianlucaDiMarzio.com",
+    "Football Italia",
+    "AC Milan",
+    "Inter",
+    "FC Internazionale Milano",
+    "Juventus",
+    "AS Roma",
+    "SS Lazio",
+    "Atalanta BC",
+    "ACF Fiorentina",
+    "SSC Napoli",
+    "Bologna FC 1909"
+  ],
+  "globalSources": [
     {
       "name": "Gazzetta dello Sport",
       "url": "https://www.gazzetta.it/rss/calcio.xml",
-      "tag": "altro",
       "enabled": true
     },
     {
       "name": "Corriere dello Sport",
       "url": "https://www.corrieredellosport.it/rss/calcio",
-      "tag": "altro",
+      "enabled": true
+    },
+    {
+      "name": "Tuttosport",
+      "url": "https://www.tuttosport.com/rss/calcio",
+      "enabled": true
+    },
+    {
+      "name": "TUTTOmercatoWEB",
+      "url": "https://www.tuttomercatoweb.com/rss",
+      "enabled": true
+    },
+    {
+      "name": "Calciomercato.com",
+      "url": "https://www.calciomercato.com/feed",
       "enabled": true
     },
     {
       "name": "ANSA Calcio",
       "url": "https://www.ansa.it/sito/notizie/sport/calcio/calcio_rss.xml",
-      "tag": "altro",
       "enabled": true
     },
     {
       "name": "Google News (Serie A 全体)",
       "url": "https://news.google.com/rss/search?q=%22Serie%20A%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
-      "tag": "altro",
-      "enabled": true
-    },
-    {
-      "name": "Google News (Milan)",
-      "url": "https://news.google.com/rss/search?q=%22AC%20Milan%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
-      "tag": "milan",
-      "enabled": true
-    },
-    {
-      "name": "Google News (Inter)",
-      "url": "https://news.google.com/rss/search?q=%22Inter%22%20calcio%20when:1d&hl=it&gl=IT&ceid=IT:it",
-      "tag": "inter",
-      "enabled": true
-    },
-    {
-      "name": "Google News (Juventus)",
-      "url": "https://news.google.com/rss/search?q=%22Juventus%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
-      "tag": "juventus",
-      "enabled": true
-    },
-    {
-      "name": "Google News (Roma)",
-      "url": "https://news.google.com/rss/search?q=%22AS%20Roma%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
-      "tag": "roma",
-      "enabled": true
-    },
-    {
-      "name": "Google News (Lazio)",
-      "url": "https://news.google.com/rss/search?q=%22Lazio%22%20calcio%20when:1d&hl=it&gl=IT&ceid=IT:it",
-      "tag": "lazio",
-      "enabled": true
-    },
-    {
-      "name": "Google News (Atalanta)",
-      "url": "https://news.google.com/rss/search?q=%22Atalanta%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
-      "tag": "atalanta",
-      "enabled": true
-    },
-    {
-      "name": "Google News (Fiorentina)",
-      "url": "https://news.google.com/rss/search?q=%22Fiorentina%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
-      "tag": "fiorentina",
-      "enabled": true
+      "enabled": true,
+      "filterByTrusted": true
     }
-  ]
+  ],
+  "clubSources": {
+    "milan": [
+      {
+        "name": "Google News (Milan)",
+        "url": "https://news.google.com/rss/search?q=%22AC%20Milan%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+        "enabled": true,
+        "filterByTrusted": true
+      }
+    ],
+    "inter": [
+      {
+        "name": "Google News (Inter)",
+        "url": "https://news.google.com/rss/search?q=%22Inter%22%20calcio%20when:1d&hl=it&gl=IT&ceid=IT:it",
+        "enabled": true,
+        "filterByTrusted": true
+      }
+    ],
+    "juventus": [
+      {
+        "name": "Google News (Juventus)",
+        "url": "https://news.google.com/rss/search?q=%22Juventus%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+        "enabled": true,
+        "filterByTrusted": true
+      }
+    ],
+    "roma": [
+      {
+        "name": "Google News (Roma)",
+        "url": "https://news.google.com/rss/search?q=%22AS%20Roma%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+        "enabled": true,
+        "filterByTrusted": true
+      }
+    ],
+    "lazio": [
+      {
+        "name": "Google News (Lazio)",
+        "url": "https://news.google.com/rss/search?q=%22Lazio%22%20calcio%20when:1d&hl=it&gl=IT&ceid=IT:it",
+        "enabled": true,
+        "filterByTrusted": true
+      }
+    ],
+    "atalanta": [
+      {
+        "name": "Google News (Atalanta)",
+        "url": "https://news.google.com/rss/search?q=%22Atalanta%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+        "enabled": true,
+        "filterByTrusted": true
+      }
+    ],
+    "fiorentina": [
+      {
+        "name": "Google News (Fiorentina)",
+        "url": "https://news.google.com/rss/search?q=%22Fiorentina%22%20when:1d&hl=it&gl=IT&ceid=IT:it",
+        "enabled": true,
+        "filterByTrusted": true
+      }
+    ],
+    "napoli": [
+      {
+        "name": "Google News (Napoli)",
+        "url": "https://news.google.com/rss/search?q=%22Napoli%22%20calcio%20when:1d&hl=it&gl=IT&ceid=IT:it",
+        "enabled": true,
+        "filterByTrusted": true
+      }
+    ]
+  }
 }

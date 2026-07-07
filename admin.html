@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>表記辞書エディタ — SERIE A NEWS 管理</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --rosa:#F4DEE2; --carta:#FFFDFB; --ink:#221A1E; --ink-soft:#6E5C62;
+    --rosso:#C8102E; --line:#D9BFC6; --ok:#0E6B3A;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--rosa);color:var(--ink);font-family:"Noto Sans JP",sans-serif;line-height:1.7;padding-bottom:80px}
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px}
+  header{padding-top:28px}
+  .masthead{border-top:4px solid var(--ink);border-bottom:1.5px solid var(--ink);padding:10px 0 8px}
+  .masthead::after{content:"";display:block;height:4px;background:var(--ink);margin-top:3px}
+  h1{font-family:"Anton","Noto Sans JP",sans-serif;font-size:clamp(1.6rem,6vw,2.4rem);letter-spacing:.02em;text-transform:uppercase}
+  h1 .sub{color:var(--rosso)}
+  .desc{font-size:.85rem;color:var(--ink-soft);padding:10px 2px}
+
+  .panel{background:var(--carta);border:1.5px solid var(--ink);border-radius:10px;padding:16px 18px;margin:14px 0;box-shadow:3px 3px 0 rgba(34,26,30,.15)}
+  .panel h2{font-size:1rem;font-weight:900;margin-bottom:8px}
+  .panel p{font-size:.84rem;color:var(--ink-soft);margin-bottom:10px}
+  input[type=text],input[type=password]{
+    font:inherit;font-size:.9rem;padding:9px 12px;border:1.5px solid var(--ink);
+    border-radius:6px;background:#fff;width:100%;
+  }
+  input:focus-visible{outline:3px solid var(--rosso);outline-offset:1px}
+  .row-inline{display:flex;gap:8px;flex-wrap:wrap}
+  .row-inline input{flex:1;min-width:180px}
+  button{
+    font:700 .88rem "Noto Sans JP",sans-serif;padding:10px 16px;
+    border:1.5px solid var(--ink);border-radius:999px;background:var(--carta);
+    color:var(--ink);cursor:pointer;
+  }
+  button:hover{background:#F5ECEE}
+  button.primary{background:var(--ink);color:var(--rosa)}
+  button.primary:disabled{opacity:.5;cursor:default}
+  button:focus-visible{outline:3px solid var(--rosso);outline-offset:2px}
+
+  table{width:100%;border-collapse:collapse;font-size:.9rem}
+  th{font-size:.74rem;letter-spacing:.08em;color:var(--ink-soft);text-align:left;padding:4px 6px;border-bottom:1.5px solid var(--ink)}
+  td{padding:6px 4px;border-bottom:1px solid var(--line)}
+  td input{border:1.5px solid transparent;background:transparent;padding:7px 8px}
+  td input:hover{border-color:var(--line);background:#fff}
+  td input:focus{border-color:var(--ink);background:#fff}
+  .del{border:none;background:none;color:var(--rosso);font-weight:900;font-size:1.05rem;cursor:pointer;padding:4px 8px}
+  .arrow{color:var(--ink-soft);text-align:center;width:34px}
+
+  .toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0}
+  .toolbar .spacer{flex:1}
+  #status{font-size:.82rem;font-weight:700}
+  #status.ok{color:var(--ok)} #status.err{color:var(--rosso)}
+  .count{font-size:.78rem;color:var(--ink-soft)}
+  .hidden{display:none}
+  a{color:var(--rosso)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="masthead"><h1>表記辞書<span class="sub">エディタ</span></h1></div>
+    <p class="desc">選手・監督・クラブのカタカナ表記を統一する辞書（names.json）をブラウザから編集します。左に「ブレた表記」、右に「正しい表記」。保存すると次の自動更新から反映されます。</p>
+  </header>
+
+  <!-- トークン設定 -->
+  <section class="panel" id="tokenPanel">
+    <h2>🔑 初回設定：アクセストークン</h2>
+    <p>保存にはGitHubのアクセストークン（このリポジトリ専用の合鍵）が必要です。作り方：GitHub右上のアイコン → Settings → 一番下の Developer settings → Personal access tokens → <strong>Fine-grained tokens</strong> → Generate new token。設定は3つだけ：①Repository access で「Only select repositories」→ serie-a-news を選択 ②Permissions → Repository permissions → <strong>Contents を「Read and write」</strong>に ③Expiration はお好みで（切れたら再発行）。できた <code>github_pat_...</code> を下に貼って保存。<strong>このトークンはこの端末のブラウザにだけ保存され、他人には見えません。</strong></p>
+    <div class="row-inline">
+      <input type="password" id="tokenInput" placeholder="github_pat_... を貼り付け">
+      <button id="saveToken">この端末に保存</button>
+    </div>
+  </section>
+
+  <!-- エディタ -->
+  <section class="panel hidden" id="editorPanel">
+    <h2>📖 辞書</h2>
+    <div class="row-inline" style="margin-bottom:10px">
+      <input type="text" id="filter" placeholder="検索（例: レオン）">
+    </div>
+    <table>
+      <thead><tr><th>ブレた表記（置換元）</th><th class="arrow"></th><th>正しい表記（置換先）</th><th></th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="toolbar">
+      <button id="addRow">＋ 行を追加</button>
+      <span class="count" id="count"></span>
+      <span class="spacer"></span>
+      <span id="status"></span>
+      <button class="primary" id="save">保存する</button>
+    </div>
+  </section>
+
+  <p class="desc" id="footnote">※ 保存はGitHub上のnames.jsonへの直接コミットです。反映は次回の自動更新（最大2時間後）から。トークンを消したい場合は<a href="#" id="clearToken">ここをクリック</a>。</p>
+</div>
+
+<script>
+// ===== リポジトリ設定 =====
+const OWNER = "maemura07";
+const REPO  = "serie-a-news";
+const FILE  = "names.json";
+const API   = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
+const LS_KEY = "sao_gh_token";
+
+let fileSha = null;
+let helpText = "";
+let entries = []; // [{from, to}]
+
+const $ = (id)=>document.getElementById(id);
+const setStatus = (msg, ok)=>{ const s=$("status"); s.textContent=msg; s.className=ok?"ok":"err"; };
+
+function token(){ return localStorage.getItem(LS_KEY) || ""; }
+
+// UTF-8対応 base64
+const b64decode = (b64)=>new TextDecoder().decode(Uint8Array.from(atob(b64.replace(/\n/g,"")), c=>c.charCodeAt(0)));
+const b64encode = (str)=>{ const bytes=new TextEncoder().encode(str); let bin=""; bytes.forEach(b=>bin+=String.fromCharCode(b)); return btoa(bin); };
+
+async function loadFile(){
+  const headers = {"accept":"application/vnd.github+json"};
+  if (token()) headers["authorization"] = "Bearer " + token();
+  const res = await fetch(API + "?t=" + Date.now(), {headers});
+  if (!res.ok) throw new Error("読み込み失敗 (" + res.status + ")" + (res.status===401?" — トークンが無効かも":""));
+  const data = await res.json();
+  fileSha = data.sha;
+  const json = JSON.parse(b64decode(data.content));
+  helpText = json._help || "";
+  entries = Object.entries(json.replacements || {}).map(([from,to])=>({from,to}));
+}
+
+function render(){
+  const q = $("filter").value.trim();
+  const tbody = $("rows");
+  tbody.innerHTML = "";
+  entries.forEach((e, idx)=>{
+    if (q && !e.from.includes(q) && !e.to.includes(q)) return;
+    const tr = document.createElement("tr");
+
+    const td1 = document.createElement("td");
+    const in1 = document.createElement("input"); in1.type="text"; in1.value=e.from;
+    in1.addEventListener("input", ()=>{ entries[idx].from = in1.value; });
+    td1.appendChild(in1);
+
+    const tdA = document.createElement("td"); tdA.className="arrow"; tdA.textContent="→";
+
+    const td2 = document.createElement("td");
+    const in2 = document.createElement("input"); in2.type="text"; in2.value=e.to;
+    in2.addEventListener("input", ()=>{ entries[idx].to = in2.value; });
+    td2.appendChild(in2);
+
+    const td3 = document.createElement("td");
+    const del = document.createElement("button"); del.className="del"; del.textContent="×"; del.title="この行を削除";
+    del.addEventListener("click", ()=>{ entries.splice(idx,1); render(); });
+    td3.appendChild(del);
+
+    tr.append(td1, tdA, td2, td3);
+    tbody.appendChild(tr);
+  });
+  $("count").textContent = entries.length + " 件";
+}
+
+function validate(){
+  const seen = new Set();
+  for (const e of entries){
+    const f = e.from.trim(), t = e.to.trim();
+    if (!f && !t) continue;
+    if (!f || !t) return "空欄の行があります（両方入力するか×で削除）";
+    if (f === t) return `「${f}」: 置換元と置換先が同じです`;
+    if (seen.has(f)) return `「${f}」が重複しています`;
+    seen.add(f);
+  }
+  return null;
+}
+
+async function save(){
+  const err = validate();
+  if (err){ setStatus("⚠ " + err, false); return; }
+  $("save").disabled = true;
+  setStatus("保存中…", true);
+  try{
+    // 直前に最新のshaを取り直す（他所での編集との衝突回避）
+    await loadFileShaOnly();
+    const repl = {};
+    entries.forEach(e=>{ if(e.from.trim() && e.to.trim()) repl[e.from.trim()] = e.to.trim(); });
+    const body = JSON.stringify({_help: helpText, replacements: repl}, null, 2) + "\n";
+    const res = await fetch(API, {
+      method: "PUT",
+      headers: {"accept":"application/vnd.github+json","authorization":"Bearer "+token(),"content-type":"application/json"},
+      body: JSON.stringify({
+        message: "表記辞書を更新（エディタから）",
+        content: b64encode(body),
+        sha: fileSha,
+      }),
+    });
+    if (!res.ok){
+      const d = await res.json().catch(()=>({}));
+      throw new Error((d.message||"") + " (" + res.status + ")");
+    }
+    const d = await res.json();
+    fileSha = d.content.sha;
+    setStatus("✓ 保存しました（次回の自動更新から反映）", true);
+  }catch(e){
+    setStatus("⚠ 保存失敗: " + e.message, false);
+  }finally{
+    $("save").disabled = false;
+  }
+}
+
+async function loadFileShaOnly(){
+  const res = await fetch(API + "?t=" + Date.now(), {headers:{"accept":"application/vnd.github+json","authorization":"Bearer "+token()}});
+  if (res.ok){ fileSha = (await res.json()).sha; }
+}
+
+async function init(){
+  $("saveToken").addEventListener("click", ()=>{
+    const v = $("tokenInput").value.trim();
+    if (!v){ setStatus("トークンを入力してください", false); return; }
+    localStorage.setItem(LS_KEY, v);
+    location.reload();
+  });
+  $("clearToken").addEventListener("click", (ev)=>{
+    ev.preventDefault();
+    localStorage.removeItem(LS_KEY);
+    alert("トークンを削除しました");
+    location.reload();
+  });
+  $("addRow").addEventListener("click", ()=>{ entries.unshift({from:"", to:""}); render(); });
+  $("filter").addEventListener("input", render);
+  $("save").addEventListener("click", save);
+
+  if (token()) $("tokenPanel").classList.add("hidden");
+
+  try{
+    await loadFile();
+    $("editorPanel").classList.remove("hidden");
+    render();
+    if (!token()) setStatus("閲覧モード（保存にはトークン設定が必要）", false);
+  }catch(e){
+    setStatus("⚠ " + e.message, false);
+    $("editorPanel").classList.remove("hidden");
+  }
+}
+init();
+</script>
+</body>
+</html>
