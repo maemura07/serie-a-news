@@ -197,10 +197,12 @@ ${existing}
 - club: 主役クラブが ${CLUBS.join(" / ")} のいずれかならそれ、それ以外のクラブやリーグ全体・審判関連は "altro"。
 - club_label_ja: 主役クラブの日本語名（例:「ボローニャ」）。リーグ全体・審判関連は「セリエA」。
 - confidence（情報の確度・内容から判断する）:
-  "official"＝クラブ・リーグ・連盟の公式発表、本人が公の場で明言した内容
-  "high"＝一次取材に定評のある記者・媒体による確定的な報道（合意済み・メディカル日程確定など）
-  "medium"＝信頼できる媒体の報道だが未確定（交渉中・関心・候補段階）
+  "official"＝すでに正式決定・正式発表された事実。具体的には: クラブ・リーグ・連盟の公式発表／公式サイト・公式SNSでの告知／見出しに UFFICIALE・ufficialità・comunicato などの語がある確定報道／契約書の提出・入団会見・背番号発表など発表済みの事実／本人が公の場で明言した内容
+  "high"＝まだ公式発表はないが、実質確定と報じられている段階（クラブ間合意・メディカル日程確定・「あとは発表待ち」など）
+  "medium"＝交渉中・関心・候補段階などの未確定情報
   "low"＝出所が曖昧な噂・憶測・当事者が否定している話
+  ※判定に迷ったら「もう発表・決定されたことか？」で分ける。発表済みなら必ず "official"、発表前なら "high" 以下。
+- confidence_reason: 確度判定の根拠を15字以内で（例:「クラブ公式発表」「合意も未発表」「記者の憶測段階」）
 
 【翻訳・要約ルール】
 - headline_ja: 日本語の見出し（35字以内、体言止め可）
@@ -212,7 +214,7 @@ ${existing}
 
 【出力形式】
 JSON配列のみを出力。説明文・コードフェンス禁止。
-[{"id": 0, "same_as": null, "relevant": true, "club": "milan", "club_label_ja": "ミラン", "confidence": "medium", "headline_ja": "...", "summary_ja": "..."}, {"id": 1, "same_as": "E3", "relevant": true, "club": "milan", "club_label_ja": "ミラン", "confidence": "medium", "headline_ja": "", "summary_ja": ""}, ...]
+[{"id": 0, "same_as": null, "relevant": true, "club": "milan", "club_label_ja": "ミラン", "confidence": "medium", "confidence_reason": "交渉中の報道", "headline_ja": "...", "summary_ja": "..."}, {"id": 1, "same_as": "E3", "relevant": true, "club": "milan", "club_label_ja": "ミラン", "confidence": "medium", "confidence_reason": "", "headline_ja": "", "summary_ja": ""}, ...]
 
 【新着記事リスト】
 ${list}`;
@@ -357,6 +359,13 @@ async function main() {
         }
 
         if (r.relevant && r.headline_ja && r.summary_ja) {
+          let confidence = CONF_LEVELS.includes(r.confidence) ? r.confidence : "low";
+          let confidenceReason = r.confidence_reason ? String(r.confidence_reason).slice(0, 30) : "";
+          // 保険: イタリア語ニュースの慣習で「UFFICIALE:」始まりの見出しは公式発表確定
+          if (confidence !== "official" && /^\s*[«"']?\s*UFFICIALE\b/i.test(src.title)) {
+            confidence = "official";
+            confidenceReason = "見出しがUFFICIALE（公式）";
+          }
           const art = {
             url: src.url,
             source: src.publisher,
@@ -364,7 +373,8 @@ async function main() {
             titleKey: src.titleKey,
             club: CLUBS.includes(r.club) ? r.club : (CLUBS.includes(src.feedTag) ? src.feedTag : "altro"),
             clubLabel: r.club_label_ja ? String(r.club_label_ja).slice(0, 20) : null,
-            confidence: CONF_LEVELS.includes(r.confidence) ? r.confidence : "low",
+            confidence,
+            confidenceReason,
             headline: unifyNames(String(r.headline_ja).slice(0, 70)),
             summary: unifyNames(String(r.summary_ja).slice(0, 800)),
             publishedAt: src.publishedAt,
