@@ -1,14 +1,15 @@
 /**
- * セリエAニュース自動収集・要約スクリプト
- * GitHub Actions から定期実行される。
+ * セリエAニュース自動収集・要約スクリプト v3
  *
  * 流れ:
- *  1. sources.json のフィードを巡回
- *  2. 信頼できる媒体（trustedPublishers）以外の記事を除外
- *  3. URL・見出しベースで重複排除
- *  4. 記事ページから本文冒頭を取得（取れる場合のみ）
- *  5. Claude API で判定・日本語要約 → data/articles.json に保存
+ *  1. sources.json のフィード（globalSources ＋ clubSources）を巡回
+ *  2. 信頼できる媒体（trustedPublishers）以外を除外、URL・見出しで一次重複排除
+ *  3. 記事本文の冒頭を取得（直接フィードのみ。Google News経由は転送URLのため取得不可）
+ *  4. Claude API で判定・要約。既掲載/同バッチ内の「同じネタ」は1枚に統合し、
+ *     複数媒体が報じている記事は確度を1段階引き上げる
+ *  5. data/articles.json に保存
  *
+ * 確度: official（公式発表）> high（確度高）> medium（確度中）> low（確度低）
  * 環境変数: ANTHROPIC_API_KEY（GitHub Secrets に設定）
  */
 
@@ -17,12 +18,14 @@ const path = require("path");
 const Parser = require("rss-parser");
 
 // ====== 設定 ======
-const MAX_NEW_PER_RUN = 40;      // 1回の実行で要約する最大記事数（コスト暴走防止）
-const BATCH_SIZE = 6;            // 1回のAPI呼び出しでまとめて処理する記事数
-const MAX_ARTICLES_KEPT = 300;   // ページに保持する記事数の上限
-const MAX_SEEN = 5000;           // 重複排除用に覚えておくURL/見出し数の上限
+const MAX_NEW_PER_RUN = 40;
+const BATCH_SIZE = 8;
+const MAX_ARTICLES_KEPT = 300;
+const MAX_SEEN = 5000;
+const EXISTING_IN_PROMPT = 60; // 重複判定のためにAIへ渡す既掲載見出しの数
 const MODEL = "claude-haiku-4-5-20251001";
 const CLUBS = ["milan", "inter", "juventus", "roma", "lazio", "atalanta", "fiorentina"];
+const CONF_LEVELS = ["low", "medium", "high", "official"];
 
 const ROOT = path.join(__dirname, "..");
 const DATA_FILE = path.join(ROOT, "data", "articles.json");
@@ -39,12 +42,9 @@ function normalizeUrl(u) {
   try {
     const url = new URL(u);
     url.hash = "";
-    const junk = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "fbclid", "gclid"];
-    junk.forEach((k) => url.searchParams.delete(k));
+    ["utm_source","utm_medium","utm_campaign","utm_term","utm_content","fbclid","gclid"].forEach((k) => url.searchParams.delete(k));
     return url.toString();
-  } catch {
-    return u;
-  }
+  } catch { return u; }
 }
 
 function normalizeTitle(t) {
@@ -56,23 +56,15 @@ function stripHtml(s) {
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
     .replace(/<[^>]*>/g, " ")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
+    .replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&quot;/g, '"')
     .replace(/&#39;|&apos;/g, "'")
-    .replace(/\s+/g, " ")
-    .trim();
+    .replace(/\s+/g, " ").trim();
 }
 
 function loadJson(file, fallback) {
-  try {
-    return JSON.parse(fs.readFileSync(file, "utf8"));
-  } catch {
-    return fallback;
-  }
+  try { return JSON.parse(fs.readFileSync(file, "utf8")); } catch { return fallback; }
 }
 
-// Google Newsのフィードは <source> タグに元媒体名が入る
 function extractPublisher(item) {
   const s = item.gnSource;
   if (typeof s === "string") return s.trim();
@@ -80,7 +72,6 @@ function extractPublisher(item) {
   return null;
 }
 
-// 「見出し - 媒体名」形式の末尾を除去
 function cleanTitle(title, publisher) {
   if (publisher && title.endsWith(" - " + publisher)) {
     return title.slice(0, -(" - " + publisher).length).trim();
@@ -91,13 +82,31 @@ function cleanTitle(title, publisher) {
 function isTrusted(publisher, trustedList) {
   if (!publisher) return false;
   const p = publisher.toLowerCase().trim();
-  // 完全一致（大文字小文字は無視）。部分一致にすると "Inter" が "Internews24" 等の
-  // まとめサイトにもマッチしてしまうため、あえて厳しくしている。
   return trustedList.some((t) => t.toLowerCase().trim() === p);
 }
 
-// ====== 記事本文の冒頭を取得（要約の材料。取れなければ空でOK） ======
+// 確度を1段階上げる（officialへは自動昇格しない: 公式発表は内容でのみ判定）
+function bumpConfidence(c) {
+  if (c === "official" || c === "high") return c === "official" ? "official" : "high";
+  const i = CONF_LEVELS.indexOf(c);
+  return i >= 0 ? CONF_LEVELS[Math.min(i + 1, 2)] : c;
+}
+
+// 記事に媒体を追加（既に同じ媒体があれば何もしない）。追加できたら true
+function addSource(article, name, url) {
+  if (!article.sources || !article.sources.length) {
+    article.sources = [{ name: article.source, url: article.url }];
+  }
+  if (article.sources.some((s) => s.name === name)) return false;
+  article.sources.push({ name, url });
+  article.source = article.sources[0].name;
+  article.confidence = bumpConfidence(article.confidence);
+  return true;
+}
+
+// ====== 記事本文の冒頭を取得 ======
 async function fetchLead(url) {
+  if (/news\.google\.com/.test(url)) return ""; // 転送URLは本文が取れない
   try {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 10000);
@@ -115,13 +124,11 @@ async function fetchLead(url) {
     const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
       .map((m) => stripHtml(m[1]))
       .filter((s) => s.length > 60 && !/cookie|privacy|abbonati|newsletter/i.test(s));
-    return paras.slice(0, 5).join(" ").slice(0, 1500);
-  } catch {
-    return "";
-  }
+    return paras.slice(0, 6).join(" ").slice(0, 1800);
+  } catch { return ""; }
 }
 
-// ====== Claude API 呼び出し ======
+// ====== Claude API ======
 async function callClaude(prompt, maxRetries = 3) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
@@ -134,7 +141,7 @@ async function callClaude(prompt, maxRetries = 3) {
         },
         body: JSON.stringify({
           model: MODEL,
-          max_tokens: 4000,
+          max_tokens: 8000,
           messages: [{ role: "user", content: prompt }],
         }),
       });
@@ -148,10 +155,7 @@ async function callClaude(prompt, maxRetries = 3) {
         throw new Error(`API error ${res.status}: ${body.slice(0, 300)}`);
       }
       const data = await res.json();
-      return (data.content || [])
-        .filter((b) => b.type === "text")
-        .map((b) => b.text)
-        .join("\n");
+      return (data.content || []).filter((b) => b.type === "text").map((b) => b.text).join("\n");
     } catch (e) {
       if (attempt === maxRetries) throw e;
       console.warn(`API呼び出し失敗（${attempt}回目）: ${e.message} — リトライします`);
@@ -160,7 +164,7 @@ async function callClaude(prompt, maxRetries = 3) {
   }
 }
 
-function buildPrompt(batch) {
+function buildPrompt(batch, existingHeadlines) {
   const list = batch
     .map(
       (a, i) =>
@@ -168,28 +172,46 @@ function buildPrompt(batch) {
     )
     .join("\n\n");
 
-  return `あなたはイタリアサッカー（セリエA）専門の日本語ニュース編集者です。以下の記事リスト（イタリア語または英語）を1件ずつ判定・翻訳要約してください。
+  const existing = existingHeadlines.length
+    ? existingHeadlines.map((e) => `${e.key}: ${e.headline}`).join("\n")
+    : "(なし)";
+
+  return `あなたはイタリアサッカー（セリエA）専門の日本語ニュース編集者です。以下の新着記事リスト（イタリア語または英語）を1件ずつ判定・翻訳要約してください。
 
 【対象クラブ】セリエAの全クラブ（昇格・降格が絡む場合はセリエBクラブも可）
 【対象トピック】移籍・補強／監督・フロント人事／主要選手の負傷・出場停止／審判・リーグ運営
 
+【重複判定 — 最初に必ずやること】
+下の「掲載済み記事一覧」と新着記事リストを見比べて、同じ出来事・同じネタを報じている記事（媒体や言い回しが違うだけのもの）を特定する。
+- 新着記事が掲載済み記事と同じネタ → same_as にその記事のキー（例: "E3"）を入れる
+- 新着記事同士が同じネタ → 後の記事の same_as に先の記事の番号（例: 2）を入れる
+- 独立したネタ → same_as は null
+続報（同じ話題でも交渉進展・正式決定など新しい事実がある場合）は重複ではなく独立記事として扱う。
+
+【掲載済み記事一覧】
+${existing}
+
 【判定ルール】
-- セリエAに関係し、かつ対象トピックに該当する記事だけ relevant を true にする。試合結果のみの記事、他リーグ・他競技の話題、コラム・雑談は false。
-- club: 記事の主役クラブが ${CLUBS.join(" / ")} のいずれかならそれを選ぶ。それ以外のクラブ（ナポリ、ボローニャなど）やリーグ全体・審判関連は "altro"。複数クラブに跨る場合は最も中心的なクラブ。
-- club_label_ja: 主役クラブの日本語名（例:「ナポリ」「ボローニャ」）。リーグ全体・審判関連の話題は「セリエA」とする。
-- confidence（情報の確度）: "high"＝クラブ公式発表・本人の直接発言 / "medium"＝信頼できる記者の報道・交渉中など未確定情報 / "low"＝出所不明の噂・当事者が否定している話。
+- セリエAに関係し、かつ対象トピックに該当する記事だけ relevant を true にする。試合結果のみの記事、他リーグ・他競技の話題、コラム・雑談は false。same_as が付く記事は relevant の判定不要（true でよい）。
+- club: 主役クラブが ${CLUBS.join(" / ")} のいずれかならそれ、それ以外のクラブやリーグ全体・審判関連は "altro"。
+- club_label_ja: 主役クラブの日本語名（例:「ナポリ」）。リーグ全体・審判関連は「セリエA」。
+- confidence（情報の確度・内容から判断する）:
+  "official"＝クラブ・リーグ・連盟の公式発表、本人が公の場で明言した内容
+  "high"＝一次取材に定評のある記者・媒体による確定的な報道（合意済み・メディカル日程確定など）
+  "medium"＝信頼できる媒体の報道だが未確定（交渉中・関心・候補段階）
+  "low"＝出所が曖昧な噂・憶測・当事者が否定している話
 
 【翻訳・要約ルール】
 - headline_ja: 日本語の見出し（35字以内、体言止め可）
-- summary_ja: 3〜5文（目安120〜250字）の日本語要約。本文冒頭が取得できている場合はそれを主な材料にして、金額・契約年数・関係者名・交渉状況など具体的な事実を必ず盛り込む。本文がない場合は見出しとリード文から書ける範囲で書く。
-- 無理に言い換えず、原文の意味に忠実な翻訳調で構わない。ただし不自然な日本語にならないこと（自然さ最優先）。
-- 選手名・監督名は日本のサッカーメディアで一般的なカタカナ表記を使う。
-- 情報を捏造しない。与えられたテキストから分かる範囲だけで書く。
+- summary_ja: 4〜6文（200〜350字目安）の日本語要約。本文冒頭がある場合はそれを主材料に、移籍金・契約年数・関係者名・交渉状況・経緯など具体的な事実を盛り込む。本文がない場合は見出しとリード文の内容を丁寧に説明し、確実に知っている一般的な背景（選手の所属・ポジション・年齢など）を1文まで補足してよい。不確かな背景は書かない。
+- 原文の意味に忠実な翻訳調で構わないが、自然な日本語を最優先。選手名・監督名は日本のサッカーメディアで一般的なカタカナ表記。
+- 情報を捏造しない。
 
 【出力形式】
-JSON配列のみを出力すること。説明文・マークダウンのコードフェンスは一切付けない。
-[{"id": 0, "relevant": true, "club": "milan", "club_label_ja": "ミラン", "confidence": "medium", "headline_ja": "...", "summary_ja": "..."}, ...]
+JSON配列のみを出力。説明文・コードフェンス禁止。
+[{"id": 0, "same_as": null, "relevant": true, "club": "milan", "club_label_ja": "ミラン", "confidence": "medium", "headline_ja": "...", "summary_ja": "..."}, {"id": 1, "same_as": "E3", "relevant": true, "club": "milan", "club_label_ja": "ミラン", "confidence": "medium", "headline_ja": "", "summary_ja": ""}, ...]
 
+【新着記事リスト】
 ${list}`;
 }
 
@@ -203,25 +225,31 @@ function parseModelJson(text) {
 
 // ====== メイン ======
 async function main() {
-  const conf = loadJson(SOURCES_FILE, { sources: [], trustedPublishers: [] });
+  const conf = loadJson(SOURCES_FILE, {});
   const trusted = conf.trustedPublishers || [];
+
+  // フィード一覧を組み立て（旧形式 "sources" にも対応）
+  const feeds = [];
+  (conf.globalSources || conf.sources || []).forEach((s) => feeds.push({ ...s, tag: s.tag || "altro" }));
+  Object.entries(conf.clubSources || {}).forEach(([club, list]) =>
+    (list || []).forEach((s) => feeds.push({ ...s, tag: club }))
+  );
+
   const store = loadJson(DATA_FILE, { updated: null, articles: [], seenUrls: [], seenTitles: [] });
   const seenUrl = new Set(store.seenUrls || []);
   const seenTitle = new Set(store.seenTitles || []);
   (store.articles || []).forEach((a) => {
     seenUrl.add(normalizeUrl(a.url));
+    (a.sources || []).forEach((s) => seenUrl.add(normalizeUrl(s.url)));
     if (a.titleKey) seenTitle.add(a.titleKey);
   });
 
-  const parser = new Parser({
-    timeout: 20000,
-    customFields: { item: [["source", "gnSource"]] },
-  });
+  const parser = new Parser({ timeout: 20000, customFields: { item: [["source", "gnSource"]] } });
 
   const candidates = [];
   const feedStatus = [];
 
-  for (const src of conf.sources || []) {
+  for (const src of feeds) {
     if (!src.enabled) continue;
     try {
       const feed = await parser.parseURL(src.url);
@@ -232,25 +260,22 @@ async function main() {
         if (!url || seenUrl.has(url)) continue;
 
         const publisher = extractPublisher(item);
-        // ホワイトリスト方式: filterByTrusted のフィードは信頼媒体以外を捨てる
         const allowList = src.publishers || trusted;
         if (src.filterByTrusted && !isTrusted(publisher, allowList)) {
           rejected++;
           if (publisher) rejectedPublishers.add(publisher);
-          seenUrl.add(url); // 次回また弾く手間を省く
+          seenUrl.add(url);
           continue;
         }
 
         const title = cleanTitle(stripHtml(item.title), publisher);
         const titleKey = normalizeTitle(title);
-        if (titleKey && seenTitle.has(titleKey)) { seenUrl.add(url); continue; } // 同一記事の媒体違い・URL違いを排除
+        if (titleKey && seenTitle.has(titleKey)) { seenUrl.add(url); continue; }
         if (titleKey) seenTitle.add(titleKey);
 
         candidates.push({
-          url,
-          title,
-          titleKey,
-          publisher,
+          url, title, titleKey,
+          publisher: publisher || src.name, // 直接フィードはフィード名＝媒体名
           snippet: stripHtml(item.contentSnippet || item.content || item.summary || "").slice(0, 500),
           sourceName: src.name,
           feedTag: src.tag || "altro",
@@ -258,11 +283,11 @@ async function main() {
         });
         kept++;
       }
-      feedStatus.push({ name: src.name, ok: true, newItems: kept, filteredOut: rejected });
-      console.log(`OK: ${src.name} — 新着候補 ${kept} 件（信頼媒体外として除外 ${rejected} 件）`);
+      feedStatus.push({ name: src.name, tag: src.tag, ok: true, newItems: kept, filteredOut: rejected });
+      console.log(`OK: ${src.name} [${src.tag}] — 新着候補 ${kept} 件（信頼媒体外として除外 ${rejected} 件）`);
       if (rejectedPublishers.size) {
         console.log(`   除外した媒体: ${[...rejectedPublishers].slice(0, 20).join(" / ")}`);
-        console.log(`   ↑この中に信頼できる媒体があれば sources.json の trustedPublishers にこの表記のまま追加してください`);
+        console.log(`   ↑信頼できる媒体があれば sources.json の trustedPublishers にこの表記のまま追加`);
       }
     } catch (e) {
       feedStatus.push({ name: src.name, ok: false, error: String(e.message).slice(0, 200) });
@@ -274,43 +299,71 @@ async function main() {
   const targets = candidates.slice(0, MAX_NEW_PER_RUN);
   console.log(`新着候補 ${candidates.length} 件のうち ${targets.length} 件を処理します`);
 
-  // 本文冒頭の取得（並列・失敗しても続行）
-  await Promise.all(
-    targets.map(async (t) => {
-      t.lead = await fetchLead(t.url);
-    })
-  );
+  await Promise.all(targets.map(async (t) => { t.lead = await fetchLead(t.url); }));
   console.log(`本文冒頭を取得できた記事: ${targets.filter((t) => t.lead).length}/${targets.length} 件`);
 
-  const accepted = [];
+  // 重複判定用: 既掲載記事（新しい順）を E0, E1, ... として参照できるようにする
+  const existingRefs = (store.articles || []).slice(0, EXISTING_IN_PROMPT).map((a, i) => ({
+    key: "E" + i, headline: a.headline, article: a,
+  }));
+
+  const accepted = [];       // 今回の新規カード
+  let mergedCount = 0;
+
   for (let i = 0; i < targets.length; i += BATCH_SIZE) {
     const batch = targets.slice(i, i + BATCH_SIZE);
+    // 既掲載＋今回すでに採用した記事を重複判定の対象にする
+    const promptExisting = [
+      ...existingRefs.map((e) => ({ key: e.key, headline: e.headline })),
+      ...accepted.map((a, k) => ({ key: "N" + k, headline: a.headline })),
+    ];
+    const batchArticles = {}; // このバッチ内 id → 生成した記事
     try {
-      const text = await callClaude(buildPrompt(batch));
+      const text = await callClaude(buildPrompt(batch, promptExisting));
       const results = parseModelJson(text);
       for (const r of results) {
         const src = batch[r.id];
         if (!src) continue;
+        seenUrl.add(src.url);
+
+        // ---- 同じネタの統合 ----
+        let mergeTarget = null;
+        if (typeof r.same_as === "string" && /^E\d+$/.test(r.same_as)) {
+          const ref = existingRefs[parseInt(r.same_as.slice(1), 10)];
+          mergeTarget = ref && ref.article;
+        } else if (typeof r.same_as === "string" && /^N\d+$/.test(r.same_as)) {
+          mergeTarget = accepted[parseInt(r.same_as.slice(1), 10)];
+        } else if (typeof r.same_as === "number") {
+          mergeTarget = batchArticles[r.same_as];
+        }
+        if (mergeTarget) {
+          if (addSource(mergeTarget, src.publisher, src.url)) mergedCount++;
+          continue;
+        }
+
         if (r.relevant && r.headline_ja && r.summary_ja) {
-          accepted.push({
+          const art = {
             url: src.url,
-            source: src.publisher || src.sourceName,
+            source: src.publisher,
+            sources: [{ name: src.publisher, url: src.url }],
             titleKey: src.titleKey,
             club: CLUBS.includes(r.club) ? r.club : (CLUBS.includes(src.feedTag) ? src.feedTag : "altro"),
             clubLabel: r.club_label_ja ? String(r.club_label_ja).slice(0, 20) : null,
-            confidence: ["high", "medium", "low"].includes(r.confidence) ? r.confidence : "low",
+            confidence: CONF_LEVELS.includes(r.confidence) ? r.confidence : "low",
             headline: String(r.headline_ja).slice(0, 70),
-            summary: String(r.summary_ja).slice(0, 600),
+            summary: String(r.summary_ja).slice(0, 800),
             publishedAt: src.publishedAt,
             addedAt: new Date().toISOString(),
-          });
+          };
+          accepted.push(art);
+          batchArticles[r.id] = art;
         }
       }
-      console.log(`バッチ ${Math.floor(i / BATCH_SIZE) + 1}: ${batch.length} 件中 ${results.filter((r) => r.relevant).length} 件採用`);
+      console.log(`バッチ ${Math.floor(i / BATCH_SIZE) + 1}: ${batch.length} 件処理`);
     } catch (e) {
       console.warn(`バッチ処理失敗（このバッチはスキップ）: ${e.message}`);
+      batch.forEach((a) => seenUrl.add(a.url));
     }
-    batch.forEach((a) => seenUrl.add(a.url));
   }
 
   const articles = [...accepted, ...(store.articles || [])].slice(0, MAX_ARTICLES_KEPT);
@@ -325,7 +378,7 @@ async function main() {
   fs.writeFileSync(DATA_FILE, JSON.stringify(newStore, null, 1), "utf8");
   fs.writeFileSync(path.join(ROOT, "data", "last_run.txt"), new Date().toISOString() + "\n", "utf8");
 
-  console.log(`完了: 今回 ${accepted.length} 件追加 / 掲載合計 ${articles.length} 件`);
+  console.log(`完了: 新規 ${accepted.length} 件 / 既存記事への媒体追加（統合） ${mergedCount} 件 / 掲載合計 ${articles.length} 件`);
 }
 
 main().catch((e) => {
