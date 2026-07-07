@@ -263,7 +263,7 @@ function renderFeed(){
     return `<article class="card">
       <div class="meta-top">
         <span class="club ${club==="lazio"?"lazio-tag":""}" style="--club:var(--c-${club})">${esc(chipLabel)}</span>
-        <span class="badge ${conf}">${CONF[conf]}</span>
+        <span class="badge ${conf}" title="${esc(a.confidenceReason||"")}">${CONF[conf]}</span>
         ${srcs.length>1 ? `<span class="badge multi">${srcs.length}媒体が報道</span>` : ""}
         ${isNew(a) ? '<span class="badge new">NEW</span>' : ""}
       </div>
