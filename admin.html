@@ -115,6 +115,16 @@
     </div>
   </section>
 
+  <!-- 手動更新 -->
+  <section class="panel hidden" id="runPanel">
+    <h2>🔄 今すぐ更新</h2>
+    <p>通常は2時間おきの自動更新ですが、このボタンで即座にニュース収集を実行できます（完了まで1〜3分）。</p>
+    <div class="row-inline">
+      <button class="primary" id="runNow">今すぐ更新を実行</button>
+      <span id="runStatus" style="font-size:.82rem;font-weight:700"></span>
+    </div>
+  </section>
+
   <!-- 直近の名前リスト -->
   <section class="panel hidden" id="namesPanel">
     <h2>👀 直近の記事に出てきた名前（登場回数順）</h2>
@@ -361,7 +371,34 @@ async function save(){
   }
 }
 
+async function runUpdate(){
+  if (!token()){ setRun("⚠ トークン設定が必要です（ページ上部）", false); $("tokenPanel").classList.remove("hidden"); return; }
+  $("runNow").disabled = true;
+  setRun("実行を依頼中…", true);
+  try{
+    const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/update.yml/dispatches`, {
+      method: "POST",
+      headers: {"accept":"application/vnd.github+json","authorization":"Bearer "+token(),"content-type":"application/json"},
+      body: JSON.stringify({ref: "main"}),
+    });
+    if (res.status === 204){
+      setRun("✓ 実行開始！ 1〜3分後にサイトを再読み込みしてください", true);
+    } else if (res.status === 403 || res.status === 404){
+      setRun("⚠ トークンに実行権限がありません。GitHubのトークン設定で「Actions: Read and write」を追加してください", false);
+    } else {
+      const d = await res.json().catch(()=>({}));
+      throw new Error((d.message||"") + " (" + res.status + ")");
+    }
+  }catch(e){
+    setRun("⚠ 失敗: " + e.message, false);
+  }finally{
+    setTimeout(()=>{ $("runNow").disabled = false; }, 5000);
+  }
+}
+function setRun(msg, ok){ const s=$("runStatus"); s.textContent=msg; s.style.color = ok ? "var(--ok)" : "var(--rosso)"; }
+
 async function init(){
+  $("runNow").addEventListener("click", runUpdate);
   $("saveToken").addEventListener("click", ()=>{
     const v = $("tokenInput").value.trim();
     if (!v){ setStatus("トークンを入力してください", false); return; }
@@ -385,12 +422,14 @@ async function init(){
   try{
     await Promise.all([loadDict(), loadNames()]);
     $("namesPanel").classList.remove("hidden");
+    $("runPanel").classList.remove("hidden");
     $("savebar").classList.remove("hidden");
     renderNames(); renderDict(); updatePending();
     if (!token()) setStatus("閲覧モード（保存にはトークン設定が必要）", false);
   }catch(e){
     setStatus("⚠ " + e.message, false);
     $("namesPanel").classList.remove("hidden");
+    $("runPanel").classList.remove("hidden");
     $("savebar").classList.remove("hidden");
   }
 }
