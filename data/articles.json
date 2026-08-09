@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T14:40:37.635Z",
+ "updated": "2026-08-09T16:43:06.879Z",
  "feedStatus": [
   {
    "name": "Gazzetta dello Sport",
@@ -12,14 +12,14 @@
    "name": "Corriere dello Sport",
    "tag": "altro",
    "ok": true,
-   "newItems": 2,
+   "newItems": 3,
    "filteredOut": 0
   },
   {
    "name": "Tuttosport",
    "tag": "altro",
    "ok": true,
-   "newItems": 0,
+   "newItems": 3,
    "filteredOut": 0
   },
   {
@@ -36,74 +36,302 @@
    "name": "ANSA Calcio",
    "tag": "altro",
    "ok": true,
-   "newItems": 1,
+   "newItems": 20,
    "filteredOut": 0
   },
   {
    "name": "Google News (Serie A 全体)",
    "tag": "altro",
    "ok": true,
-   "newItems": 1,
-   "filteredOut": 27
+   "newItems": 3,
+   "filteredOut": 16
   },
   {
    "name": "Google News (Milan)",
    "tag": "milan",
    "ok": true,
    "newItems": 0,
-   "filteredOut": 11
+   "filteredOut": 20
   },
   {
    "name": "Google News (Inter)",
    "tag": "inter",
    "ok": true,
-   "newItems": 0,
-   "filteredOut": 6
+   "newItems": 1,
+   "filteredOut": 5
   },
   {
    "name": "Google News (Juventus)",
    "tag": "juventus",
    "ok": true,
    "newItems": 0,
-   "filteredOut": 9
+   "filteredOut": 11
   },
   {
    "name": "Google News (Roma)",
    "tag": "roma",
    "ok": true,
    "newItems": 0,
-   "filteredOut": 18
+   "filteredOut": 16
   },
   {
    "name": "Google News (Lazio)",
    "tag": "lazio",
    "ok": true,
-   "newItems": 1,
-   "filteredOut": 1
+   "newItems": 0,
+   "filteredOut": 3
   },
   {
    "name": "Google News (Atalanta)",
    "tag": "atalanta",
    "ok": true,
-   "newItems": 0,
-   "filteredOut": 6
+   "newItems": 3,
+   "filteredOut": 8
   },
   {
    "name": "Google News (Fiorentina)",
    "tag": "fiorentina",
    "ok": true,
-   "newItems": 2,
-   "filteredOut": 14
+   "newItems": 1,
+   "filteredOut": 11
   },
   {
    "name": "Google News (Napoli)",
    "tag": "napoli",
    "ok": true,
    "newItems": 0,
-   "filteredOut": 4
+   "filteredOut": 7
   }
  ],
  "articles": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOODZTTGV0V3JIWVpTSk14dWVLcnNnbDg2Q1dwcWpqbzVXUWJzb2ROOXM5RXJLMkFBM3Z6YmZtM3NKLVJ3cWptVEx4empuZU8yNDU3WEdBZWg3YjlLMk9pRDNYZFZrSGE4VU5YNmRRXzBmZ1VybHRiem1VWldFQmhBeGNCZlhFSnlDQmhFb25pVHNuY1hTWjlJaU5zZ2xKa0VtLVlEckZoOHE2Q1FnaGpuOEhmcXM?oc=5",
+   "source": "TUTTOmercatoWEB",
+   "sources": [
+    {
+     "name": "TUTTOmercatoWEB",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOODZTTGV0V3JIWVpTSk14dWVLcnNnbDg2Q1dwcWpqbzVXUWJzb2ROOXM5RXJLMkFBM3Z6YmZtM3NKLVJ3cWptVEx4empuZU8yNDU3WEdBZWg3YjlLMk9pRDNYZFZrSGE4VU5YNmRRXzBmZ1VybHRiem1VWldFQmhBeGNCZlhFSnlDQmhFb25pVHNuY1hTWjlJaU5zZ2xKa0VtLVlEckZoOHE2Q1FnaGpuOEhmcXM?oc=5"
+    }
+   ],
+   "titleKey": "romasumorailbolognachiedekoopmeinersatalantapiacebahletopnewsdelle18",
+   "club": "atalanta",
+   "clubLabel": "アタランタ",
+   "confidence": "medium",
+   "confidenceReason": "複数交渉中の報道、本文未取得",
+   "headline": "ローマはモラ、ボローニャはコープマイネルス、アタランタはバー獲得狙い",
+   "summary": "複数セリエAクラブの移籍市場の動きをまとめた記事。ローマはポルトのモラ獲得、ボローニャはユベントスのコープマイネルス獲得を要求、アタランタはバーの獲得に関心を持っているとされている。いずれも交渉中の段階で、詳細な進捗については本文の詳細情報が必要。",
+   "publishedAt": "2026-08-09T16:00:46.000Z",
+   "addedAt": "2026-08-09T16:42:30.069Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd3NuYUxRN2o1N29HS3lMQ2NtT0p3YTg5SHZOTzdkZ09ERElzVFppc2FxMTVZZTRiLU5wVDV3Vi10MHUzN3IwRmJwV0NfY3FNbWdhOG41bDRTV1pCbFhCelQzUTBoZVZqWWFZMjRFeW5wbzJtZnR2OG1DNUVRZGVpdEtWQXpFRVNPNFdKUk9HWjh2amNZVUh3THAtZUpEckpY?oc=5",
+   "source": "TUTTOmercatoWEB",
+   "sources": [
+    {
+     "name": "TUTTOmercatoWEB",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd3NuYUxRN2o1N29HS3lMQ2NtT0p3YTg5SHZOTzdkZ09ERElzVFppc2FxMTVZZTRiLU5wVDV3Vi10MHUzN3IwRmJwV0NfY3FNbWdhOG41bDRTV1pCbFhCelQzUTBoZVZqWWFZMjRFeW5wbzJtZnR2OG1DNUVRZGVpdEtWQXpFRVNPNFdKUk9HWjh2amNZVUh3THAtZUpEckpY?oc=5"
+    }
+   ],
+   "titleKey": "fiorentinabraschiormaiaunpassodalthuntuttiidettaglidellaffare",
+   "club": "fiorentina",
+   "clubLabel": "フィオレンティーナ",
+   "confidence": "medium",
+   "confidenceReason": "ローン移籍、本文未取得",
+   "headline": "フィオレンティーナ、ブラスキがトゥーンへローン移籍間近",
+   "summary": "フィオレンティーナの若手選手ブラスキがスイスのトゥーンへのローン移籍が進行中。移籍はほぼ完了段階にあるとされ、詳細な条件については本文で確認が必要。",
+   "publishedAt": "2026-08-09T15:56:44.000Z",
+   "addedAt": "2026-08-09T16:42:30.069Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYmhHV0FKamtKZkU3VzhUNk0zRjZBOGp4MEllOC1leGozaVhyWWdvVnVIb20weGdtUjZGTjNuXzdRdEs4eGh3bmI4ZDlfc1AyWUhyOG8yd1JyT1k4RmxPY3ZMTnhfZ0syaUpGbnhvQVU3cDVLdGtKOS1heHc5ajEySWlycEhHTmlaWFNxd0pfc0VvcUFUM01rUTAtUnpsWVY4MWYzdHFqMDkteHRpVEVmX1J4bw?oc=5",
+   "source": "TUTTOmercatoWEB",
+   "sources": [
+    {
+     "name": "TUTTOmercatoWEB",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYmhHV0FKamtKZkU3VzhUNk0zRjZBOGp4MEllOC1leGozaVhyWWdvVnVIb20weGdtUjZGTjNuXzdRdEs4eGh3bmI4ZDlfc1AyWUhyOG8yd1JyT1k4RmxPY3ZMTnhfZ0syaUpGbnhvQVU3cDVLdGtKOS1heHc5ajEySWlycEhHTmlaWFNxd0pfc0VvcUFUM01rUTAtUnpsWVY4MWYzdHFqMDkteHRpVEVmX1J4bw?oc=5"
+    }
+   ],
+   "titleKey": "latalantaguardaincasamanchestercityperladifesapiaceilclasse2006bah",
+   "club": "atalanta",
+   "clubLabel": "アタランタ",
+   "confidence": "medium",
+   "confidenceReason": "補強候補のリサーチ段階",
+   "headline": "アタランタ、マンチェスター・シティの若手DFバー注視",
+   "summary": "アタランタが守備陣補強を目指し、マンチェスター・シティの1990年代生まれDFバーに関心を示している。イタリアの名門クラブは外国クラブの若手タレント発掘に力を入れており、バーはその候補リストに入った。本文が取得できないため詳細は不明だが、同クラブの積極的な補強姿勢が示されている。",
+   "publishedAt": "2026-08-09T15:30:00.000Z",
+   "addedAt": "2026-08-09T16:42:46.324Z"
+  },
+  {
+   "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/09-150442632/ravanelli_juve_in_fase_di_costruzione_kolo_muani_acquisto_giusto_di_gregorio_deve_dimostrare_/",
+   "source": "Tuttosport",
+   "sources": [
+    {
+     "name": "Tuttosport",
+     "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/09-150442632/ravanelli_juve_in_fase_di_costruzione_kolo_muani_acquisto_giusto_di_gregorio_deve_dimostrare_/"
+    }
+   ],
+   "titleKey": "ravanellijuveinfasedicostruzionekolomuaniacquistogiustodigregoriodevedimostrare",
+   "club": "juventus",
+   "clubLabel": "ユベントス",
+   "confidence": "medium",
+   "confidenceReason": "評論家による見解と分析",
+   "headline": "デル・ピエロ、ユベ新戦力を評価。コロ・ムアニとディ・グレゴリオ言及",
+   "summary": "元ユベントス長期キャプテンのアレッサンドロ・デル・ピエロがパースでスパレッティ監督下のチームを評価した。コロ・ムアニの即戦力ぶりを好意的に述べ、若きボスニア代表タレント・アラジベゴビッチについて「将来的には大きな可能性を持つ」と高く評価。ただし同選手への過度な期待は避けるべきと指摘した。インテルとの親善試合での敗北も触れられている。",
+   "publishedAt": "2026-08-09T15:23:23.000Z",
+   "addedAt": "2026-08-09T16:42:46.324Z"
+  },
+  {
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/juve/2026/08/09-150442750/del_piero_esalta_alajbegovic_alla_juve_tanta_roba_di_solito_i_talenti_cos_ce_li_rubano_spalletti_/",
+   "source": "Corriere dello Sport",
+   "sources": [
+    {
+     "name": "Corriere dello Sport",
+     "url": "https://www.corrieredellosport.it/news/calcio/serie-a/juve/2026/08/09-150442750/del_piero_esalta_alajbegovic_alla_juve_tanta_roba_di_solito_i_talenti_cos_ce_li_rubano_spalletti_/"
+    }
+   ],
+   "titleKey": "delpieroesaltaalajbegovicallajuvetantarobadisolitoitalenticosigravecelirubanospalletti",
+   "club": "juventus",
+   "clubLabel": "ユベントス",
+   "confidence": "medium",
+   "confidenceReason": "評論家による見解と分析",
+   "headline": "デル・ピエロ、若手アラジベゴビッチ高評価。スパレッティへのメッセージも",
+   "summary": "元ユベントス長期キャプテンのアレッサンドロ・デル・ピエロが新加入のボスニア代表MFアラジベゴビッチを高く評価した。イタリアリーグでは優秀なタレントが海外に引き抜かれることが多い現状を指摘しながら、同選手の将来的なポテンシャルに大きな期待を寄せている。過度なプレッシャーを避けることの重要性も強調した。",
+   "publishedAt": "2026-08-09T15:17:30.000Z",
+   "addedAt": "2026-08-09T16:42:46.324Z"
+  },
+  {
+   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/juventus-finalmente-kolo-muani-ma-serve-un-portiere_37764327-53fa-4b90-bd8f-6ad5b00a1492.html",
+   "source": "ANSA Calcio",
+   "sources": [
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/juventus-finalmente-kolo-muani-ma-serve-un-portiere_37764327-53fa-4b90-bd8f-6ad5b00a1492.html"
+    }
+   ],
+   "titleKey": "juventusfinalmentekolomuanimaserveunportiere",
+   "club": "juventus",
+   "clubLabel": "ユベ",
+   "confidence": "medium",
+   "confidenceReason": "複数補強候補の報道段階",
+   "headline": "ユベ、コロ・ムアニ獲得へ。GK補強も急務に",
+   "summary": "ユベントスはコロ・ムアニの獲得に向けて動いており、同時にGK補強を急いでいる。PSGからの鈴木獲得、またはヴィカーリオ獲得が優先候補として上がっている。また、若手FWアラジベゴビッチの獲得も検討中だが、多数の余剰選手の処遇が課題となっている。現在、複数の移籍交渉が並行して進行中の段階。",
+   "publishedAt": "2026-08-09T15:03:52.000Z",
+   "addedAt": "2026-08-09T16:43:02.751Z"
+  },
+  {
+   "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/juventus/2026/08/09-150421573/zirkzee-juve_ecco_quando_i_bianconeri_puntano_a_chiudere_con_lo_united/",
+   "source": "Corriere dello Sport",
+   "sources": [
+    {
+     "name": "Corriere dello Sport",
+     "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/juventus/2026/08/09-150421573/zirkzee-juve_ecco_quando_i_bianconeri_puntano_a_chiudere_con_lo_united/"
+    }
+   ],
+   "titleKey": "zirkzeejuveeccoquandoibianconeripuntanoachiudereconlounited",
+   "club": "juventus",
+   "clubLabel": "ユベ",
+   "confidence": "medium",
+   "confidenceReason": "交渉中。ジルクゼー優先順位下位",
+   "headline": "ユベ、ジルクゼー獲得は後回し。鈴木とルクミが優先",
+   "summary": "ユベントスはマンチェスター・ユナイテッドのジルクゼーについては既に「予約済み」状態だが、獲得は優先度の低さから後回しにされている。まず鈴木の期限付き移籍獲得をPSGと協議中。ボローニャのルクミについては、ユベが17～18百万ユーロの評価に対してボローニャが25百万ユーロを要求しており、交渉が進行中。カバルについても最終回答を待機している。",
+   "publishedAt": "2026-08-09T15:02:45.000Z",
+   "addedAt": "2026-08-09T16:43:02.751Z"
+  },
+  {
+   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/roma-piu-forte-con-castro-e-molina-ma-gasp-aspetta-lesterno_65cbac87-6989-474a-8462-cd124a928802.html",
+   "source": "ANSA Calcio",
+   "sources": [
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/roma-piu-forte-con-castro-e-molina-ma-gasp-aspetta-lesterno_65cbac87-6989-474a-8462-cd124a928802.html"
+    }
+   ],
+   "titleKey": "romapiùforteconcastroemolinamagaspaspettalesterno",
+   "club": "roma",
+   "clubLabel": "ローマ",
+   "confidence": "medium",
+   "confidenceReason": "補強検討中だが最終決定未",
+   "headline": "ローマ、カストロとモリーナで強化も外側補強は未定",
+   "summary": "ローマはカストロとモリーナを獲得してオフェンス面で強化されたが、ガスペリーニ監督が求めている左ウイング補強がまだ実現していない。監督が指摘していた攻撃面での「トップ級補強」がいまだに実現していないため、市場での追加補強を模索している状況。",
+   "publishedAt": "2026-08-09T14:59:25.000Z",
+   "addedAt": "2026-08-09T16:43:02.751Z"
+  },
+  {
+   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/napoli-con-allegri-riparte-la-caccia-allinter-lukaku-in-partenza_6c74e3a6-f4d1-4075-847a-d9bc5b2256aa.html",
+   "source": "ANSA Calcio",
+   "sources": [
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/napoli-con-allegri-riparte-la-caccia-allinter-lukaku-in-partenza_6c74e3a6-f4d1-4075-847a-d9bc5b2256aa.html"
+    }
+   ],
+   "titleKey": "napoliconallegriripartelacacciaallinterlukakuinpartenza",
+   "club": "napoli",
+   "clubLabel": "ナポリ",
+   "confidence": "medium",
+   "confidenceReason": "監督就任報道、放出検討段階",
+   "headline": "ナポリ、アッレグリ就任で新体制へ。ルカク放出を検討",
+   "summary": "ナポリはマッシミリアーノ・アッレグリ監督の就任で新体制となり、インテル相手の王座奪還を目指す。一方、ルカクについては放出を検討しており、追加で複数選手の売却が必要となっている。現在の戦力が大幅で、整理が急務となっている状況。",
+   "publishedAt": "2026-08-09T14:58:37.000Z",
+   "addedAt": "2026-08-09T16:43:02.751Z"
+  },
+  {
+   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/milan-rifondazione-con-amorim-e-ramos-non-si-sblocca-leao_4a17c945-c087-4b54-a0b7-ddd46fe97ef3.html",
+   "source": "ANSA Calcio",
+   "sources": [
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/milan-rifondazione-con-amorim-e-ramos-non-si-sblocca-leao_4a17c945-c087-4b54-a0b7-ddd46fe97ef3.html"
+    }
+   ],
+   "titleKey": "milanrifondazioneconamorimeramosnonsisbloccaleao",
+   "club": "milan",
+   "clubLabel": "ミラン",
+   "confidence": "medium",
+   "confidenceReason": "補強進行中、レアオ放出は未定",
+   "headline": "ミラン、アモリム監督体制で再建。レアオ放出進まず",
+   "summary": "ミランはアモリム監督体制での再建を進めており、マイニャン、ラビオ、モドリッチを軸に構成し直している。しかし多数の余剰選手の処遇が課題となっており、レアオについてはガラタサライへの売却が報道されているが、いまだ確定していない。余剰戦力の整理が難航している状況が続いている。",
+   "publishedAt": "2026-08-09T14:52:53.000Z",
+   "addedAt": "2026-08-09T16:43:02.751Z"
+  },
+  {
+   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/inter-favorita-per-bis-scudetto-stones-rafforza-la-difesa_998fe4ed-e7ba-4a07-b4aa-e1f170f6b8be.html",
+   "source": "ANSA Calcio",
+   "sources": [
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/inter-favorita-per-bis-scudetto-stones-rafforza-la-difesa_998fe4ed-e7ba-4a07-b4aa-e1f170f6b8be.html"
+    }
+   ],
+   "titleKey": "interfavoritaperbisscudettostonesrafforzaladifesa",
+   "club": "inter",
+   "clubLabel": "インテル",
+   "confidence": "medium",
+   "confidenceReason": "複数補強候補の検討段階",
+   "headline": "インテル、スtonズで防線強化。ディアビー・ジョーンズも検討",
+   "summary": "インテルは連覇へ向けて防線補強を急いでおり、スtonズの獲得を検討。パレストラとチャロバが加わらず、ディアビーとカーティス・ジョーンズの獲得も並行して検討している。現有戦力の強化で選手層を厚くする方針が進行中。",
+   "publishedAt": "2026-08-09T14:49:30.000Z",
+   "addedAt": "2026-08-09T16:43:02.751Z"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQV2FSQV9FR25lY1pRdlB2X0R1Y3Q5N0lBd0ZPdXV2OWthei1lRHZNbms5LW15ZHNBLUdHWm5OZDhxRTR3WkNHZDFwR3lKWHIzaDdDLUR2eWhFbV84R1dtSllTS2I4RFhTUTJ2TkJMS2ZJVk5GNm9lS0pReUp2NC11d3E1c05sczdQNVI5elhJV2RMRkhYT245SnNwQktnNTlLUGVrOUFjY1MwNk1MeHBvMk05eV9TaHVOZDRGRmoyeDBtS3NrTU9BVi1XSXJCZTNQNXpudWhzTkNJWnp1cTM5SGdwYVJLamFtX3ZoWHFn0gHwAUFVX3lxTE1udWQ3TWliSFFCenFocFI0bkMwa2ZITW8taTNFc1gxd1VCWFFNVWlGRXFLeGxlSnI0RzhBWlppd3J3dUt3YzBXdmJrWWNHRzdwbXhFSW5YazA2VUpveVJVaGswSlJSYWNKMHRDakVfR0xJWUlEXzB2UG8zdGZraTdNZGh0ME05QzA4YUhES3o2b0R3TC1LTFhFZzdRU2k5T0hnYl9tRUNMVjNOVnBvSEVMOGJJUzZnVkJpMkJvcE5mdUh6UDJhVmdETUF5SVpPdE1FRVBEa3FIZGN1VzFtZnUzOFVuMHpDMUxDcUJ3SHlNZw?oc=5",
+   "source": "Tuttosport",
+   "sources": [
+    {
+     "name": "Tuttosport",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQV2FSQV9FR25lY1pRdlB2X0R1Y3Q5N0lBd0ZPdXV2OWthei1lRHZNbms5LW15ZHNBLUdHWm5OZDhxRTR3WkNHZDFwR3lKWHIzaDdDLUR2eWhFbV84R1dtSllTS2I4RFhTUTJ2TkJMS2ZJVk5GNm9lS0pReUp2NC11d3E1c05sczdQNVI5elhJV2RMRkhYT245SnNwQktnNTlLUGVrOUFjY1MwNk1MeHBvMk05eV9TaHVOZDRGRmoyeDBtS3NrTU9BVi1XSXJCZTNQNXpudWhzTkNJWnp1cTM5SGdwYVJLamFtX3ZoWHFn0gHwAUFVX3lxTE1udWQ3TWliSFFCenFocFI0bkMwa2ZITW8taTNFc1gxd1VCWFFNVWlGRXFLeGxlSnI0RzhBWlppd3J3dUt3YzBXdmJrWWNHRzdwbXhFSW5YazA2VUpveVJVaGswSlJSYWNKMHRDakVfR0xJWUlEXzB2UG8zdGZraTdNZGh0ME05QzA4YUhES3o2b0R3TC1LTFhFZzdRU2k5T0hnYl9tRUNMVjNOVnBvSEVMOGJJUzZnVkJpMkJvcE5mdUh6UDJhVmdETUF5SVpPdE1FRVBEa3FIZGN1VzFtZnUzOFVuMHpDMUxDcUJ3SHlNZw?oc=5"
+    }
+   ],
+   "titleKey": "lajuveaiutalintersulmercatodioufpromossoleprioritàdichivuorasonoaltre",
+   "club": "inter",
+   "clubLabel": "インテル",
+   "confidence": "medium",
+   "confidenceReason": "交渉・補強方針の報道",
+   "headline": "ユベがインテル市場を支援。ディウフ評価で優先目標が変化",
+   "summary": "インテルの監督キウヴがディウフの評価を進め、その結果として同クラブの市場補強の優先順位が変更されたと報じられている。ユベとの関係で選手評価が進むなど、両クラブ間の市場での連携が示唆されている。現在の優先補強ターゲットについては、これまでの計画から方針転換される見通し。キウヴ監督の市場戦略が調整局面を迎えている。",
+   "publishedAt": "2026-08-09T08:50:32.000Z",
+   "addedAt": "2026-08-09T16:43:06.879Z"
+  },
   {
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbXRJQ21aOWVHMTdQWFRWejBDbUttS0RFdDRMNzZQVzVJX0dRZ1ZOQXVZRXhuaUQ2dTdPZmJtZlY4ZkhUUTdLTFliZkUwVXU0ZzZFMFg3TlJ1aC1hRERka3M2TzQySHVFUWo3czNwUkZoQm1EOGpIcVZUT0NVakRjT1F3VHZFRWFxMHNRdUNVelBEMUlfYi0xY1lnNVkya3R1blV3TUNySmxlbndHcm5WR1k3UVBVWE5y0gG-AUFVX3lxTFBiM0xFT0U0cnJHSEl1a3pCb0FDRTYydmViVG1XcEkyekdYOTBub3hrWGc4bzhRYl9tUUZRV1VPMlhuVlpZTDFTeGo1bU44ZWpPQmwxM3hGbXFmSmhCTDJCYUlJU2ZGUnFMTmNSbU9wUjllT1o4dU4zbnVyQ0JXcFRkM3ZSVXgzelM1TVp3N18zTllJNHlUc0VoblhNSTNOMXg0dDBfaXJtdlZCNHRtaE45RnpMYlpnZmJISUlveFE?oc=5",
    "source": "La Gazzetta dello Sport",
@@ -157,12 +385,16 @@
     {
      "name": "La Gazzetta dello Sport",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc2V3QVNwWXlIaE5lSFZSeXV1emx2YndzZDB4NExYYmc1UXB1OWdiS0Q0Uk1YRlhZLXBkdVNKS2Z6TVY4WHlkSUxSTTI1MHFkUUE1bm1BcUNabnBCSDZHY3lmVy1Ma19TUFRVaU14Q2tYYzV0RHYxRnlIUFdJVll5TUNrUGhONE9ObUd0b2lnSG5OM0RqLVVYQkln0gGfAUFVX3lxTE83aHNyQ2NIMHhWeFAweDBmTnM5ZVFWSjhsaTZVaEg1Zm9xRGFiSVF2akl3c2xpQXhoU2dzejhzUXFPblhnLVNGUXdwQUc0SnpuckFpa2NDNG9qN094R05HM29XazZPVm1LNXhWcEF5Y0RsOWlObmxjbXJUcTZDeF9Yakk0LTBYdGZEM1FQWTc4Vzh6cXEtLWVFeV9Db2NhVQ?oc=5"
+    },
+    {
+     "name": "Corriere dello Sport",
+     "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/2026/08/09-150442534/il_besiktas_spinge_forte_per_vlahovic_tutti_i_dettagli_dell_offerta_l_atletico_resta_alla_finestra/"
     }
    ],
    "titleKey": "vlahovicbesiktasorasipuòdusanapreiturchimettonosulpiattouningaggiodarelecifre",
    "club": "juventus",
    "clubLabel": "ユベントス",
-   "confidence": "medium",
+   "confidence": "high",
    "confidenceReason": "交渉段階、選手が前向き",
    "headline": "ヴラホヴィッチ、ベシクタシュ移籍に前向き。トルコ勢が王様級給与提示",
    "summary": "ユベントスのストライカー、ドゥサン・ヴラホヴィッチがベシクタシュへの移籍に前向きな姿勢を示している。トルコの大型クラブ・ベシクタシュは、ヴラホヴィッチに対して「王様級」と表現される高額な給与パッケージを提示しており、交渉は具体的な段階に進んでいるとみられる。ガゼッタ・デッロ・スポルトが報じた。",
@@ -184,6 +416,10 @@
     {
      "name": "La Gazzetta dello Sport",
      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOQlVzSDk1em5PY01CdHZ1M1V6QUVMV2dZUTJnR3Y1N2FiODF6V1otcFlZUS1pUkdOVHJQeXJaLW5sd0JwcXdzN1MxZ3VLWERuNEhJNUwtOWtuM20xTU50b2t2cXB0clJ2RVJxQ2F3YU1vWDFUdGo1T3NVOHRHUUVRenota1RPN2xPaV9jaGdvRXM4a2NUcXRTTnVLelR3RXlvVW5vN2ptM2JocVU5N2YzTXdmRXFMY0gyT0Jucy01SWwzckpuX2pNeVo2Z1p5LVVRVFJuSTJIbXhidXNEcG03MXdYMno1U2hFZTZPcTZsTWdzN0lXVW9vSXFyd9IB-wFBVV95cUxOQlVzSDk1em5PY01CdHZ1M1V6QUVMV2dZUTJnR3Y1N2FiODF6V1otcFlZUS1pUkdOVHJQeXJaLW5sd0JwcXdzN1MxZ3VLWERuNEhJNUwtOWtuM20xTU50b2t2cXB0clJ2RVJxQ2F3YU1vWDFUdGo1T3NVOHRHUUVRenota1RPN2xPaV9jaGdvRXM4a2NUcXRTTnVLelR3RXlvVW5vN2ptM2JocVU5N2YzTXdmRXFMY0gyT0Jucy01SWwzckpuX2pNeVo2Z1p5LVVRVFJuSTJIbXhidXNEcG03MXdYMno1U2hFZTZPcTZsTWdzN0lXVW9vSXFydw?oc=5"
+    },
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/fiorentina-paratici-porta-anche-mastantuono-grosso-punta-leuropa_495b50aa-c53f-4848-8a0c-3d2dbf7804e8.html"
     }
    ],
    "titleKey": "maldinialcagliariegraveufficialearrivainprestitoeccoilcomunicato",
@@ -504,6 +740,10 @@
     {
      "name": "La Gazzetta dello Sport",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcjVIbWJLNEowMWJDb3B1S2ZxNnNsRlAzTmF0TzlQYnljSnpxaW5LOVo0WG1BSDhJYklFTXZRNzRTWlQyYW1zcEkyNVlFbU8zY0ZEWl83aUp6ODlSdVd1RC14b1lWUGQ1LWY5RUpZM2I0aG40aG5tX0JuMHRFWmJqWTNUV3hacnZBclQ3VWtCOW1LWHNiX3B1OFlB0gGaAUFVX3lxTE5yNUhtYks0SjAxYkNvcHVLZnE2c2xGUDNOYXRPOVBieWNKenFpbks5WjRYbUFIOEliSUVNdlE3NFNaVDJhbXNwSTI1WUVtTzNjRkRaXzdpSno4OVJ1V3VELXhvWVZQZDUtZjlFSlkzYjRobjRobm1fQm4wdEVaYmpZM1RXeFpydkFyVDdVa0I5bUtYc2JfcHU4WUE?oc=5"
+    },
+    {
+     "name": "Corriere dello Sport",
+     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOeUZ2REI4cTRRb2RyMzgxS0JwLUdYRUlISkNkVzBmRExWMmt2LXBvSkJOSXN5TVV5d0xBN0l6MVhhaFlfZi1GTzVmU1A4RUNBaWlJSHVHeVUwTV9hekhWODNNbS1ZcEdXNjlHaGVxcUE4dmh1YkUwVlRsS2w5RWplczZkZ2Q1X0VjRDNOdFUwQ0Nsazh1RldLRnFKN3JjWW5RN1BUMVdKdHFUWFhzQ2ZyeTNQMUpMQUFIWF9BZElmdE1xck5ra1RtSGVyTkVXMG81WGk5R204RFo0UU0xTmNMY2ItR3BZY0kydnl3TTN1N0VoanE2NzBKWFZXZ1o0dXBSV0V3Y3lDdzXSAYsCQVVfeXFMUExrRElSMUhINlJpMTFpeENJRHRpNVFKVmZKNU91bGJvQVZvQWc3OTdBbUZ6V2lVYUdBMFZmelpjRmVxUmhLTDVHT19STUp2WGdMbEo3QmF3NEJSSk5qbmpKTkRvVzN1QUs1cFV5RUFJcjFqYjl4ZGtqN3NfMVMyTlpXa19sOVVHVjFPMlgweWRHNVZzMU5NRm93UTRWUzA1cFJYaFkwYlU5QktsSDlKWnhScXpXaWtiNjJYeTFsdkpjX1M2SDY2S01sSUFyMU1sdTdwTnY5TG1xZnd4aTVXb0p3cW9GTDdvbEd3cW5SRG9ZSmZveHJYLUV2ZnhnLThDS2F4MU9oazBaSUsw?oc=5"
     }
    ],
    "titleKey": "delpierosulnuovoacquistodellajuvealajbegovicinprospettivaètantaroba",
@@ -527,6 +767,10 @@
     {
      "name": "Sky Sport",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMm5vWnlDV01IUnpPa3JxamEyQXF2THo2cURqRk5BZ1ZIRS12S3U4SGY3N1ZPM2VOczltaDVVNEw4b3ZBOGFTVzc0R01QQmFBanE3QWRibjktNUJmWVBtSm1rdmJualBHc01ZcENuVHY3QmVPRGNVSS16Wll2cjZMMy1SZHluRWhNeXpmUnFhVzZRT0N3QUduNw?oc=5"
+    },
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/udinese-40-anni-con-pozzo-con-zaniolo-per-migliorare-10o-posto_7997e965-e7b7-4517-9270-2f8bc12b7b8d.html"
     }
    ],
    "titleKey": "tornailserenotrazanioloeudinesequimisentonicolograve",
@@ -6319,443 +6563,9 @@
    "summary": "イタリアのサッカー移籍市場が活況を呈している。フィオレンティーナはバルデペーニャスを6番目の補強として獲得し、ボローニャのコロンビア人DFルクミは複数クラブから関心を集めており、コモへの移籍が濃厚とみられる。ローマはストライカー補強を進める一方、ユベはジルクゼー獲得を検討中。ベネヴェントはシモーネ・ヴェルディ獲得で動くなど、セリエAからセリエBまで幅広いクラブが活動を活発化させている。",
    "publishedAt": "2026-07-31T08:07:00.000Z",
    "addedAt": "2026-07-31T10:06:04.672Z"
-  },
-  {
-   "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/07/31-150224603/juve_prudenza_estate_ma_linizio_perfetto/",
-   "source": "Tuttosport",
-   "sources": [
-    {
-     "name": "Tuttosport",
-     "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/07/31-150224603/juve_prudenza_estate_ma_linizio_perfetto/"
-    }
-   ],
-   "titleKey": "juveprudenzaegraveestatemalrsquoinizioegraveperfetto",
-   "club": "juventus",
-   "clubLabel": "ユベ",
-   "confidence": "medium",
-   "confidenceReason": "ユベの補強評価、追加必要な選手を分析",
-   "headline": "ユベ、コロ・ムアニとアライベゴヴィッチに続く補強がカギ",
-   "summary": "ユベントスのシーズン開幕は上々だが、スクデット争いを視野に入れるなら追加補強が不可欠との指摘。コロ・ムアニとアライベゴヴィッチの獲得は好評だが、GK、左サイドバック、左DFセンターバック、中盤の補強がまだ必要と分析される。スパレッティ監督が求める複数の人材補強を実現できるかが今後の焦点となる。",
-   "publishedAt": "2026-07-31T07:55:17.000Z",
-   "addedAt": "2026-07-31T10:06:04.672Z"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVDFsa0gtaGVCcFYzTGtJd1FfSHo0NVVGVkR5ZnhldGxNUlc0M1B3bHoxY2RpUE9kTmRqenBMcTZNYnBvWGhuUDdyY043czlMRGE0OHRGRzdGc0FaMjN6MHhZT1dVY292Rnc5akQ0VFJreHJDR1dZdjVxTkNwQWJzRmxQWHpfbXdkSHZsYlM1QjMzTk9UYkhVQmJkWHFpMGlBdDctbFpMa1VzOG00aVloWdIBtgFBVV95cUxQVXBLdjhkMnBQblZaRU1MQkk3eTFIUzlmSEtPLVd3WUp1TUllQmhYa296bFpSRXJFZ19PLUJsMDVkdmpjUjg3VEszV3JVVlVHdmJMaklrS0RZT2pLSEl3YXR5UGZra0kydTFESXJmQWtkSjN6REJMMnpmMFJROUhPRnBZOTlIbzRPYmNPanp3RGJBWXpGN0xvS0dITGNDOG93V2RrdlJhRU1SX1hnYlB3X0VyRjFoQQ?oc=5",
-   "source": "La Gazzetta dello Sport",
-   "sources": [
-    {
-     "name": "La Gazzetta dello Sport",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVDFsa0gtaGVCcFYzTGtJd1FfSHo0NVVGVkR5ZnhldGxNUlc0M1B3bHoxY2RpUE9kTmRqenBMcTZNYnBvWGhuUDdyY043czlMRGE0OHRGRzdGc0FaMjN6MHhZT1dVY292Rnc5akQ0VFJreHJDR1dZdjVxTkNwQWJzRmxQWHpfbXdkSHZsYlM1QjMzTk9UYkhVQmJkWHFpMGlBdDctbFpMa1VzOG00aVloWdIBtgFBVV95cUxQVXBLdjhkMnBQblZaRU1MQkk3eTFIUzlmSEtPLVd3WUp1TUllQmhYa296bFpSRXJFZ19PLUJsMDVkdmpjUjg3VEszV3JVVlVHdmJMaklrS0RZT2pLSEl3YXR5UGZra0kydTFESXJmQWtkSjN6REJMMnpmMFJROUhPRnBZOTlIbzRPYmNPanp3RGJBWXpGN0xvS0dITGNDOG93V2RrdlJhRU1SX1hnYlB3X0VyRjFoQQ?oc=5"
-    }
-   ],
-   "titleKey": "settegolin18mesigimenezalmilanilmisterocontinuaecèunnuovoprezzo",
-   "club": "milan",
-   "clubLabel": "ミラン",
-   "confidence": "medium",
-   "confidenceReason": "交渉中・具体化段階不明",
-   "headline": "ヒメネス、ミラン移籍の可能性。新たな買値情報浮上",
-   "summary": "ミランがアルティレティコ・マドリード所属のディエゴ・パブロ・ヒメネスの獲得を継続して検討しているとの報道。過去18ヶ月間で7ゴールを記録しているディフェンダーで、新たな買値に関する情報が浮上したという。具体的な交渉の進展状況や金額詳細については不明だが、ミランの守備補強の候補として注視されている。",
-   "publishedAt": "2026-07-30T19:20:43.000Z",
-   "addedAt": "2026-07-30T23:37:30.767Z"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WQ283VXVTRXc2eG4zcDl1eG52LXgtZTUwWGRjcTdSdUlwbUZUTDd0RVRhcW5CWFBtcVM5MnpyOUtGTF9RSHJWRzVfTjhlOVR6OTd2c2dnWTdmZXU2QzdaV05RWW9hOUlXUFRB?oc=5",
-   "source": "ACF Fiorentina",
-   "sources": [
-    {
-     "name": "ACF Fiorentina",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WQ283VXVTRXc2eG4zcDl1eG52LXgtZTUwWGRjcTdSdUlwbUZUTDd0RVRhcW5CWFBtcVM5MnpyOUtGTF9RSHJWRzVfTjhlOVR6OTd2c2dnWTdmZXU2QzdaV05RWW9hOUlXUFRB?oc=5"
-    },
-    {
-     "name": "Gianluca Di Marzio",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb3Vpdy1tck1UMWkxVHhPV3VIMy1PN1NsU0lCOS1lMnFZSTJncGstWmtUelY5a1NIR2s5dHNMaEdOa3lYSmVfc0ZqMmw1bl96aUx4ZFIxSUZfMXdPWUUxZE1ZRl9hX211ajN4SGZfSDFpX3VJUnFaOEdnak1RNENFclpqM2pFckI0d05aM0pGR1RhLVJfaWQzcHI4cw?oc=5"
-    }
-   ],
-   "titleKey": "morenocedutoalvenezia",
-   "club": "fiorentina",
-   "clubLabel": "フィオレンティーナ",
-   "confidence": "official",
-   "confidenceReason": "クラブ公式発表",
-   "headline": "モレーノ、ヴェネツィアに放出決定",
-   "summary": "フィオレンティーナはディフェンダーのモレーノをセリエAのヴェネツィアに放出することを正式に発表した。クラブ公式サイトでの告知により、移籍が確定した。",
-   "publishedAt": "2026-07-30T17:45:00.000Z",
-   "addedAt": "2026-07-30T23:37:39.871Z"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUHRXN0hUS1hHVVlacmhzOGpXUGNBMmt5WkpNVGFyVWlDbTU3TjlBQ3NvNnZZeXJFX1doVkg1NUhZQnV6U3lsQURwNGZJbkZXZW82Zkp6Vi0tM1dqXzJnM1lLckVzWnJzQXlIZVBvT210UFBmcHVFcDlFR21BenA0N1JiOE1xZHBtMXpSMFIzOWwybWpFNkkxNmhwNWZGem9vVVJqSGhXUm5PWDFnWWxpTUpRd2xJeFk?oc=5",
-   "source": "TUTTOmercatoWEB",
-   "sources": [
-    {
-     "name": "TUTTOmercatoWEB",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUHRXN0hUS1hHVVlacmhzOGpXUGNBMmt5WkpNVGFyVWlDbTU3TjlBQ3NvNnZZeXJFX1doVkg1NUhZQnV6U3lsQURwNGZJbkZXZW82Zkp6Vi0tM1dqXzJnM1lLckVzWnJzQXlIZVBvT210UFBmcHVFcDlFR21BenA0N1JiOE1xZHBtMXpSMFIzOWwybWpFNkkxNmhwNWZGem9vVVJqSGhXUm5PWDFnWWxpTUpRd2xJeFk?oc=5"
-    },
-    {
-     "name": "Sky Sport",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeFhQWDJKR3BwdnBJUEw4WjJ1TWxlZC1CcTMtQkstcTZGT1U0Y3BOamdlbURFQlllQ1U4alJjT0wyX2tTb2xGUHdXTFJIUkkwVHd6d0VmY2xnaFduVTNDMTBfbUI0ZUd6Qk81OHA1a0dGZ2pHM0JNSUpKdkhfX3JNMFB6dTdEZTZkVWVhQnI4cUlpXzQ0UVpwUHViY2NQQlJj?oc=5"
-    },
-    {
-     "name": "Gianluca Di Marzio",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSjJibFBRcXFOYUFnLWxOQjMwY3M4ZVFWU2VfNnV6TlFNTzR4TXNoNFJnbkJMUEpTcmQ3X0ZuTUs5eGtwcVlqa2JnV2RVMnQ5SkUwLUNMZlBmZ1FaRkxjQWx5QktHazhtRkN4bVpvdWJIVTAwT0Z2UzRvazdIMUNUSW9Pb1ZjUzJtUXdrdW50TkwtVGFydjNjQkt3cTM1elZtZ1dVLTZhOA?oc=5"
-    }
-   ],
-   "titleKey": "fiorentinaattentailriverplatesimuoveperriaveremastantuonodalrealmadrid",
-   "club": "fiorentina",
-   "clubLabel": "フィオレンティーナ",
-   "confidence": "high",
-   "confidenceReason": "憶測段階の報道",
-   "headline": "フィオレンティーナ、マスタントゥオーノ獲得を検討か",
-   "summary": "リベル・プレートがレアル・マドリード所属の若手FWマスタントゥオーノの獲得に動いており、これに伴いフィオレンティーナも同選手への獲得関心を高める可能性が報じられた。同選手の動向に注視が集まっている段階での報道である。",
-   "publishedAt": "2026-07-30T17:42:00.000Z",
-   "addedAt": "2026-07-30T23:37:39.871Z"
-  },
-  {
-   "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/07/30-150215934/carnevali_che_stoccate_a_comolli_e_vlahovic_ho_dovuto_ricucire_col_psg_io_non_rincorro_nessuno/",
-   "source": "Tuttosport",
-   "sources": [
-    {
-     "name": "Tuttosport",
-     "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/07/30-150215934/carnevali_che_stoccate_a_comolli_e_vlahovic_ho_dovuto_ricucire_col_psg_io_non_rincorro_nessuno/"
-    },
-    {
-     "name": "Corriere dello Sport",
-     "url": "https://www.corrieredellosport.it/news/calcio/serie-a/juve/2026/07/30-150218107/carnevali_su_kolo_muani_alla_juve_questione_di_ore_e_lavoriamo_su_alajbegovic_poi_su_vlahovic_non_rincorro_nessuno/"
-    },
-    {
-     "name": "ANSA Calcio",
-     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/30/carnevali-mancini-e-bravo-ma-non-mi-e-piaciuto-il-suo-comportamento_8eb57051-62db-4cbe-be98-bb721dbfedeb.html"
-    },
-    {
-     "name": "Sky Sport",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNUQtZmVhUWd0VEhlUTZlcW4zOUtDc0tJeExucmV1em9zTDJvOWR3V0RmV28zNVpXUmwweER4N0VZOGl1MmdsQWNNVWs5MHJINnNpVnhPQnZqSkgwRWZ5REVPVVNwa2kzbTVXZXY1RGhMY3NUOEhGbDYyWHJYTXcxa1czaGRMWFJKRkdtVGZEREloVHBIejc3TXo0Rk44c1E?oc=5"
-    },
-    {
-     "name": "TUTTOmercatoWEB",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdThRUzMzT19lUTdIbG1mZWM5NDFORGZXcVF5WEJmVnNsMWh0czFZd19uVnFLWDNtSVNuSmpSWGhvektBaWc2WHZyRFQ2MUxYZmFQQVJGOGlQUHRlcUdOdTZOUEY5ZUliaXpiZzVSeG54MlR2LVpKZVl0RWxyUjRQdWd4ZGk3YnJjdEN1T0hJYUhxT1JXS3NnUW9ZZnhIbkNnVVRBa0ZVZWVHUXlodVE?oc=5"
-    },
-    {
-     "name": "Gianluca Di Marzio",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdmxlRE0tcEpzNEhfRlZsOU5vZjNNTHJ5V2pSNnk4VVNJdThHUVNUUWNtWS1yVk9fempYQTl0VkkxdDZmeC1hOGQ0Z3BhbER5d3pkd0Z1a2FJUHltSTNWUHN5bDVEOUlqVF9oZXJ0dmNMWVczOE1DNDdNQWllV3oxV2otcnhqb19NRWtxTldJVnhSdE0?oc=5"
-    }
-   ],
-   "titleKey": "carnevalichestoccateacomollievlahovichodovutoricucirecolpsgiononrincorronessunohellip",
-   "club": "juventus",
-   "clubLabel": "ユベントス",
-   "confidence": "high",
-   "confidenceReason": "AD公式コメント、移籍進行状況の言及",
-   "headline": "ユベ、コロ・ムアニは数時間以内確定、アライベゴヴィッチ交渉継続中",
-   "summary": "ユベントスのAD カルネヴァーリがメディアの取材に応じ、フランス人FWコロ・ムアニの加入が「数時間以内に決着する問題だ」と明言した。また、ドイツ人DFアライベゴヴィッチについては「現在交渉を進めている」と述べた。カルネヴァーリはさらに、PSGとの関係修復について「PSGとの間を修復する必要があった」と発言。一方、FWヴラホヴィッチとの関係については「選手本人と会ったことがない。見知らぬ選手を追いかけることはしない」とコメント、移籍の可能性を否定した。",
-   "publishedAt": "2026-07-30T18:42:42.000Z",
-   "addedAt": "2026-07-30T18:59:36.236Z"
-  },
-  {
-   "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/07/30-150217934/suzuki_l_alajbegovic_dei_portieri_occhio_a_reijnders_e_il_domino_mercato_tuttosport_stappa_l_aperimercato/",
-   "source": "Tuttosport",
-   "sources": [
-    {
-     "name": "Tuttosport",
-     "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/07/30-150217934/suzuki_l_alajbegovic_dei_portieri_occhio_a_reijnders_e_il_domino_mercato_tuttosport_stappa_l_aperimercato/"
-    }
-   ],
-   "titleKey": "suzukiegravelalajbegovicdeiportieriocchioareijnderseildominomercatotuttosportstappalaperimercato",
-   "club": "juventus",
-   "clubLabel": "ユベントス",
-   "confidence": "medium",
-   "confidenceReason": "メディア評論・分析段階",
-   "headline": "ユベ、コロ・ムアニ獲得「大きな買収」と評価、ゴールキーパー補強も検討か",
-   "summary": "イタリア大手紙トゥットスポルトのエディター ガイド・ヴァチャーゴがユベントスのコロ・ムアニとアライベゴヴィッチの獲得を「大きな買収と大きな買いだ」と評価した。フランス人FWコロ・ムアニはトッテナムでの低迷期から脱却を目指しており、スパレッティ監督が1月の就任当初から求めていた選手。アライベゴヴィッチについては、イタリア国内で若き才能を低額で獲得する戦略の好例として紹介。ヴァチャーゴはゴールキーパー領域において、若手鈴木を「アライベゴヴィッチ型のキーパー」と評し、才能と真摯さを示す選手として注視していると述べた。",
-   "publishedAt": "2026-07-30T18:27:32.000Z",
-   "addedAt": "2026-07-30T18:59:36.236Z"
-  },
-  {
-   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/30/juve-carnevali-vlahovic-mai-incontrato-non-rincorro-nessuno_9f39f434-20b7-439d-b81d-c060d6121868.html",
-   "source": "ANSA Calcio",
-   "sources": [
-    {
-     "name": "ANSA Calcio",
-     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/30/juve-carnevali-vlahovic-mai-incontrato-non-rincorro-nessuno_9f39f434-20b7-439d-b81d-c060d6121868.html"
-    },
-    {
-     "name": "Sky Sport",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV0hlZzNwWEprdHF3anJvMHdXWE1oMnFwMEdMMjV1cnJVbXRKREhmVzNZQWlaRlBMQ0RZenFTODJrLTNUbWI2Nk1tMU94a01RUnNMek9xRE4yWXJra2d0MnNxdWkxYUVpa2daYUYwSWdiV1N4U1VrTFpvbjdKS0QxN0ViRm1yeHJucnlwcFc0VW5LN2pfODFuNUVR?oc=5"
-    }
-   ],
-   "titleKey": "juvecarnevalivlahovicmaiincontratononrincorronessuno",
-   "club": "juventus",
-   "clubLabel": "ユベントス",
-   "confidence": "high",
-   "confidenceReason": "フロント幹部の発言段階",
-   "headline": "ユベ、フロント幹部が市場戦略を語る。コロ・ムアニとアライベゴヴィッチを継続推進",
-   "summary": "ユベントスのフロント幹部カルネヴァーリは、同クラブの補強戦略について言及した。コロ・ムアニの獲得については「最終段階、署名が必要」と述べ、アライベゴヴィッチについても交渉を進めていることを明かした。また、ヴラホヴィッチについては「これまで会ったこともなく、誰をも追いかけない」とコメントし、報道されていた獲得構想を否定している。市場での引き続きの積極的な動きが示唆されている。",
-   "publishedAt": "2026-07-30T18:18:42.000Z",
-   "addedAt": "2026-07-30T18:59:48.094Z"
-  },
-  {
-   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/30/juve-carnevali-stiamo-definendo-kolo-lavoriamo-su-alajbegovic_565582f0-8c09-4ab8-905a-830dea1e4982.html",
-   "source": "ANSA Calcio",
-   "sources": [
-    {
-     "name": "ANSA Calcio",
-     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/30/juve-carnevali-stiamo-definendo-kolo-lavoriamo-su-alajbegovic_565582f0-8c09-4ab8-905a-830dea1e4982.html"
-    },
-    {
-     "name": "Tuttosport",
-     "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/02-150207909/kolo_muani_a_torino_juve_inizia_una_nuova_era_ora_visite_firma_e_partenza_con_la_squadra/"
-    }
-   ],
-   "titleKey": "juvecarnevalistiamodefinendokololavoriamosualajbegovic",
-   "club": "juventus",
-   "clubLabel": "ユベントス",
-   "confidence": "high",
-   "confidenceReason": "フロント幹部の直接発言",
-   "headline": "ユベ、コロ・ムアニ最終詰め段階。アライベゴヴィッチ交渉継続中",
-   "summary": "ユベントスのフロント幹部カルネヴァーリが公式にコロ・ムアニとアライベゴヴィッチの獲得交渉状況を明かした。コロ・ムアニについては「最終局面にあり、署名を待つだけ」との段階にあることを述べ、秒読み状態であることが確認された。アライベゴヴィッチに関しても積極的に交渉を進めており、スパレッティ新監督を満足させるための重点補強と位置付けている。",
-   "publishedAt": "2026-07-30T18:01:46.000Z",
-   "addedAt": "2026-07-30T18:59:48.094Z"
-  },
-  {
-   "url": "https://www.tuttosport.com/news/calcio/serie-a/fiorentina/2026/07/30-150216725/fiorentina_kean_torna_in_gruppo_c_la_supersfida_al_real_madrid/",
-   "source": "Tuttosport",
-   "sources": [
-    {
-     "name": "Tuttosport",
-     "url": "https://www.tuttosport.com/news/calcio/serie-a/fiorentina/2026/07/30-150216725/fiorentina_kean_torna_in_gruppo_c_la_supersfida_al_real_madrid/"
-    },
-    {
-     "name": "TUTTOmercatoWEB",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPemlKSGFvVlNXVEpYeDc0SjctREY0c01OREUzQWdPSFZqNXJCWUpXSWI4TGdmeHhtVWg4MElnQjlrODcxaFBBMmlhUG53dlV2a3lzeE5kS25GLThZOVZNUnVtbzBQQzQ4WnpXYjhFYzhFR1NWdjNHZWNsX3Rqak1vRmpOSTgyWVFCU28zT1hMTW5Ddm1uX1hwaUZwMzVWN215am5LSVlmTlBqSjlPWkdUaTJPUEVzcExRTzZDUTNLRFlJZw?oc=5"
-    },
-    {
-     "name": "Gianluca Di Marzio",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWmJScDAtbmpwN2VJSVdXOWRzUEJjX1lyTjZJaDg3aUFfVHJaSC0yZS1IX21qb2lpdGNtc1pibk4xS1ZoeVAtdUlrV2dMbXJhS0JlSXhkSmYwdDdXNkM3dXNFNkhjY3o0X0FmWThXbEVTeGdTZXAzc3NIN21vS3NRLWVKX2hXQ21qRnRSOFIzYzE4em8?oc=5"
-    },
-    {
-     "name": "La Gazzetta dello Sport",
-     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRFpTd2JsZmJWUkJsZnBHZU1LRGN3X0Rlc3ZoanZZbGZSeng2Mmg4cEl3WWJ2a0MzdU96cW9Sb0o3cDFMdDBWWkFqR3FJZGZ1SHpJZ2lNWnp5ZTZFTjZxWmFLVVl2OVNuM2Vld2JrZl9mVXpLT0puNUI0dER2Zm5sSFhLN1ZIcngyLW1TN19OUW5jNlZsdms5eC0xZGUwOHFiSXk0eGs5V1Y3bDdBY0tlZVJvRmlJSHY4U0FPRDZGcVlxeHE5cXVfZDRudEpJY1hhay14RlNRTllhQUFWejFoTnZZRnhmdTJUTFZONkQxNFZSbjU1UmJiU3VSSVI1SHNkNUJ30gGIAkFVX3lxTE0xWVNGajVvcnoxdFN0TmFNbzFUTC1VRlJSSWVZTEtzaVlMYkpQb3cwLWxtdTdKOUowc0Q3czNGT25zQ2YyT2JjMm9xN2RLWjVTUGs5MjRmOVRZcG9kaDFEYmdjcTdPOEJmM0Zqc0NlQVFhZGctTmd4WnVfZ1dzUnFnTFBPZVljVUlMZ3AzM0xJNmg4OFNmOG1COGtpdGhLeGlkZG5ya1hqdEVhSThIYTN6bTZQVnkwWGlwR2Z0WHhCSENxdDJLMHJsN1pyU2RfNVgwZ2RjZDNjY2R5eGpGRU9DaXl1Tmo0cko1WmNQaTBfVk1qTVQtOFhaQTZpWm9Uamt1d2lnUThOLQ?oc=5"
-    }
-   ],
-   "titleKey": "fiorentinakeantornaingruppocegravelasupersfidaalrealmadrid",
-   "club": "fiorentina",
-   "clubLabel": "フィオレンティーナ",
-   "confidence": "official",
-   "confidenceReason": "メディカル完了、契約署名済み",
-   "headline": "フィオレンティーナ、バルデペーニャスが正式加入。レアル・マドリードから8百万€",
-   "summary": "フィオレンティーナがレアル・マドリードからスペイン人サイドバック、ヴィクトル・バルデペーニャスを獲得した。移籍金は800万ユーロ。バルデペーニャスは到着当日にメディカルテストを実施し、フィオレンティーナとの契約に署名。テディントンのリトリートに合流し、土曜日に予定されているレアル・マドリードとの親善試合に向けて準備を進める。一方、主力FWキーンは復帰し、練習に合流している。",
-   "publishedAt": "2026-07-30T18:01:23.000Z",
-   "addedAt": "2026-07-30T18:59:48.094Z"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaGRpRXN1cnRhcE03cEU5cy1CQWRHZF9GWnpRdDJUcWVuaDlaaG9MQ0NiTHNTVmF0MGVqMTAzejNUZUVUekJ1cUkzMGZFLWk5YThMcW1GQ1pmYl9FQmIyUjNRX3RKOG1wX3VlNkpvWmFtZXZVdG45RFlNa1pFOVNjMzFadHNZTnE5TzYzbXdJQzRnRHdZV01JTGtKT3Y2a0pv?oc=5",
-   "source": "Sky Sport",
-   "sources": [
-    {
-     "name": "Sky Sport",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaGRpRXN1cnRhcE03cEU5cy1CQWRHZF9GWnpRdDJUcWVuaDlaaG9MQ0NiTHNTVmF0MGVqMTAzejNUZUVUekJ1cUkzMGZFLWk5YThMcW1GQ1pmYl9FQmIyUjNRX3RKOG1wX3VlNkpvWmFtZXZVdG45RFlNa1pFOVNjMzFadHNZTnE5TzYzbXdJQzRnRHdZV01JTGtKT3Y2a0pv?oc=5"
-    },
-    {
-     "name": "Corriere dello Sport",
-     "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/fiorentina/2026/08/01-150258980/fiorentina_c_pellegrino_se_kean_sar_ceduto/"
-    },
-    {
-     "name": "TUTTOmercatoWEB",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbzBZRUpkYVZHZzIwcDN4bHpnTEhvaHY3MW1YN3cyLUo5eHZEMzZvdVhKel9ERXoxZEFuWUNFc1lxYmRQNU1odTNjR0ZWWExkWDRncm5HVkZNQThCZHc3OEV2aHVOR2JDd2ZlVDM4NnpLejZjRk14eFlORHN6cHJaWXlkVGF1OVlYVlB5QU8zWmdjWDRZQ016Rkc3a1lEb19mLTExOU5DcktyQ2lTRERTSFJFMA?oc=5"
-    }
-   ],
-   "titleKey": "fiorentinainteresseconcretodelcomoperkean",
-   "club": "fiorentina",
-   "clubLabel": "フィオレンティーナ",
-   "confidence": "high",
-   "confidenceReason": "本文未取得、見出しのみ",
-   "headline": "フィオレンティーナ、キーン獲得へコモの関心浮上",
-   "summary": "フィオレンティーナのストライカー、ムイン・キーンに対するコモからの具体的な獲得関心が報じられた。本文未取得のため詳細は不明だが、イタリアンメディアSkySportが報道している。キーンはシーズンを通じて複数クラブからの関心を集めており、今回はコモがその候補に浮上した形。フィオレンティーナ内では市場戦略の動向が注視される。",
-   "publishedAt": "2026-07-30T17:29:27.000Z",
-   "addedAt": "2026-07-30T18:59:54.625Z"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc1B5QzlTYWxXVzdMRG44YjZMa1pYRDlELTEwcGlyRTlJTFNyMUFlaFRwdlV2Y0wySF9xQ2lHeGtLbC1icm5TeElKZ0N2M3pKd2I4YWJSNWMzTmtnVkpBT2otc1E2TnA3ODY3bHhNcVRGRU03N0tYSDZNRkZDb1RfMkNvNlFiTVZZSk5XVzN2MC05ZHVmYzluOWNyWm9tUmxSLXlTSW5jWUozU3FDdS1LRlk1Y0h3RklIM2c4QjBPWUhTNHhZek0tcFczS3BDMHBtdGt5TkV3cWF4VjdHdjdtdA?oc=5",
-   "source": "Tuttosport",
-   "sources": [
-    {
-     "name": "Tuttosport",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc1B5QzlTYWxXVzdMRG44YjZMa1pYRDlELTEwcGlyRTlJTFNyMUFlaFRwdlV2Y0wySF9xQ2lHeGtLbC1icm5TeElKZ0N2M3pKd2I4YWJSNWMzTmtnVkpBT2otc1E2TnA3ODY3bHhNcVRGRU03N0tYSDZNRkZDb1RfMkNvNlFiTVZZSk5XVzN2MC05ZHVmYzluOWNyWm9tUmxSLXlTSW5jWUozU3FDdS1LRlk1Y0h3RklIM2c4QjBPWUhTNHhZek0tcFczS3BDMHBtdGt5TkV3cWF4VjdHdjdtdA?oc=5"
-    }
-   ],
-   "titleKey": "yildizebremeringruppojuvedoppiasedutaeccochicisaràcolnizza",
-   "club": "juventus",
-   "clubLabel": "ユベントス",
-   "confidence": "high",
-   "confidenceReason": "練習参加状況の最新報道",
-   "headline": "ユベ、イルディズとブレーメル練習復帰。ニース戦に向け確認か",
-   "summary": "ユベントスがダブルトレーニングセッションを実施し、イルディズとブレーメルがグループトレーニングに参加した。ニース戦の出場可能性が高まっている。スパレッティ監督の下で両選手の体調確認が進んでいる状況と見られる。",
-   "publishedAt": "2026-07-30T16:43:51.000Z",
-   "addedAt": "2026-07-30T19:00:06.825Z"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZkFYRUVWRWQwdmx5bW5ZbExnZk8xS0h5RkhpMEZaSnlURmw4ZmVKUE8zcTRibExxS094R1NCU0VCdUhJZTUzMk85ZHhuSWM5OUo0cnJzWXFUUS1LMmJZcjNqYkZqNjBQZW43bG5EWU5TWFdzcTVaVEpMbl9DZElZWWQ5N1pPeDVnUkdyX2dnTGJCUk9hcjY3TGNpSjJkV0FZQlZfRnE1dndfZjUyaGdVa2R4SQ?oc=5",
-   "source": "TUTTOmercatoWEB",
-   "sources": [
-    {
-     "name": "TUTTOmercatoWEB",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZkFYRUVWRWQwdmx5bW5ZbExnZk8xS0h5RkhpMEZaSnlURmw4ZmVKUE8zcTRibExxS094R1NCU0VCdUhJZTUzMk85ZHhuSWM5OUo0cnJzWXFUUS1LMmJZcjNqYkZqNjBQZW43bG5EWU5TWFdzcTVaVEpMbl9DZElZWWQ5N1pPeDVnUkdyX2dnTGJCUk9hcjY3TGNpSjJkV0FZQlZfRnE1dndfZjUyaGdVa2R4SQ?oc=5"
-    }
-   ],
-   "titleKey": "fiorentinaranierisuinuovidragusincresciutorispettoasalernovieryqualitàimportanti",
-   "club": "fiorentina",
-   "clubLabel": "フィオレンティーナ",
-   "confidence": "medium",
-   "confidenceReason": "監督の選手評価コメント",
-   "headline": "フィオレンティーナ・ラニエーリ監督、新加入選手を評価",
-   "summary": "フィオレンティーナのラニエーリ監督が新加入選手らについてコメントした。ドラグシンについて「サレルノ時代から成長している」と評価し、ビエーリについても「重要なクオリティを持っている」と述べた。新加入組の適応状況が良好であることがうかがえる。",
-   "publishedAt": "2026-07-30T16:30:12.000Z",
-   "addedAt": "2026-07-30T19:00:06.825Z"
   }
  ],
  "seenUrls": [
-  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZGVST0NzMDRGeG1Dam9VNXdQU1JEVU0tSHlucTRpUUlfMWZsOUh2ZWJsZERZOERTTnNKd0hWSlFYTFZpSkk0MHRZZ1B6WXlwdVNramVHWlJPaGJpSEhuNF9CUWdld0g1V1JLazVzYm9nVnE1Y1ZsU0otZjh4RUpuRG5CeGg?oc=5",
-  "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNHpUTkZlcjA0a0FzbzBWWUQ0b0RhcEl1WWx4SWhNVzVQV1ZZekNtWGJ1elBRcTZTUkoteHN5dVd3dk9mUzJNZlNhSlFLWTJ3d2ZwUDlUSng3OEFWVE1QMlBla2Q3T2p5bUJDQzlpSlJiSnJvc3JCOE9WXzlvMGY4SXd1SkFwbHdiRUNDOHBNY1g?oc=5",
-  "https://news.google.com/rss/articles/CBMihwJBVV95cUxNR3RJeDFoTEdmc1lBVmx3V0ZFaUU3RF85VEctMDl6c2xHY3dtcWF2YWFoTFViR1NEc2NqMWxfVnVzVmszWjVtdWFIRE9oOTkyOVlORGV1SVhEbW1QTjZLSGd2TjRKOTA5N0hIX0lSTXR4Q2tsb3JxUWNoMW1mQkxnWXZLOS00bzlBMXFLZnNHRXg4dTlXakNmVnNDZEV1S1dXSEVUSDZKLW9SZWc3dFhBYUFPa2dHWmFTYlV5ZGpRRDFiSTBsUXFicjFNblF2ZE5sUU1uaWZtbVUyWk5KUlBCMDVVMUxKem5OdFFpRmxsOGx4QnZsU0pRMTB2WFBBU1lnVk5lcGVWaw?oc=5",
-  "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc0xqUWpxUE5Hb0txSlZNYnJUZ3dCRTFUNHk3Q2ppeHlYVmhSWHBSVlV6dE82cFJ2azBxdW5wTV9wZFJkN05SU0dHMm5CSFlLQ2dUOXhDM0E3NlEzZkh3ZzF4RXZPTmt5YnNPWWVFYkdDc2w0VFNDX0J6LTMzdzZfb1J6SklMTkpHcndmTVBJV19LV1c0SFJHSHN4akN6ZDhBV2JUU2tHV1hZaVNlNUxwaGFuUGZ2MnQwMWNWZg?oc=5",
-  "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOUp1dDBkeU01eEUyZDRjNHpOTkJFNGJaOTJPM1oxYm9rcGVCYkdBbUE0S1dmcUZCa2FfQVQzWFh4bW52Z0Rfb2lRUVozZG52WEhGUzVKYVkwamlHWTdrYWl6T1N4Umhua0FuMEE5UEVJWkx6YnVkWUdFc3NXVXFXbTVYcGRwYWNfTFEyUFRpMEhGTnNDX19FUFU3Y0N4dHpqeE5TRXpiOThPQldDTVVVYnRsYmdqWDRsTENYZy1nRGFxSUk2cnU1N2c5ZkpvcDjSAdQBQVVfeXFMTV9palI0dmluUG05MkxRRlU0QXVELXNCaWNxSUliSE1Ham5ZNFNXdFJvRDlNczhrZ2JSbEJwUVVXdHBja0RZb1V4WEtKU2gwSjRSQkIxZ3VoVGtaTjFvUFpmd00tUHlod2E3Q1ZHQzFtSE9DMkRJcmpDVDlXYTlqN0hxVUJQWGg4ODRhNTI5OF9WMk11MHFXYTFnc0pFeGRGZE9EaDg5UU5wZ1JBY0NSNHg0c1NOdjV2Mk9RLVU2ak9QVmczZ0dTeDRKSjdJYlpTeFdqcHQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONWRzeHZQNE5iUkFZTGhoZ1ZFdk1IdjRXTEc5cE9NLW9jWkY1NUJsbFpKeUpIM2tGWVJyUmJNeFB6VnRicm1CLWp4ZTZ2RmFJWXVjaHYzRUpCX3ZkTUtIWDVzZXNSSDBnNTVnRlhFbWpXbzRDUXpJWHJvS043ajRmVXcwaEhJVTQ4Z2NOZ2ZxelhPWW9mbE5DXzJLSHp2OVcxMUh5ZkpuVFpJNDFkbi1ONXlzaHZFRWsxbjkyQXFRUmt3dXJCTTI5cFlHTnlKbkVaT1gwOGt0bkFsR3dF?oc=5",
-  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ3lfTXc5MkJXeTh1eGF4dzZKSGxlZnZTQUt5S25WamYtUXJEUHNFYnRCR1dTeTZoTVJMbWFMNzdKMGtma3R6bzY4ZE8ybGo1c20wcDJTcFA2YUhjTG1fZmxYS2RWTldmRTlfaWJWOFBuU0NWdUFZZ2pOZkVKTUJCSzdkT0hJdExzWDBvYnRTOXFObG8tWFpQUmIyeWtMVm92cjN3cWd5OEdHa0JzU2dGR0hOakdCWVFhWEY4ZndwTHI2QQ?oc=5",
-  "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbHhhOFoxcXd6ejBxTG9xQ01IUDA0blpLNE54ZlhPYmtGSHFKdXMyWGo4UE1XVkdpMnRlQTVsUVByb1dWWGt1MzNsUWlXQWg3QkpqSzZkMkVVOEtBemVxdGJDeTVhQlh3MmVQOWhzX0oxMjhjZXRQMm5rQUpHWmx5dXRmemc3ZmtMUVRZdzhGQlZ0Q3ZHeVViZmVoUENvOGR2SFhqQm9DZF9yNE9TdTYwUnIzSzBHYVBmaTZzdw?oc=5",
-  "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3BlTHZ1NEFpTEQ4M0xYczJ4WlJyTUxMZXQzZklOeG1Hci1vWE1vc251Y1JVbmxDajhEQzFlWkRHazBEVDVsc3lja2dKNGNyMEVBSnJQcE12YzJzUFlFT0NENG9MdEFNbkMwNnB1R1BTS0JPck9lWVp2NmtpMjliYTBCUjJDRDdQOXNOWklEaHJaMmFKMlB1V3hTa3pjYVZuY012Wjk4MW5HdlA5Z29KOUEwcXZIRlFVakxGSA?oc=5",
-  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOGduOFFkY0RraTdVLTluV09KTkI1em1qUEpIQjEwUjhQM1dFdjFORlVkaHA2bm1CNzJjVkd1ZmRSTGx4RXR3ZnJEZzJhNmE1UndSY3FTZXBMMkFOWTgzaEtld1hQd2JJcnJCZGVYOUNLcm1FOW9ncDZtRk5EWE1Fb19wUWN5SWU2dnk1YmVybVpleVRYS0EzV1RYMDdLZWNVNU9ka0RaYzgtb1VnM2RzZDZVYnVLcWhNVEs2Zg?oc=5",
-  "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUFp6S2FkWS1ZVDFaMlc4RVhoLVJfQ05CTDRuaEpxektuZkdDb2tOTHd5YWxhMnBQeTVGU3U3T2VwWHVacmk3ckxCSmJ3bkR3aGwtYWE4R0p0cmtVcVNfSHB4Q0Q2MUZBQ1NNXzNZdDhob2NoOTRyalIwaU9TaEpnOEtMZXc0TFNwelRQLVltS19FS0RhejlpUFBWOGxRVm1HUU15V1ZnaVIyR0pBZXJfWmZEenUwUnJVdTlsZlBHVHduQVNvd1cwTXhkSTdWUkxpSUF6MHFSZG1JSTJPLUFEYXVWRFhha3BxckZxa181djLSAfABQVVfeXFMT1BaekthZFktWVQxWjJXOEVYaC1SX0NOQkw0bmhKcXpLbmZHQ29rTkx3eWFsYTJwUHk1RlN1N09lcFh1WnJpN3JMQkpid25Ed2hsLWFhOEdKdHJrVXFTX0hweENENjFGQUNTTV8zWXQ4aG9jaDk0cmpSMGlPU2hKZzhLTGV3NExTcHpUUC1ZbUtfRUtEYXo5aVBQVjhsUVZtR1FNeVdWZ2lSMkdKQWVyX1pmRHp1MFJyVXU5bGZQR1R3bkFTb3dXME14ZEk3VlJMaUlBejBxUmRtSUkyTy1BRGF1VkRYYWtwcXJGcWtfNXYy?oc=5",
-  "https://news.google.com/rss/articles/CBMinwFBVV95cUxObkZGbVFlVkVRNnQ5SHJDMGJVOWZvN09ia1FlX2JJemFWYVNXd2JGd21qQVBPWXdvNW1GV2pCTGZ0b1FtWXIyNm1Ba3ZMXzE2aE5RUUZkWk1Kd0pEMzR2ZUJmMHkxdDZ1NTVkT0tTN3hKOXFOdEN4TkxZMGc2YWY5VWlYUjhwREktMWxtWTlFVENfUklPaDJJTTNUcndhZ0U?oc=5",
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVUUwOFgtaTUxNENYeUMzdWpwa2dnSnhjSTBsTmhMb01wdXhsMk56cE9kZG9xWjhMYURkanUtbkV3aGlqdVZaRkxCdzRIUGNKYzRPN1ZwdEpQNEo0NmFmVVBuMHVtcEdrVWc3RHN5WUJnRGJmWk9jOWt0MHA3em5LNlQ4aEdfZERWMWY1dWJkbGRoaWR2cEk1LVlJQkZmNnlSNG44?oc=5",
-  "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQzYtVXVNM2QwalRkNjh6MzNISFZqN1ZaOWZLTjd6TzdkNmdnbURESFZ2eVJnWjZUaWVkaG93SWZ3WmlUQU1fYkU4RkV5ZE8yclA1MzdyY0p6alFMYVE1SmtRZm05emsxU3FzcHl5YlBIaDVfeG5vMnJ1eTJ0MHdBYXBnYU56UzYwYXl0LUNtYVZsNlEwbTFtRUdJX2hqZDdtcHpVWTkwSVUxS1hFSmttamllemZvY0hWbU1YUE9YbFotb1lIdTdzWGs1RkJoYlhkUS1TZEQ0anV2QzVweFVMVlZqMEhkUmPSAeoBQVVfeXFMTUVMdE1MdUhUQVFTelNaZnUzN3FUekgtdXJrVldNSlYzZjNqTE1NNUMzbmdrNmJ1bG9acS1xM3BCQUIwSmxWWmZsLXM3UmVHanphb21NdFFRajJUOEJxVUZiMGVhWEhldUFNM3dWUnRnTUVHZUlHdDRtMzJhNDVfby1kb3J3bWdaVmZwdmVNbUIwdU5TNXpiU0dKQ3FaNGVUQW1iMUg5N2ozR3ota3dJYld3SG9Bdlc5Q09nbmlLMnp3bWM1MS1EUkd0SHZxNjhjaUxXbHhyQ2RYckdKeVpEMjdNSF9TVFRaQWVn?oc=5",
-  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV1RlS2IydHNVVlduSHJPdi05VVVYbFU4dlV6NjlSZjdIdFppaFBYa1ZYaWp2b0FvN0lnZjhfLTd4S0VoT0I5LXlaMk5nTzFWZDU5YS1UV2M3SGEzMW95by1LX2tEVWVvV2hvN2Njb0xod3oxMEY2ODN6LWFhV3FESG1wQ2FWV0Z4cXlxZkZ5WUlOcDUyN056eW5NNDAySmJPMWJ3am9lOFNFbFJDMVVNVFM5TjlLMU43OFdqak9vekJGS3ZJeXVOQTZUR1FHX3RxUVhaU2Rn?oc=5",
-  "https://news.google.com/rss/articles/CBMixAFBVV95cUxONHBHcUJSX3ZMdnlicE5pY3FZMWtMNjhTbUxPbHpQOFdqN0VqdFpsQVNUb0lkZllaUGoxM1dmczY4V2pTZE1jUXRXcGIxQ1hYaGl1UXgyc01nWFVRREF2VXZmbVdrOEtQR0ttempCcnQ2SjcwN1hhbnlmVWNISVBDQXZkeV9FSExIWXJrTW9XempSRGhHcG9vVmMxMUxBZ2hSb1NqU2pSd2otOHBEMmlNd0tHWTVTQVZFV2p4a1ZlbWp1OFJx?oc=5",
-  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQXzZTTzd1cHdGYWVsRW1LXzI2UlVnazZpR2RoWWp0RzRXamEzYnIwSjhfMnRaaG14OGNMX3hrSWpHRkY5R0dRZWxsWTBPcVdJSUZDX1pqcWZPaXhBR2J1STZYRGlzbHNadC1zWE9SVmRBeTE1THVoSDRUU3dHUGJSU3EyTTQzUHNtcVRCeEd3WnVjaFItaEhFSV9EaFg3M1ktdXVwVHhHY1FKS2l3c1ROQUpZeUZRaEl6SVpaR1lwZnJTaWx5TWM2TzJFXzk5OUJjZ1lWYzFVUTV0QmhjeVdNUzF6eWNQTDlCTjZVV3J3?oc=5",
-  "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS1NjMS1wZUJUZmdSRzhnYmxHTDM2VEFFQnNjd1owZ2MyMFlkNFNwZnBHbkxETFgtc2FTZmVnYllRNC1rbnZpWFROQ3ZGQ1hSdVNPMWNDd0hhWHZ1NktvUUNjMzVxX0RIMUxqdXlPcFAyeW9lOXVxSzB5d0EtdXViNWllUjBKV1NSZkxMTjhOTWw?oc=5",
-  "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPclJiRVVVOXFwcnp4ZnFPdzFhMjVzd2c5N0t3TFJMQWEzY1FZZVlOdlBWNlhuVWFqQWJpcXJNV3lIUjNNb2xMdWhxM3NwU2lGT0NmVWJmS19CdmVPbEp1aXFpSXB2Z3JIYm1BVy1JQXJOYWwyUTMxOFpYUWx4OFV3NFJwdFAydFNLX0l4MTRfODRlSlNySUNhVldNekZkclVaeUhwcFEtRURoRUQ5M1lIaXRMcl91TXdTRXpmMXhqcmdkZ1VIaFNfcTJFNmcwbEJjWDU4TS1QMVBVamlhNHBYSVVSRnlaX2E5OFHSAeoBQVVfeXFMTUVMdE1MdUhUQVFTelNaZnUzN3FUekgtdXJrVldNSlYzZjNqTE1NNUMzbmdrNmJ1bG9acS1xM3BCQUIwSmxWWmZsLXM3UmVHanphb21NdFFRajJUOEJxVUZiMGVhWEhldUFNM3dWUnRnTUVHZUlHdDRtMzJhNDVfby1kb3J3bWdaVmZwdmVNbUIwdU5TNXpiU0dKQ3FaNGVUQW1iMUg5N2ozR3ota3dJYld3SG9Bdlc5Q09nbmlLMnp3bWM1MS1EUkd0SHZxNjhjaUxXbHhyQ2RYckdKeVpEMjdNSF9TVFRaQWVn?oc=5",
-  "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUWRNRF9rZTVxWnN1MTg4RWN1d3Nwdmp5c3VQVF9wNXF5bW5Fb1BiVHVjVFZQRlI0Qlk5NFpqcXB1VnA5c1UwVDZfUnZGV3pINE10dUZHYmdWZUszc3VhcXVmTzdmUFVXVHJTaG9sWGJJdEhKYnpoU2Z6ZFJpV1JjZDR2UGF6YXZzRGE0cWMxbTdRU0toLVZUVjgtZjVGSWgyOS1NUU9wWks2Zjl4SlJlMGxoODJZejhJUkt4YkhELTJQbkNFSzRrTVgteEppZ1pFMzVFWE1WZnE5UzdSbUE?oc=5",
-  "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZDBTOU42VTFSMF9na2l5Z19jTUJCVklnbXA4TE15UE9GRk1kcjZZM1liY0c3SUJlRXYtb3c1WUdYYkwzaF9UQll5eTFPSmtMMnhXLUZZaXZHalpkZVVpUHlGN3l3dXo5ellZWW5sMUJVOWUtdUNMMXB0aWk0cU05MEg5c3FlZ1UxUUZmZVZvZFlENXNOMDd1WlJ3T3RsNHIwZUlua3hBZnZad2haLVFEdHJXRmF4bE5MZFUtejMwR05RZ1JrNE4yYnVCcFQ?oc=5",
-  "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSF9BbHozTGtQcnpHdVJ3T0tnc0gwUDRWcHkzQ3VIWEQyZTdEMVpHTmtYZ180V29MLXFiMVV3RFVMc3lnTFhldWF4OUpsdDNJeFg4TXVFRkFxWEtXeUNxRmhQU0xWcTRVa1g0ak9oNURuTUlCMnRXQjdzdEhMbUJTUHRpLVV0dktleXVNQ1ZVM1U4UWd2bHZRNEVJSzNGMlBOQ0RQaHZwQzhpQVBQcWJuOUVfUUFWWnA3RzBKR2hB?oc=5",
-  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMGcxTHR6aFZ5TG5lMHlNMVh0Tzd6WmozU0h4aW1uVTdEdEVwUHI3QjhGcW5Gcm9SdWluVUFRQkMxdXh3b2JVZThmU0kwRDVYbDN4YTFGaTY0TVB3eVlfU2dQMEx3VTVnUzVHSGFyZUdsT0VJMTRqTkJGVEQzLWptZlBuQlZSMVhMYmNnMFNqNm12aWJzaDhpby1FR2thcE0zYVZyaC1Od0xYMkxwT1NwbXhuZmRfRGc5eHVPdFpLd1pTM2c5SWVKVlZwRGNRTkIyRFhJWndiNk1tMmgxN0lDZFlDRUluc0R6MjVNdnFtdw?oc=5",
-  "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbTFCdVBVRXlWOEVObmY4cUYwRm82MXppTEVsc3FMUnZ6c1RDSjZmUmtnNG9kaGNuMVE5MUR1cEVzdGlQYTE1c1lnanBJWnQyb3lmYUFwTWplMXB0SDF5VjlHVHp2YXF2czlQZFFOdnBsTXlZWUc4TlhLdWRLSUE2RnRwbw?oc=5",
-  "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUGd2YUpKSF9jQ0JIbVNMY211MFM5bWxPRTdQZ1hiZWk5X0FwMFZRTEV0b2pGQ0hfR2lWRzNGWk1ndGR4VkV5aVZObDhIM045dWlFV1ZJX2M5M2VpM0pfUl9EMGRyUExvV2dtQWY1YjZMTTRucnkxZkctS0FoamxUU3g1Qy15Qm0zcXBoVThnc2M1cUU5RDVHRVhnWU5OR3o0U0djQlJkcDkwY3dQOGNXZUFhLWpQb2RvaTM5NVh2ZDB6VDRLVERodThsdkJJZw?oc=5",
-  "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbEhyZGNEdTRrdlc4YWI1STlpbVQxWmpkckppQjhKTlpseUNIcVM1MkhCOGJVZXR0M3BtTy05bWs5OV92Y0pTVHBqTHVfZkhQcEZFc3BxTDE3dDV3WHJnckNkRjZzczN3aGRLM0xQR1d3WEwxeDMwMC1iWkR5NkRZNHppVjladExHNkFSUy1ZZVNaekN1eTlHTVFWUWs4UGlJWTBoMmsxWmkwRVNjNldub05xLWlLZGJqR2dNU1V3?oc=5",
-  "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbjJULWdpUlhNS3g1ei12OGNWT1lzY25DU2lFZkxVVm5pU19tQWVQOEdSRVJ5WjBZVTJoZlplUHllaTVpYzhDOS1fS3BWcEtxdUMyem9UYWxHb2VxRERCcHNsWlhoNFVWUWxZQ1lEeVl5R1Z6NHJCZHRvNWJFalhQaE1ucGtZSmxzclBiQ3VaMENFNTU4UTZ4YXpPUmZ1cjVwRVBNTVVhTmJ2Sm9ZdmdWRWVBU2Q5bGJzU3ZCTjZnWWxKMHdab09Nckc5VzNOdGpRYWp0NXBRNG9aWlRhX0hxMDA0N19VWFBQN3Zz0gF4QVVfeXFMTjh2ZWgtd1lCNmtlclFablB1MDM5ZExTeE5fTHBCQVBiS3o2X1BRUGNJWHN2ZmQ1N2dQUnpSRjFfTEJIdkp4NmRYa0hfMjdjT0p6bjEzSUdxSHB5bW8tZ1BDWDJKNnZFUm9LSWl6TVpacGdOckM0Z09m?oc=5",
-  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOR0x0Z1RQSjlkR3h1VXE5eThPLVAyc0xlUDlFbVB5VGgzZjVmRDVjMHFWdEVOVl85Smx3OEFsRkZhcS1yLTJQaVVlSE1wNWJJcXhSVTFkWHRLb1dHdTZFYUt1bWxFR21uVzIxQlhCaHRoSVZLRG1KRmg5VHBtTC0wR3lnY09oMGRra2VleTVrZzRVNHVVeFctRlhTYkV1R2dTeGlYNmV3ODZ5QlBteEJyZjlPTHBNb3hCb0tCYlBoLVBfcjBwT0FVU0hmeW9vbEpja21GSDY3eUN4QWc?oc=5",
-  "https://news.google.com/rss/articles/CBMihwJBVV95cUxOZVY3eXRKYkRkaHFVQkZlYkNoc0pHbUplbHFvMWpFNTIxb19aZG5BbXNVUHNVSHhfN3V0bDc2eUlnU2RRYzBXLWhKTmNrUVAzQ2ktLTVMbk91a21zeGZFQ3NQRW5ndjBQbkt3YVlSWkV0MUpJTnFBbEZiZEtlM1ZyYXJ1bi1YVWZNaDRpV3gwMEx0RUMyamR6ZWpmcUFlMGJUZ1RTcUFOMlMxSHdOQW5xY0NNbVpsM21wMGJLU0Z0V09RYi1oSy04OFZaNUFyRTVsU01fRkxZZTNIX2t0bDJlcTlzZ3BHeUpNQVVyOVJzWDNqUEhUa2ZzMWxfUzN1RHpwU2tIeF83UdIBigJBVV95cUxQbnZtWm1FbFhTUUJrTDZYWThMYkRZcGhYUmFIekhXQzRvODBEZEFSU0F4TXdpdlBmWnpGakQ1VTh3YnVZeWpFVVlxblhrc09iLWlrN3h3SUpkd09EeG5Kb21iWk52TFFGaUE5RWFmVXVoejBVWVNmbU5xRFg3M1ZmNWlXZ3VHNTZ5anNkc1otNkoyMk5JX3cwbHhZOXl6V093bHV3Y1BQSV9oay1hT3RSdzZaSjZHQ2xGSVV0TVgyX0ptTDU4X2F3dmFuakR3WWNoY0x0M2R3S2ZnZ1hvbHFaNTc3SlRjSG52S25jQWdRWHpYdXlvOC05TUdkYlRzRkMtWmRMelotUkl2QQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTlhuWEJLa2pzdWpIajJ3SDVKaDNacTdRQ0dwaHhCNzJuQ0lGYThjS3J4OGtZOUFiSVc4VHdrNDFyVDJ1ZUdGWklLNTZtVUtqd2JPcVN0ci1ubm43UUNJXzhRSG5UNTNnMGhmX1lQZmRjREZjd1d5Rnd0TDUyamU0bW9VOXY0aWVrcnpHdDBFTDJoblpIQ0kyazUwR0RaNC1SbXRUd1U2UlFac2d4RlNhc0dTMG1lT013UUtNbC1zUWxxc3FIQi1CZEdTNkZfUDRmaVZWT2kxTXFtaTFLR1AzTml4ZTYwdnVqY0t0WE0xcw?oc=5",
-  "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNmQ2dlp6NHpKMXN3VzN5dkpmWndLZHlWWFpySUo3STRiZnlxWm1sZ2xoVkNmRGkwTmxoRTExTWJjSmxmYWctNk1CR3VUMlBZYTNmUEhHSHZqUFNUbWw0emtQQkd6T04ycS11TFRJOEZBTE1VdE1OLU1zM1Bwa0otVDFLc0JGZldKQnZ4a2dnMUZDV1FpYnhsWndtQ21CNDV2NWI2ZloxSlltSjJUZjhMVjV4QTl6alJWU3pxRWM0U0dnZnpvcnNnc2VvdGRWR1dMc1VHYUYyN0tya1ZkZTE4VDRkY1BZcm9mQWhuc2M2dGd5YWpGMzc5M09TQ3ZQMTBvclNZ0gGGAkFVX3lxTE5KMkFVY1Z6cGU1YzY5d2dnbUFQX2F4SWJ3ZlpZMzNNRlotWFlMWWhrbjhYYzRTQUphdFFLX0I1TUQ4cVFVaFlDWmg1VmxXU1U1dnFZdGx4UTN1cnBWWkw2V3VyZ2dkT0ZDUHF5Y2Nma3hveHR1bkppZ1NaZHVOTDBBbTVBNS1JaHpRTXUxLUpWVkFFSWdRY08teFlSQnUxNngxOG1xNWJ2aGhTTkdTb0ZIMzlVYktRa1BYclNsdmIydjFIS0h2VzEtSGFFXzQ4N3N0MV9oRHI5dE5SWG5iVnV3TzVpR011Q0hTWjl0WTZTWEFlNDZ4SUVKWmdmMmlGeWRKcmJKYnc?oc=5",
-  "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWm83ZF84cHVSM1ZON29mR0M1YklTdlNJRnpMLV8tdy1SbTBJdzdRRUFkWmNOcEtjQk1RNHJlQ0liSmNhYmtXdi1lbWxZc3JkRnk1VXNmN2lrcHAyN0I3b2Y2MDFpWmZVdzJiMHYtSm1fbTVMZW00WHdfQUNBMkJFVDhkSXZGd2IyUGl1RXNJdGR0enlsQnhjMTlTWEFjOGY3SUJBa2VtNA?oc=5",
-  "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSjAzdWV0cnFMbmVLQXNrN0hWbDN6RGtha0NveXY1WFZ0M1VLd2c4THJSbGdLMEx5SEVCZkpmR3d4WWd2LUtpZ1MxU0ZMT09lZHVYbF9YaTRXVlh6Z0NvM243Y1pOdFdmZnByQUFabk45TGdrTUJaeF9jMzFWX3RRUHFWTUljck80blJiUlZCMFVKMWV3ZTlFdm1oTEx3NExPUzVGNUY1bkdjcDY4WnBIMzJqUkZIMG9LY2IwN2xxV0Y1VzRxbVNlMHpCYVV3aVEtRlFvRmFtS044WUs1Sm84Rlo0UDFFcU9qTmk5eA?oc=5",
-  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcWFrMlFqZElWUlJpbUFObzdWc25XNzRUaTRIUkxCOHVPcF9aY1BubnpVVHh0NUFDQ2RRYXZKVTM0dkR2czZ6dVFaODZhZXhFRzZveTBXZTZhckg5bXF0d2xDV1hVSXdMdVpiVzRBbTUzMjVUbi1qelhkZ2F6OTI3ZHB2Y2hza3U0UTZiazNwRnBvdGNydmxlSnV1SFFYd3ZubUtFV0I0TG5pUXdhbUczM3ZITk1zOG81MDRyR3U0Z1lRYUt3RGwwTmV5ajl6MDdaMzEtMGMwc2JiNk1uR3U1YW4xS2tTWHRQbEVCeU9GOA?oc=5",
-  "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR0czTGp0Q19MWUtja0Q2RTBpZ3BrQ0VLSHFndVN6WVl1YU50QWpyV2x2VDVkNlpZUVd0UFB5LUNwQkVON3J2emJNdzQzOWpCbkIxd01ma19BTVlnWWFvYlhXZTlQWU8xckFnRm9fbnRCWmNRYjRlckJhMkpwVEp0dFhpd1dVNy0zVnVKSjNCQnJBX0VkVnZvU25hM28tNERJRWFxeG94cnMtNmF1bkt1d3VvY2lsbWVDVFk1MGxhLU5SbkUzS214VW1RSVlNSXhWRFpERlRDdkE1VFJqOXJRQ0NuU3laUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMikAJBVV95cUxNbEljQkhtMUhmemcxajE2TlludkxraElrNHpwSG5veFBtYzgwZHg1UUN5NlNDZ0lLZ2M2UzVTNm5NOXo1UHBHR0ZyVFMyVkNfMzBEbWdZMXJpWThGNGZ6aHNzX0pVV0J6QTRmcVRZdDlIbVhlTHhSd08waS14cmFUdWdqRVhXUnlITWg3VWdUTENPclRRVG1LbG8tNnVPT1YzbjRaMlFsQ21CSG56c0hETjZiMlBMRENEY0RoZ1pJVTBSTnBXRHNVYXZNUUYtWGtGV1ZSb2NwUXRqVmlmZUhDdUV2SjhjemJOQ0RoNEduN0FiYmZNTkh2Mk5uZTdjbzB0Wml5UjZsVmUyZEg5X0VmVw?oc=5",
-  "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOcHZGQkZjY3JwcjRtUlFOaFExMzV2THc2SE9qX3I5dGxnc2FMR0RZMHhmSFRhVE5fVDVPbHNZZ28xUTlQdFNjUFcybVc2aWZPTHh4eVI4SXZaYnR0OXNfeFp2WW5XR3dwRHBOaVVaNTc5emtKWUJGdGdqeEg3ZFotTzVIN1dkV2NNMHh0cGU1blUwbGJ6MzVsb1hYRVYwbElyUkdhUEExSk42UDlSd2x5eUoxNmFFZFZSY2RUREx6MmRERFRxdTFtQ2pJZDhJWWJmYl9oUkQyNkFVejQ2ZkNRZXZUM00tYTh1UEs2cU9ZdndZQ3dKSzRXeDJHSGhKZXhnMG8yNnNvbkZQNzA?oc=5",
-  "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQYk15ZDJ6Y0lGaWFmeFJBd0d5TTN6ZThDYXdKbW1TeFZlSUs2bkpwd0dtb0pIYUo1VUJGWmlfeVJod2Q5N1VKTkhxTkRhcWlJN01OcnZiRDRlbFhEWUkyb2FUMmZRbmpiMFRSRmVDSnhnOXVKNEp5Q0lndjJiTjlmRzBNVmMwLTdfOVEwaWw0d3V3dzBGWDBLME5jdlUxbFVNbE1idHFoM1pXVUhRSWJxWXJIR09nblJSQmlFTEpLUXRiaGgtT1N6VXp3NDVaN2h5Nk5fUXpnSUd5RndLYkZiYnFKVjdlYkc4WE9oZHRLUDVyR0hCSWtPRmd0Smx6blk?oc=5",
-  "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORlR6TzFhSGhOdGFsMlBwTU5weUJTQjFjOERfSmxyRUNHTEdnMUFfeDNGVVBJZ0dGaVkzTXBCWjViek82ZExISS1rdnBUSGtFMnZSdjIxMWdDMVE2VnBQYnZhM1M1SDVGaWViQlhOVzVQZF9MSDFxbzFvRXR2VWxqZkIyUE1LOFhjMnE1ZGZXVHlSajY2Q3dIN1Q4THFPSm1CNU1LLVJmbDZXaVh4OG5yRlNIOW5qYTNyQ0lHZEppbUo5QlI2SjlaUTRHd2w0X1RmUUl0TElqTjYwbElwVFBEWjM4VGdWTnlMQWNUZQ?oc=5",
-  "https://news.google.com/rss/articles/CBMilgJBVV95cUxNNmczNGlsOGlTTzl0TWZtcWozRW1wamdydEFTcW5CYmFzNFQ0cE9iTkx3XzRtQVZKQi1qWkRvQXlUUjh5U0hPNEJhckZwWGYxNjNjNzZON04xOXpCaDc4RzVESVg2UWgwMU9GdlhxMVV3Q0ZMdjV6VC1Kb3N1WEF5V2w2dWg5V1VFdW1Jd25SN1RfcHNtRjdZTGsxeTRLLXAzT2w1d0h3cjNRNVlnYkM3ME5JQ2JOOE5vWjhXbmxiSTJWQjMwNkJwUF9ONnpLQWNSY1l5TVVqSUNqVXRzMk5POW1NV0FvdDBNc1Jud0RpWXA3MmNickctUWM2RzJVNHdRNk4ybW5lNFZmbVNxN3gxdEd5U2NnUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPc3B0dmxTTktfcnIyeXV4eDVmeTMxRmJkUjNmRWxDeUlWTmJHWmZLWEk2X0llanRhVXRoNmRRTGJxTF9kQ3Q3S0ptQWdtMV8taGxXazhDd3I0RzNMNEFXU1hveHc3OVhUdTBEbVdCanFpa3NtZENwUklnNkRSZ21uWHFSR0RpUkNRZDNRWFl6cDg2TE1SS2tFV2RSQ0Z1UzJ1MjJhQ3Q0MnR5LXFiZ1B5cXRHQnVISkU1X2FpYVd1bkxPMjdZN0wtTGVOSXAzZXpXcjlXMmNwM0JjUkp3ZUc5UE4xWUtRX0dORXppQ0FLZTRSLTQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVl91MmVaTWZOcGI3b1BFa1dNbVJadTQwOU1GczJGbXRDbUZvRVhwWVhPVi0wQ0phMnZwTTlSTW43Wmg2MHB0V2hmVWVxMkdGRmdualUwSmsxcktycTJBSE8zYkJqMzBvc1BDc0lXX1lqcHNLQV9vd2NGOHhLb01pUVRpY2QxVnJCZTcxa1BRT1NNbGV0Z3p1alI2RVBsM1dwWmJnaW4wd1lmQlVVM3lucUlLWUt0Z2htM3BBOE5BMmJObUQ2YUlwMkEtRjlVTGlkOGY0UlVYQzd2OWZyNzlUVWs0OGthN0pKMF9MY3hLVQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNcGpRbS03UlJud2lSQjZnU1NtSkRoYXQ4aU5kQlJjNFBtbVlINXNTV21rMHdKUVV1elptWGkzT3JacXNDR3pCdVE2bFZsVzEtWUZMN3ZRWFZfeC1DUFJOT19GTE4zeEc1XzA0NXdpc2Y5b08yN2ZBV0ZkcHlhR1pwZmcxOEY0UVRXRUE1MksxZE5SbDM2YTJUVjdBSnlQWW9wTW9UZlo0NmlWZlI3d2JxUWh2SS11RnBrZV9NSVY5aFZHdnBzMXI2Q3N1bkEwMGVYazlxb1lyWGpPYjBQTk9pTXBBUG51UzJSWlRTb3h5RkNPSjZwbElGRW5B?oc=5",
-  "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNllzRjMtUTNCb1p1ZmRCTjJjRmpzSUs3UzFYZDU1elotd1NGYjlGV1pydjdXS09wQ0Z0UGFDWkJBb0ttQzVrWWtSVlJiSVg5eDZXQndadUw3cEVsb29UMzhubjB6X016dmZiZHpPMzlpckg2bTJHQWlDYTBRV09TRC1GYV9GNmdvYTVjQTJyYXRWMHFUOGVxUEdDSS1uRjdrQ0hDVS1yRnlDTmk2ZlNGdmtnQjJFVmc4Zk15cERtdTlNQ0dvOTNrRzRDU2dKQl9CVW9wUlhBTHhsNjNEMHEyRlAyTlctS2E1azdLSU5UTHF1T2M?oc=5",
-  "https://news.google.com/rss/articles/CBMingFBVV95cUxQQlM4WEhpdldzTFZrRFBSNFhzZzg0eFNxNXhkejRmVjRQNEhhbDBMM0lCTDIyU0RhbVZqYTlnZ0xVVHdCNG9NbEpxamp3aXh2LS04TXBLR3ItTjRXalJzQWc1amhyWUFaN29taWN4cDVaWlRQdV9QeEVQSEIyb1FuaE0ycWd4RGt2bDh0WXVJNVNlS1lld09RcjBqZXRTUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYk14bWdYSjI3U3VQcjhPczNqYzM0M3ZCZXRwMlhRcXFsNHh1MmtIZFhBd2dXY1haU2dHTHhhRGxhOHNaS0UzdWx6bG1nWDl0bGh3S1U1azdDZ1ZJZWt1VGVtbVN4N0tOVmZCeEtoajBacVpvNzdPOEY2d0E5b254MXB4OWxURlZjMHlsYklGbWp4R3JOYnfSAZsBQVVfeXFMUGtKOUJlcThPdGU3NHJ2SEFEakxPUWNacjcxUVV1RUtPcFpUU3BKUm1oU2JHY2IxMC1yUEZMS1B2Y1FyOEo3Z3FaUXZFa2E2eHBlS2k3V2pGQWVWVWZWakhjQXNLcUs2S2tYSl9YaF96VDVFMks1cHM4NlpQbzhoQUxXejJvQ3RWNXF0dXhkN0JJOXdBUGxTUjA3MWc?oc=5",
-  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYlJQQnJQRHNsYkZfS2lrMDdIaWxwVlMyOThyaFY1VFc1VmhfeGtrcXJldTF3dEdJQ0xTa3dfZE1SNzBBNG9PMHR4Rm9hcmRIY2lWaFlTWUt2U1ZoaHNFanNkZTN2c0kyWFpOc3JwcjV3YXV0dnhXSTBfck81eHNod01XZ2puUm9v?oc=5",
-  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOVdrR0xBbHpEWTRZazNvbTRoVzMwMTI0c2thWUNRWG1rcV92VEVRQmlwVzUtVmphcE5kZXF0Qms1ZTV5a29lMmlFbklzaEhZOWFSRkF6YmhTYU1WR0ExU1YxbEVyN3hDQkVZaVhTWFhyMTUzak5uYXVBb011czV0VFZXc0k4N1ltVUQwX1VB?oc=5",
-  "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLVpmYTNON1JuNzBabExXUDRXNEEtb2hWNnB1UC1OYS1td0J4TG5Ea2VyWDFKOW9na09IX18zeEk4N05FcXJMc3AyMTBjU2FueG53VnRTRDloWmEtdXJ4MDRHci1RN0tPWk15b1E0clc4RXVEcTI3RUNVOUNBRDNZXzF3Rnh4dw?oc=5",
-  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSjRSeWFtcU1aald1VENjaWtkNWZ6M1JvZE9EZVEtOFlsTXVnUUhoMWV5OWYyUjNQVjNsaUhISXJ2WkxHY1ZERUpCU1RxV25fM2U3dXBVYUJUblJGUVZfOUtxVi02dmhfeDVsckZYdGs3LU5vQkdLRVpUdDBaZkNnUExoTHZxQS1TcmtBamlndHZ1d0hIWXJjM3hXZ25JeF9hR3JTanFXYnBiMkpKdHhpbENVV3hnVDlPR2c3YlNBYjJNREU?oc=5",
-  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSVBFWkV3T1NFU1FCVF9qOHRtTWhkS2RkYjl4VnpvV2FVVV9vQ1ctSjFWbEZhSFVlWFZrd3poNi1oUW5kenVfUWI1OFVwVzNaS2k2dGIwSU1pV1RXU1lpZ09yUWR0Vzdqdm5yMDQ1M2lsYTliWnNaLTgyT0laWnVMYWpSRnBoaFlOTWtXaWwteWVPQ245RzVpNTZfZktmUlBHaUJBcFdNX2dfSUR5elZIUFA4aE5NZllyejFv?oc=5",
-  "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SOG10OW51RUFBLU9ZMHVCQ2xuWGx3WkZqNkZGSnZaekVZOElhZUt5MGNka2V3bThLdWp4RTIta19xMnZLajRvNjRqbkRpeWdKdUFoWWxXc0xxSUVlOWc0OGw2MTBzS3dmUFBUQVJOM1MtSzFZTXhibVp3?oc=5",
-  "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYTl2U1drYVpwdGkybGo1MU1rZkVjd0NuZlYxRE10VEwtelp1SV9vNTc4RzRMeXhPSmQ3cTd6dkdsMXEwQlJ6QjM0eWtnTzVieWI0QWtldlB4RTMwUmRuN1hkUngyX0UydE5nNHNiQldDMHlNV05GcXFBbEdTSzd0Ri1reVhHOUxMdGljUW50YmVobFdLLWwyZlUzdVNySmk1Y0k5TllR?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV2g4TDMwbktiLTFNTnJ2a1ZGeHdBZlZwSUQwYkFqNWlQWFhOTHUtUE5tdUlvVVhYdkJ5WnFTM29FZm5UanUxYVZjQlYxQmNJNy1BLWhqRUxwS3ZESFhBb041Q2laUjF0WmFMb0pfVUdWYnRFbGZ6NDJXZWtURTN0TnRNMERmZmg2UlRzN3ZNWWxuQmZyVHhBWUVhQ2g4N3VUY3FBTHBsdUNGWEFZTWRBMHVxZ1NGczhwNnhXeVpWZUphM0VMU3YxUdIBzgFBVV95cUxOeUswQ0UyaXJtXzBDRTYwTS1oZFpodUhIeTBTX0w2R2lQbjF0YnZFMk1CdGRkR2ZndExldy03QURYTjJHdlcyTEVib1NBeUxkaVN2eEVsT0ZaUDRLb041ckpEazMyRG1uQzMtTXJmQkJRSDhWMk1LZFFOSzVJRGlxb19KakVneTBLVDhuajJMd0NNYTl2d3dZR2ZRLW5WRW1XaVdjSnJRNnJkeGJSVkw4aVpzVndkaHVFbmZUbWoxUkVDMmZ1R0JSeGFmdGYydw?oc=5",
-  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNTlkUVlWRHoxRl9uazVZclZlMHJqUzZIcnhJMU4xVElwYm9uM0prTkRlTjBhVC04MjY4V21fRE8xNC1CNHZRWUdhSU03dHhURTBScWg1WURFVk05VlYzaU1mSUlfcHFkdmNuejhFaG5kZWExZXl2ejBjSlVjTkNoLWFmMnJlbi1aeEhWd0VkZmVVRkYyaDVYUzlJbnBHbUw1WFhUVkV0X2VMcU56UTJwWFgxQkJpcUJYM1NLLU5GYXF6aW1wTUZ4SXBwc0NUWXJMdm1STEprRmMxc0R6OVFaWdIB4AFBVV95cUxPNTlkUVlWRHoxRl9uazVZclZlMHJqUzZIcnhJMU4xVElwYm9uM0prTkRlTjBhVC04MjY4V21fRE8xNC1CNHZRWUdhSU03dHhURTBScWg1WURFVk05VlYzaU1mSUlfcHFkdmNuejhFaG5kZWExZXl2ejBjSlVjTkNoLWFmMnJlbi1aeEhWd0VkZmVVRkYyaDVYUzlJbnBHbUw1WFhUVkV0X2VMcU56UTJwWFgxQkJpcUJYM1NLLU5GYXF6aW1wTUZ4SXBwc0NUWXJMdm1STEprRmMxc0R6OVFaWQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbjR2M2REUklpcEpXQklZVFNoRXdZY2FRaTdBVnpxc3VfSEszSHV1LVd3MXVTNlVwcnpYWHJKZDNtcHdxUTJrdjZRa05ZNWY1RGl6V09haTBWZ3hza1ZpM3kzemc0WnBNOXQzd0JDU0E2Z3FlSkNvYjRWVlRvTTZYVE5JbWVqWjRwZmc0?oc=5",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR0h4U3U4blpSck56Uk4yNHdET3doZk5wVnJRTXd2SWNuRnh1aWh1QlJOamVvY1dsY0lrVVM5SGlkNGlnTU1mNVozalFJS0NYbmlTdFRDTUhFYndSQlNlNWYtSkswLVQ2cHhyOU9aR0NtbDF5RmtxTGFkMVFiS0R3eEZHc09zWVVPaS1NMlg0aWJySExlelBwNkhvU2xZZTdMVnF3TdIBqgFBVV95cUxONFNQNzlldlJnU05pQmI0NGJGN3FwVFZTUHJMa2ZTTzFLMEtIb3ZoczRXazVyRjJuQnc3czFTYm1YeEdDc1pwMFUybHJFTDYzeEFxNHRNb3hQUjlXQ2JLR210ZmtUMko5UmkyckRSa0doWEN4Ujh6YklZQ0JMMlVpcXJ6U2xqMjhESUgwLXZCVTdPbEJCb0xuTDlTdnV0azA1X2V0a1lTX0JEZw?oc=5",
-  "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaENvenpIVGJNMmRmZ0lLSjFuTUFBNWxJa2lfY2xYcnRhUk9WblVVOVcyX1NoWTRYRUY4bHE4ZDBBVFBnZlNnVkNleEZkbVloTk01RzYzVlpFbnQzbm1iRXV4T3NFWkV5RldYV2Z5T0stZFlqdEk3UjhDYzV4Wi1ySzdBY1pTUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZlZ6RmRMOUV4ejhLVFlSbXkxUGptTWdYUDh3WU4yQ1pxcFJiS0lTa1lFbEltaXYxNW9KN1VscWV1bXhTZzZlMWJhaDN1U2N2b2dOc3ZRWlk1T20zWlRIY0dWRkUxQXFTSmtpVjlyazctMTd3ckVjaGtlTmNRdlgyWXczSWNFMkhjLUJiOWxlSHBKUVJwLXhwTFNpcHpHU2VoQ0hUd3dkd1UtMm0tRDFzUXNVeTR6aXdnSVVJSUtR0gHDAUFVX3lxTE02eGI3dUw5VGxZZzNxSW1jTlFPQjhNNHA1LXE5Z2xJYzQycEdWQUpsWVNISXhvc2kzdkFwaFRUQ3JEOWpYa0J4eVJLaGlWdjRHZ2NiQ2RRZ0FSY2JPR2E4Q3VvX2IzaEVnc0VNRnNWRWZpU0JZVGFXMF93azBzdWhDbWUweWs0Nmc0c0oxWlpPV1B1QXpnSlhSdGJRU1JSQ1JOWFRpVmwxNXZhX21yZ21KVHRqZEFzYnRlTWh5Zi1McFZxTQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZVFsYXowNHpfQUIzTFAzeG5OVG9fcmFnMWF5UjZlU2pjaXVTa3RMc1lweElNdVlETDlpSy1JM1lNcTN0TkxLZVJrRDFNbkh0c3hxb1pvRmZpMl9MLWliclJnRkNHb1VEYlBFdjk3c2NQaG9hdlNCbmszTDlnOE5QNU9yOElveVlzRUNCVWVEZGxJNXBRUUV2U3ItWENJODhqU2c?oc=5",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFcxZldqVnZyR0NzZ0xGTVZwRnpRcDJFZlJnVWJtSXUwYjJGUHNUMDI0TWVVRVhwUEt2dC1ySUpSWFBLc2xudVBIN3FNNGJreUYwTWlFVlZ3MVZrdFhmZWpvclVKcklXLXBxTTJqc2ktME5nTWJvcUMyTWJlN0lqUEx0aTBmRXFUOTljUmZsTXRzTTRvWVVmcVB1bWgybTZzMHc0aXFodmxYdnRTMkNUMmE0NUxLcWNMVVQyc3RRaDVfQ3RtR1pnV2R2b9IB0AFBVV95cUxQX1FIUlJzTWpzOXloOHFpNzMwZGJSZm5XYVFSR2hiVVdULVRtU2kzOEwtcjI5MEVUNTlxMG5DWmtGVGlDcHJXUURZX2V3cnJsYzYwMFY1cGpRbEZhMWFUN3VjbV8zWUdqd0NfSFp2ei1oenY5Y0ZLNUM2aXgwM2M4SjR1SkhQSTEwVjkydjdVV2xJckpsaTh5X0EyMm9XX2dpVUhZUXh6N1dPWEJ2ajBvaXZCaXpFNEdoZVlpTXltU0VQME9zQW9iNTlVLU5kN1pw?oc=5",
-  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaDVaMjVMT2VzMUQxOUZSbGxWREFJc2NIOVJ6SjZuc3VQZGNSOVp0My1oSFFEMFlzLXhSMjZyYVZzdGVvaFhlQTBRUDZqTThFSFhUYVVrcjMyMnY4ZDk3Q044QjJ6NkIxbktoLWR2RGlkVUp5QXJabGdWREtNZlZxMkU0dF80Z2xQendsMzRqNHJQS3ctVUhkXzVtRGVGRERLNU9xaHNvN2g3c0d3eTdQeE1BbV9VSDlSRWgyd0NyZHBMYUHSAcgBQVVfeXFMTXJXWlB1Y1lSYk1icWJXaDQxa2tPd05IWWY0LXhLcFJVNmdrV0thdXdGdi1tVXdib2RvVXNVeF9MelYxa0VrRmFvUklEVkliZHJUR2dIZWgxTm8zQ3Ezb2FLbC10ZERlemZIdTFHSVFUc19Pd3FJcHlueFlvX3h3NEZwUHdhbUprWU5MSWw4RGN0T3VSSWViWnpYR1piSlFILU5zWVFoZTFmR181Q3dVVjZTeTh1anFJTDZ1TUdYNjk4ekt6cW5kM2Y?oc=5",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdjFIQnlBbzI3TVhVYTlGZnZydFZ6V3JCNUd4cm5xMnNhZ2dWUUFSSU00TUtHVno4UU5uZzZGMUg3NTBsVE5Uc0JfX2hBWl9nYWliNkdZQ25IbDJUQVVTMzQxVzNqQnZUTm40aVlxOGlhSG8ybWRWX0tqbGRUWDk0R1NscFhfT2duYnhmSnl1N1FRdHJ2UGg1ZnRZQWZBcjNEa1J4cg?oc=5",
-  "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNzdEYU1uNGhXT1pSSHVtX1gyQ2RSUGdBMWt1cUdUNDhKZjVTck5HM3ZnMlhpS2JNeDdOMDBTcDlVOFVyWkRDTXg4NjllYnJ5aENCcHdnVXg3a2xVN3djX0xnLVV3Q0d0UHBIdTJjRnNVTjdhdjhUOVJhc0U1bkZob0JtVUd3SW1JQ1hwMXBONFo2T0JNMmtUa1lqYy1rN0RkU09LT3BxcFdkaWc4RGd6ZDg2TTREY0FLRFdqdThtbEZ2Y2FWcTVUZHV30gHKAUFVX3lxTFA3N0RhTW40aFdPWlJIdW1fWDJDZFJQZ0Exa3VxR1Q0OEpmNVNyTkczdmcyWGlLYk14N04wMFNwOVU4VXJaRENNeDg2OWVicnloQ0Jwd2dVeDdrbFU3d2NfTGctVXdDR3RQcEh1MmNGc1VON2F2OFQ5UmFzRTVuRmhvQm1VR3dJbUlDWHAxcE40WjZPQk0ya1RrWWpjLWs3RGRTT0tPcHFwV2RpZzhEZ3pkODZNNERjQUtEV2p1OG1sRnZjYVZxNVRkdXc?oc=5",
-  "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRkZPSTJLR3ZlejNjZklKV2pydVkxY1NxUks5YS0xWmtRb294U3F6LS04aDBUeVpNdTZMRUUyRUZVSmtudVZxdG81UGhYVUtlX2VOVVNwdEI0Z1U4a0FhSFJlbW4tYk54TWNPbmxWU1lJeG1VdGdPSmFjandtdGtZTHB2QXlaRFBVYXhteDRUcjlsTzJ6NjltdTJsZ3BqdVFsS1RVWmxpSEo4LS11dVJQZXlDYzJIcnFHWTFrMWJybTJGUGZIelJpZ0J4aUxMZ9IBzgFBVV95cUxQRkZPSTJLR3ZlejNjZklKV2pydVkxY1NxUks5YS0xWmtRb294U3F6LS04aDBUeVpNdTZMRUUyRUZVSmtudVZxdG81UGhYVUtlX2VOVVNwdEI0Z1U4a0FhSFJlbW4tYk54TWNPbmxWU1lJeG1VdGdPSmFjandtdGtZTHB2QXlaRFBVYXhteDRUcjlsTzJ6NjltdTJsZ3BqdVFsS1RVWmxpSEo4LS11dVJQZXlDYzJIcnFHWTFrMWJybTJGUGZIelJpZ0J4aUxMZw?oc=5",
-  "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQejdqVHNUSzdXSHBKZ2JSaHE2dkl2c2NxVFFyZFJCX19QZGdmTklUOW1RZ2NJNm1lQlJjMnA2QmxST3RxckQ0TkZ5Y0w1VnV0aERJMEItaHpDcXRoSXFPdnZWV0lFQ3ZwRFR1QkxaS3dWaVZLcGlFaFBPUnJleHJIaXFVLWlQNnVOR3RpYUFRb2EyZzNfWFF3QVlXY2o1YmZEckRqQmFOdG9KSlM1LS12Y0ZHS28zWWFGcmdNXzJqTGtfOGY4ZHhVS1NJNTJNTTl4X0JYUXM2eXV2S0ctNy1fQTNYT2JKLUdrUGhR0gHwAUFVX3lxTE9QWnpLYWRZLVlUMVoyVzhFWGgtUl9DTkJMNG5oSnF6S25mR0Nva05Md3lhbGEycFB5NUZTdTdPZXBYdVpyaTdyTEJKYnduRHdobC1hYThHSnRya1VxU19IcHhDRDYxRkFDU01fM1l0OGhvY2g5NHJqUjBpT1NoSmc4S0xldzRMU3B6VFAtWW1LX0VLRGF6OWlQUFY4bFFWbUdRTXlXVmdpUjJHSkFlcl9aZkR6dTBSclV1OWxmUEdUd25BU293VzBNeGRJN1ZSTGlJQXowcVJkbUlJMk8tQURhdVZEWGFrcHFyRnFrXzV2Mg?oc=5",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUmg3YUNIOF9tSXJGb0pNOXFPTlB2dV9LZDJ4Xy1oLTRoWl9zcWJaZ2NWeE43clRfYXNVOGZ6dmhUc1VfNlRxT090NW8xc2g5bnRTZDc1OV9XR0RrbHpVVU9SNlBaN3M4OWxESEhDWGRDX2pfSkU5bi1jNDBuR1BrSVh1VkllcGd3TG1kVWVEQ0VIUHJMbjZFcWRvOVNjNGdzUUdlZFBybjRvcWE1Rjl1aXZvck5TUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOanFQQ3hVSjdkSkFnRk1BNEtoWHZBdVJIR3I4bEdGcWJ5OUI2M2tKUUt0emVEXzM3Z2k4NHIxblpGV3pHNTY3V3RRZ1NuM19VaHhLT25PSTI4MDBqcEY2SlZRdEd4bmtfZVpPczdfNzZwTEduOTIwRGF6VE8ta0w4RlRYS29PWGxpYWY0RGNtZkZOcFVwSGFCTHBHbGtLenFhaVJUSXlPTFExUlFQSEN5b3Y5SG9zS0o2MzY2Ykg2ZVlKVlYwUnVkVnNPMnd3Y2pzaVZfbTRB0gHWAUFVX3lxTE5qcVBDeFVKN2RKQWdGTUE0S2hYdkF1UkhHcjhsR0ZxYnk5QjYza0pRS3R6ZURfMzdnaTg0cjFuWkZXekc1NjdXdFFnU24zX1VoeEtPbk9JMjgwMGpwRjZKVlF0R3hua19lWk9zN183NnBMR245MjBEYXpUTy1rTDhGVFhLb09YbGlhZjREY21mRk5wVXBIYUJMcEdsa0t6cWFpUlRJeU9MUTFSUVBIQ3lvdjlIb3NLSjYzNjZiSDZlWUpWVjBSdWRWc08yd3djanNpVl9tNEE?oc=5",
-  "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KQUxYUVVXRXRra25nU2RZWjdmSExzbVU2YkhvaXVIbHFmcTNCWDRmMEg0aVN5RWZUYjA3MTlrWE5KNDNndllPUmtVZlNQaTlaaklqZFp0bll2THZsd0tUSlU5eTl6U0pGV2tFTW0xSmpvMl9VaUVRMDZ5MWhfS2c?oc=5",
-  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQkxWdW1XYkFBLWdrNnBtQV9fTXhXRy1KOE9KbUd6QUJ1UzBYT2ljVW9Ic2hHRXRnQjJVZW1UVVdyeFJfczl6OWN2TmZ6VUJ4XzQyc0JDNjBTOTg2VzN3ZzZJZEljUkM4b2pWTzJUV1REUDVoa09lczZaSnRmeEhVNUh2anVHVnpxUmVHaGVEZnBvOWI1MHJuRy1qZ0NiRlkxdVdUMDdUczhEeGx6eVhuaTlPU0xtYmNRcmZwLURac2p4NndTZlJNMGpXSENMWVluamNFd0d1cjk4U082M182QnN5ZUdYV0JKMTg5WHJn?oc=5",
-  "https://news.google.com/rss/articles/CBMijgFBVV95cUxOekJNR1puQlcwLVVld3ZDcGVQTGJFQWJ1b2IyWVZBN01OVms0eGxqT1RtaXZ2QmVubjVSclJfRzl6R012eTJWVWtHcElDRXY0Z2lHRkRuUFJiOXZTWEV6T0ZyYjBNbmZQVHhrYlY0RTU0SURrdFFsM3h1cGNmeE5oSTFWX1BRUlM3RkFENW5R0gGKAUFVX3lxTE9xTHpnYlJvR002aVRWQXNrRVNVOUk2amRrNG5ETjhyUDN0QXB2N1JFNnRQNTM1NHg4VlNZdzByRUJoanRxUUdqaW03eEp4ekJyb3N6VHhSLWFXMnJJMTZ6Nk54TkRHZHZRTHlNZHhQX0I0akdYUUJDYTctN0JSOFJEZG1ybVhCSEtHQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMifkFVX3lxTE9aUmpJVkVrTFhlMmlLY3BKaUltYjVQWXRPR05WQkFlVzNRNS0yVUxHX3Z5VXYtQkpubWFZc3l4dXFZMGZEUmRTTnozbTZJeXoxOW56RkZKdzhpNW1Pa1dGcnJkbDMxTlVPYjRXQjZCMkdwN1prbVRad0FzRFdXZw?oc=5",
-  "https://news.google.com/rss/articles/CBMingFBVV95cUxPUVBpLUk4MEJhMmZONTdITE10RUdIVTlQY3FiV0dzYXFQRGZzNWlaYWtaQ1ZiQ1JmTnZpY3pTbFowVzB5UlpaVjRnZ3djY0RtazcxN010VzlCY056VWxPWThKczhDME1Ec09mUkJMSUVHYUw1emFXY09zYlZ2TllrTXBZdXN6d0tXVEJUUldvSUVicG85d3NvT0JKeWJyQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV0pRZHJiQVVHS0NPVDRDaTVkenFXank1OFNWWlBVWnJsdGM0SmtxcTNEbXhyWlAxcm9IekFreExmT3NHZ0Fmd0pUYXRDNjZPTFNLSkhWblRRbzg0WUtVN2w4VVREV1YtNHR6djlmN0xsTGpSQmNldm1oOTU3aHVySkFQN3RrQkpuNU5TYUx1dGtyd2VJeGFDWjF2UDNqN0FKN2dj?oc=5",
-  "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN3RFU2g3Yk1vcnhJTDFHNXdJb0E2M1Y4TVhlTnRhajVlaFhuRnlNOW5XbDJrTmVteWdzMzR6THZrdl9DYklCcVI0bnM5V0RjRWhULWl5bjE4d0pyay0zN25vZjE0enloblBrMUpvbHY4WWZ6SFlWRi01Rm41Q2VxNE16Ri1tTFdoUWh3RFdrcUc?oc=5",
-  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYU5FZktxWmRaTmdQMzdNWDJveU5hQW9uTDlmY3N6eTlhbTVVbkJqdmM4bU1LeXhCajNGYnVTVFRWcGlkd21XZlBGTFBDZGZkX0JGejZIOGRzRDF1RmNtS0M5bUU3cHQ1TkdVTnIxOUV4dEZabXJHUWVvRWVJUVd3X1J3X0c?oc=5",
-  "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpwZUtISkRaOGV4UjZlR3NONmxka3N0cWxPSmtTTXVxMi1EYk1TR056LVA1WU11ZEFnMGNIcTNScWdHT2RDc3ppLWhYbE50UmR4Q1ktZUVJclFjVFhkeUY3WDJVUzd0aUl4cGRnS0JvQ3AtTlFsTTZrRjlzV1dJdDN0LXJRYk9PTnphX0QwZw?oc=5",
-  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSjJzSGdxVFFVX3ZncTZpNHNDNkVmbmoydlVoRFhNcE44N012Mm9wT3NFQklZRmh0NG1JVy1JVk5Vb2RxUXpkcEFKU2hWUTAxeWtMWjBWcVRURV9FNWJkekNiSDFWN05hTTFtQUlRdFVVeVdURE1NaHJDNFo0cFdyMUZRUEEtS3FTblRuLWpHbklZZnhzYVFibGxDVTY3ek9vdVZUckxGcDJnOUlRcUV3RDZ1dEFCQTRpQlFCYnBGbkRjNnpPSk5tbmJ3aUw4N1I5Z1h5aUhxQmpQQzTSAeABQVVfeXFMTWNpeXBHR1FOaVYyRU9BNlUwZWNJaUtscFNaUlRHU2s0eFotcGkzbzdWM1FIZVphdFdLSVN2SGRRVjdNTHRXakNHSjZuWENKZnhBY1BqTkZPNzR6bzFCRzZlb1I2SE5wcVZNRzJ2aEVlcTlSSWhycmxSekdFUlNyT0d3SUlHMFFhc1FoRHlBMnR5eVl4VWpBamtVaGFJQVVWN192Q1JreU5oWHVwUGtfZVpGYzl1dzQzMjZVTjI5cFdBRTFicGdBT1p2UDVRNFJleThOeGlhRk9WNlM2V1pPMjE?oc=5",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRUotWHFzcjJuNlVLRzhkN3UyOTlqMER4bXlnRVAyNnFaSnhTY0xPSzhsWFVxN2o5dFlPcUNLQkltcks1MWtEaUc0Q1BDbE5oTjlfZXdmbXdMMG9JVXpQMVZuX0lMWVpEd3hPbjNuNDBobGJmQTdDdkp2NVh1clZfSkFNLUt0YUlySjBwRU5pcVpmb3dlbHkzSnN1NDN1QlVTRjdBVjkwSEotbGItVmNycFQ3X2U?oc=5",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxOc1BabzA2cEVXYnJNNDkwRnB3c0xOejJGTkhXZ1laV2xPbDMxQzdWNXFlTzlZalp5TzlUY3VQMXNDb2FfYk9GQm9zbXE4RHFmVjZqLUJUeTJ0dEYtaFBtTTZNRUlTVEtOUjFpS1h3bEZIeHZQVFFoRkRzODNDNXcxdXJfUGk0cVE1dGVyR0xwUEZ2bUdNdHUwMw?oc=5",
-  "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMVY4NkVMOUloclJPWlh1UjFqdGp2bGwzNjRLMFR4Mk9TQUZ0NjJ4dGF5el9qTDY5bWJ1aFYxRG9aSlRZM3FKUWNrREJHbVBXMFpPbUtubVpxTmxhUXNyRkZVTGRjNDZHQUVjSDVtblNZR3ZsN1NqWUMxRl9TcUtGTGVOQkd3dw?oc=5",
-  "https://news.google.com/rss/articles/CBMitwFBVV95cUxObmwyY1VhSGE4bDFXY0ZFcmw0VkFiLWJJR1BESnhkb2NWbW96aU5XRWtNRUZEeHV5TlpfV05sbjdkN21XQ0J4Wk1oV3g3ZHhkTEREWEFSTzRwVHBuelRNaElkbkV2dldvV2lRUWtHZHIzOUlTSXZnSGdLTll4blZ2RDhETmpkVWFySWVXMjRlM25rTFRfSXMzbS1NbU42QlpwRmxpN19iTVBKSFFYOGNPNnNzdVhaZHM?oc=5",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NeFFWRlhqN0tmNl9sOUdQNU40Z0tRZzl6S0VCMUNCYWN0Y2p6ZTBWYWlCalpsbmRucDI4TlQycGFXS2R0eU5yQ2VyXzh0Tjd5dTFTVzhNek5Bd3RDcmxUaVRtWUZJa01MNjl3eWtJZFo1cVhG?oc=5",
-  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG5YTGZRcVZTbGZiVllDQnpFSnlqZ0NPTWsxN2xtaGtjLW1BTENoZXVpcEJwa2RoeUV3OG5GMUZOUi1pMXNLQ2ZQMTlCcmloa3pFczBuWkxVNmY4ei1ZemRGTWh0dTVqOG0teE0tNnFRaGlnUUpmV2stdk5NQ0gzemQ5NHRlaU9MMkpjMTBQenBVcjdtZFdTNjJLRzFNTDM2Q01qRFpwNlFyazQ?oc=5",
-  "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMVRNbm9XYW1IRllJNVhKNHZYTFhycGo5YTZpSENYUGRTdU1DTkdSZWFUNmZGcEpPY1Bua0hobG1RVWYyd01sVEZKR01PNEVPMFFNYW01bnhlcG9yXzlyeWM0LTRvTDd6YnJJMExpampoLW9pdUxuVkFBZlJTTXZSdlhEVElvNzBhYU1tMXN3SkVCOHdKRFhV?oc=5",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTjFpN2JOQmZILTRoakZfbHJxVjNOM1gxamdBUTB3OVBTU3R1emhjSVdvRnByalVTSWg2ZFN6UFRraFA2bFFvaXVrQXRUNGUweEhRVWVmRGtyTXZuSFk3clltMXotY09HQ1V3SmRIQm4yT0swUTZTcno0NkZ6dTNBZ3p1bTVWQ1JLY0Z3V09YVkJPczZWYlNHcDI5YVl0NUZsbG5USzNVY0V0cTU5UmZtN2xQUXM?oc=5",
-  "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN2MzLUhCUThtdkNUMFAxMUdpNWlnSC1JaFdRTFdHTTlsZVNyVmxjX05CdmV2b3d1VWhzckY2QURiQi1pdWZocWdBZ0xUNmttMzB3Smp1NzBFV1FQdEFTRUhYcnhUYVhTNDVxTkZEZjJSTFVVT0JlbEg0T3V4ZFJ1aDkxRQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWU5zeFl5RkVtNWJwUFZXZDQzZldObnlhdlk3Y1c4VkMwc1BzMnVqY1VVbEJRcV9ZY1haWUNwZExmdXJPUDRTeUpLZW5pWDhVdGdjSElabXhhcXl1NXQ5dGx0SHBJWWFlem4yV3NUOWNHRGhyT1BVczhqZFNzOUdUTEVoUmdlR0ppd29kY1BlMXhLNVF5VUwzb1pVTDNhRGUyUnFqbXBobFZMN3kyYlU0dl8yRVowdGtHUmZ3eTRFZ3E2MkVRajJieVhrY2RBLVgzQy1RTHNnX1d1Mk14Qk0zNWQ0RzFZZTNPUTVSUW02dExHZ0FoTjd2a2dLcmlhNWZ0QThEMUJUQUlTZ9IBjAJBVV95cUxQMklNUzAxcTRKTVp2cWtaVFpkTkw2S2l5RzhmaDRBUERvYnVsTldkY21aS2c5dXNmWHZGS244UjFWeERFVXR2b2F2b1haRXpwWFBVbmZXVXE4bmlFd0xIUWdtY0dlV3RXcmZsakVKVnlzS0thSlZFUEFZazB6QThTNnNXTHh3YjN3ck9MZ3pIekNrUThRMWJJZmxwd0NNR3FiMURFbFBFOU5QYjBfTUQzSkRFSnRaTWJCRHdRSzJMenBKbFlTbjl4SDdBR1p5X2sycVNYR0FYTEJOMExxZlJ4RXJIdlVSdkxGbFJ2RF8zNTA5RnItdkFEb3ZTbnhJMUFvdVBxT2M4T2NMT3Zj?oc=5",
-  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdkRWLXdENGhJS19HMFdCekNhMDhmUjBLcUppLVpidVZxczNQUTZpaXZIV2hIVHFwVXVwMzNIdlJXa0hWRWNfQ05vZW56QnJ2bHJWR0tRYUdOS25aXzJ2Nm1qc1lidHZLTUxKNnNfZWRma0ZBb1VhUE9HaE94TXJUVjBRNnhLTGtmejRkeHI5Nl9VQ0U4WWw3TFJ5NUUwNVJWb01pbGtkRjTSAasBQVVfeXFMTjJmQldQRExHTUNjbWlPSnRkM0ZVaThYejcwXzQtOUZFUVBTWnozbllwNzRvbU1CZXJUMGh1Rk13T3lnVmNLcWcwZWJxd2pZcVNHb1dFZGVNU2kyUmtrLXRDWm5Tblh2R1h3ci1XcnZrWVNna3FYYk1jcm53TkRHOERJbjJvX0VoQkJWcTFqYVRmcjFPTndNTVk2Q2pESEVlalB2TGlsLUJWYlpj?oc=5",
-  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZWpaVzRkS2tNSlI3TTZ0UVF0WnZpVXdKVEFWbG5JNTBFLVplOUlucnJNMXN4RXVmYXl3X2txYWhhZjRLZjFpc1BXZnVxdEc5eGJ0MVlaZ2RTcmxhYmRTUjNDMVBVWWoxOFJ1eThPd2hTM1dmV0hmQ3UtVDdZVERmdGZBeTBQWEMtVW41ZlVWQkZ1SlozeF9YTkJCM0IxdmNyUEw3dm40RVJydGhaZmN0aVgzWmpPM3dObmdQaFhqN1JVRmPSAcMBQVVfeXFMUGVqWlc0ZEtrTUpSN002dFFRdFp2aVV3SlRBVmxuSTUwRS1aZTlJbnJyTTFzeEV1ZmF5d19rcWFoYWY0S2YxaXNQV2Z1cXRHOXhidDFZWmdkU3JsYWJkU1IzQzFQVVlqMThSdXk4T3doUzNXZldIZkN1LVQ3WVREZnRmQXkwUFhDLVVuNWZVVkJGdUpaM3hfWE5CQjNCMXZjclBMN3ZuNEVScnRoWmZjdGlYM1pqTzN3Tm5nUGhYajdSVUZj?oc=5",
-  "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZURwbGtweEltYTV6YjFoa243Y0prb01YdkVSOHlIOElNZDg2ZzhfNk9hRjFZRXRXb2htWGpPWENxWDhfQ0RGQnNrenZxai1HbHIxbEphZ1d6NGVvSnkzdnkxTmk1M3d3ZUNyTFVYWndEN21LOC03WkRwVUZsODQtei1MTnBBSDdiY08xZnFMMzVWa3JZQmI0Y2FTRS0tRDJOODB1YWNEV25KMDlkVTMydtIBtgFBVV95cUxPNkV1Z2VoN2owZGZlTlNzSmg3VUdSNDk3a3h3aF9meU8telR6M0s0SDM4ZmlYT2d0TmY5ME9ubnhudDZGTXdpQTdxMlM5MUV0cklGX0dZc3dEbFVxck1zSEl5Y1h0eWhrZElfcTZpR1ZHQWxGam90V3dKODB2bUJQeEFpdFJyQUNuc0JKSGZZc1Q3REUyaThwMEJOdExCaGV5U0s3UU9rcVVWOTJSVTc1X1lHUlh6UQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZFU1SXBGRldLZ2x1ZWVGbm11azBMSnZzUnRRTVNIUG1rTmgzWTNkejd5WDRRbVFmUmpmWUdCWlh5OGtWTXdqWlJDS3FxLVlrRkdCa0FEem13bnJjV3VJNkcxMERJenNvSGxIOHk4NDBSRVQza0NHRm0xSVo4UmdDR1pVVDNRZ1JPRmIydDJKQnBQOXVTRldUVzNHc250M3FGUl9sZnh0VGRqS2l5UU9NU2NkTFdZbThLYlRr0gHAAUFVX3lxTE5ISXROM1ZZajdKQm81UlROZUZ5MlN4UXhSb0NsQ1AwX2JldDJiQTVRN091cFJuOHlqZlZjNGRtRGl5QTB6Q1FQMGVybVlHbFV1b19ZRUtmV3h2RXZ2QTNGaXBZNVJydjJOZXNHTlpZMk1nRDNZNWpSOWQxSHlUTTh3T0M5bzdJM3RQMS0tZGNaMVhNV1V4T1NyeDQ0NjYxNHNhNkFCTkxTaW1EMGxxR1hUZ2NJZjJFYjZhckZLZWZjdg?oc=5",
-  "https://news.google.com/rss/articles/CBMif0FVX3lxTE42cHVpTmRoWmpKakI2ZUFLaUtTUm45QXFxT1ZYczZoejZFRUN3OTBrWXRUYy1BT2d5NWk0Y2NuU293dzlwRE1tZlVwMUJncGQycUptVG5MY0p6UzhjQ1Q5Y09QbGdOSHJIaEJ2LXBfczdSNTBycmlyTmxFd1NteXc?oc=5",
-  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSWZZY3N3SnFPVTE1M2UyRW5TWkJKYjBac09nekhLeWU4aThqNnQ2YmxJZ1lOVDZXb2kxRFhaOE9xWEtqdjBGQnRLM0VvQ094OGxCbE4tYmxTNFdTVUJORmxIZ0VUM0d3NnZYTjRkeTVrTVJzVHRpMHpDN3NRZkRaNmRMWFZXTGw4OEYwMlVpSW5GLTBqQ050ZHpYYTJXTXVXQU92WlNXeEFMZG04ZEZMLTNkU3RTZ0RM?oc=5",
-  "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX25rWmFOYUVNS3NvUHFVQjdtUURBTVM5R1laSEw4QjRibnl0ZDBpZjBnTmJHcXJnUmFMZUxGWXhhUG5QN1o3YnVkQUFvRlh4ZUZZUENTZWcyR3lrSGwyMHhpdUUtUGhIQU1IN2VLbmJfLVJibTRLLVdLcHpwUXRZM0JfWXAwQWVyMFBfbzk3YndKRUJzbEJKTjZXeEJXSzJQTjBPNHdTQ3ZITldacVlnT2ZVMXF3QlBQVG1pQnJn0gHDAUFVX3lxTE9DZ1JJZllGQXJlYXVtTFViVDFZc1ZIS3I3RlZQM1pxS0xEa2hPanBPRjhpWjFZQVV5M2thbGhmdmVGMjQtblFubUd3T2YxRzBwa0o1OGZJaDBhdWI4bTBhajZ5aHZ5aF9UbE9xQ3VCQ0ZrdklYRXZiVlQ4WlJDd0daeHB1clZFUTM1R0QxUnhmLUIwaGE1Nl9LZF9xbjFlTmhXZW9VTUFDS2k1a1FJX1lzdm5mSFJXZGNkY1dObTV1aXBHcw?oc=5",
-  "https://news.google.com/rss/articles/CBMiggJBVV95cUxNX1BodjBSNGE3U3NGaTlTTWt2VDNFOFV3dGVGMy1GeHF3NEI3M0dTV1VzUXllR1VYYnhHNjJnZWRpNFVmNzYxQU4wbDlTSVdNSlVGbU9DOElwdll0Rnp1a2phMlM1WlhPVkxBWFdZSnc3V1Bmem1jRFhQdWViWExyaUx6WTJGMXVheTltRDMtd2JXSmpVQWJOTjlPZ3RRMGNuX2xCNG5lMjQ3VmZEM2FEcjFXOElsdm9tR0NJMUJkQ0RDRkJzTWt5OVkyeXcwUDNQcFQyZFVZODhnRHZuYVZBLW0tbmh5S0dLQVF0WHJZZzl4Y3JmQV9JMDYycXZDRVdFWmfSAYQCQVVfeXFMTnM2ZXkzUjQ5WkRwWlBENUxXTnpuYnpVTE1oZk5EemNWUGxBTWYxQTdaRWZmVk4yMkROUVQtUnJOTFlSZVJ1UzFYLVBEajVFWEc3dEhVWUJzb19temxGMDJ0OEpNX3Fuc3J2bEZSNTBCcTQ0MDY0X3dEV2lCR1ZuVzhQaWlBM094UnFiUDZ4RkUzMklRTHRVSWxZOGJmWFBEUEFlam1TZTR5MFdmVUI5M3VKa0RBNnVTVk04cmtWUFU0bzFiRG1JRFZsYmhCOFpnMFAxYUdRdVBYdlNGYXA2Z2s1NEtLUHF2UlhnSDdRakhhOU81bW5YYUNrTUFnRTBleWlwUUw?oc=5",
-  "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQVUZMRmtKaHhmUW9XWEIxQnRIT0ptVVR2TXlURzZEeWZGZl9FSnJtMTlvTThqUUpiWXhoVWVTbHdPX1U5eE5VQ3dmcFRGMkprMTJlajVWUFVueHlQTlpFM1RIMmpLZWlEWDZTbjVMTUs4UDlrU0k3bjNaa20wTVVqeEpFa0VDdVROUnBXSVpqNDR1T3FZTVpLX1M4YzhuNklhWW0tV1RKcTU3S0hlTEExNXlreko5UXg2eElLZDl5RC1UNGctRjlvVTR6T210T3lkT0dlS3RoZlZORW4tN2JHbTZiNHBUbTUzYUtQSTNpdGtfXzRhV2tzZkt3QWpIUXPSAYICQVVfeXFMTjladDE5RUtKdzRuWEVGSS0zM3JXdlQtamJlcnB0YTNWMlk5dzB6ZlNkbmJqdDE1SHc1SVo2R0oxaTE0TFlTVmE0VFZkY3ZPSXVzbjBjckd4TTZkM2NhRW1XYlFIdDFLVzVaVkdtbFdOVGltX2tsX0hVQ1pOdG9uNjhFX1FIcW1KOEJnRzFwTzd6S2JralJqdmd0OWZxRDlhSFF6V3MzV21XRHNfZU5TeFVEMlhPMzc1VGQxaWlvT3VwcUMzM2tVOWR0Z3pRNkZZSHhvNkNWalZrX2VHS0JINDVzYmZkLWFNNUNOSUVXc0h4eWhReHFuMUczd29RYW5OUDBn?oc=5",
-  "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdVZxY3VtRl9xbDZiMnFfdjVlY2dQUnd0dmhVXzdxUV85NnJyOGtKUmIwQ2hONGp1SjJiLUNqRXBiQzlJaDZMQ3FNNG00eFFxME9nWjBZTTBJOE5QOGxaWUtucGdMMWJ0QUhJNjRiY05BNUFyenJGZjYyR1pXSjBUY3RxUlBDS0VDakpHc1BVYlNwWVR4NEJJbnd1clY0aXM3bzc0RzZZMHZZWlIxT0tXcXZMS1FtRmFLRkhmcGtDMEtnWmZGMWk4?oc=5",
-  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY1R0a0o5QXZmcFBqd3k2MVp2UVlCQzlOSTNIdzBneEdxS1RMQV9qbzZ6V0h4VDJ4RG8yZUNFaHZxdktGVlNJa3lrc1dEY0hoenhvc0h2TTBoQWtWa2JZbjhQcE5BXzRLZXRPTFNhQTJYemg4VlRFWkNjdXNkVHYwenJKR3d1R1NkSUNiakRsNjR2T2dUbWNQd1dmQi1iYlg3NUkyNmdKSGxGZW8?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVp5RExBa1NtV202aEw4bUc3VnZIdW9hR1lPTGpxeTV0UWE0V3BGRkxZTzFOUXB5eWtKY3lRUWYxNUNHeExUVFgtc3J0NHJFZmF6UUJzVWZfaFByWlFlVm4ta3piNWoyaHY4WjF6Q21Pa0JzUGpZVFJPQ3p5LVBENVNXaFdYUE1TanpxSFJ4d29zVFRBaE9fYV9EaFU5aHRkemR0QjJRNmVlU0QzZmNKbXAwdXliaEdMWDV5NE5pLTlHMGpCTlozSQ?oc=5",
-  "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdjQxd09mbHY2cXo3bGF1Qm5YX0RxX3owNlM1VUstaUtuVy1hOXZMVS1nc284bml5ODB1MnBMZzNwYU9lTnNwenpXT3VIcUtfLXRmakZKZC01Z0JEeG1GdWdibU40STRxbG5pOHNuN2UzUjF1RUdmOFdoX1pKY05NV2gtMVU0WnlLdlgzaGpB?oc=5",
-  "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSTJSWllMdnN1SnRRMWY4SEp3MWJVdXBIdC1hZGxOUkRuYk1PNGZrd0tKNW93cW1PME4tZXBuSDFCNldnbXA4TzdkMjlZQ0dGUGVYNDRlQVp2dUkyeUdxMUI3RFFodTB4WEVtNUltTVJtOEVLcTR6N01adHJNNTlBU29tQS1HbjdMMkp1TTJIcHcxR0VTUXB1clotRWg5T1dQcVJYeFZ0cHJHaVU3Y3dabnB3NmJZdVdjLUFlaDlIbUdMQlpMWTZDQUEwNDY1S0VFeFZIdWxXRklFb0IySkU3d1ZCSjUyMFN5eVA5NVVraGNwY0NTS2FRXzNR?oc=5",
-  "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQT3JlRzdlZDlnaDZxM3JRNjh5NGY1a09fel9fZERKSFRJR3VWTEdKMkI2UFh2cm53QTBIVW92ZGFYb0JPdlJTTUMyS1dTR1N6VHI1RERXU3BYbW9IV0JCalZwMGpmZVRscENuWEJDZHhWbXRGcld5Z3dPRXN5NVB4bHljNzdpM0ZGWWdFaWhFNmlIb3NQdjNYMXdJTnViYTZPYTFiejBFOU5Ka2dSZlU2MGpSc1Z1RFcyRHlIcDRQZERMR1llUHRhUzNkbkZyNXIxMWFnMUJkREpVc1JHTE5WclAzU0tDODFURjlfbGx3Q05Md2tnR1c3LVo0MzBmMkdwZXZ1b005bzhSS2_SAZACQVVfeXFMT1NoWGxCNElDRmlMV2xsUGJCNUZDQXlFVzN6MFRWbkZFZlNhVWxFOXZ2cThKMnJqVmc3ZF9fS0k2eVl6Z2N1WFF1VVFadXQ4RnhGOGs3WmJ3RjJxMnQ3UVZsdW9WaGIwQ1F5LXhzM3ZSUVZNY1RnQnoyejBlMHcweVdlS2phUXhBQUlhSUZUejlpZGxBODd1V29XdUVIckI0Y2VJWXFvNlpGdHBTdG5IbGZiR3Bjck5tWWV0ekNHSzBUZHk3bmdHdkNsRDJpTmUxeUZRVWpPdnRhZ3VJQWFMREhtSmdLSHpvSDQ3cDY5T2pIVTJDUDUxQ0ZPMnJsaFJsLW5WdGhxbThTYVVyWlVZOVQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSDJCV3BydkV5Sm9FczdrSzJuNVpzdnVvT3ZOYjh4R0J3Ry13TjBndkxwbVZRbDJna3BaT3JyNlZVc0QwV2ZBekRZWXMyMmtYRTM5amRzek1xWERWNkdZc0NhVFE2dTFpSVZlSVgxb2xfMUVacEJmTFRVR0JMY1F2aWUzRTNka2pHUHR0aXZMemJhb2JYRHByeldqS1NUWlNMX1RwRl96SElmVkM4Vmp4MEh0cHd1WHNvYmc?oc=5",
-  "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVnhtZUVoOHkzS0RwVnZQTVRrTjdvZ1dvRGtwT2VNa3JtaTNOeUpIVnFiNzRfOUotcDVpVWpId21PcXI5N1Q4S1ptMHpxVzBKazdKYktueXhmYXQtSERiMV9IUURaMTJUMXk2M3VnVFpaWkhKbHpHRnZXSzRYZ04tOWNxN1RuanM2VVNVMjhlNGtHTGZvRTVKYnFJMnhVR1dEQWpKc2lhby1CQlRCQnQ5aGhFVTlsUlpYZlF6Mmt5R0RDNTJucHNPekI2ZkdzUjlRa3FabUdjYzB4dnc5VElWSVNsMllyNC1VS19UTHoteFpzQm1uVkVRVG1B?oc=5",
-  "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSUpOMVB5Z3lyZ3NueGVYeUNYNG0zUTFqZDJGcUxTU2tyZFpSc3Npa0NNMEgzbXBPVEZaTDdDVVF4NzBlY0Yzd3hKaEt1S0doajhLY2hpMlZDc1AxTGl1WXZvdXdKdTFJYktRbDRMYkctR21lVXlJQW9FWHBaYmVaa0tzOA?oc=5",
-  "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNnJvbF80SlZOem96enNVN1NIM05tQjh5OFNXeXd6YVhWY2UxSjdpeVJmSDlxTnBrbmE0VXNacmNtS1lUTjllNFhnZDFOcGl2d3cxbjFzbXpVVE5hU2NodkxVUkJvaGw1MXdxVHIzbHc2eXptRld4a2Y0T290LVM3LUstWUpjVVE4bWlIUUltN01RUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa2g0bTRoM21wS0x4TjI5cnQxVUo4VEJmOUs0alJqQ2FkRG5Ec3ZpRUJVbzdCTDltS0M5OHhBMGxKWHROLUlUNzMwaEl0LVF2aG5SSFA0WXVhbmhrQ3d1Y2pKN2dseXZWa3djR01Fbi1zdHVWQVpncGtZcVg3cUlyZTF5VVdGODg0WWx5NlpFR0ktZDEyVEVKelZkYTV2b3NhWk1fNlRyS2lyTHI4NHZvYVNfdGZGaUJ2Xy1UYXY5Q0xxNXdv0gHKAUFVX3lxTE96dnRLQlJOVDJUc1ZtYVRlOWNIZnRSUVFUZTgwYy1YTVR4T3BvYlJtUDY4QWpLOWRyQmg3S0gwR1pwb2xOMEZ4T0gxSjhGREM1MmZuTm5FM2pWOHkwWnBxSTd0MjJrV3FVWFVLSjRKR3dlTWFJZEJsTDY5MWlTRkpnWkdOZzlsSEhKUU5lejd5RlRDV3RsdUdJYWFRejJXaGVVNFNhNmhpUVoycUJRR3ZZcEFqaE9IUEg2aUVLUzFHZFQyb3VYVmxkS3c?oc=5",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU0FudWtDR19IaC0xN2VQWHVLdGlYbU5EajE2cFB4R1RXQUNZaGNZZnV5Zm1oemFNdjVJRW0teDhud0FBblNPam4tOTJDX0lnY0xmaFRJVlJnMWo2bTBENkJTaVFtd2Y5S3dRanFqYk4xMW5KbmEyN2FQaTUyc1V3cllGOWRZTjlpeHRueElXdkhSNHBpVng3RHRiNVJLdG9tQkw3aA?oc=5",
-  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdWY4R19CQkxZV2JRNTkwZGd5RE5NcUFtWVFnM3l6T1J1RnhtNGZaNnlWSlVtMkdiOXpDU1V5aDVhTDNvSXJ3SVU3WTM3N09LMWs5MHZSejFTTEpIcC1NeGhZa05XdG5IajlhbEd0RkdMSEZSUWxJS29nUVdSN2phWUJvdWxESy1TaEE1eTNfR1hkY1NmYWtMMUdnZ2REV0ZlV214dDBRN1JqSFpZUGtWU0tJZW5OSFVDT2VSWXEwRFA3SEXSAb4BQVVfeXFMUHk2SWN4THJ3UHdJaEpvZXNTeF8ycUFGdVRHT2VoMVQ5bGsxMlM4dXo0MXV2NUZkZnNRRlNfQzJyMWdVOVRpYl9fMHhQblZqUEYyeGE2NHlLbzBxWjRNb3ZvbmR4MEZDeGctWjFkamhLcHRERnNaOWVqUGkxRDNYSVcxNmVVeEtGbHlRN1RxUTNLMlNmSldJQ2ZEcHByX2JMSEUxUFZLUkZ4TVdzN0lXVEFuT0hwMC1jd2YyVEpKQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWERoQTVJeVp0dVktUk1rYzlkcFoxZHM2LTJSZV8wcmNCaXhWQVh4TTZFSjNOU2hpWW00bjRoODluUUV1SF83bzVGREZxVExiWG9ZdW5wQWM1M3pObEExZG9xYXo3QjZXU0g4WU9OeGhnTEdramM4T0VGVmJPT0tzS2NWOTVHbjNnUDUzMU5RdFNfS0JVRnBOTmtuRjN1OHJOckV3WW8tcTE?oc=5",
-  "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdnhqdGdnVU5kYjJnbzY0WEJOT2tJOFFjRHhla0k0NUluN3BOSUl5VHBhSzV2S0tWYnhaR05SVm1qajJnMlI4NzBKcWh3cEtmekQ1SXl2S3U1THV4T2k0MTN1b3pmQ0dqZFJuRzJ3SGpBZWRDc3NwbVd5dEpfa1J5aUtkOG9xUVpiVTdLYzlCamRIUE0?oc=5",
-  "https://news.google.com/rss/articles/CBMizwFBVV95cUxNajFmQUg4ZGl3OHk2OUNFdWpsLTVSdTFLbmtmalR6SEJ0QzRrY0E2ZlJVNHRwTXZJQ2QwT3dEQW1lSFl4SHk4S2JXRVh0T3VGT2lhTVd4UjJOckFHVEI5R3B4QmpzdERPYXQ1LXdqVHVvQ2dLMG5Ka3E3ZXprRG5iSkJfeF9OcFVGSGZ1LWxqZ0d0RFQwelVCdHFRbGpTdllVMS02MDZTYzhTMk56N21QMkJFRGpKdHgtMW03OER4RHBPT1FDaThQZmRoUGNMdjQ?oc=5",
-  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUkROUWt2eXhrdmxJaW9MQ1lKTkVlbnpGcng5ejByaFJkSGxMNnJuNVV4TEsyU0ZFWGY5VDJKRm9pcWl0bGVqNzlGNngyNnd5eWlGWWJjYUVZTW9qU0pCclhSR0dkOHh0dF9DYlhwYWVGTTJUZkROWDVVZlNla3A3djZKLTlUVjBQZ3dTX1NMX0wybGlE?oc=5",
-  "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNU3hWTEhuaTU4N0drMWEyeXZlUHAxSkJNdWhnUmdKMlh3VUVMaFQ3aWhOMEhndTBaNkJ2M2lKcVVOVWZOVVF2d3JvcENaNzAxYVJBcHl1WHpuSDlHR2l3Z2NQTHRNd0xsZDBqUjRGY1JvX0wybnVIOTFPelA?oc=5",
-  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNakt0OEpRU0FfMU1wZUw3MFlwaVpBQVQ1X09OaXF4QVQtd2N3Z3lWeWhrMXVhMFRLQmhxMzhRZnI5cFdfSWVuWFFDWVVHVWN5cVNpbXByQmVXVkFVTjA4YkZkc1dtUkx3TERLamZhRy1Rd2lyeTVZZTBTVTB4WElNa1huQVF3YWF1ODVhY0Q5YjJlZEJwZHN5VEFWWmJSQW1CSTNsVi1laU9KNVE?oc=5",
-  "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdG5NUDc4X2hYZXpHdWJNaVdrZDNtdXh6T3U1WlhyS0hMOGMtTno4VzZXdy04X3ZpRmFoMldaX2RTMGx6R0NoSmJNcklKVGE3dW5LS2ZabnlaaFFDMThFX2VzLXo4TjB4Xzc2cVZ2UVNUTDE0OFVTd3AxTWJ0UXdOSmJ2NzF4VF9MZ3FCUjZhNUNFQ1JOZWdSVnAxNVAyMjA1MFBuMXdMeHdRTWMtOGNTVXNBZlVEVkhEWlJhUk93?oc=5",
-  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTUoyOHpJdkRMall4dlpHbmRlUko5VUhXMkRJXzFIN3ZQNnZaOHlIRU1GdVlhSFJGb3RRc0NSVk1YLUwxck91UEd6YW4tclZaaDdfdEpnTkNGdmp3dXFzTEpqNWdpSi1mZTdjVFNXSkRhVS1ZdENodE03ZnAwLXlaM0FPT1hmLXdreTA5Sk04ZmMzUkQ3ZXVueFRfc2JuVlIzLWRhd3ZybW9PYmFMVngzNHRUZEs2U1ZBRjJ0V1F2RjF0empzVWpwbjBvS0RiSW5jekVuR0M2aDc4QQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQTlQazRuM3lCMnU5S09hdXhEdzd6dWRVSXk3RkllSTFDY3JsdlNhd2ViM3JudEZNTE0waU4tZ05QbGhFeUpScTlEZERDR1V6WVU2TW9uTm00NmhTdzh0MHljSTlPaWZnWW9CTmVuUUVFSHVDWFNpX2RDdTMtVXhfeDZHVy1qM2xNRzdIRXN3V3M0X3E1eEYzdXZqejN5OWR3V29B?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZDkzMUw4TkhoNmZkUWRFeVVVaW40QW9aTE5NQlZCdXM3Nkc1SkRmUlhIdTdQeEhrNlJ4ZWh6eGZqdl9fRmdBck8xZG53dURLT3R4OFBGXzN1cTRYQ3ZfN2Z3M0oyVTlCVlVZdExaeWxiZmd4eHBoVmhNSEZRSWtlRXVRWlFuSmZvcC14aTZ2d3piQWNaRUhLVjhxVGM1R0hOQ3BDRUZxWUg1MGt5bzN1endNN0lzb3NGWTM5VVU3bw?oc=5",
-  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNX2VQLWhzdzBsR2dLYjBCR3RYWTRtX01JbFRzUkstOGIyRW5aRnVhQmliZkJHTklxQkVEQjVJeWFFM3A5akY2TDd2X3gtMHB6ZmdnTHNxYWxxWjBtZ3M1dnRRY25ab0tsb21wNENmMTZQa3g5SmpyajJUcV9jeTc0dHZrLUlrZFQ1YUplYmNIekQyOEF2V3c5cmJTMnptSjJKU1o2eU1ydnd1SjFqUU5lWnRFSHNQY29xQzRZMk53VWhMQmNEMWNqWVpXSWZGNnNtM1V0QUYwbmpjOVdkcUZBVTctZmxuUlBDbGNIaFVBNNIBf0FVX3lxTE9BeHVPa3dQanFQcVZNem5JOU9jN05QMmhwRjNSRGl1Qkp0TUNCUnA4bE8yR1BRR0Rvcl9ZdXVSNk9vdl9VTDlSZVRZU3Z4R3hlNHNZLTFydi15MV9FM3RnYndUOVVJRDZQckQyX3FjaDNSWWRRYTY2UUhKRDhXSXc?oc=5",
-  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc2V6OGpreFJmR19xY1JmajlWaEZrdko4S2FWZjRUanV0M0NHc0FnSGh3REIyMjNwOXIwczNqX0w1dUxtRDVlNHhEQmNnX0pycWFkQm5SR2xTZWo4OVVUbUdkY3VPYldfZElqQWNEdHk4dnBaNXRDc2ZGSzYwdjZTSlYtVlpjZm1aRTV4eVFOUjEwWVM4TzJXemhMUi1yd3dFcnFkdlprVEJNSkZXQVFQZ0w0THZUVFFHdjJFeGUzNTVXRXdadXIyUUxzOW95a1c0SGlJemNn?oc=5",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVy1CWTZZX0JkZjl6QTIwZFZzajdEclY3QzdfTUVjekhmZS1XUmZGSHBYbktxZzgtYXhYMDM3YnpadlU4U2FyUlJzTDZsUktHYUlJNnVzOThzX292OEZzZ3NkamdNcUFqM3E4ZUtITEkxaVpjR2xlSWlnMnlhU1daSVAzdWhTbXdsSjNDTUVUUzA5OUJRSWNqeXRDbkp2X0toSEtPRnhtZWxPM3I1WUNDRWdNeDhlU0tyb29HOHBESWo?oc=5",
-  "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMUpteVk5MktqOF9mV2JaTVJJSUFYZGRHMjlWNHBxZXFVN014Vy1SVzlyMGM0bXQtUTlUMGc5YWs5VkZYLVpLQzZJRGZiVnI3OUtObHM2OF94TmNvbjg4NGJBTmdIbzJhaVBSR0JIcGFHM0VjVTl6T1hGSl9VVDFTRU9fNGp2Z0hZUXFuWkMxZE5hTF9hSWg5a3dxbnpBSi1nZVcwY3hOMl9kc3F4ay1WZndzVkU4RkZmU2c?oc=5",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxORnM3TWZlOFJKOERrM3NPbk5DUkY1NV9DTTllQnlnWTlaR2loN2lZWUM3WGt5VjR5dzNBOVVLLWNyOEhCUkM0WjNaaVhIX2dSMHZPbzhCSUZINndLRnhicng4QUpYTU9LZFpHU2NUTC1iLTY2RVdZeUg3ZWRsOGptZnBnNUYyUF9xai0tamxFemJBSlZDVFFvbngzSi1fdVNnV0dZRFEtdWhTd3dqSUHSAbMBQVVfeXFMTlAtd0hjWlItazJ0bVZnbUxkZkR1eWsteWltTm5ZMW85bVBvSWZ0QnBVYUlTSWYwQ1YwSjFmZVFITm9sZHF3eU5PRTc0VXBTQTRjX2VRRjhSQUtib2hyblY4WW9SSVdzT1lSX0VJWFJIdjZCbTQ5aEtLWnVsTlVHeEtyQXBpVkI4NkFGREh6X2c0WGVDdF9vMGNjUjFLTXp0VVlWNFVEdDFmc1VrM0VBdEhSQ00?oc=5",
-  "https://news.google.com/rss/articles/CBMizAFBVV95cUxORnd4eG1LZl9JdG56akw1VmJHcWpDVGJmWGhvLVZTZGk3Vi1CU2tPWGxhTHNYZDNhREFuV09GTUxQVFZoUWhESVgxZ2w3NGRRYnJZNzBDMEppdk5pZkxDY2FCU3ZST3VrbS1rNFd5ekZqZFJId3djak5uazJRMERCTllHSE5UYW9BaWNBVFRSeE1kUmx0dy1VZktIanBEZjA5NkZOME12Y3Z5aXhMUVRCZkNwVVFRbmhRRFA0TUdJdF9jbUVkYjhpUElnbXLSAdIBQVVfeXFMTzZvTjdOU2NDaTk2TlZVM3hQZVZPYWVBS05VemlQdEhWSXY3eTJaMGxmeVJNZXpZMFRiWVdwY3RSUTJoMFhoR3BwTmdkTmM3ZlRwdmp1T25QelFHRGV0TUdSX2ZvQllaQWdDQmIxQXM4QlFmMkRZcC0tbERReEgyTHE5SVItclNHTGRBbTZVOHdFTDlGdWVMWGZnOVdTajFZS3cwQ0xSSEpuYkg4bV9id3dmUmVybWF0V1c3Q1ptSHdtY0RpQUZJYUhNLTk3RGVvVmVR?oc=5",
-  "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVJwcVp6dktwaEVLc2hja3pMQUpQLVgzdjdORU1oN29nNk02NUJZZWd6OE1hMG5JS3NWd2pYdm14TWx3alFDb2xNSEJCcWgtWWhKb251U2pzTnBXN0tLRjJLX2dYOUhiOEg0cDRMNkpHREtxeXB5VUdZcHkwZ19ZN2hfRXdqcTVoNk13VERYbF85aDVlcUJ1dHFVZmR4RTjSAaQBQVVfeXFMUHJVUm5uUU0wRXhOMHlOZmM4QlpieVozTWg5bGY2bzFMVmJjT0VqWDZISlh4UHV3bjE3VnJGSG5jVGZSV0NUYWFoelUzNlc2YXNiOGxRbklMUk55T3ZVczVnN3RhSjcwNFVVVVotOUlhWU5tWjk0Vkk4MER0Tk1FTjVhWDJIVUV3OEJwNGxHcHdsd0s2MVRpZ2tub2xIX1RIcHctRGM?oc=5",
-  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVS1PR0JDaWFtZDZ2cDNmWDk1cVlZRWFxSVd6OUpsZ1l1SC1CbWdXWUdLM3VNRmhmSnJzWVRNa3puTG1jSHZPN0hLNGVWalVLbXYwZXZxTDY1d3JBd0VIUTA3cERiWmZfaGc5R0RYTDRyQTVEUTJNYmhIRElZS200SE9XbHo?oc=5",
-  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORFFNS1pZMmNHTExjcEZsMlVna3dJS2hmN0ZzWjd5MG5RTFg0YzBKWjdxRkloaFpJUFFvanJGZGZxcFJmaEFrMTFySGw4MEExSlZidlBvS1REMldKT1ZKVEotYlhlMzd3Mlp6cU96eWFieVVnd2EzYmlTQk5VX2JyTkM5TUNkUEtyZG9rVnp0bjhBQXVmSm8xQzBLS0d0bG9zYXZHOF9tdTdLWHNBSmlmbEQ3Z3lQbTRKT1NfT3lNRFY3UFV0Q0UwTl9sMUhnQU9nbkRucTE5bkVMUdIB3wFBVV95cUxPSDlyNnVpQ1VJc2o2d2NpZHhOVzczQ25ZaGdQOEtrMzN4Vi1GNGVpWVJJeHh2MnR3TUxaTWhscnpRV2hxQlpVZzZNa2VOTk9laGhoZVNLekVfNUFIRTJmbWhQUzRzVV9JRGY4WEJDOERXNkdXclM4M0FIaEhyejhRUTR6eVhjeDR6SHRvNk1QeXAzTnpzVjhFWFFJWkgxcHBwcDNYWkRTVVRreG5BNTlKWUFUb2MzMEVLY0pBMUI4emhUSHNMTVQwUzJDdExIS2tKd0djN2o3dFpTNWZPRG1Z?oc=5",
-  "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNGF3ZmpWc3JlWnpHb3NqYmlRemZja0ZZU2s4MlJzcEpqczBKRmhNNE1RQmtnelhuM19iOGZ4N1FUa3NtdWF2U002YmJrTElIUW40Q29YNmpQTUw3NkdBNEF3LTAyOTc0WWtvUUF6SWRqaHlhYjFCdFNvNnJZSnNuQkhKNklzVHN2STBDYTBhVzB4SWFlNEFJU3Byc1Z6VnI5ZEY5VmVGRkN1MUVLaUZBdTVPR0loOXlTNlHSAboBQVVfeXFMTzRhd2ZqVnNyZVp6R29zamJpUXpmY2tGWVNrODJSc3BKanMwSkZoTTRNUUJrZ3pYbjNfYjhmeDdRVGtzbXVhdlNNNmJia0xJSFFuNENvWDZqUE1MNzZHQTRBdy0wMjk3NFlrb1FBeklkamh5YWIxQnRTbzZyWUpzbkJISjZJc1RzdkkwQ2EwYVcweElhZTRBSVNwcnNWelZyOWRGOVZlRkZDdTFFS2lGQXU1T0dJaDl5UzZR?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZQVkNRUHhkTFBaQTZJbS1DSmN1LTQxQ2tMZUxzYlFBNmdDUFFKRV9pZ2VRaDdZQjZYX0xoZDdCV2hUeWxIckdFeHhxQkFMUmxlVU5BM253bGJKejlUX1hjRVJDb09HRlZBVzI0MWxfRlFLWjUyY0JBa3VRNnpZZGVJNEZGWFY2aWRSYzlTU3ROcXJrMnQyQnNZNnFqeWRYQ3dfNEZwdDlrRVBnVU1TUkZqU0hpNmlXWXpKS2Zmaw?oc=5",
-  "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSWZMUjJZWElYcGVXekF2T0ZONVVIWS1pcjBtVkhGNGxPQ2tSV3YyNy1CWU5qeWt2YzF4eUJqNllXNHFxMko3ZTRGSDJjeGgxZ19wbEtUYlliS0ZoWEkwQ3cyNkptZHBZcWE4c2xmVlBLQmVfTHQ0V2V1LVctWmtvdDZhVG5DSmVMQWVPWjcweGVRZkNKLWduQjdNdUVwWG42MnFCb0VtTkNRbFdjdEVTUHhiM0t0UE40VGZCVUpwTVZWNllpQ01EWHlGWDRsbm1GTUhPUjJqeW1ocGxid3BnN1pJamhybER3VmVsWUdWMDBGUkF3cVRFUzFXa2RzY2xPTl9uQ1p4Yzg?oc=5",
-  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaE42TzNGSEVxQXBsQjBuMjdHa3htb0trNHpWekxvZ0ppZGVodk9rOG9DMjRRRHFrTWIzMVBjVWhuTUhFQkVfSkRNeGZHSVh1ZjRpZTJxZWI1Mk9sSkZ3TmJjOEtRSXptRFQtZXdLQl93bTNVRkJJaTQyYXJsa3JuMU5mS1FWdTdtTDNHUWV0NEdOYnBncFoxN2JFX2YzTjNMaUluV1ZrYWpDYV9McnlqdkNVZDMxXzJuMFkzajBxX0E5SDTSAcgBQVVfeXFMTlBTMXFFZ3M3Wms2YU1ERkxYanE0cnRQbE9qMHRNOHZSY01TZy1JN3dxdHBNZmZpcXhGN3o4QnVVTHJwczZDUDJLbnBKYy1aVE83T3paYWNLc1dSWTQ1Y0pER29INUhPeUtvN2g0YmpweWcxYnJIN29WSlEyemQtNi15NEJ3eW5IWGpFUXpDdXo4aVNaOXpPQVpiYXQ4N29mRld6d2kzbElTQWVBQVBKMUVNMGhlY0RVMHFVSlFhXzA1WUNIa042eDE?oc=5",
-  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRDZZaENsZW4yc1RnRDdzaGpIcXp1Mk9NTnpYS1c3VG5LeDNrRU9PUFI1Y2tDNTlnVUNVQmtEaEM3TU93VnItdl9PRnQxRGRsZnowb3dVOFFYb3hHbjljektMcXYxN2VWVWN6a01hWjYxYW5MNTg0VEo1aG5pdEFEOGlzUEJ6UU00NFJPNmVJYmdsR29kWFhubXZmRGU2czJSLTM5Rk13NGxGamJ1Y0VEYkwzdlFtdVpJbVpqb214dXhIZ9IBwgFBVV95cUxPRDZZaENsZW4yc1RnRDdzaGpIcXp1Mk9NTnpYS1c3VG5LeDNrRU9PUFI1Y2tDNTlnVUNVQmtEaEM3TU93VnItdl9PRnQxRGRsZnowb3dVOFFYb3hHbjljektMcXYxN2VWVWN6a01hWjYxYW5MNTg0VEo1aG5pdEFEOGlzUEJ6UU00NFJPNmVJYmdsR29kWFhubXZmRGU2czJSLTM5Rk13NGxGamJ1Y0VEYkwzdlFtdVpJbVpqb214dXhIZw?oc=5",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVI2MzJKX3hucm1KUHhrVzBCSUxFNW0yWFdrQm9oWlE1WTdaclhlQ0hVQjBvVWI0Zm9NX2w5RXdjRWV0cHl6UUpLZmlSR1IyNzM3aFV1a2NZV29GWnlnc0c3UU1qM21lN3NEMl9LLThuUVFWX3h2ZzZsZ1dTam9HOXBMb0FWdHotWjVnX2sxTVBfbzBuNXpuNERiaEVZZkZRbGlUWDhoN1NQUdIBrwFBVV95cUxPNldqZGJlYnVJRzVDbDhlZ200c2FRNnc3YzQtS0plVGNMdlZiblZfMndCWnpKSV82ajhUSzZqbm9tUzM3TVZKSmI0TUV1QnFPNjFXRldBVm83Q1VCTjN4MTZPRTM1Z29talNPczktX2NGRkFFYzdRVzFDbGYyb3FQTXdjcmM4V20zZmpMYlVPMm9HQWNkYWZXQjV2OXBXUUdmdDNWOVcwUlotWTh4TjE4?oc=5",
-  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWkQxZTRadXRWZzIwYjE3bDF4U3h3ZEdnWU03SDA2YmZ4WHFieWVSYmdyM3lhNER4OC1IVFM4MEZuYl9JRFRXalhNTHJRUXZrLUk5M0thRHlFWXUzYk5nX2pZc0oyck9PVEF0VkkxckFGTUItYmM4Y1JjZ1V3V2pYQ2ZyLTk1LVRUd2VUWS0yUnlGZWJmeDZfMFBUaFc4VWYyRW5HTXMxZFlPUy05U1BfTl9rMzRlODVPOEFBTEtXMGpNd9IBwgFBVV95cUxPWkQxZTRadXRWZzIwYjE3bDF4U3h3ZEdnWU03SDA2YmZ4WHFieWVSYmdyM3lhNER4OC1IVFM4MEZuYl9JRFRXalhNTHJRUXZrLUk5M0thRHlFWXUzYk5nX2pZc0oyck9PVEF0VkkxckFGTUItYmM4Y1JjZ1V3V2pYQ2ZyLTk1LVRUd2VUWS0yUnlGZWJmeDZfMFBUaFc4VWYyRW5HTXMxZFlPUy05U1BfTl9rMzRlODVPOEFBTEtXMGpNdw?oc=5",
-  "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWt2b09lT3ZiTEhQR3NSYUlpWHdFMXZOczFlQTRVTVZGclNha1FicVgxVEdGTVJOcUk3Z2dOM1ZfWEZxM0lfMHRZTVlHRFBwdDZ3RHB5aEtRT09vOV80U0lVWnBmVng5UWFscTYwTkRSOXB3eFNsc1VSc2dSUDhJSzcwTHdXelh4Vnc4VnFqanJPVm43VHF2aFFqMVkzOThnVEVqRHJLMU5fcFd2dkpz0gGvAUFVX3lxTE1ta3ZvT2VPdmJMSFBHc1JhSWlYd0Uxdk5zMWVBNFVNVkZyU2FrUWJxWDFUR0ZNUk5xSTdnZ04zVl9YRnEzSV8wdFlNWUdEUHB0NndEcHloS1FPT285XzRTSVVacGZWeDlRYWxxNjBORFI5cHd4U2xzVVJzZ1JQOElLNzBMd1d6WHhWdzhWcWpqck9WbjdUcXZoUWoxWTM5OGdURWpEcksxTl9wV3Z2SnM?oc=5",
-  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRUxtNkFDQTJVV3Z1YU5hQnlxdzZtd0xKTTRFbTMyeUItdExMdG9CaUNDT2dvaHhtX0kyanR0cFRDTE9xR0xCQVBoY2h4SmNiWEV4cFBBU1dwYVVDRUdGeWYwTS13Y0d6VEtWQzkwWWdvcVlyY3BIYkxfTFdMU2l4YnJhTlpFNmUtLW51MU9BMGtIa0lSWTVKc3lJZVVWSlFMYUpkbVBWazNFZVcyalo2d1JhRndLNS1mWF9VdVl6VDFfZGlwVnRmaWVRWnRmR0NEMFZJ?oc=5",
-  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JVlZ3TVJtcG9VazYxNGFzaERIeXpGUjhGMzhTOW91RWFBbmVBWlBDaERHSmVRQjNUMDFmVHgtX3VURzFZN2hPNmxNUzlzenJUWVFpbDE3ZFQwQjQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNVFXUk1MbDNFdF9OQ0xETWdQLXhiNW4taVZ3S0VrR2FJYnkwQ2xENTlMRlFHbHJSeVBzRDU5TUJhLUFyREk3N2JFTjlvRjByR0t1MHhYS2tENTExZWg5OUl6QzZDTjhiR3B6RjBGWGhabnFwdHlvUThVNVFLd2NBMDM2ZjlPSWNMSTZuNjJ4Z2cwbUM1VnNBNUl5TFlUb2ZmSld5NG5ZV1NEbXdFX1F1QUc1aVpMWEFudUc0ZVU2bEFINjB0Zk05SlpGeVpneUpa0gHWAUFVX3lxTE5LUTV5UVRBNFlFUlFwUHV6UDhxYVFaeHZIdFUxbERXN3hyOVVtUy14VnhBS285bWNnN1pqNUw0OW1jbFVncThNcW94NmQxMDVYbEs3Um5DTmdnVXljd3VsZlN4eWRuZlJ5anY0UmVpbXJ3SkxaMXRIdHc4d2dmdHVFbFJJWXlpZlAyN0UxcXQyNXFiMUwwUnBHS2RKd3h6YjRjMF9TbUt3VFNLandkcmVONDhIdHoxWEhSeVpyeENXOW5yekdKN29aTVZyMG5WajRWT0F1cEE?oc=5",
-  "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQT01IZkJqLXBFcVlOSWVZRjRmTnM4REs4eTFOZjBEQWtWYVYtVEg0NEVBODVmYWRnd2JHRmZVMlhHY0JPQnFuV0dXVDlYRmF6RGU4OFV6cVhFOVlfdm03Wno1b2pKY08weE9TWUNQQkZnN2FLVUVpYlczdXZHb2xwV3VqdjU3QlpfMHhDdDBxVnNyRmx4UkhUakIxS09ZRE5NTmVUQy16ODFIVWRPbXQ1eF9mUXlrZWctSmUyZGVOOUVLZ01HY3JWcU00ai1HbE5BbzBTckQxUWx4V1loQkp3ZmkxQmZIQXJBSEsxX1FKRHA?oc=5",
-  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcWJMci1SSHBtRDJOV0VFV0JDbnFWVDNJWnBUMTRkOUFYTktZa3EzdGRNb1JHaFpwWGRnX0RHeGxOUGMxUHpOX2NvNm5pbWM5ZEN3YjY1Qm9Td0dnUnlfS0RuTTFVQXRNdDhhYk1JVURUdE5VYWNfSDBycC1uVUF3ZkVLak5ZR1paaVdqNEoxQU42UEc5aVQ3dU1aTllkX3Z6XzlKWVI1b2g?oc=5",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdWh2UUpDQUdxNGJwX0xwOE9xZ2VLdzgyZVFfb014bnhNTFdCOXdMcUR3aWpQVnVRMWFGbnpYS29CcXFQUzVCWnU1TExMUWQ3bjRfYy0xNkQzMC1odWtvV29CeWwzTnQxMnBuaXNyWnBQM3dCYlJqZVNnWWFiSzVOa3NXQUZtNjAtNDJrSVRMQ29sZ1pSWjhlRWljRXQ5ckVybE9fUk5fWjBMaTV1QWNXLTk3ajlYUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcnJ5ZUp3TWFnekN3OVdMa1RqVXlUTnVZbW1iMV9sZ244TUR2VmZNRkpwemFuOFlueHF2R2t6Tmo4S1pmWVlIVE5DdzR2QmtqMEtESkJKc2p5MFVVWWNhMDdxSkhlNHVuX1lDbVVtTHN2V2xxQ1kxTzB1NUY5a0RBLXMwMzN0T3BDZHdkbmVBb3U0WjNCMEIyVC1vamxKTU9tNkpRLTZMZDZoYTRBNG1ROEFfbmJVSjE2ckJHSy1RQ2E4QjR6V3hsekhkWEZOdG9Zbm5r0gHYAUFVX3lxTE9IdExJQm4waElWdEVfZUhCaTJOekF4cFl0S3oyaWtFZ2JhZ0tiOE5xTU5halpFU05yMUFmSmNNS0xpNTJ2Q3BXdXUzZWpIT1Q0cF9MUTBDUVY1bFFGRloyZjJ2cmdCM0RWcC1fZXFKb3RwbTZnZG1pRjZhVVBfX0JTRGZTLVVNUkhYZk4yNWs5RzBnNVEyYmZxT3hhWWxGWFBUdHhYYlhoMEhFVzNJckVwc3FhZmNickN1MW9BNW9NdGNpeEhEV2tJbThnMjNnZkdjSURtQXZ1Ng?oc=5",
-  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeGdDUDQxWk1MbTB5dFFveUQ4V3lpMk1hNThkYlFQMFo2bGNmeTlIM05DcjhTMEZxUW5nSjV4c3lkZ1ZxQ3JQOHZZbHkwc2NwYkE2aEg3M3BiNXUwcDBJbUJWd0w5cVdCT0dvZEozNi01NUhMR2xDazFlQVdPSTVVeFpvaWN5OHJjZVZmQUpOWlNPYkktYS1uWWQxTlBKQ0F2c1lZUFh5a0xxaVE?oc=5",
-  "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLXZRLUJjMXFlZ1M4amJGODlzMEM1X3VIS2FHcGcxbUVoTGNEZHBuVTE1aTFpYXBFTmk2eFVBS3hyaG9BOERIUHRzRjE5WEJFUDVVLVU0X0hDSVlrMm5uZnM1SmJMNjdxVUwyUlBjUmZfYlRoaWdjVFhQVHAxZXBZM3Vib3VSdTlFVDlLRFkzMjFwaUxLWDJNaWxic1hZb0VVVHBTa2Q2NC1BT0s5N3BXeGxaeXVSN2ctZ1ZqcE9pNVdiSzVEMGZF0gHHAUFVX3lxTFAtdlEtQmMxcWVnUzhqYkY4OXMwQzVfdUhLYUdwZzFtRWhMY0RkcG5VMTVpMWlhcEVOaTZ4VUFLeHJob0E4REhQdHNGMTlYQkVQNVUtVTRfSENJWWsybm5mczVKYkw2N3FVTDJSUGNSZl9iVGhpZ2NUWFBUcDFlcFkzdWJvdVJ1OUVUOUtEWTMyMXBpTEtYMk1pbGJzWFlvRVVUcFNrZDY0LUFPSzk3cFd4bFp5dVI3Zy1nVmpwT2k1V2JLNUQwZkU?oc=5",
   "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb1E0ZG12M2JMSml1LXZwSzVUZEJ2bDlQZVhtU184R1BhSFp6Si0yQ19odndUbjdHeWctLTRfU29fZFh1bTlkWUo0NEFBY09fUmVBRjZ0aEtsX1FlXzUxVkFTSDI0bkFnUXJKSVphZWhUaVM0NnZ6N3g1TmZBb3A2Y09HZUl0Mm5EUDlPdUJ6YU9GOU5zemZPeTJLZGczY1FPaWhtMnBfOHFwVDlKZ2RycTktVkQ?oc=5",
   "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU0JRbGRDYTZrUTVSaU1Gdl9jdVVoVTdyWmRtUUhCTlAzMm91WGJ6QmpIU3lDZWdyT1dpNWdUdE9XWmtmYVhWQlhSUm9SVV9NRHBIdU5LbkJPSk5ob3BiNUc5aVJENGdxWlZtdnF3Q2lUaHVJTkZxb3RrUWJ2cjBBb1JsdHByT1NNRy1pZU9iMDg2RVp5QWpv?oc=5",
   "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNGZwNzl2QXgtM3cyNmZxMTVWaGNqd1pPMVQ2SG1IZ3FieWZrUGUtX3Y1d3p2QVB4cG1nSkVVNk81M1k1OHIxT2tDVmFPbXk5LXdvTnpXZVV4UFFNR3kwcmc3MWsxLXhjZlRscVRNN0VzZGd6NWlEdENUYlpRR2U4MXJRSUs4RlJMbEQ4c29NbkpLQ0V0em5BVFZ2UXcyaXhEQUpOTDJyYkp5amNDdFdsbEpnTVMxVzdUTWY0RU1FZ9IBxAFBVV95cUxQSWliUzREOHRXX3hPQ1BRUHhuTUdJVkNqQW5zWXdvUWl3MjFBUVRydDVQdWt1SHdxc2RMcUJUdkc4TlNQei1aZl9BOXl3ZVVlTlZ3MEFDaFdmTEYzMFV2WWE1STdaY3ZudzlUVTRHQzFfYUJkV2FNQ2tfTlEtcVp1QUtoR2REaTFXbnBEbjdKbEZqN21OYWZHNkZQR3JfNUlVeGV2dHZMZFdjT2M5TXFSRF9xc2FkaldkZGg3c3BmNmhHR0tY?oc=5",
@@ -11609,43 +11419,155 @@
   "https://www.corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/08/09-150441860/molina_e_la_roma_conto_alla_rovescia_ecco_quando_sbarcher_e_sar_a_trigoria/",
   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeFZnYWNEeTgtSWM0My1FRUJyVkMtVEMtSEptSmFSdDZhZTJhdlVnT0lNVHk1T3A2M18xWUE3OExPMm9sVHJna1hmZ3RYT25jc2ZhanJhMDh5c2h0S3QyYkZuZFRkMG55SFMyamJqUkNIZ1hnZmxhNUplV3dQbE9UOUVrLTBEZzBIUXptTEpfU2NqS2tMekd6a01KV05WaGdDd21QTEFOSHRLYURvS0stdlhiT2ZlUUxCdmlqZjhZUEJvbGdWRzFqONIByAFBVV95cUxNeFZnYWNEeTgtSWM0My1FRUJyVkMtVEMtSEptSmFSdDZhZTJhdlVnT0lNVHk1T3A2M18xWUE3OExPMm9sVHJna1hmZ3RYT25jc2ZhanJhMDh5c2h0S3QyYkZuZFRkMG55SFMyamJqUkNIZ1hnZmxhNUplV3dQbE9UOUVrLTBEZzBIUXptTEpfU2NqS2tMekd6a01KV05WaGdDd21QTEFOSHRLYURvS0stdlhiT2ZlUUxCdmlqZjhZUEJvbGdWRzFqOA?oc=5",
   "https://news.google.com/rss/articles/CBMinAFBVV95cUxQajE2YmRqY2JqT214czBubENFOGRJRDYxS0xSTnhGUHlEdGM3azRod28wcnZVaUdUWHNoUEFJaUJfUmVYTnV6OFdTeVhKQnlYRFVKN0NxQVdfWHNBU2I4TU4wa1hCaUk3ZmU1QmlkOHFKRjhKR3V1V24wc051VVlaLWlYRDY5eVRRYmtyVGFBb29uVFZLYlhXTXU1NzY?oc=5",
-  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWVMxNldSWTR2MTJMV3VyTlU0VTh3bW82SzZuY3BKb0N5aHVqYzNub2cxdVRZTVl1MlNZcENuTDN4Ym43N2NGRUhlUUtaektaVzYtY3dqbGNSejQwd0hKd3lfNTR2dEVQaHRHU0dIdWl2Q3hRTkhTakZ2emN5REM3TkFCM0JWemt2MFRZZzZQaFkwYm1yS2FyYnl3NzRpZDRHZ243Z1FoZ0VuNFlXM1VmbVdueVpWMmRUSDdvVUk4RjVxRGlfckppazMybjUzQ3hkMkHSAdQBQVVfeXFMTkVjOW9YcEs2QkVXY1JVT1RUY193ZXo5Uk9naGIwZ19WeGtFcTA0ZzFscTRTaGRWX1RVZmdqQzFOSmwyTThWUVJHR3NzX2oxRzZvWWNCdlRncThuVlVtTnJXTERuZEh4aGkxQW1HN2M1eXlBOEpxSmdrYzlJa09HcWhxOUdCQlh5UDRyWmJxcXJvTTI3NlE5OC1kMzl1Z1R6Nm0zazdoTUo0bi1KdjNwd0pYTzBEWDdYTFphUnNTd1VsZjdiN1pMcU5yVmpYUkVQc20yTnY?oc=5"
+  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWVMxNldSWTR2MTJMV3VyTlU0VTh3bW82SzZuY3BKb0N5aHVqYzNub2cxdVRZTVl1MlNZcENuTDN4Ym43N2NGRUhlUUtaektaVzYtY3dqbGNSejQwd0hKd3lfNTR2dEVQaHRHU0dIdWl2Q3hRTkhTakZ2emN5REM3TkFCM0JWemt2MFRZZzZQaFkwYm1yS2FyYnl3NzRpZDRHZ243Z1FoZ0VuNFlXM1VmbVdueVpWMmRUSDdvVUk4RjVxRGlfckppazMybjUzQ3hkMkHSAdQBQVVfeXFMTkVjOW9YcEs2QkVXY1JVT1RUY193ZXo5Uk9naGIwZ19WeGtFcTA0ZzFscTRTaGRWX1RVZmdqQzFOSmwyTThWUVJHR3NzX2oxRzZvWWNCdlRncThuVlVtTnJXTERuZEh4aGkxQW1HN2M1eXlBOEpxSmdrYzlJa09HcWhxOUdCQlh5UDRyWmJxcXJvTTI3NlE5OC1kMzl1Z1R6Nm0zazdoTUo0bi1KdjNwd0pYTzBEWDdYTFphUnNTd1VsZjdiN1pMcU5yVmpYUkVQc20yTnY?oc=5",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxNblV4MUYxWEVsdHlhN0dDMnBmTkZfckMxbXNRQ3NKTEZQejY2VnNRRlpwWXVwZTFwZ2ZEa1dnOFRiWUpZVE1LS080RzRWTVlvSVZCN3NBZkc4NVh1ZExpcmwzWUpqSTJYWkpUQ0RFdW1zY3UxbFM3dGF4VU5McU9wWS10dVRjblhPY29ZN0NfVG0wbDB4TTliZWJuUFJDT215a1ZYN28zZGx2dW1RU2tpRGhTRk04YkhBNnc?oc=5",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/02-150207909/kolo_muani_e_alajbegovic_ufficiali_juve_inizia_una_nuova_era_ora_la_partenza_con_la_squadra/",
+  "https://news.google.com/rss/articles/CBMihgJBVV95cUxQNWphd2M0NEdSdHl3RWlMNS1Jc1NWaHYzT0U5V1RnSGJ5cGlCVHBjN2c1QWhvcmFjbUJZV201bUdBdHRjOHFCYTdfTFc3dmhQOHRhaW9KUEhiSTJyVEdTbGNnblA0QWV2ZFdUbjNPaFNyWkVseXFPUXIzTzJtRUJFb1NRVHJGSjFDNC01YTliOGVaY2hsQUgybW5nSTdwdElBZzQtYXE3bURiYkRaMDZIa05PMTl3WWZQQ1k0U2NzUXRaU09lWExNbi1NdDY0cUZ3bjF6ZnZHNmw5Rjkzc0JGaGJHU3R2aGd5alhYdHJua0t4TjhuSjhFTGdfWllKMWJESGFXWXhR?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/02/calcio-juve-annuncia-kolo-muani-arriva-a-titolo-definitivo_85a8ebd3-e12b-43bd-bebd-42a81bf179c6.html",
+  "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPaDZDanJCd0lBdE5FNXBHVFdHV1VHaHcyUEJ3UnRzYi1nNHFZV3Z4Z2N0XzJybjNyTkkxbEJzVUlkTTdZTGVYdThHLUJVTDdlWmdyRnhvZUxWMGN6WkRYbFUtTU9abzI3OUtSSnAyMnNGYUYwMkRITmVRLTNmQmtpTlRHX3JjRGU2NU9Pa3ZxNEIwWDVTd2pETXFEUkhsMkpqRFZadWhlTWlLZTFSOEdDTUhFbmFLbFlfLVB3UEVHeWNqNzlNZWJ4VlRhS0lUaWhJaGF1SFF3bzh2c3otNy1udUZGOUloLXdRdlJYTF80TjkyYXl2WnBr0gH8AUFVX3lxTE0wUG85eWl3OTNYdkxTTXVyLUduUGpDQVliVWUycUtSdUVwVDAzWHVjMktDRWF6NENZbm1DRDZpSC1NUlJMbHhIUVJQaFVpMjczLUR4M19COFJhVlhaSHo1S0hydlFFV3VuNi0tRFpLbUo3WGdoTEYyWXozQW1uMVQ1ZDdOTmRFQ3pPaVdEVlFmT0l2czBYUjVqWkhsdXdGNnp6cXNZRk9sWlJOdnVyZjRSemJ5R2I2QTZSWFV0Zkk3al9GMXl3VEJFaS1uT3RRQUN6azRYRWdFWHNucmI0czhvSE5scm11bXBkOTJoVU0yd0VjSlk1RC1iVG84Mg?oc=5",
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOVdnZFEzSEVOeERibDZtMHBrUFlzMEI5NnozRTAwNlEyM2RNTmlLMEtsaVRHYS03VGZrVDlOenNyd1ZrZjNTSkpFT2YzNHBvaXd0NlVsOG5PVFYyeUpuSzJjbWRvdVhUcEg4YTd0ZUdndDZFOFl2dHVuekw2MUViMUpUTkRlakF1QnF2MDFR?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/napoli-con-allegri-riparte-la-caccia-allinter-lukaku-in-partenza_2e6e8949-cd81-44ad-bc2e-0aa0b19b17b4.html",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUjhxcmJ1MFktR3ZjbTFseVlQVnpPXzVHLXQ3dVFtUWRJcjBnOHg1N1FBeXc0d0h3VXpoYUpzNHlzMXNsaFE1RjZDVlNicDJNTVNFNDE4YnlBTTJEdXhKTEFUc252d2F4dEtpTzFkMkMyUlVRLVBOcWNnTHh5SmhJcE1wREdkVFdZN3JzLUIzZFFhUG1iWTNZT3JYSXJWNkRweGc?oc=5",
+  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcGItMGt3Wnhfa1gwUmQ5OE5oOXkwWG43TmVlVy1QZG9YczZpbkVyY09rY1pUWTdOUGxUWlFRWWN3U0JqelJibFI3SnZjQnFxbENOb3YwemZUMzB2OHFadVEtTkxHQVRFZW5JdUhLZnhDRnlYUGRvaXJXR0dHYmN0aFNqWUhtSTZZczgzZXpaN0lDVkJwbllpc2pjQ0ppRE9ISmgxUDB2XzU1bGxCRnhxSTg5ZlAwV3JOeVN6T1FacG1mSC1CLXg4Y3Fwbk9DakNLdk5zeQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU1l6aWdqVVlrc21KZlZJVzdrak9wWGJWUjVYSnV2Q25ESGZMRTdZUEtzRk9MUGNxWGh1R3gxRWFTVVRhdlZsek93TkZzZGI5SllWSkRTMkZqU0dPSU1TNl9FNlkwai1ZS2Z0ZlZwT1JBaC1BWlpwZ0dyWlloYWVnQ2UteFd2NUVvSkpJZGZJSFdxb0x3ZXByTWJ4SFczNzRaX3dlSGdDTjM0WmZqSTJRMHBhcjJjN2FFaGhEem1QeUlxWWlJY0VaRGtzZnFDOFBFMnZsT01EWmdFa2RobWdIQU5fZnpxdElvaFNjbnFZWVpQeF9maktHVkxMdzhBdw?oc=5",
+  "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOUNzQjZnWkh4UVNieXRZd2ZYdnoySERKX1Y1QU1BeExSS3U0WWdqdXNuZ0VKWTgwbFNreVh2b2dBdVFrSnNKZEpiclF3ejZDaGhZUXdMeE5fLVNGVXdGaVRUMDVwdEM5bXVoTXFPNGx5c0pIV3hBZnRhQVBYbmFVQ1RCWkc3RC1VWk84OGZFa3J0U1NoLWFUdlN2cEhTV3lJSzJiNENSdGJfTDJZOWtsVjgwZEJ5Z1hLTktSaHlNVnI4Y0s0SmhZdGtTS1dzUWNlSEE0LURyRFVzS0FpQlRmT1B6TmNJUQ?oc=5",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaTdwT2F3N25tcFM5WGRhdnpUXzhpWjB3bTgxSmVKOWdGVHRGMUE0OTl5UFMxM3o2ZDFMNllLMnV3c3VmbjhGQUVwaUVmY3d1c0NJcE00cWZyeEg0UFYxS3k1cHhJcjMxYkg5dXpLYVpLOVdhQXFER0tEMzIxY1FtdW5uWERtSGw2WDVmUnhHaWJsbTYyZDRqcU9oQmM?oc=5",
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMHZmRDk2Tzk4U1JtaU5KeGl6Z0s3djZnZ2VjVWRxRk5Zdy12d2pMNzFNeE15X0pJeUt6Z3JNcTZ3VjJ6dHVZQTZKWXd4ZWU3U0s4UTR0V1BGQlY0eFhvMGh6ZjlMd3l0V25QN18yVWlCajlhdDQ0dXpVSlJfMkhCZ2pqdDI5bnFVaGIzbHM5OEU3Zm1yTmZWZU9jQldVUkpONnpLcW5taWdLcVNBX3NWWXlWQVBhSmhLb2Z30gHAAUFVX3lxTFA0NWF1bFdpbmVaR3prQ2ZOQzlsdS1ibURJdjJQSUYwNXhOUHdUd2RtcDBTS3ZlR1FfcmVKckNvd283ZUYwWE9vcUgwUDhBRllXc3pscVYzanJyTFBjVDVxZkZCWnNjdGhrTUhoWTVPeGVJTDRRcXlqTTA2eTFRdkMzeUxFQjJFLXFZcG1hNzJzSHR4OG9WelA3R3BrUHVLUDdSR0dHRzhnaU15U2Z0NUlpZnZuVndWbVdSMnh4UFBDTw?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaGM5YkI2UGVXQ011RjNSd2N6X1RIVERUa3FINHdkOGdPTDBzTzBtdS1HVWNjRU4tbFBHMFl3ZHRueDVjTVU4TE9najBkbFdZS3pkTTI0c1RoUDNhU3lhT3lwTzduc3Bmbkg3UzBXaXllWTlEMzlTQVBBZ25ENVZZcmtzRHJKOUFxZjA5cUZRUEN1UlhqdTMzM0o5czI2R0V6Z0NIQUhHOTZkU1FhS1lKeVJNb05YdzhhcTFmbllSN21RWDdXUWMyNNIBeEFVX3lxTFA0NFJjX3JyaGRaQXJFR1R5X2VvUmhEalZvcjd1M0JoM0E4UWNGcHY0dXVGUW1DMnRuSnA4SWpQV3k0UXluQmVEbWlTSmFyal81QWNZRkEzWnBjbTNkOUpSdGduaTRuMzBManhxZ3F4NjZDSzk2dnlNUg?oc=5",
+  "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUzJEc18yQ1RlM3ppRGMxSmVGRFdUbjN0eWtmdnNtWGJINmVnZE1DQ2hOMVRsRDg5MWlYNDlqckZtdTFRc2RWWGlFQ2EyTXIxYTBVR0t5QVNnVXVyVmhYV2hKbE1Dd0l5YnZEbndURWFnT2xVbE9qVFltdkNXazBpUkh0enVoRjNKaW9keEFVdUNaSXdpM3NSWGxTckg5ZGtRVjhrbHgxR0dhTVVJemZoNDNoNjRRbXEzclNJeG5qNXQ5TThBNzJDdC1SWlNCMVpENU00Z2FwLVNQWXJLUTVSQjhrNVFTSklMQnZkb1Vna3pFV2s?oc=5",
+  "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYy1FUzJfeC0tajI1NTQ1WnU3Sk1IWm5yNXV3dnRMZVRtNHlOSnJRWU1MVGYzbTJVdGhyYzg2c2FxS1FGQVo5R0w3MGUxTnpQaGU2T3czcHk3cjBRajBNcWFuSUE3UjBreDR2ek1ES2xUUDZUWk91aUEtdE85ckdTR19XbWhNT0NHQlpOVjRyemxaTmhvb0Rqd1FwYkhQMU4yLUNkRmU5aGZJQmtvVlljLXozN0kzbDFLX3NsOWI0Szd6dnFlMVJsalBvYW55WWRDQmhHd1ozMWs5WVlyOWdKZG12T3J2akItSnN3UllYYlQ3dw?oc=5",
+  "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS0dIV1BJV1ZXTi1VWGRYQWs2X0lfQWM4d1RzbGhRWGNiRW1CLUhVNHhKUjJIZ09FRVJHT2pIVEpPb3V0NFVxbkdOb3Y1U2lXSnNXdUNDamRNbGpTTE5QdDBjcFNEMWhWdjc0enRMWEpfVlJ2V0NXRUdtbi11V1hKRVhCMmk5SnBUZEhhcWVfYWl2Tmc3NVVIbVc4SjR4MHFmRUdEc1pHUlFTRGtGTWRGdlRGck9tMnVjSERwZTFrS1FoR2traFNXS2ZCR1VTQWdnUG1IdGwwcXJVdk1sNl8tb2piTmdIZHdvMUdyVWdrVVRtQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMihgJBVV95cUxORW1adUpDOHZkSDlscjlqWUdTcnFaTE9qU1NmZEY0ZnFLeFRZWVZwRHNFWTF2YktYVjJ5OHI5cjlKQWNGcUhvUEk5SThIeWRGcXY1RkZDbHMtbU54SzJyVlIxRWFMNTBYXy1MbkR2NEtodEZ5R3dmLXhQUHNQaldwSWNqRmxkZkhiWWlxamhtUE12VFBxTWlaUnIyRlBicF8xNUhOU3ZlNDh3RFVPeTBMSVduNUkyazFFbDQ5TXRLQUJNU3ZIaEFaZDB5eUM3N1hNWW9wa1o4dDRJMDM4Y2h4ejd1bWJzWFZFZEZ2OGJnbWlMeWhGNjVMTlhBSlVfWFJxRnRoSklB?oc=5",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaExtM2I0ekZ0VFNWOUdYdjRNNU1JSU1US3IzZUxNcEJKLUlPMVR5dVRRSi0zbGZHcHU1QmJVV2xFSFdrNTdkNWlfWXQ5WE0tbEJOalo0bXAxcm5yZ2NCdlJEd3paZVA3SGhPaTRHZ3ZpcTNpUHNDb3NGODdPMjB2QlNVN2pMajhaejJrRVoyVmtWLThUemgzUVdhY05vN1d0a0FpSkNmaHA1V0FVX2NkMkV6SzRDa3FpWUwteUdFQzhyTDREUzVMWlFJT29tdw?oc=5",
+  "https://news.google.com/rss/articles/CBMijAJBVV95cUxOY0NMZWgzN0hldnNqSDFvcTJFeVF0MVh3LXEtcWNRWl9MemJ3N21JTHhoazVMZlhIZ1k1MFctUDFJdlNzTGhrcFVTVWtrRGdteG5TVm1RWG9ROUxNMUxRbGVYMmRMVnpPMVJJZlAtQ3o5bGhVZlQwNUpNQkstVnZRN0NNOUdUeXpsRGRxYVdZaHhqU2J1YzdvNlZKSlEwMWJrS0d6U3VUREgzMXNQRFBQbi1DTXp2Ul8wRll1bElsVnFxTjZ0dGZWOXhWakp6STVCOXRQYnlVT3J6Yl9HRHhndTUyS0FvenlLYTNpU29VZ3hhUGZ4NjNWYzNTekNybFBHLVBHMmVSbnF2NnJB?oc=5",
+  "https://news.google.com/rss/articles/CBMikgJBVV95cUxQM0YwVnVQY3ZRbmUyYXhfYXpOSjhyZFlhR3JJX2FHZVlSay1BUHpYR1JVaXlPcXpXbVJaVjVOaUxpU1VCUEtYNk9ORUlSa2hNLWdtS0haTmZIUjR0QVdvTWlHS2RUcGM0WFJMWVlYdkNDZ1h5NFhSUkozUnhER2lyUmpnZjYyU2N0ZUM1ZWRrTG5xeURlSnB3M0VLQVo4MjBHVXdJOGNhQ00zSUpxXzM4aDUwQ2RVdGhNZ0lmZWIxblhFUlZmaFVMazZQallocWxFblBjMW12ODRsVGRQSDY0Y2NuaHJULXpLUUFVZldsa2czeWpWQ2VpWTNZZDZacjFaY2dMSVRVUXYwMEZaSXROWTln?oc=5",
+  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNM0N4dXBrb1dSTDZKVF85RDI3YXVaYllyaHhTSWdSVUFDcVlnQzE2U3JfWkY1d2UzT1FPMldZbHVRcG9nUk9zaVk3OFBCdVlSb0pqS3BHM1A2eGk0VVRDaE9IMFVkcFIzZHRia2ZweG9rN2M1NXZJSm5TdEZHcXlXUTZwRlFmT0RkZ2tWaVYyOVFJc1VwZFprSHUwdml4aldvUldsRVZ3dnV1YXg4WEc5Zm4wYjJMRDFWOW0wQ0FhbG5yVG1sMDRjd25sX2xkQktOdnZyckE5OE44ZTRfamwyQ01Ka1cwWkRB?oc=5",
+  "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZE81QzZLN25RS3hIUGstQk44NklzbUdMckJ5VUhNVlp0RGU3alNtbkxqMXJvWDNCU0wtdy1iQWxVM2xvZjYyY0VxVVhsLS1KNXM5QktNOUVTQk9QeU5ESHhVTTZRdHVRdFQ5UGhCTGdOSXVUT2wwVlQwQmZZQ25HVTFDYkx1TXBuSUZvUGxzT3JRNE41UHJSbHlmdm5MOEszMms0SnJyRlRlenE2TGtiSXBUNjVpdW1tSW5ZdjlZaVlCaEc1STh4LTBFRTZ6STFOMTl1dHhvZkVLdmtxXzlmSks1R2dLRzFxOTNYV3lEcm05cVEwN2lHdWE0RWRRTzBselJNLTlR?oc=5",
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PVG9nTWV1MXl6WHJjSFJrUWpHc0h0Y0lxQXE2RWVWeHU2aDZ6Rndsb2gyRENRQ3pERXFKaTZtVVhKMU1remVxdkJ4SVBfLVVwVThTOUtwTVA?oc=5",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS2l0WU8xdGctTEdlX2lsc3V5dmplMk50VDVUeWIweHlUb0VoVy1tQmVONWk4bTdVOTZJc0JoclQ4ZF9pdnoyQy1WQ0Q0ZUpvbzFkbktjX2RBckZhLVF2WmNhbTVfcGE3YjQ5bmZPbmVJTnhwd0phX3ZKMk8zcUEtLVBMNklQS0U4TFE4b2h4Z9IBjwFBVV95cUxOS2l0WU8xdGctTEdlX2lsc3V5dmplMk50VDVUeWIweHlUb0VoVy1tQmVONWk4bTdVOTZJc0JoclQ4ZF9pdnoyQy1WQ0Q0ZUpvbzFkbktjX2RBckZhLVF2WmNhbTVfcGE3YjQ5bmZPbmVJTnhwd0phX3ZKMk8zcUEtLVBMNklQS0U4TFE4b2h4Zw?oc=5",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxPelFHNWtOZl90YkRJUmZPVDg5NzU3cFIyVmdPZ2NCemFrWUlRTEpxQTdsSlZMLWJDWVZXaGhueGoxR3hSMGo3MGVnRkc0U0J6RnhyWEJkSTMwb2NPNnBkN0xYLWcyeGpNR19tcWhYTUZWUENaNXBiT2lBZHhPaFJwSDBlOA?oc=5",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMVhTWGNpMWM1RVJyODB2V3VHSGlkazZnQmxjNDdOTTJMLUxIVy1rUGc0MFgxUm92SjB2ZjVUTURTb0p6SV95YTNVSUxETTVJRE9MTndoVlVVbWFaLWtwMjdpVjBncTloSVU4enR1OF9qeGlTUVZ2S1RDMzE0RGREUTYyTXp1VXU0cXhrVFBmMmZmQWptM1BoWVlkNm5ESS1QYWJfNGNzVUE4b1FzZU1yaFF1bGhqN2dVRnI1dXpzZVp2MHFHWDZV0gHMAUFVX3lxTE82Y25zcUdvQk50eXBUdUxSUl9abFlIRFlfbG9TMHZVZjQycWczVzlBS0ViclhlMEdxUHhLT25xT0RMX3FVZjY5Z0N0THdqMUVEdUszT09LaE02aVRsYzBNN1AtdEJvbGxBUHNUd0NpcmZKOEFmQi1FQmh2N2s0STk3blY5dmtwWmZpSERMd2k1MEdYdWVQeXlvU1JNM1VkRUVlOEdMQnlGcFhLNnRrc1FGLWtTUlVpUVhFOXFDVG9PN1NLVUFTRGR4XzdIYQ?oc=5",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaDFrUG02dkg3cVg2UDBOTGdrbEZDYnh1QWJXMHhuM0JCTktfeEhsYmJCTWhQZjhfZC13R2cyWU8zMDNsRk1DUk9BeW9zMktSbzF2Vko3Zk1VYkt5Q1dua1VxRlBUNk9PeUM2TE15V0c0VjNSTG5LbE5XcFplZDh1QklsTDNERzVUR2xac2s1ZjlFU3NkS25CeE930gGaAUFVX3lxTE9oMWtQbTZ2SDdxWDZQME5MZ2tsRkNieHVBYlcweG4zQkJOS194SGxiYkJNaFBmOF9kLXdHZzJZTzMwM2xGTUNST0F5b3MyS1JvMXZWSjdmTVViS3lDV25rVXFGUFQ2T095QzZMTXlXRzRWM1JMbktsTldwWmVkOHVCSWxMM0RHNVRHbFpzazVmOUVTc2RLbkJ4T3c?oc=5",
+  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYXJjMGtneW1jbVN2dkRmU1hJbm1kUFcwRy1FTmVha25tQjlWMjFFNGpMOWF1Z0NPUjFhWktENHd3S2dyM0dYdy1Rem9QOE1BUWJNLTdRNG50eTc2NHpFdnRNNU8tTWxZbG15UXZNM0JHQXRuWXFNSjdOdGJFUjZQSlUtWkhQSW9GeXN5a09CZmpDZXFKUjBHOHU2NXhvQzNGUlpjRmgtZGJNMF9kMTZMYWFnNW1XM3JRRVlqYl9EM1ZDd2_SAcgBQVVfeXFMUHlaN3hOUjE0NXBnVUlJWGhyR2o4MUlUcVFiUjY1c0w0YWJjSUpCdmx6VEpmMmNIRmdpQkZRSEk3WXNRbWxyWE9jU01PcTNUdkVsYzVKanhFbms4YTduWkpSY3I2RGNveTBFckI4b1hYdHhtSzVxbmtHc2g4T2pxUFB6Nm50V3hSRnZOMUt3eHFVbDZ3TWd4emRaTUE2ak5hUzVNYi1SZlVoWERiNXZhUjQtMkZ2d0hDWEJGQV9tOC1DWFFjdEt6aVQ?oc=5",
+  "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUExXcjJNTGFkR1ZSd0xVeUQ2Q1RiQVZCdGVEd0NlVEdjcDVMX3JLRVJXQUpkUXZDM3JSeGJQNEtMdHJ0elVraDhOQTl2c1JCVlY3ZU9XcmZnTWg0YWZPcHhqMTBtQTBrMHVVWUp3YnJZY2lCU2l2Zi13b3NCbVhNTGktWFNFeUZGZXlyMXZ1d2pUbnZ4cm9CLWp2bmItVjVOaEx4Y0l0VzlfNDBvMTZkMDlYdzBXWVRrcWVYSlZ6cWMyRXkzQkHSAcsBQVVfeXFMUEo2ZENLRF85STJ2UWs2X3lqMkZXaWswZWpMS181bHlOX3ptRGZGSGk2WGV2RUNKYTJZQ0pGczRYYWExTzJSR2ltcFJQS0sxRjBSUVdCRVEwRHZVUldTcUhmekk0ODd5NEFFXzZJYmllOXVpSGRiY1ZiNW0waVpHbzk3cm1vUHRhOTg5aldNa1dNYnlwdG9nSkFtQlA5YndHNzdQR1puZkZ4SHE4WW9TVlBtc3NaVHZsUkhMa3RFR0NpUl9odzFieWdNN1U?oc=5",
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ3NKcEcxanpXSG9qdHRKcU1yam5GWEdCY0Z6MUNadDFSUzhnTVl3M0lvT29FT2RMOGRtWWRsbjBoQVpVNlpJeFdaZkkzSGxJNjQ0Ny01VE1hbFBMdktwSkdYWmc1cGNKSXZmR3B2MGRmOEJMRDgyWWFtX3MzaXI5SjZPSDZ4d3JRVElyek1keUJtcEs3ZVBwaklSQXB5Y1B4OENUOTJWSDlCSEotbEM1LWpfNkFKc3dIRElj0gG7AUFVX3lxTFBDc0pwRzFqeldIb2p0dEpxTXJqbkZYR0JjRnoxQ1p0MVJTOGdNWXczSW9Pb0VPZEw4ZG1ZZGxuMGhBWlU2Wkl4V1pmSTNIbEk2NDQ3LTVUTWFsUEx2S3BKR1haZzVwY0pJdmZHcHYwZGY4QkxEODJZYW1fczNpcjlKNk9INnh3clFUSXJ6TWR5Qm1wSzdlUHBqSVJBcHljUHg4Q1Q5MlZIOUJISi1sQzUtal82QUpzd0hESWM?oc=5",
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVlpzaC1yZ1FqSF8ydS0teXZ6c19jOUdYcUhxVFUzVmduaTdZdlJJQkNvRS1JemNmcS1iQnd3NTd0akZocUFBcDYwRk9CeVdFRUgtU1g5ZnNVWnV2UUp5S3FvSW1MWEZqeHM4MjU3OHFIZ1VGaVVMZFJzUnN1WURuMUxybHZrcWpKMHk5MTFWbDBfdUN0eDBha203S3NndmdhLVJoRF9FeUg4ZU1y0gGyAUFVX3lxTE4zV0tXRG5VdXN3Zm1kcl9LT3Fxb0pIMlpuU3FHR2x0bjNtU3lWVmw2S0kxZjhoclJsU0UzZUpIQ1F5RVNVYjRsaUp5Z3NiSmlSRDdoMnRIVFZlVVBvNjBKMDJVOHhVMEdFREp0d0xIcnFwVTlwcEp6SV96N1FGLU5wZURKWk9fVnhhN3ZJYnJqVk9lcWx1UGpnY0piLS0temNPM19QWU1pN0NLU1pGR19HX0E?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWlc2Wl9fUXBvOHpyVjJKdEZzQUh2RkxsS2gxdVFoU0pheFcxbzZsUGhrZVVxMk1kS2wzeDZvbXotRUY4NW5oRmhSM3BkbHlRcFk2dkdPNFpOZmViWDJtbTVSMmZPM1BxdmliXzBvYmtxVDRBRlE4dWpKMU1iUm1GUGJ2dndLUjcxQ3JNOUJoVnhTUl9rWWdvMWM0Q0lJbnhvdkRuQVlndUJCX3NxdHNLbFlYbnpZcGU1c0xxcUtuREVpTmpQVDh6ZtIBzgFBVV95cUxPSm9aWWtSUUFxNUE4QzZOQ3RPVUdvSUpqZW9aTUl0U29zWXdUSnEwNTF6UnEzSElvUm9NM3VDMXNkNlFHcDAzVE5OOEtIU250RGRjbFNjcGFhaEVBR2RQSmNqd29DclhoRFY2WTJrU29scFgtdTBoRG5kbWxNczdZWWZpUVhOdzQtM2tKVkN0SnByMkVCN1o3QWNqOElhYlY3RGlFdWFnbmFZWHNZbElpX3F4WTlJRldLVzB4cmIyRVZCVTdWWDhDdExOZHU2dw?oc=5",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcjRoa05jTHFYYU5zUXVkMVJFdEhzZVNwXzZ0R1p5cVNsRW9ZdWJGUFRkMmxzcDd2NWFXcEZYT3BZMjNNalBqY1ZGNW8xN2d4Q2pWck9JNVhfN3AwZUZTMjMzdmxTYm1SY3B4RVpQZF9ydmVLT2JGeHB5S0RvNGlQcW1wdHN1Uzg4Vk1pNFFjM3lxMFR4U3psOGRzTTZHUU1ocEFBU3BzbWtkMnFOajBWby1WVk1YTFJkcnk4VHZn0gHDAUFVX3lxTE81NHFaSmd3bWRpQ1Nfd1d6WEU3dkVFTDZSeHF6VE9Jcl9kSFRjSmd4dkIyQTVxQVN0RHdXeXEtTV9FTG9vbTFrWmhMOG5MZUFmM3E1V2NGNGZZdWdHS0NSMjhKaXpDUUpQY2pIRUE4NTRqeUR3MVVWSU14UmNGUzlDNmVRRF9ER0h5Q3V0ZTVaUlpMdk93d204T0ZVcTNzcUNLOWt5SkltYmV4Z1hxUnpiQzFQLXJqbXFwMWZVVFFqaVVPQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXhtRzlTWGI3dEszd0lOMWNrWUdBWkJwTmVGaC1hXzFQWW54dUxld25zc3Vuazd3VVVUYVNFcE1QbDlFSGJRS2JvUk9PVzZ5S0J2bUUwWlZXdm5ueGxVdkMxY2FUaGFaQkpPRjg3NHh3bllaR3FzaDYxODNiTi1ERUl6emEzSGFJTGVsS0lzNWF2ZDRRa3lpbHZSanROaDBuWkpCcldsQ0p0LUh2aGdfRjllbUx4RUhnOVJMUElKaXQ1ZkV3cktFclBBVW9rUdIBzgFBVV95cUxQOXhtRzlTWGI3dEszd0lOMWNrWUdBWkJwTmVGaC1hXzFQWW54dUxld25zc3Vuazd3VVVUYVNFcE1QbDlFSGJRS2JvUk9PVzZ5S0J2bUUwWlZXdm5ueGxVdkMxY2FUaGFaQkpPRjg3NHh3bllaR3FzaDYxODNiTi1ERUl6emEzSGFJTGVsS0lzNWF2ZDRRa3lpbHZSanROaDBuWkpCcldsQ0p0LUh2aGdfRjllbUx4RUhnOVJMUElKaXQ1ZkV3cktFclBBVW9rUQ?oc=5",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxQS3lCQTJsU3BURE85b0FqWVNNcGxuTFNNaGNNVnpHcXFhdkpiSG9DRERKNGlmd3dTTzhpaWpySzAtd0VjQW9LTG9ZZURObUl1UTBkaE5hMTY5dDRaQXFDVk01QTBYR2FkejZHbTI3Sk5EeDRQanN5eEZzc3VGOExTNENzdnNoSW5qWGVzNVV1YnN4Ym0zVnZqUXd5YnRVZ3o1WDVXNFg4Ry03V3l4c2tr0gG0AUFVX3lxTE01MnNDVjdjSWlFbW9vNXpRZmdJd0djREpON2tDLXRnbEs0YXdaYko5MkVSZ3gzQW16Q05GOGZlNWRIRDRmRlRpWUt4VVVaQ2VGaHA2SHFUNWQ1M2RQY3BLVVNlRk5CVi1KQmRtNlB6VnpWVU50ZUc4WUY5aVhTMXBXS1pKaG01bm9qbmg5NFI5bnZrYy1uVWE3LS1qM0N0ZTVHQVQ2TDJTTTlwQlF6akxic2EtRg?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa0x2ZThUUlh4eE5JX183Z0ozdkxRLWNPTkFXOVJDOGVjVFFOREE1WTNnUnpyNFBQbE85d2NiWE1GNk13Yk1ySUdZTFBOSnRrYjZVSDl4LTZTMVVYTjRMSGItN3RsQmI3RU9UYzE2SDhVMVBxTllOZlJFaEt5UElQUVNyMzM5Wll5UEpOeFBNX0NETGZWeTItcjFiLXZOZEp3UlY0X1RNUGJhX0hCMWJwdF9GaE90dFlaQkZ4SlQ4ZUlYNmNoTGZvRtIBzgFBVV95cUxPMW1fejkwUk1fRXA2c29PZzF1bUdCa0ladE15NHFGdEZXMlhRWGFEVHZJNFhpUmxGRk5xWG9qaUJzX1NYb2xDY01nNFFoSEN0ZHJvMXBPbjZNbjdWNWZUVVhkOE5KTklpb2Q4ano4NFdiNTR6SXMtMVE2TjZCZTRPczlwNklmYTI0NWJVNnV5a2IyM1RlNks2dHJCR1c0R2d2NVlMTnJOZzZKeGdXdjF2dGlJVDZEQ2JmaGVTdkRjZjF3d0phRlZkM2pyTl9WZw?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYS1vOTF4UVFteTVITm5LdmF5ZEljTDFOd2UtUzJSaUJYU3p2NTd3R1lDd1FVYkVuSnZnalJGZlFYaGtuMjF5a3dVRHQ0OHA4Ulk3Qy1BSXZ6QVU3M2M5a0lYMTMxLUlhTlZNMi1uc0lxcXFHSFdOT0Q3WURrTUMtWko5Ql96Q3ZvamJ6ZTJMc0tmX3RMNjIyc3ZtVFhudnJzd1NFODFFTjg5TS1UbmhkMWVvVmkxV3E3dnV2VUxWWDJxY3kzdVhDTtIBzgFBVV95cUxPNldDZEQ1TXdMQ3VQd1gwSjdYdDhLZV9wQ3RFQ2ZQaU1jMWRYcWFZR1VLUGUtYWllZHVUVDdqMUpkOTc5aVh2U3FabHZUWl9xTlNOZTJuaV9UbzFqUzU0dFlsVExScE92eVg0V1RCYTJWc08zRENDYlFNODkyNnQtTmNUOWlVWnh5UHV4b3pPMWtjTjM0VjZqLUlnZWtWVVo2Ty02RXlhZjZDOWJXZHhVYnFETHRacy1jb0FNUF9PSEF3TjFRdTlmRjFZRm9EZw?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdFh3WlVEWExJaFFyWTBNLUNqbGFpQmI0UTY5TEk5b1M4S0U4aE5zVmxOLUNWQURfTnRfaTB3NmF2RVZrZWtXQVdZODhyYnpmcXNKNG51VDcycVZ3RHNhWVUyNnU1NEU3ZFRNRFM1ZGxQcXdxR3VMZ2hXR3hqb0JqNDh6dDh5akZuLWFkUEVvRjdIcXh1aFN6UlQ3TzhuTVdKQ0Y1bl9wMWdIWmE3Y2lIRl9pUHRyMzFJTUtTU0dTd1dpbnZwXzhHbdIBzgFBVV95cUxNcGtpNlhzR1EwbnZpeXRoM2dOckFKWDFrOFdHUWw5YWE3M21rWDZZRnEwaWdjRlU1ajF0UzdwczFlc1BsUTFhUHFYQmUwYTFmYmlzb0JNMEhwV0tHY0JtTFVmcWxBTEZzd1pucFByOUszLVFsN3dDLTlReGtySFFwd0Q1WS1UelBIRXFINnBVVWNGekhPaFpGS0V6R0JDY0RnNzhFb0lTZGl6YU9qbWZXRWppTFBlNjB6MnVERkpNZEE5TXJ3RmNSY0dVcEJfUQ?oc=5",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkpOa0ZjUWlTaFZXUHh0bUVNNl9BUjdNLUppbVRjV1lDWVpJcmpSNUFObXdWNDYtSWN4WXRVQTBsclJHUXREaU5ReUh2STlTeDNHaUlyaGZ3eW1Oa0NQRk9xSC02Y1VzSHl4c29oWDBXR2J2bXc1cEtVQlRPaG1ZdEt4LVptUlQ1M1U3TUtaU3RxaE94TXNvWHBoVXdBeVdQamthdlhFaWVQeE5ORnhCR29kWmPSAboBQVVfeXFMTlFfU1lGd19QamljekZoWGRuRThCbnNzdFNCX0J2eFB4QWxHZDVfenZPdWhualdqRzNxWDlTY3ZmMDBKUkRNeUliTnRoMU9aQmI1UDMzazJPeVFVWjc5dEtzdVBaRjZMYTFMRjdxVGpfVzFnRnl6elNyYzFqdHBPODl6Y2xRUzhrVlpMbVN6RjVDbEw4YV9pNGw5NlBPMF9kU2F5ZXZzRUZ0cTU1X2tPLWhzcG41bGh2dTlR?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUEFEVE5sSnhYZFJaX244OFZzY1lWVHIyZUFIR2dndmxrdlQtOEw1Qk9KRndSZkt6dWJTVjk4Q3pvVTVQWTZvSG1wYnVnU1VBYjNLR1VmRVlNTHF4RW5GN3ZiOHRMNVhEX0MzTGdER3JIMVJpNnhpVzM5X1owVGFMWWZMeno0eEpVS1lnVWtyZkl6RDdoX0FKWGxra0UyanJwWDFNTlgtYW4zSTVwaUJETUJteTZuMmpqSzRFNDUyVDlBOTdpdDdUMNIBzgFBVV95cUxQT2hIb1RtNS1PUldYdFZtSlo2bkdKZTRybkU2ZUl5NlZNcXBmX2xYVzVOVFhuQXl4MU1DRXlMRGoyYS1WcUttRG9qQUJadURlc0VBSlF4cS1CODE4RnhKUHNIdHBCNEFaVllFZy1rdTdnZG0xZ2VjX095YXZqTjQzNkxHcERSTGJEc1FueFA4NWRaOURvUDZuY0Z0cHBjMmFOMzZpbW4wMk1qS3pGV2QxZlplck5hTTY2SUFvdG5tUDJrOVR4QWwtekhlbF9Rdw?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONURVTmdjRGtvbU1kb2h4a2Z0YndMSTZxZFI5S3A1bEVHWkZ0ZXJJWUJXd3JoYUhtWWdzWVAzWGJKSk4tX2pIQmp3UFFFTnhSOHZkbkdjVDJld2ZLNFVQZDhERHZGQWU0OHlRQjZ0cUt0X2JQUlRDemxUdmhPSm1sQ3lzMTVrQzhGNUJneUpwNWc3NF9uRUxvUjJ6QnFLdkZJcjRsYnZtYno3WmpDMmhZV0dWakw4b3M3OFNrOUFiMmxTaVo3RTdsdNIBzgFBVV95cUxNR0ZfbTg0OVNvbmxnR2pZdm9DOWRiZnFhMDktUkpUbEQ2ei1Zd0FCOEx6YjBCMHhkcDRIYm1jMFhBZWNYTHhxck5ETC16bmplcnlfLVpMei1JaTFrd0JZYkd6VHptcXFPWWN0RzRPVVBXclVqS3ZFMU5GVjdib2R4eFlFNFRseEk2MWhBUUhOVlk0UVZMUXYtSS1TWmY5VnRyQ1BZSTE5UkZLUmlGbUw4THNBV0J5RTYwZktFbWl5SXJFREJhSmFYN1VUc3ZQZw?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNODVZVG1nNlRzNXlqMXNkbHJYY05xMFg3TEFNekZ1MnRmR0xvTXIwMmNITTdjTlRTd1JCMGF0VEdWUUdWR21QV3R6MTMxb0VscGxoendVZU9LZEZDOGoxb0lsM2JPUlJ1MnhHNnkxamtpUkc3Y2VISm13ZFNHWUx1czFEZXkwMTdVNGRWQ3ZzVzRZaUEwZFp4VUNNVG1YSDA3Y0x0V3haN29OekZKd2RTVk84dDhxMFZkb29MT29xN1IwQ0tHbHJxdtIBzgFBVV95cUxNUUllRG9KTmc3MkhZUThhVmhFUm9JMjZFNFhsaGdYSnJxYmVUWVBlZzVoM3pUSDM5MU5UdFBwOFpCQVNISFBPR3NvODhwMWhaa1lRSGFmemVFSlZJNEJJaW52OFJIaE0xNEdjeU95emdLRG1xYmxGdDhMSUNleENxUEtuSmNwUWRSNE9vUEtKZGx3bnlDNWIySEplNnZXUTY2TzBnVlQxX0hJU1Z3ZWQ0QWh0N1FnaTdBQmFEWGc0Szd0SDl1c2xKQWh6UTFSUQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQ1o0MkhfanczTDBRMEFOeW1hcGlSX2wtbl9YZDVzU1RLeks5MFl1ZGxES05ucUZoVE5ZLUxEQmNTRERabmZRVFVWOVZYLXNOUHA5Mkd5dERjT3Z2VmF4amw2ejRJMFE2eGtVem84QkhqZDk3NmdJZE1lVFkyMWdNWE5BcnU5M0p5RGtWY2tQM2JEY21aVERsZjRkY3Y1MlhZOFdZSFVBNGE2RUh3TVdHSFE0c2RjVGpMRjBfUjVwaWkwWnd0NU9MWG5BdThfRE9ILWFUOFgzN3ZydW5rRmpCbTZlSzN5cDY5cjV5RDhYVGdoM0pqRnc?oc=5",
+  "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUWVCS1E4dGxmM0VFQl9ZQ2l6c21sWHdGSEo3OXp4NllPX3daRVNlQzEzSGhvVDQ1SW1uMWMzb0lMR1hKMm5ZTWYyRWtiUl9lQUJNMzlVSXZxamdQbXdrN0VBMFI0U0xUcXlRMnlUZU1hck5aXzZLa2RLMk9ndXYzd0NtTWNuM1NJOWJaeFk2eHVLQlE4Rk5xckZNbkFrS1h1TmZiYTVyWWIzQjh5ODYxR2pkT2NzR1JHX2s2enI1MFZFN3ZlaHJ2RWNjdk9CV0hKTXJUOWVJYTFnc2xOa2hJQTFaalhJbDQxSEFnb9IB7gFBVV95cUxOd3NxcDVZSVJSUXJBaTVCLXFzaWI4ZW10RmhaTV9ISTdsdEFzVlBzc3k4eUEwcHpBRGVTOVdrTTJDZjVYUEFpNmpZMU4wcWg4MnhBTFpGU0hMTDZrTjBMLUVHZEYwMUkxeDdwbWQtNEFUNlNkOVJRWkVoZ0pjMFRGeWpBTUNFT1ZrLXRZWlA5b2syd0EwcWhUX3RWWUlkNG5jdFp5cTRMZVFLSGNhWXZEaWhrcHJjUTh3b2M4bVNxZlBocDFQUW13dTktZjJrYkVCc0hqUHdYQmJuUXl0UTZCLTNYb0JBR0RIamp5dFln?oc=5",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeTVfZE43V3c1dDdCWTdURGxFSlpDX0J3Z3pFNXlMa2w3WURucUJ1MDVQLUFqX2lkOEhsZVZ2a3dZUi1FSG00UVhCUDJ4UHpNWWVIYlJ6THRMOTI1MXRzcE5BWWdnbnNhMldTRUR2YzJ3cXdZdGl3a285b19DeGRRNWVBb0NIU3NhR1lKendfNmp6d044Z3ZMQ0VIcllhcnZ3OVMxYkZOak1YbU1Tam1taFd1RnIyOFJoQ0U0a3pn0gF_QVVfeXFMTVd3SmlhNGJJU1VKVnNTQmJtTFpKeWJVZGFGSHAzdElpcXlfRlR1dDdsNm51Q2RKU0xJUkRQUExuSTUyQV9QbUowZTZIcTFJVjVOaFRHdkhrOTlPM2FuQWJDSkhJT19XYTFzUDY2U3hRVFY4c2NxTmpwOW1vY1B3NA?oc=5",
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CazFKSEhZaGliVkNEWm93LUwxQ0NCQUI2Y2x1Sk1RRldmcW04dXRCSTRwSTFpSzB5cGhibkN6VzBwZDFNUnpkNTdTNTU4WkJaNlhHZw?oc=5",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVGluTFJfbFl6T0tHcUZSNVR3NjlTb2g0c2tHZEIzMGNPVV9EbmlrMDR0RG9HbWRZVkF6dDFsekxHeU5hNnJVa2hDbnRMMXdfWTNsRTBESlhmS0FOdkcyX19sbkp3N3l5TzJTNFdqU1g5d1RxSGttcnA3R3U4dC1ya0JmN2RWZTNDX20wckJDVlNfZFI2aXRHcEJZRzM1YTdDSG13YWdn?oc=5",
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xTTRiRDdPUU1fZ0I0YlNjQV9wcTUwekJyejFyWkM3OE5IN2gxVFJ3MmE2MC1nbFIxZ2s5TGNZZUNxUjRseFAwblV2UGc3Y0NadVVDbnlPMi04YS1wYWFEeml6eTdfcF9zOFFF0gFwQVVfeXFMTWFjLWpaczRrbnNQYWhVT0YxSW9faWZaXzl4YUJXOUFqTjZmX09BS29lTEhqMU9VRlNhOGd2MTZ1SjdDR19HeEpsYVUxeWVOeGhiY0Z0YlhjQTlkR0pDZkRqVjJLRm9vR1JITlU1ejdVYQ?oc=5",
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSXBzQWc1SGJrVWdYX3QydDVnb3VuY2pEVDltblU2SFNYbjFXQW54MzhLUjJhaU5GQUswUW9pbkNhQjl0QjBqU2tJS1lxejNLMUkzc0xPZWhZbVYzaDc3ZjVxSHBGWGNaUlZxVEdxN2Qzb2pkdnVZb0RWbzBNeVRUMEFiXy1vcmNjRGJYdEdwazE?oc=5",
+  "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOeUZ2REI4cTRRb2RyMzgxS0JwLUdYRUlISkNkVzBmRExWMmt2LXBvSkJOSXN5TVV5d0xBN0l6MVhhaFlfZi1GTzVmU1A4RUNBaWlJSHVHeVUwTV9hekhWODNNbS1ZcEdXNjlHaGVxcUE4dmh1YkUwVlRsS2w5RWplczZkZ2Q1X0VjRDNOdFUwQ0Nsazh1RldLRnFKN3JjWW5RN1BUMVdKdHFUWFhzQ2ZyeTNQMUpMQUFIWF9BZElmdE1xck5ra1RtSGVyTkVXMG81WGk5R204RFo0UU0xTmNMY2ItR3BZY0kydnl3TTN1N0VoanE2NzBKWFZXZ1o0dXBSV0V3Y3lDdzXSAYsCQVVfeXFMUExrRElSMUhINlJpMTFpeENJRHRpNVFKVmZKNU91bGJvQVZvQWc3OTdBbUZ6V2lVYUdBMFZmelpjRmVxUmhLTDVHT19STUp2WGdMbEo3QmF3NEJSSk5qbmpKTkRvVzN1QUs1cFV5RUFJcjFqYjl4ZGtqN3NfMVMyTlpXa19sOVVHVjFPMlgweWRHNVZzMU5NRm93UTRWUzA1cFJYaFkwYlU5QktsSDlKWnhScXpXaWtiNjJYeTFsdkpjX1M2SDY2S01sSUFyMU1sdTdwTnY5TG1xZnd4aTVXb0p3cW9GTDdvbEd3cW5SRG9ZSmZveHJYLUV2ZnhnLThDS2F4MU9oazBaSUsw?oc=5",
+  "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbXJicGNtVGdEZ3AwQUpfdFYtWWlBY0xVM0VxMzlRdmxNQ0laR3B1YzlHdkc0eXpqYTNvZ2k5OGdINVgxSVJ0Ymw0aDgzM2hfM003LXZ4eFdfbVFYaFFEWTl4WjNqek9KcThPaklrR2xqbTZmSHNCQlZXSEhUVHR6MkhsdVVZNWFLdDc5M1FpaFNuOEY3X2NOWUdyeTBUTVdJaVZZX1BJUXEwQzNFNFdjZ1NTMFN4QXMtOVZmdmw4TXRaeDZKY0tMRmJYemrSAdIBQVVfeXFMT0RqNVc5Z0JDNEt4VC13YXplT3QxV0dqWVByNS1VdGYyQXZ5SDM4Nm5NMzk1X1E2WEtIUjR0VmItWTM3RUlBcExvc1NWc3lJTFZhLUNmd3ZVZWIzOXpiREU5ckhibEVTSW95NFlBVTNqUVBza05kMDNtTWtjc1JkU0dHQWl2RHBVYWdlUFJhbDFVVEY4TXFDZFpENXVFQ2JwT3BEVzAzQUlxaElhQzZYenk5MWJCTi1waE5pX05GeC0yLTJTSU01STJjblpMMjg4c0VB?oc=5",
+  "https://news.google.com/rss/articles/CBMiowJBVV95cUxNWUt0RWkxVkhUOWR4a1dJUjZETjltRzY4MkpwRmtiX1AybFNKYjVSNW13WnhucDdtS09fczQzN3RCWHBiLWdCVzAzMzc1UmZ4SC1SWGU1QjU5LUFMTTVDMFdGMVIwUTJJLWdJbG1DXzBzQnJQYUlwYUlzZUNSX2phZ0VrOWtKTEdUbEJHbFZTZHJiZnRCdlZmUHk0Q1RhSTkySUlaRWNkdDNpYU5ib1ByUFZZNnY0YWZJOGk5c1ZBVVZReTY3Z2N0LVRJaENkNHlIbmZGY3R6S1RmcU45ZmFYLXE4S1FxODl4Z0lwYVZWdE04cnpfVWpGbWhMcVJYODJHMjBNaHh5N1NsRnJOTS1QMl9TcXhEZmZ1SHhhbjk1VS1HQU0?oc=5",
+  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQM3VfdjVkOTJ4ZUp6NTFKeFcydUxQWDRQVGExN0czY01iVWw2bi1hMUI1UE9xcDJ3SW9CV1ppSWVOdExkMXlvLU8tME9tN3lOeWVxQnVSQnB2QXRZcjlRdHhsSzB5VkV0c0xuVDg1N0V3Ymc0NTZrNk9oaXh4aUFlUmp5eGtpOWNLTG5Fc3JuSEZ5YUtEdUZVU1F1TTByZS1jWmFVU2VsdmhHejhLa0t3OWEwVmNna1NMRElfWWJOSm1WYzEwRE1TRWRJeEZDdU1iWmRZRGN5aGI0b0RsQmdZSnVBNE9GSUx10gHuAUFVX3lxTE5hUjNWT2ZqcWdkVzd6blRVRXlsekpuZ3BCeU54QklJRUxfSFRhdGNYZnhWOTBNNFlvb1JMOVpzdmVlbTNpdjg2R19lelUtclN4OGxCVWxGV3h6ajFTWFZpbTJwbDNZNFMyWWFWV1NubXpjWXBOTXBkNVZhU19UREtSakFEWXkzU0NqQkpGcEFRMlRkTE9iNlNta3hvRVdIcjluRFlFTmNhbTE3NzNMbmRlbEQybGtlSFVoRndlSjl1a2hkWEtWQnVhOGt5N1ZaRWJRZmNXc1N4Z2taVkgtSUtMVWZaV3BjbzZOQzBsZGc?oc=5",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRFhmN3phcUFRdk10OVczSm5LMl9XU05zdmZRejR3OEkyc1VYU3Zaa2QtUXlySGR5MW9oaTVpS0t6YTBTYmV4eWFmdU8xNnhxM0htbWNZRDhfVlctcUFQaExQSWNqektqVHJWUEE1aFlheXl6SktKSjdpQm4ySmZzVktmT1ljYnd2NGNseXA2Y3dqVnBGYzMwWTBBWQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0lrYUNJNE5Qd3JNSDB6ZXhrMFFUR0daZ21yY1NpQlJKbUJqTzFSa0J3emVRM21EM2dENnE3TUFDNTV5RDE3N3dBLVJ6V0lNOFhxeEg0clJlQTBzaUxVT2ViOHVaSzQ5WVZjR1laRDFyZnR5Z25UZmREekwtcFlkUlNB?oc=5",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMVVDSy0yUWpoQ1EydUVRdXk5em1DWUF6VWdnb2c2M3MyT3I4VW45dVUxZmo1dUQ4Q05iWWpSekNwRVY5WERrRkxkY3dDTDBaTVVLNDZUT0FzOXQ3cjlQWGhwWXNjcVBnVkhGLTRTYXE4WDdiaWQ3RWw0TnVKdHJKTUxRV3nSAYoBQVVfeXFMUGp4Z0hHeWk5ZzFaZzVaOEl2YWkyWFJzbEFjTG8yZVVuMlo1ZEhxNmdGYmdONFhvUURaZ2cyYU9TUVU5NVdqN2pkS0htV3hVeHhJTmR5eTNZSEtnY0FJMURMLWhUMXM3alA5WW90blpsVXJiWDhRXzNwbkJ4R0dGdW9HZlZORnVWS0hR?oc=5",
+  "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNNzIxWk1kRElBTDEzdHVEMFNmS2xGM29xSEFFWVBOb0FGTTZORVlnV0pHYWVIVkxDZUFwQmV4MkctQlNaYlNsUHB2NFhHV3BXTjh3c3pLUkY4Q1FxTmFXYlMtS1FOQVdGV2hOamFteTBraWtOV0V5eVJUT29PWFo4OG1LV1U4cUdsal9BUHI3c3I0UFFGRVNGMXRXZ2pYRTUyRk9qN2tkeTQ2S0lKTlJSdFBvX0JKY3hBdW5HeFlYcV93WExhNS1aNk4yN3NyQzlCUUdEeVFySTd5Y2NBTE9KXzNVNWVaanBiUXh0YVRVT0JPMjNtekFLZnltdF8wU0XSAYICQVVfeXFMTVNVQmxzY01vU0RsakdLMG41aEhpSHl1V3g3emM0ZjcwQXlJZjQ0ZUpCV01pTW53b3M3NFlOQ0VuVkJ6bVI2VUtvaUhfU1FYenFCNXpxbEFwdjZMVTEyNjRJMjh6Yk9DMTBXUEVHb1pWdmdkdGFOenV2S2o1d3RqTXhkdHVvZHdDN1hFb0k2S3N4ZFh0U0lwLS1rX1Q5Q0ZqUmRRaGszR1VHMzRKeUlYR3lmVkZTZldaZkg2MFQ4UDhuLU4xT0I5cHhSZUlBZWFlZmtxdGJlb1lhbkwwdEVHcE5OSTRIckdOUW5fblE3aGN2cVJUQUhfd3JzNTI0N0c5UkJR?oc=5",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcmJiVHUyemZBakJyZk1WUnh3V2RqeE9qZVhrVFJpRF9GVXJQcmlJOWZZR0xRaGx5RnNoRnIzMFhmR0hERW9EbGNnNldqNWZ3SUVnT21YMVAzWGdsNG9NZmw3bE44RXZIbzliMU9Fd2ZYM1JhWUN0bnFWbklrVkJBaVVST2pXc3NoeWlsM3FBd0xVSHE2QWJYb3ZyTQ?oc=5",
+  "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSDAtX0VxbGR3dDJpZWpNOFJadmFNbFJmM1M3S3hSYVFzY3pkZHRiNVdITDRCMnVsaU8zMzl1ai1SRDQ3OUJpcmJRTzZHTWl3MFJMYmVlM1owZ2xSNGlBdy16YVBJU09GVVQwbWJjaVA4UkNHZTBSMFBOY2tPM2NzbnR2SGNnNDB4ZlRBcnNVdVpBS19jTE05T0VrS0hKNlpjUFR6WEJhU1A0OTJYNnJORFNGTUNZQ1FRVno2X0MzUVJTUTRETWkyWjBGN3Y?oc=5",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYlRwdmhIWXFWdkNUb3h2b3F3d01tYzNlQmg2N3lTZk5IVGVjMUxsYkFhQUJqaklpOEYyRmwtbFBxWkdPUWh0OXkyLTFNdkdsRW5wbFFzMmtDd05fbHRJbFRKTDdFRFBpaWV5Z2FYZkZYOEdMZk5KTTFmNmJkRERUWFN2bGlyVktUQUlodXZ4ajdyZVlodF9SaUUyd2ZEeXRqVEdQeUdtQWU?oc=5",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaV9ReVhJYnUyU3lpRV9jVlh5djVjczBSOVpoQ2dBamVIV1M2Tll2OTJXWUt5bFhmcHVoTVZOc1ZUTEZOc09zMlZsOTFlUVJEN21FWU5NekJQaVN0UFZyd0ZYUVJYeFRud2p0cW5hZ3R3Uk9YSUVENFdHbXBhb1FyUDV6SDFNU0xOZmNtUkpwb2V3VEg1dTZTYTZ5U0s3NmZ5SG8yU3JyTF9acnFyX1U3cUk2alRBS09NMXFuNzhucUp0YkhFYzU3Qjhn0gHMAUFVX3lxTE1MNmMzX25GWUJCMG5WZnhPa2VmM3BjWm9LU2ZrSTl0MFQ3bWNzcDJYUThYamhpeEZmZWRQQXpaNk5Oc2RsaXBTVGFCVG5iWW1FSUtiLXBFOFBrdHhPbUJBazB6Y1cybWg1ZWt1anI2ejRLVm1PZHdkSC1WZ1loV2o1OFpzY1lEaVdUSlFpQVJZclZYS1IzS2xqRlduc0tXVTU2eFhfcm44MHY2WmdmZDBsUVdoSzZhaF82R0pSUEhnSjF6VWEySjEyeEpVWA?oc=5",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhS0J2WjduU2lrZ1l5bzBGR1RoSDZSTTdvTDVhYUdZRWRJaXZ5MXdNVDBoYl9lSnVMcEUxTjItYW9wQWgtSmV3MXZ6aVBpTUNHS0t1Y1NoZllrVWg5QXJtTWY3bXk5OHhTc3Z3NWNqT25XNFh0ei1aVw?oc=5",
+  "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMjA4M3hIdTFuUmdaaFVoak9QTjN1NHdsZlFrVWFKbU9fbXpYYmRFRXhPMy12U2hiT0xCQnYxZ0FxaGlKMWhrbm1fOUxnbU5zV09FWHFCS0VPbGZrbXh1R0hiaXNUS01pd2ZWbFlFWk4zbWZGYTU4SlNra2tCSDFyRjNPUjZ1ZVdfLWVYQUdCdlNaVkw1cE8xZHJSbWY3ZlZBTGxvQzJlVlZZRjFWWVNua0hfVFJnUUsxUDVkZ3RDa3pMVkh3c1Y5WmZFbmV6amZDa0dKSkZ3SzZkZlYtVHfSAeMBQVVfeXFMT004TVJNMkdobUZsTERnamlBeEo0TVFPdUdUelRnY1pIc01BWWRVQjVmSzRFcUp1V1lSQTFXbl81dzRPWDVFZ0xaaE5NZTM5WjVGR1pKVWJwWVc4Sng0V1hyVXBuYVlhZGNXeXlrbjM5ZzlQV2JQX1lyZkNHYVlEOGYwUk1nNFhlM2xEcHlTS0lxd3AxRXA2elQzMkdxWWZ2TGlla3NaeTFXZi12TF9PZXljWVdQNWN3TFFGYmsxYVhTTE5ER2piZEYwSUFoa0ZpVHlBRkJiSWpnV3EyWkMwTWF1SlU?oc=5",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNmVMaG5idmczcW5vR0JnYmEtc0p5WVBhc3pJd0lvSUg1MTJ5bWhSNTVnZDhLUUlsSjlpU2swT05ta3NieVA2eXQ0NU0tVFZZakJWLUQ0TndyM3R2S2tFRHhoLU5YTXFuZW10ZGpDMzlIV0JnWVF4MWhMQURMaWc3bDZfRlQ5MFlCRFNNTFFDX3FMNXpYSWhXUWtYQl8xU0hsaUNmYm5PV2ZOVlNOb2xhVkhkVWpEMld2c21peTdMMFRyRUxFMnp0LVItVdIB0AFBVV95cUxOZEdlaUlwTHZ6SmtwR0tzS0VQQzJLTlNBR0drekNzc0Vhc21qUlhJXzBGVUFuX01BRS01Ni1aLXlhSk9DaFZfb1JVRDRjOGhkMTNLbm1pajU5OUNScmExNGJGLUxMS05hMUJIZ203U0dJbmwwcjg5Zm5QWWxkTUE0WWFDdUxGbTREZ0x3VGduRWg4QnBFdnRTYWYyUGZDNHE3YUZHU01MR0pKWmNTQjVnRXAycUZWa0tSbDBISkQyblBNNV9vSUtpRUdIcDFOdk9v?oc=5",
+  "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVUVOQjJZWFJQYlVTZEpNSDdWemNJSmZrYVVfQks0elMtUTNWdDFUdi1Hd2FZUVZQUVNlR2hLRzdrcVpsaWdVUEhvekJZVFhSZ3R2WEt5QUo4UWJOSEtJMkJUcXhtVXNTZVI3WEFRTGlSbGVIQzgtRGI4djI5cjlTdUpKdHRwbm91RU41bnFiZ0RLeHhwMFB6X0tkeGYwSWFIQWVTQVAtZFpjVF9NRmhsYllEUmgwNTJuXzhtLXluRmJySkUw0gHEAUFVX3lxTE1VRU5CMllYUlBiVVNkSk1IN1Z6Y0lKZmthVV9CSzR6Uy1RM1Z0MVR2LUd3YVlRVlBRU2VHaEtHN2txWmxpZ1VQSG96QllUWFJndHZYS3lBSjhRYk5IS0kyQlRxeG1Vc1NlUjdYQVFMaVJsZUhDOC1EYjh2MjlyOVN1Skp0dHBub3VFTjVucWJnREt4eHAwUHpfS2R4ZjBJYUhBZVNBUC1kWmNUX01GaGxiWURSaDA1Mm5fOG0teW5GYnJKRTA?oc=5",
+  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVVFUWVBCZEs4OFl3SzFNZ3hiVVV3V2R6eTJYOXBZSUV6MW9CVENjS3pUcjdBT0trbGhJSEFVcWNhNnZCQzdZNkVsbDBuQ0JfNEhXYk5neGRIb2pOc2l5VG01UkZpdjJGbHdqejlwVmhZelR5VU5qVzFVZ1FpUW5TNWxic2FTRGVqcWVqLUdZOUI3QQ?oc=5",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVHh5Vk43WGh2VmVJZVE3N0V5UXNobmhlVXVjcUp1VmtUbjNwQ1FnUjk0VWd0aldQeXVlTngtUks0bVhLZEpaVEdmVWhtZ1UxY2NkSXhaczdKUVJEUFZ3cEdsYmhjVEFONzRORGdZMlRyOFZqdlc1R29yQkVBUDd5S2lvVk9qWEhpcUswUW5vT0llWTQ3LUs2cWdzdHZyZk1kTmprRHdkZjN4aS16d2F6OWNTbVlGZw?oc=5",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV2NKRzFNWThqbEJvbVhid214aDZIRHVNQkJ0blgzclhRNFByejZqTzNWUk1GODdwaERCRlljR0FjUkhSOTdIYk1fZzlvUlZlU1VmeENmWlRJTGY2aEJHWnRoMXBWQkZHMzQ2b1ZQTmdxNjJ3OUs5dlJ0RHQ4bkhlWlV0eDd5RDk0bnNGbXdVX092TEFNN3NiVFJyODZremZ2V05yMDVHNA?oc=5",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWWk1cWQ5R2RhN0J2OTJDQXVLTzdVOFVNSjRmd1NSZW55RGp2aDNpclg0aWJneEY5OXBJTmI0THBXTVJYZ2J1eDhwNEhVUGR2LThCOTN4NGFpNVhLODA0MUJfM2RSSXJyQWlxbGp6RnVrV2s4RXNILVdrRlJNemc1MlE4VlVDNElNcW9fX0dHYkFzV28tS1A0bVlNaUFTZk9lMVdPcWNwMzl4Y2VvOGJZeXlnTV9oc1AzLTlYVQ?oc=5",
+  "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTEZxSl9sVzQtdGpDckl0UDdTcUMzUC1Hay1ZTnJ1RmhZV1JpSEM4YTJPWThkalg4dkpUOHA0X0pWa2VfdHc4dXpPcGRvMTVtTXRWbjNaTXN3UVZtZ3RIWUF6MnNfUENiRGNYNUpodHEzaWNvcF80dEZwMHZ2VDA5N1NXallROF83ZTdSb2s3R1RhazJyT1FFOUd2N21faC1ZOGM5N0Mta190Zkg5V1g1VGtaUi1UVHRlLXhkWGc1TDgyVmZH0gHEAUFVX3lxTE1MRnFKX2xXNC10akNySXRQN1NxQzNQLUdrLVlOcnVGaFlXUmlIQzhhMk9ZOGRqWDh2SlQ4cDRfSlZrZV90dzh1ek9wZG8xNW1NdFZuM1pNc3dRVm1ndEhZQXoyc19QQ2JEY1g1Smh0cTNpY29wXzR0RnAwdnZUMDk3U1dqWVE4XzdlN1JvazdHVGFrMnJPUUU5R3Y3bV9oLVk4Yzk3Qy1rX3RmSDlXWDVUa1pSLVRUdGUteGRYZzVMODJWZkc?oc=5",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdU45bEo2bFd0OWlad0hoaXlENjV2Z3hjeTN5UHVPUWRQZkJDbzNQM1hyUXBrc1JaS3N0X05pU0E4Q2Q5N1A1QW1CNmRINGdsT01JSmpEQ2tadDZtemtndlprODlUM3d4T1FDVVo0WVNQeXEzN3NCbndFQUhQa01UbGhaSQ?oc=5",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3FueEVkYm1TNWFRdy04YnhybGVpMG4wZGlYLVItUzdUN0pKZUg3QWZhcFIwMFplbmRLLVVPWnd3Mlc3NjZCYm9OaXVWYmJkT2FRaGdPd3hIaWdZcU1fcWo1UFdXbmgtX2xmcXhoamp2b3h3Ukc1X3gxbEJJQkctWS03SjZPdHdlZzBGN1E0Q2FRLUZzV0pqeDVlU2pwLVk?oc=5",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeGxTbVhNM1RpWnFXY2VvUFpYYkdGNmxQeG5xNlpxdk5QN2x6N3pmMVJUSW5pcHhTOVBsVkxleEk3V1hNdnZpWXdaMW9ZNFNLMWcybjBwcFZ3LVkyNzZMWkE5bTh4UXlwSUFIaDR4d2lkVFdJOVRGN1B6S0VGQVFPQkJHbmxNcTcyODlwRnRoU3huakI2T1dJU1BYNms?oc=5",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQy1wc0hVMmhIcFo1WmxCd1dnOGtiRGVMMDBpZ3JxbnRzam5aUFhlRFNnSzFMZHVJU01KeExSWDlVMjZRRmM3TUFUZnNCVVBvMDBaTUs1LXF0MUVQRWd5OVQxUFZCRUt0M0hpY2FQeWFuLTZReVZaNGZNQndJd3VqVTlnVlloTmo1?oc=5",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbFhndGZ3MXNaNWJwR0hpR01CdmVHYWJFZ2h4UTd6NmxPM2ticlRGLXpQN3lSNnl0bm5SS29sdVNhSkRIUlhSX01TRm1nVmlOTzZ1WVg4SFJwQ2FVRWdWT2l4eWpLSlhFU0oxRXA4SFpfamVaU1N2NXJpUHFvWFdMcTBvZ2ZSTFBvUzlN?oc=5",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdmttZTNxZnZ1TFF5VDhQME9SRGhEQWxQNXJKQkRWbFZGUnNMTDBHYjJPcUIwUkd1cjVNaVBjR0I0aUxidVl3NDR3eFdQd3NINHpiUkhMN3ZPQ3VvU0VDcnhkcndPbk1uNjd2aEY5NW5GQTI3WmZ6SXpqUTd4VWcwM3h2LTloMllCYnhBQ25HWnNHajFCaXNMb18zWkxUcm14OE9YVGQ5cnZOLXNRNHFXSg?oc=5",
+  "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOanVUc29UWFZXTnpsQ2YwUXBGc2l0QnJRWlFWYXhpdUY0Y2RSQmQ1dUk3d0VZV0h0cGpxcjFQX1hSMXFfN0FLR1VMRjFFanAzUmpvNEdDVVNUR0FXLXlBVWczaHVoc1BOWGRyNWJ1MldUTElwQnlabFBOUVg1Y0RLbldGWnNkajFOa1lTRnU5T01PbmNCTkpkR0Y2TjJodkZBQXhId0dualZ5MVljazdNaXBDTkRpS0l1cVZoWG9MbERsSXBaV0xxcGJBSmpFSzdJN0tLSF9EUVh1cG54aDY2WFl3?oc=5",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUFdZdzFkMGI3UW4zQVp3VHJONzZLWlFMM2swV0QtMUstVk55LTlWeVB0ZnJoSUdGc1Vlc2NxMW1EbWtTOXRwMTBIbFM4anFzN3ZBQmk5TTlPMFRwcXE5MEtLTnVXWmxIeVFyYjB2U1UxMV9ydnY5RnE5TXcxRDFQR3pXd1U5LUo5Qk9fbEdjRGoxVFRkMHdENVNZaURTRGZQRm1fcUc1Ny0?oc=5",
+  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMTlVOTJXNVdPZHVXdGdDbm5ZRmxhNVZUY1dXd1B3SmZuUXlOZTFjNFl2WVViNG9QVEpjZVNqQnp0MTFmTUFTZGNscTlOeWtSRDNQVWZYbU5lbXJoNHhMdHZKMzR6LUF5ZzQ0TjUwLTgtZnpOR0ZHSklNNWc0S3pRMDZLSWc4QkZueGE5aHVuaUl5SS15RWJ4czZaZHpKWGN3eXNwNm55c05TOUxzVXVfUVJlWjBkVjc1cFpudnpCN1NGclNlVElwVTFaWXpzSUFRZm9QZg?oc=5",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUDhmaHBLVmZQRmVWR0VkYUZWdVFOOTA3cnlRTFoybm5xMFJXMW51eTBOM0FZTTlrbU1hVmw1cFpvWENERmI5V3BMSFdHWmFBbHotejBIblRiZ3JYdFVXbWxUVUhHZU9yazVhSHNKWHY2ek91eWprNU1XbUZ2bS0xN2FtenNmMHVKYkJHUk5mcXMtU28?oc=5",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdExjektaSEtLUm1VT080eHlXQWliaklFM045SHRtNi1IcjFaYi1pQmRCWkdycDdzU1lNXzcxa0RNaGo3T0JjbnZ5VkZCeThSS0RTRnlwTTlUTnZDaVg2aWg5Sl92U05kd0RMUXctdjd5eHJKZEh1emlTY1kwM3N2RDAzLV9vMERMcHlUMFljQ1BUV2t6VjFDaWxFOHhfYllhbnRTb1pwVFJCUQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQ3pobmFGNEUzYVFrV0l5R0hjTEZMU0tQaGs3dlJoVE1oSnFfaXRrVk55OTVqd09Rb0w4TTd6ZTdfRHVBbXhMU1d3dTJfb1VvQTlWZldEajJTRWw3U0Z0SXZEQzdtcV9FVDhYSTBKYTg1VkZLS09WaGNROGxMdUw5OGNXbWh0ZnZNRjhNMXZfa3FaRy1OYUlILTVpUjQ2VHJLZEhGMzI2SW5uQ2Fyeml0VjVzUXMtaEdrZ2xkc0dRVHJQZTR4WGZ2M0hMeWltaG1VWVh1TE1zR2I3Zw?oc=5",
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUGc3bkpQZ3NpYjljSmJEM3FwNGk2NDlKYVV0SFJxYjFpLWFsYlNMaGtRVVFxWkRCM3cyQmZqU2JPSFZjOFFjMFpOMWlzRUpVLTR4d19mQjlaQ2Y0RGRVck9BWHBMLXozRzRTZF9rSU5ZRERJY0JXRmRQX1c1Um1VdHNzenlUTjg1S2FMSEZMM24tSzBHTm1WTExrVVVSOHJqSWNoRkdJc3hwZUVV0gF4QVVfeXFMTUdnUUtSWnVIdVRnalZLTnJKRkJGQXhldXJDUVA3NF9Gd1FjSGRjWmExLXFkbEs5UUxsZS1oU2k4S0NJeTg4ay1mb0FUS1RSM1JES0Mzc2g3TlhyQjBHaG9BUG53d2h3dmlDR0JncVBtLUZxdGlEZC1v?oc=5",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRVg4TlVIemFHamozVDJNYncyR2R2Mzdvam1uY0ZBR1ViMFlZMUNRVG5hZGYtakdrRUg5YTBRUXhEaGRseHYwaXYyNy0zOTZGOFhCTXNVZm9RRnZwODFjTVN0Zk11MXZaNUJENlJYR1VGa3RsNXNNVTVySkZkWHkxaXZRXzRSa05lQXBhSnlVRTFiYlBHNk9lNlFKdUk2ZnVkZm1KUzFhWXRrelFzRnkxWGRDdm9WdVlqbmdyTmwyOUxhVFVyWjRjckhmSdIBywFBVV95cUxNRVg4TlVIemFHamozVDJNYncyR2R2Mzdvam1uY0ZBR1ViMFlZMUNRVG5hZGYtakdrRUg5YTBRUXhEaGRseHYwaXYyNy0zOTZGOFhCTXNVZm9RRnZwODFjTVN0Zk11MXZaNUJENlJYR1VGa3RsNXNNVTVySkZkWHkxaXZRXzRSa05lQXBhSnlVRTFiYlBHNk9lNlFKdUk2ZnVkZm1KUzFhWXRrelFzRnkxWGRDdm9WdVlqbmdyTmwyOUxhVFVyWjRjckhmSQ?oc=5",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOUxjdUt5MkdvSklEMUY4ZG9tSGtWc0VhRS1TTjJPQTBVTGtiY1lLLXkxT3NoUW5nYlBEbEVHb1JrWE1FZ0otMXJzVmllc1MzTm1PZUV1Z0RnekxLaVNHeHR1VTR6c2oxcGVKck84QndYREk1ZVRIeTJxNlljMUJRZjNGV19ta3BPck8tdnBUZkZ6cjdwWWxNS05seWRiNlBGV0JuTHcteWxUVTN1YWYw0gG0AUFVX3lxTE9WUmM0NVhzU1ZBRXcyQ1llQ3ZTV2dsNlhlbTBEdXZJNUQ4djNUelBkTmlLcEo1VUZkQ2hkM2FnSy1XVm8xMzZmMkdMaDNvZW9HY2dYWk10THd5WmVtYUd2Z20zN3ViT3k4YUJrVGtqQjkySDZLWldubTdVYXdEX0VrOXBtWERHZGlMU2RRenBYNUlBY21EUFdGZTdJQUQxRi1YeDRaTGJ3SHRTMnk0ekRRRVJQLQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxPa3hGZklfWGpLODlJeFJJZlBhZVhaZS1nNEp3RTN1X2tSMTlsRUlpMVBzbnVmd3FfeVpBWXBKeGpqWGgwY1VMM2FCcXE4WEN5SzM1Z0xRMjc3V1dZeTdRTHZVM2FVb0dBcVJweDdybXFYQmFyMTFLUWcyUjg1MUNXNFlCaHRpM05Xd1JCRy1rOERiVW1pTjEtSGUxM20zRGtLQVVRYmJ5bl9nS3Y1WmxfNlpRUTNyNkJReVE?oc=5",
+  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMksyNUxuNXJobDJkWHZPQ25CcVVvcGdBdkxBMzVyVEVPaTd2QlhqcUtXSl9yREp0dlhRUTdYeGtEdjk4NG44NVI3aVV1d05nU01ScXlWUV9tLWpncnlfbjRDeElmQjdtZlJCemJSNm02Z09Lam4yWUdSbmVOOVV2bURwRUJxcktiN051bGlkMGJPSFpIMklIOGt4X2hGYjlRUE8xNEpuNkpWbEQxQjJlam5Zc1BLMnFtSktvckxKZ0ZNSlNKa0RiWXJBaDZhcVRGcmZEbXBNdmVkYXpydmFDMlA0S1NHSnd4ZUZZZGc5SFVFRTBtNmk5RDB6M0_SAf4BQVVfeXFMTmZfSkdzM0dXcUlwN1BhOW52TXhiTGc5VUVuUVVFLWxJd01aM1BXZThqN0tQbTBuQk1CUUl1Q3NVMF9KUEM4Q2pUblNWQlRWUjVhS1o2SGx4V1N6RHg5NW1pOVJNWTlpQkZYU3Nud0xyWlQ2VlRmOWJGZnhCbEt0MldBMXJPclpLeUUwLXFhWEVEbTFLN2ppeUFHekhfbzJIXzNMNEZkUEg0RERJX1k3QWNnVXdTLWRxNHNrUVdsYjlDNWZ1WHR1OEF5NWt0RVVwbmMxT09oOTd4c3loSnhEeVlnbm5QMUtNQkRBc3lDTzYxR1NDN0dIZ3hPV2w3MVE?oc=5",
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnNtMUJVdWZ1QTlOYTNRYkJjVEFtRFU2Yld1R05CRXZUVGpsbUF4VTBtU0d3SUF6X1FLMENNUXVZTWVTUjJNcUNyNXdoRDVCalR6dHkwUFd2S0ltUHlrZXNlWWhwVENmZ2ZZRkRtQmxVbnBxV3lKX2M0cU1JVlVYb1g3VE5YcWJXd1hnWXh0dU01RlZqWDJSSEtRR0c1R29MRzBZSG81bThLY3Bz?oc=5",
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObVdWVmp1RUxQNnY3MU5sWjVpcVFxU0xJQzJwanQzVjZYZGNMdTVNZDAtX3RyMWFSRE9CMEwzRVA0dUt0eFNmUXhtYU5KS1JTbk5IeUR2QTd3MmdUMGI1RGZKMVhkU2tkZDRYQnVvTnMxcHpIdFFuazRQRkpYX0N1d0R4RDM0SENLdFBKaURORGljOGtnN1JMX3c4b2hfMTVLUkU0VXZPTDZsekRtVmNQYk5TSUxlN0FvTDE4UExzVjd5WXU5dEVQYjVHMXNxdmtl0gHTAUFVX3lxTE5wNFJYQkJ0dTdRWXRjS0piNmp2cW1fMWFJU1U2SURwRTU5Z1g5QmhsZlRKWTF5cWpnbHJYcXMzMWxxVmNSN3VyTW1qeEhlYmlfZlhQUFlSYktSZ1h3Q19zbFdtMkF0a2R4aU1fVkNJWDdfd29ZdDFSbHMxTC1zQmdpTUFld1VBT1RaRnlpWGU5ZDB5S2NyYXNYZTZhYTdkRE4zNks5MHd1eTJhLUNiekZQeTRNblhfcFhseG5PQ0oyaURKRXFfMGxGNkFteUdVcm9fWjg?oc=5",
+  "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNTnJfREVFaU05c1BNMVVMX2VBVGxNU01WWWhmN3pSNmQ1Vy1wRWdNLVVpQmx6THhCWmVzc0NMbDJla2xxQlBvSzNtaEdjRi13eU9QYnQ0d0l6akNtSTF6SmJMMXRSQVMzZ2RWc3ZPa013aDlSMnRPVmF5VXZwT012M2pqdXpUdHBQY3o0X1hweEtDbF9yT1NCSDE0TVp4cVZLQWhqaHNUVHAydVNLTGc4d3JFa01pNmYtX3hZV3hyaG5zM1RZek54YUZfamdFLXBIT2k0dkZ4dUNHd1BIS3RXY3kyNVBzVk1wRjFnVVNwemQ1R0xNY1NVREVRakZ1MHJCUl9LOHlWVzl4VXFNTktmRzlRMkh0bDcyYVZoeE8tSmNyZkRpdFBkNWJua01ZQW5UWWs4dnNTUWg3ckVEVnVobk9TOFB6R2ZVa0p3VFliTjI?oc=5",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nWVZFSnE3TUJyT3VVQVN4YzRGaVBYS0h6UWtrWFR4aVpwNjhGN25rZnhJTnFWZ2FRT3ZXVEx2OGttS21pa1k5d01HYXRwNXZCaUpSSmk1YjY4M2c?oc=5",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TVmxGREVHR1dDRF9XNEdBWmNGNWlxaWUtblJsaVZLLUtqTW80ay1fOXQxRU5nc3lxVl90TFNNSXMzUGxMbTkyVjFOd1k5WVhSd2ZHS01tejJiSzBraWlHWkdjeHI5TkpBRFcxc1lQUE5rSDYwRDc5eThB?oc=5",
+  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3VVck1mOVQyMGVWR0FoMlJpcDZTSVpxWVdMYTFDT1Ztb3NyMjlKbkpCUzNTYnlURFB5b2JCQVp5N2YtRVZHdWpCYW5xV0dHWXUwMTctTHBxcUctM2hPd2xSRVZEdGgtUGFpdGpZUlBvel9VRzY0eUN0bnQ3eHkwMERMYlMxc3VlNmVlbVJjeGpKQWEyejNiaVR1RWZfbmZmM19uZmhuVFhhYkhyRi1fUjVJRmQ2YlNzcEVrZEtqdFR1TDjSAcgBQVVfeXFMTXhWZ2FjRHk4LUljNDMtRUVCclZDLVRDLUhKbUphUnQ2YWUyYXZVZ09JTVR5NU9wNjNfMVlBNzhMTzJvbFRyZ2tYZmd0WE9uY3NmYWpyYTA4eXNodEt0MmJGbmRUZDBueUhTMmpialJDSGdYZ2ZsYTVKZVd3UGxPVDlFay0wRGcwSFF6bUxKX1NjaktrTHpHemtNSldOVmhnQ3dtUExBTkh0S2FEb0tLLXZYYk9mZVFMQnZpamY4WVBCb2xnVkcxajg?oc=5",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb0hPdWhWb2xTaG5MTXZxX2pTVk5tSEY0WjNvOS0tX2Y3VkNXWXRsMm5EcW5ONDVEUW4xc3RmUkprbFJleWhjVzYtWWlUV1Vta0lhVWRPT3Zhc29WVXNHRi1VTVdmcTRtTzVSQWRTc2wxR2N1ZFpSTzZaZVk4UVpkRmxDNEpUbHVvX3VlWl9qVHg0YXBpdGZpMkhuVF9NNEllbjdLdkxqTzgzUk56dElNdzhOZEF0RFdUbDR6SU12THhuZnBId3ZvVm9n0gHPAUFVX3lxTFAtU1k5WGxndXRobXd4SkNJR3lwT3BURmZWXzNvZ210cG15eEdnSWFnTmREVmFMU19jMUhiMEt5VC1ObkxOTGt2MkdDM3VGdWt6RmRxQzg5c0UxMEIzLW1EUDZyOFNVcERqakhVUzFCOEVLNzMxTjc2SkZMTmhWLWRZVzctNmhycWxJcUowRHlxM3JaeUZ3U1VuV2J2RS1xalBiZ2IwZS1GenQ1c280QzdIazcxem9UeTFucG5Ra2M4Z0JDVnBab2ctM25GbFdEMA?oc=5",
+  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWnZ6V3hqYzdDX1NJZXc5OU1HMTJySjV1VWljMUdON28xSk9CTjlLZ0pYLVZyUTFSTFdLU2EyTlAtWjhQbDlGbHdtMlJZWTh5RW11cDBiZG9EOTdmVlU3Nkw2QzZlMGFoZkxlWUJZVHhlbEFzUENLbXViaHZhQmxodTNOaFhGVUhVQmFUeVBhelhtc29VbEhQeTBXX3hIZTE4NjNQSkI5R2ZOcElqdTFuU0RrMGt3M3pRWGFIdjl4aHoycDFEXzZ1dDI5VXM3RVNfVUswa3BR0gHWAUFVX3lxTE9adnpXeGpjN0NfU0lldzk5TUcxMnJKNXVVaWMxR043bzFKT0JOOUtnSlgtVnJRMVJMV0tTYTJOUC1aOFBsOUZsd20yUllZOHlFbXVwMGJkb0Q5N2ZWVTc2TDZDNmUwYWhmTGVZQllUeGVsQXNQQ0ttdWJodmFCbGh1M05oWEZVSFVCYVR5UGF6WG1zb1VsSFB5MFdfeEhlMTg2M1BKQjlHZk5wSWp1MW5TRGswa3czelFYYUh2OXhoejJwMURfNnV0MjlVczdFU19VSzBrcFE?oc=5",
+  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNc1JuZ0FMdzFFdkp2d0V0dlB0dURGRjRIbHdxM0NiTk5PaHlfYWk3QzlYbXoxVV92a0RlNVZCc3N0eTdMMVdsenBRcnNvaDl1UVBrNl8xSVI0LW80YW1IanNIY25mcFpBLXVjSmlQd1E2R21ZQW0ybl9zWkt2dGVnRXlqbEd1VnFKQm12em45S0EyUEh4U2Voa1pHYk5mWkpUUnBacjB0WXV0Y0ZPTnVGUlhuME5aU2E5QmZHLVBWVzhvSl9PUks3aEZQWDA2WVNYSDB0cNIB1AFBVV95cUxNc1JuZ0FMdzFFdkp2d0V0dlB0dURGRjRIbHdxM0NiTk5PaHlfYWk3QzlYbXoxVV92a0RlNVZCc3N0eTdMMVdsenBRcnNvaDl1UVBrNl8xSVI0LW80YW1IanNIY25mcFpBLXVjSmlQd1E2R21ZQW0ybl9zWkt2dGVnRXlqbEd1VnFKQm12em45S0EyUEh4U2Voa1pHYk5mWkpUUnBacjB0WXV0Y0ZPTnVGUlhuME5aU2E5QmZHLVBWVzhvSl9PUks3aEZQWDA2WVNYSDB0cA?oc=5",
+  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWllQaGxfWkdxX1dxQzNHYkhPSmpYeVVuNDV3dG5SbjZCVmtmNmpvdUgzdEw0cU4wTFdMTUFFdkJFUk9xcG55TWV6U2cwclE1S0tPRUd6S1JFakRLYlJ3SG9uOHpkSTNuaV9yV1hPWm9qaXRkNks5cWlqY2RFQllxT0RnSlFTUk1GQzBkcFgwV0lUcDBabkN2U0FYVGVqRFhmVFhDZjA2QWI3aXlnTURsX1podkUxT3RkZmJjZGNHVGJZRUR3YTZvLXl4b2h0LTUwaGFwcDBhZG8?oc=5",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRnlEcTNlVUY1V2I4OFZ0eURFR0lJWXRnMHp0Tk1QTFR0OFM4VGczUFRhNHpja1NXaTJDUWtHSW9XVU5ybmFJSm9qZzVKZDk5M1JRSXNLYWV3cG8zeWNRLXhjUXQ1WjhYUFRVX3dZR0w2UF9OMWFjb3JDd1BiN1RBczc1dkJWclM4SzVZMlpMaFM3YUNjbjMyc2o5R19seU5fOEE?oc=5",
+  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTXZ1bnBDT1RjNmJoTnl0QlFxcFN3ekFpX3lZU2xUTkNnOFA5eG9mSVFwSmlhSWg5azg5Tm5PZW1KT3BCX1VkRXZRcVczZUlWQWZEZTdrNnJGelRrbTlZUmdqVmxlUlhMdWtWbHBNVkgyeWVJVmpmSlZJZTBTTGdoczAtaEswV2tUbVNWZGUxWVFDMjdSbU93Tng3WkVWWTZnZVZQSy1VdmxRSk44TVh1aTdxRFgyR0tQdGcybXpYSVc5emk5MlVwY3NmNEdzYTFzbWs0QjJCV2VKcDNydUQySnUxSUdfZjk2dUJ0cmxR?oc=5",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0RrR1JrTksxWDJoanpEX0pvM2VBNXJkRVBldldERVotVlJGdENNUkk3dlFyZFlpM0wxM2QwOFFERXBGNE9NZTFEaTlBeVNzZlhUSmVrM3pMcFE2YWVEUUVBYlpiaG5uNDFWTFhWSEVWSkh6LXRld1djVEgxTWZWYlZSbmhRZ0JoRlFWWW9sbFBMekFpLWJxZWp4MWY5VlBxZXZZ?oc=5",
+  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU3BuRUZmMW9VMWZyVVEyaV91RnhxeDRqMm1fTFY5N25CU1Q5YTdydnVaQUdLNnBidzVaaWRZbzFZaW05anYweHNrWE0xbnBhSUstd2p0eDd5VDhabmhKNC0zNVZBTUZ4d25la3RIZlVMNGs0ekdPdC1TZ0JlLWRtdUNkS0Zza3N5enRlTjBfMmIzQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdGV0ZUR3UTVuZFZJczFSTDJaVE0zaC1fQ2tvUGpmeTFpLThYcHRvcHdmSFBJc0lnUGRzVlRoYWg0bkVBNG1BMGFId2dLLWtIZ20yVkhWZ2RhNzFUaHpGeVFUNnRITnpXUVdZM3pjU21kSXp4NnB2aDJyeFNDd2Q3bVVKSVR2MFFjUWpEUnhjV0tTOVh6NW5XTXh1alZTOGVZWC1OS0t1RQ?oc=5",
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCSGJVazRyWHRXYWZzVzFfZjc3MFg3VF82QW9LN3BTRE90a19sdG5LeVo2S3ZLanloT0lUcnBmQ1Q3MGRFbzhjX0NjeWk5ZU9OUG1lbzFkQ0ZvV21BTW43MHZla0FrZUQ1Vjk2NHprQWlQSVpQT3RrMk9QYkI?oc=5",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR0JyN2FFVDJNaWM2TTZSM2haa1VVb29UNTY3c053Zy03d1FRaHZEcGQxNk5vVTVUcHg0ZnZUQV9SanlSMDNNVjJtVGczRUVNZE8yakRvbktxRkEyeU05alhnakx5NzNpdmVnM1B2dHZEOUpORTliaWR5OWdXQ3RlSU54Rl95Z2YxZ1VMZUhFQm5NQ09kYlFqME1KY1BQZml5bTF6bFZxNE9Eb0FjVXlCNDdjWm1ibEHSAboBQVVfeXFMTzVnLXEwSFpuM2RfX1hiNENla2JsTFlNRXdDcXA3VTBWaGFEYm9nVUxjWG91WnY5aFA4ZDJvcDlueTdpd0NNaXhOdEVocTJjc0ZOd2RENFRwcTR1a2JBSUNnQkxiZ0pCNGpmelgwYnFFVWViWHl1WlBRUmZxaXp6cU94N3RqeXByTmthRnZ2YXpaUjVWZjRTc0R0TENlaWhJdnR0bnRtNVN1aXRuMlRpVG43SXhZeE9aRzRn?oc=5",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSWd2NzVBNnRoRFkzaXRnWW92RDNuN0s3YVBaSTNrbEs4b25xTkhaay1CbjBJbnhzTW0yUUpXQnV1S25pTm40VHN2NjV1NVExSEl4eWp5Um01b1VFaUJudkdXZzhnRzVUaVFubEVUa1VVNXhSLUE3LXpWcW56S0hBbnN1T2YzaXJJZWRTZXU5NDdsQzdDdy1aYkR2bWJ0VHZaQkhoYm9lc21zcFo1WHFnRWxvZy1NanJNNGEwTmV2Z0dPUdIBwgFBVV95cUxOSWd2NzVBNnRoRFkzaXRnWW92RDNuN0s3YVBaSTNrbEs4b25xTkhaay1CbjBJbnhzTW0yUUpXQnV1S25pTm40VHN2NjV1NVExSEl4eWp5Um01b1VFaUJudkdXZzhnRzVUaVFubEVUa1VVNXhSLUE3LXpWcW56S0hBbnN1T2YzaXJJZWRTZXU5NDdsQzdDdy1aYkR2bWJ0VHZaQkhoYm9lc21zcFo1WHFnRWxvZy1NanJNNGEwTmV2Z0dPUQ?oc=5",
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kTjQzSWJxUmJldEhjbTgyOVFMWG9HYk5KSUx1MVkwc1cwdnlQZXJNY3FtcnlaSEhZVXBCX1g3UEhmVDFoZnZzZHRsTUsyU0VDcWxGaFRLTk5sNnR6QzZsbzY3UGZDQms4QUlVbllB?oc=5",
+  "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWVB4SFdDd21RWW81VEs4ZU95QXpIM1ZDWkNsaUtkcF9HMzloWC1na2lmSFlkYVJUc1hHOENHUmgwM0F0dERqV1JWYjU5MmFaOHdfY2UyYWtCNEdjSjU3NXppUzBrRFk3N2JfS1NNOXRwV3NJR0xyNFBwV2ZXYW5CUWtIbkp1SWg0MXBmREFEbTh0d25MZFZadThydUFPSXYwN0VmRkhJUEdtU3B2TlhiWUh4NlQ5Nk15X0lFWHZqc0QwWFZ3Yl9WU2dNc0xQSHFsU3BvX2hDZw?oc=5",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYUE4U25aTXRpaERuZ084bWR0T2NvTTdja1hkanZQV0h3a1JTSExHVmRQNnNBdklzRFFzRDNOeHlXTm5iZlp5dU91OGJYX05NOWVwSEp0MTA0ZEw0RVlsc2xINFRwU1Nsb2dqU0NNNUdSOGhUbzJvdkxFejNtWXZuNUxPQnZPODVsdEtpZ1M5TmxUWXF3azIyQ19IYTIteUVPcDVuLXpCTlkwTVgtYXVObjZlcU55MlZVWmVHeWk4bkt2a19BdmdJ?oc=5",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaURQZzVkaC1WLUdOVXdBdVIwNTRXb2tBRkxzaUVmcnFXQzFxTEpaVEphdWRtOEdhczdrem03NVJmVW1NQno1TGVCRHpfZU9kRXVES2xadlNtUF9kMjhLbEU2YUluNkRxMTV2cE1jcEhTSGotUDhnM1QwcHFQNFBndkxya1BKRm9vMWFpUjlldUJvNnBOczJWX3ZSMlZ3SVpzT2FiS1hRcw?oc=5",
+  "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPeFlsd3NWcUxneGpLSTQ5cGl1RE0wZlkwa2ROYlVlWm1lX2JKYWJMRVk4bHZpNFVyT0pJN1hVTWpfMHhiQUlMWnVlNmRlYmg4VV9CTXhzeWdYZzIwbTIyV2NPWFJoMGUyNnlaMGRiTTRXUGpJVG5KUjU5MWNjWm5VTnVKTTlBaW5PNDU1Q0lwNXB0cUpkZk5yQTlsS01NWkNSZVU3MlVvdUNLWDJJdFBYMUg5dkg0UzF2anhobk94eUwwNVczdmloRHVBNTg4UzY5YVFZVUcxU05UVnFoWkk5Ql9aTGpKdHM?oc=5",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdmUzdkhqMU94aUtscVNIaVN5Vnl3SndieXdEdmhsc2p5aFBUQkszbjZkMTBUZFNNaVNqOTg3LUVmWDlwZGZPX2pUVnVhVEJXTGQ5aWQzTDlmb2o1SXkxUlJWS2VmLXZDZ2N1MEhHVVhWWEFTbGl5TVNVOUVHMURUWXU5VTE2U3lwcjhsYndoYkZtN0FxU3ExRkFYV3hhcWtvVFlndFJnNjVQdw?oc=5",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXV6Q09TU2xwS3U4REF6LWdCcWlCbzdBWGt1YzlwNkxzOXExb0RERjQ2OUs5dU92LTNONVo0Q3ZWY3B2eXVhajF6YVBlYjlvdzJXZnU4QThNcXo4YTJkSUo5aWo5MjR6SzB2NmtjbFVkY1Q2SHQydGpPeWI0VzN3bmx4ZkpDN3JfZ3cwODBYQk9pSDU2VnlFaQ?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/sassuolo-da-grosso-ad-aquilani-sempre-a-trazione-anteriore_3d6bfecf-74bc-4ae7-a541-49b2b74780c5.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/parma-salvezza-nel-mirino-suzuki-e-pellegrino-in-bilico_f8b673f1-6600-4667-add1-ad5c1403886e.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/ansa-boxmonza-obiettivo-salvezza-nuova-chance-per-juric_81e2487a-be93-48e2-b1c2-07a713dcb92c.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/genoa-de-rossi-cerca-continuita-in-arrivo-dallinga_88097776-3a10-4a23-9b06-087e2cb672a7.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/udinese-40-anni-con-pozzo-con-zaniolo-per-migliorare-10o-posto_7997e965-e7b7-4517-9270-2f8bc12b7b8d.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/cagliari-pisacane-cerca-salvezza-bis-esposito-si-ribella_343cf065-35e4-4f08-a96c-3b0b976326f4.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/torino-con-abate-vlasic-e-simeone-per-il-salto-di-qualita_9e3323a1-605d-45cc-a85f-842cf3809a9d.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/lecce-di-francesco-per-la-salvezza-banda-non-vuole-restare_5c62b1fa-54e0-4c2e-84f4-de233c9dfad8.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/bologna-via-castro-ecco-dovbik-tedesco-prova-il-rilancio_0935f260-973d-4f9c-95e6-702cc9351333.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/lazio-senza-tifosi-e-mercato-a-saldo-zero-gattuso-in-salita_d541a5a2-6254-4333-8e11-2ec64567a707.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/venezia-proprieta-usa-studia-modello-como-rivoluzione-in-laguna_56abd94b-fbcd-4c53-8870-c180fa5bcd54.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/frosinone-in-a-per-restarci-il-club-passa-a-un-fondo-usa_3504db46-a4c2-4b0a-b867-e73e5ec4bcc3.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/atalanta-dopo-un-anno-buio-con-sarri-per-ripartire_b6bbdf59-a5e9-4062-ae8e-82de0cd480e0.html",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxOODZTTGV0V3JIWVpTSk14dWVLcnNnbDg2Q1dwcWpqbzVXUWJzb2ROOXM5RXJLMkFBM3Z6YmZtM3NKLVJ3cWptVEx4empuZU8yNDU3WEdBZWg3YjlLMk9pRDNYZFZrSGE4VU5YNmRRXzBmZ1VybHRiem1VWldFQmhBeGNCZlhFSnlDQmhFb25pVHNuY1hTWjlJaU5zZ2xKa0VtLVlEckZoOHE2Q1FnaGpuOEhmcXM?oc=5",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd3NuYUxRN2o1N29HS3lMQ2NtT0p3YTg5SHZOTzdkZ09ERElzVFppc2FxMTVZZTRiLU5wVDV3Vi10MHUzN3IwRmJwV0NfY3FNbWdhOG41bDRTV1pCbFhCelQzUTBoZVZqWWFZMjRFeW5wbzJtZnR2OG1DNUVRZGVpdEtWQXpFRVNPNFdKUk9HWjh2amNZVUh3THAtZUpEckpY?oc=5",
+  "https://www.tuttosport.com/news/calcio/italia/2026/08/09-150442921/italia_inacio_brilla_che_gol_nella_sfida_con_l_arsenal_e_il_dortmund_batte_i_campioni_della_premier_/",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWm5lQmlndUJSV285R29aNXhkU3VJRmF6X3B2ZW1kRVFQZ3BhdTBOVF93TXMtSm92UE1SbEhyb1Rid3BDbG5uRDNBeU1PaWNhc2h1a1JQN0hwM0pfTXFLZDY4N3dVMGFqYXhReGU2X2FxNEh6VXRCbl9wMjEtX3RUUmlKOHpPejVOMkFybXgzZDFMWXEtLXhJLTZnSk52dk9FNDFPeUZPUTNkLTk3QmhKX3kxOXNLdUZnMzlZM3QxcHVPU214c1NJWNIBywFBVV95cUxQd1hTbGRoYVVBbU5NQUVRWlhSTlZSTENBbHQ0WEVGbFJyTUhLekZ4Uk1uOTZDeS1QZHdSNXRTenFNR0czSWIyTTdxSFdpbm9BV0hHdHp2aFFkOWUxV093eDdRZDdPeXF2czhSQWpzdG1PM24xZVNud2xLRUpzekt0QnlhN0dUajFKWXUxRV8xOEJsTGNRV25LVTRBRHIweVRIckE1Z3QxbXBuenRfWExEQnk2Ymd4SUgwWkFDUlpKdGhha2g2WDMzanRkZw?oc=5",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYmhHV0FKamtKZkU3VzhUNk0zRjZBOGp4MEllOC1leGozaVhyWWdvVnVIb20weGdtUjZGTjNuXzdRdEs4eGh3bmI4ZDlfc1AyWUhyOG8yd1JyT1k4RmxPY3ZMTnhfZ0syaUpGbnhvQVU3cDVLdGtKOS1heHc5ajEySWlycEhHTmlaWFNxd0pfc0VvcUFUM01rUTAtUnpsWVY4MWYzdHFqMDkteHRpVEVmX1J4bw?oc=5",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/09-150442632/ravanelli_juve_in_fase_di_costruzione_kolo_muani_acquisto_giusto_di_gregorio_deve_dimostrare_/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/fiorentina-paratici-porta-anche-mastantuono-grosso-punta-leuropa_495b50aa-c53f-4848-8a0c-3d2dbf7804e8.html",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV2JDNTZjSmxoUV9fQU9YVHV5YVRkZC1sRFZnSXBvNjh4RkVrY0FiWDY3c0x6Y1hxX1BielVzdXJXc2FiNFY2UWpWR3FYbE1UTDNOQXdBT2JwR0lDT3N4alZSQm12MVZ4RFdyLUtXSTQwanZqSU5COXkyS1ljSWJWYTJUUQ?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/juve/2026/08/09-150442750/del_piero_esalta_alajbegovic_alla_juve_tanta_roba_di_solito_i_talenti_cos_ce_li_rubano_spalletti_/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/como-mercato-ricco-e-nico-paz-fabregas-continua-a-sognare_ba424c62-1c39-48f9-9a9a-cb6bd6674fc0.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/juventus-finalmente-kolo-muani-ma-serve-un-portiere_37764327-53fa-4b90-bd8f-6ad5b00a1492.html",
+  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/juventus/2026/08/09-150421573/zirkzee-juve_ecco_quando_i_bianconeri_puntano_a_chiudere_con_lo_united/",
+  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/2026/08/09-150442534/il_besiktas_spinge_forte_per_vlahovic_tutti_i_dettagli_dell_offerta_l_atletico_resta_alla_finestra/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/roma-piu-forte-con-castro-e-molina-ma-gasp-aspetta-lesterno_65cbac87-6989-474a-8462-cd124a928802.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/napoli-con-allegri-riparte-la-caccia-allinter-lukaku-in-partenza_6c74e3a6-f4d1-4075-847a-d9bc5b2256aa.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/milan-rifondazione-con-amorim-e-ramos-non-si-sblocca-leao_4a17c945-c087-4b54-a0b7-ddd46fe97ef3.html",
+  "https://www.tuttosport.com/news/calcio/calcio-estero/ligue-1/marsiglia/2026/08/09-150442453/benatia_al_marsiglia_radicata_mediocrit_tradito_da_longoria_psg_ci_vado_se_/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/09/inter-favorita-per-bis-scudetto-stones-rafforza-la-difesa_998fe4ed-e7ba-4a07-b4aa-e1f170f6b8be.html",
+  "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQjA0ZnYtaDFicnVJVnNnQ0VibzNsX1pybmZabzRLSVBuMHJ4RHpSRU5HQVVkQUlGYW9BcHJlRmN1Qk5uc2NvZ3lxNGxxWnprWkFITTlnLUlJNDk4TWhUbHpKMDdrTWRIMmRERnN0UFNDVm44aG9oaVlsZmJicG90cmZ2c19IalpHMHA4RVNPbDJUUmJYU2U1bkEtUjNZb3EwYXRQQ1A2bXpwdkNTSGEwZzRsbWRBNDZ1Rkk0WUNRckJWeEZUQ2RPSmp6cVM3V3JQTEp3YXBqRTl6NzNUVW9OZzVn0gHkAUFVX3lxTE1fMkRIRkxNWEFwM0E1bzJmd2djdnNaa1VscjJoN0xZZmdWb1M2TTBEeDZJTl9abUNzenZpeVdETzdHckNoNENKMjR1dDBrdENVa1Y3alpMMHNVREx2NEdtREVtUWNkdlByaXp4Z1dfUXcyeHpwblBod0pCOGNNNDF0ZUU5T2tPcnoxcU5ienVyUXNpZU9WbVFqYXVocFFLdy12aWEyd0w3MFR4V1ZNNkN2Sy1lQ3REd2JMSUI3VHlWYWpvMWhHZGd1SVctdHFiUy1wUFZKaU1TNVpMcmxZX0REMEV1dg?oc=5",
+  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQV2FSQV9FR25lY1pRdlB2X0R1Y3Q5N0lBd0ZPdXV2OWthei1lRHZNbms5LW15ZHNBLUdHWm5OZDhxRTR3WkNHZDFwR3lKWHIzaDdDLUR2eWhFbV84R1dtSllTS2I4RFhTUTJ2TkJMS2ZJVk5GNm9lS0pReUp2NC11d3E1c05sczdQNVI5elhJV2RMRkhYT245SnNwQktnNTlLUGVrOUFjY1MwNk1MeHBvMk05eV9TaHVOZDRGRmoyeDBtS3NrTU9BVi1XSXJCZTNQNXpudWhzTkNJWnp1cTM5SGdwYVJLamFtX3ZoWHFn0gHwAUFVX3lxTE1udWQ3TWliSFFCenFocFI0bkMwa2ZITW8taTNFc1gxd1VCWFFNVWlGRXFLeGxlSnI0RzhBWlppd3J3dUt3YzBXdmJrWWNHRzdwbXhFSW5YazA2VUpveVJVaGswSlJSYWNKMHRDakVfR0xJWUlEXzB2UG8zdGZraTdNZGh0ME05QzA4YUhES3o2b0R3TC1LTFhFZzdRU2k5T0hnYl9tRUNMVjNOVnBvSEVMOGJJUzZnVkJpMkJvcE5mdUh6UDJhVmdETUF5SVpPdE1FRVBEa3FIZGN1VzFtZnUzOFVuMHpDMUxDcUJ3SHlNZw?oc=5"
  ],
  "seenTitles": [
-  "laromabattelaprimavera60doppietteperdybalaedovbykasegnoanchesouleacuteecristante",
-  "lapennasiegravedistintopiugravedituttiinterjuveglivaleunpremiocomemigliorarbitro",
-  "deschampssalutalafranciainlacrimelultimaconferenzastampa",
-  "toroprimigiudizioristanioecasadeiprotagonistiocchioakulenovicegabellini",
-  "nicogonzalezallatleticomadridbesiktaspercabalcalciomercatojuvesettimanachiave",
-  "milanincassipremiermusahtraleedseipswichestupinandallamatoemery",
-  "calciomkhitaryanlinterhagrandiambizionirivincereeavanzareinchampions",
-  "laromabattelaprimavera60doppietteperdybalaedovbyk",
-  "mondialilafifaversoentraterecordperlevento15miliardididollari",
-  "calciorabiotripartodalmilanparleròconamorim",
-  "mkhitaryansaròunmickimiglioreesonorimastolunicosenatore",
-  "interstankovicallacalhanogluilserboinregiacosìlinterprovalerededihakan",
-  "napolibuongiornosisottoporràadesamiabarcellona",
-  "buongiornoebeukemaoutèemergenzaindifesa",
-  "mkhitaryanquestainterhagrandiambizioni",
-  "juventusinfortunioekhatorsiattendeesitodegliesamilenews",
-  "rabiotprimi45inammissibilimaivistocerticomportamentiripartodalmilanparleròconamorime",
-  "lapennasièdistintopiùdituttiinterjuveglivaleunpremiocomemigliorarbitro",
-  "romagnolidentroofuorientromartedìsvoltaastrappo",
-  "itifosiscendonoincampoperpellegrinidopoilcasocelikunerrorepuòsuccedereteniamocelostretto",
-  "bertonimessinonsaràmaidiegolajuveeloscudetto1982unarobaimmonda",
-  "luccaconilghiacciosulpiedesinistrocosaèsuccessonelritirodelnapoli",
-  "dybalasubitoprotagonistalaromanefa6inamichevole",
-  "lazioallenamentomattutinoagliordinidigennarogattuso",
-  "torocèsoltantoperrinuovosummitcolleeds",
-  "laromabattelaprimavera60doppietteperdybalaedovbykasegnoanchesouléecristante",
-  "juventusbasileabogakessiesevienesonocontento",
-  "basilealichsteinersullajuventusfiduciainspalletti",
-  "lastranaestatedileaohachiestodiandareviamanonlovuolenessunoseparteilmilanvasukaretsas",
-  "interdimarcohasuperatolaffaticamentolenewsvideo",
-  "spallettièverochestiamocercandounportiere",
-  "torinopinzolo130ilreportdellaprimaamichevole",
-  "gasperiniscudettononèobiettivobisognastabilizzarsi",
-  "milanejuvefannoicontiquantovaleleuropaleagueeperchénonvasnobbata",
   "intertottenhameccolincontroperspenceidettaglielealternative",
   "perdezerbinonèintoccabilelajuvechiamailtottenhamperricharlison",
   "romabuonalaprimadybalaedovbykshow60allaprimavera",
@@ -16611,6 +16533,40 @@
   "ravanellidigregoriodeveaccettarecriticheereagire",
   "laprobabileformazionedellalaziocontroilfrosinone",
   "damastantuonoavaldepenaslafiorentinapuntasullalineaverde",
-  "quoteprossimasquadragudmundssonfuturolontanodallafiorentina"
+  "quoteprossimasquadragudmundssonfuturolontanodallafiorentina",
+  "delpieroesaltaalajbegovicallajuvetantarobadisolitoitalenticosigravecelirubanospalletti",
+  "zirkzeejuveeccoquandoibianconeripuntanoachiudereconlounited",
+  "ilbesiktasspingefortepervlahovictuttiidettaglidelloffertalatleticorestaallafinestra",
+  "italiainaciobrillachegolnellasfidaconlarsenaleildortmundbatteicampionidellapremier",
+  "ravanellijuveinfasedicostruzionekolomuaniacquistogiustodigregoriodevedimostrare",
+  "benatiaalmarsigliaradicatamediocritagravetraditodalongoriapsgcivadose",
+  "frosinoneinaperrestarciilclubpassaaunfondousa",
+  "veneziaproprietàusastudiamodellocomorivoluzioneinlaguna",
+  "leccedifrancescoperlasalvezzabandanonvuolerestare",
+  "cagliaripisacanecercasalvezzabisespositosiribella",
+  "udinese40anniconpozzoconzaniolopermigliorare10oposto",
+  "genoaderossicercacontinuitàinarrivodallinga",
+  "monzaobiettivosalvezzanuovachanceperjuric",
+  "parmasalvezzanelmirinosuzukiepellegrinoinbilico",
+  "sassuolodagrossoadaquilanisempreatrazioneanteriore",
+  "torinoconabatevlasicesimeoneperilsaltodiqualità",
+  "bolognaviacastroeccodovbiktedescoprovailrilancio",
+  "laziosenzatifosiemercatoasaldozerogattusoinsalita",
+  "fiorentinaparaticiportaanchemastantuonogrossopuntaleuropa",
+  "atalantadopounannobuioconsarriperripartire",
+  "comomercatoriccoenicopazfabregascontinuaasognare",
+  "juventusfinalmentekolomuanimaserveunportiere",
+  "romapiùforteconcastroemolinamagaspaspettalesterno",
+  "napoliconallegriripartelacacciaallinterlukakuinpartenza",
+  "milanrifondazioneconamorimeramosnonsisbloccaleao",
+  "interfavoritaperbisscudettostonesrafforzaladifesa",
+  "capocannonieredellestatediserieasorprendonokulenovicediouf",
+  "gliacquistipiùcostosidellestate2026dueitalianinellatop20",
+  "delpieroesaltaalajbegovicallajuvetantarobadisolitoitalenticosìcelirubanospalletti",
+  "lajuveaiutalintersulmercatodioufpromossoleprioritàdichivuorasonoaltre",
+  "ansaboxmonzaobiettivosalvezzanuovachanceperjuric",
+  "latalantaguardaincasamanchestercityperladifesapiaceilclasse2006bah",
+  "romasumorailbolognachiedekoopmeinersatalantapiacebahletopnewsdelle18",
+  "fiorentinabraschiormaiaunpassodalthuntuttiidettaglidellaffare"
  ]
 }
