@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12T13:22:53.922Z",
+ "updated": "2026-08-12T15:04:06.779Z",
  "feedStatus": [
   {
    "name": "Gazzetta dello Sport",
@@ -12,14 +12,14 @@
    "name": "Corriere dello Sport",
    "tag": "altro",
    "ok": true,
-   "newItems": 3,
+   "newItems": 1,
    "filteredOut": 0
   },
   {
    "name": "Tuttosport",
    "tag": "altro",
    "ok": true,
-   "newItems": 4,
+   "newItems": 1,
    "filteredOut": 0
   },
   {
@@ -36,71 +36,53 @@
    "name": "ANSA Calcio",
    "tag": "altro",
    "ok": true,
-   "newItems": 1,
+   "newItems": 6,
    "filteredOut": 0
   },
   {
    "name": "Google News (Serie A 全体)",
-   "tag": "altro",
-   "ok": true,
-   "newItems": 3,
-   "filteredOut": 32
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Milan)",
-   "tag": "milan",
-   "ok": true,
-   "newItems": 1,
-   "filteredOut": 15
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Inter)",
-   "tag": "inter",
-   "ok": true,
-   "newItems": 1,
-   "filteredOut": 6
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Juventus)",
-   "tag": "juventus",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 18
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Roma)",
-   "tag": "roma",
-   "ok": true,
-   "newItems": 1,
-   "filteredOut": 19
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Lazio)",
-   "tag": "lazio",
-   "ok": true,
-   "newItems": 1,
-   "filteredOut": 5
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Atalanta)",
-   "tag": "atalanta",
-   "ok": true,
-   "newItems": 3,
-   "filteredOut": 23
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Fiorentina)",
-   "tag": "fiorentina",
-   "ok": true,
-   "newItems": 5,
-   "filteredOut": 26
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Napoli)",
-   "tag": "napoli",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 5
+   "ok": false,
+   "error": "Status code 503"
   }
  ],
  "articles": [
@@ -187,12 +169,16 @@
     {
      "name": "Corriere dello Sport",
      "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/2026/08/12-150496713/calciomercato_diretta_inter_pressing_per_spence_roma_ai_dettagl_per_mora_lazio_su_frattesi_live/"
+    },
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/12/inter-sempre-piu-inglese-in-arrivo-spence-e-punta-jones_ab67bcff-72f2-47b3-8eeb-560fa3e6ef0f.html"
     }
    ],
    "titleKey": "calciomercatodirettainterpressingperspenceromaaidettaglpermoralaziosufrattesilive",
    "club": "altro",
    "clubLabel": "セリエA",
-   "confidence": "medium",
+   "confidence": "high",
    "confidenceReason": "複数交渉進行中の速報",
    "headline": "移籍市場速報：インテルがスペンス獲得で圧力。ローマはモラ詰め段階、ラツィオはフラッテージ追求",
    "summary": "セリエAの移籍市場が活況を呈している。インテルはトッテナムのスペンス獲得に向けて強い圧力をかけており、交渉が進捗中。ローマはポルトのロドリゴ・モラとの契約段階が詰まってきている。ラツィオはインテルのフラッテージ獲得に関心を示している。ユベントスのヴラホヴィッチはイタリアーノが仲介役としてベシクタシュ移籍に向けて動いており、マウリツィオ・イタリアーノ監督の下での再度の活躍が期待される。夏場の残された数週間で複数の重要な移籍が決着に向かっている。",
@@ -515,6 +501,10 @@
     {
      "name": "TUTTOmercatoWEB",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcmVnMDhuYS01ejRKU2Q1S2tZTDJrWEhRaEtIUm0zME1lUWt0aW5RLXdJTkZobkIxQ2tuTmNMOEx0X2NFWXoxTnNwNUdTMGxxcWRtanRFMEpkX0RVSWhDUTVBeTFmc05MNFlZQ09id0ZQd1NQZ1pVeHlLZTFWNm1jaDJDbW1hVG1ZZDJ5ejlKUjAyQmlaaVdWeU50ZGU5WmRhQjkwa1h0THlWbkVRd25WWHQ1cUpWQWZETFVV?oc=5"
+    },
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/12/e-ufficiale-molina-alla-roma-contratto-di-5-anni_8bf21dea-fafc-4de5-89de-f1d6fd850524.html"
     }
    ],
    "titleKey": "drsquoamicoallavoroperildoppiocolpocosigraverodrigomorasbloccaluishenriqueallaroma",
@@ -6586,24 +6576,6 @@
   }
  ],
  "seenUrls": [
-  "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOFpLYjRMWG9Lc2JfcjlubG01OEY4V0JPbHlXeEhVOG9GTnJ0QUxYVDRWVGNHdTBSOERSUF9QZHIybWpzbWlkaW5WOVRYYlZrdi1aTTE5V3B4cjZRRlV1U2pkd1htSi1sM2FKSjhUd2xHcXItUDFqOEptWVprdThvQ3ZPREpPUWhYeVJmVFNFam5RU25XMm1ROVZOYUsyV0l0SG5WTWFVOVdLQmI0RWdjbVNGSWFCSFnSAbwBQVVfeXFMT05TbldqLUswLWpvWWtOOEZGUUVHWGFkd3U0VzBlUGVxeGtoQkFTQldfS3dYREdWNUstWi1lRGRoWEl2WVQyVWp2aFJ4eVRwV3JYTGxXLW9QY0tLU0lRd0ZFNkVIRG5BZ3EwSmVMZjBxVGtmODRvNWZxTWx5N1NCTWVkRWNoYlViVGE5Z1h4MGtxSnY4LVhlbFZMeEZ5YlhKSnFqWG9tWGpSQjBXQVRtUF83amdoTEoyN0FVeWQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSVlDRDdwdW92UUJkcnk3TzNyckRyRWRsUG9ZU1h4WGxSSndjU0xleHUtYVQ3TG5MMmpkd0xPSk4tYWZhLVFXNV9qaGZkcmM1STE3Wk03U0d2SFdzOWsyYXBVbkJRUEFtaDk2cnNMZS1nYkoxY2lXQ2YwS25ucl82VkFsTEdiMnl6YUh1eF9DcVBuUXFkME5jdGpDRC1oUndVNERSMmtUbERVblEtMVlsVEt3NzgxdU5BdFVRVlFnYVR1dlFYMHpHZG1oa191MFdUTGNN0gHYAUFVX3lxTE1sOG5TWTRSRnVqY1lUempILS04dmlGd1U1Sk9iSnlsU0RTVnFlcEFsQVBWRGtUeDNnZEg3dFFNNmM4MEVGVzZYd1RCSzhrXzVORXJLSWREaFVQRUF2YlczR2lkaXdmRlNuZW9fTkdjb2xxb2hUXzU3ejRBM3VvU3BlTkFrMDlVMzVVQldWLUFoZXRkMGIwNTVZZXZ5ZUtPTW5uek1XQ2pveUFNazUxWUJRM0RZWXk4UV84ZERRQ0tZR0YxOWJwT0k5WUhBSWhfdWpOSUEyWGhhag?oc=5",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNUI4UkpUU3FqaE8wSE1Uc2RRZTZGZmtheFJzemlheklLOVlLYXVEMk0tYTlMdFIxVVYta2Qybkt1LXZzN1QzZFFVbVFERVVlZGJLQzBkOGNXV1dWSVI0SnZ3Y0haRk01bmNRZUVlRGRCUUE2blMxRmVaVEtoNWhfcm1IS3I5QXg3REhnQjR5cVFscHZwMDcxdFRoZnlDWXUzSUVaei1uMXhrYy1aM3JqOXBUcG9LVWJlMWxpeC1pRFFCR1VMUlBJWGpKc9IBywFBVV95cUxNNUI4UkpUU3FqaE8wSE1Uc2RRZTZGZmtheFJzemlheklLOVlLYXVEMk0tYTlMdFIxVVYta2Qybkt1LXZzN1QzZFFVbVFERVVlZGJLQzBkOGNXV1dWSVI0SnZ3Y0haRk01bmNRZUVlRGRCUUE2blMxRmVaVEtoNWhfcm1IS3I5QXg3REhnQjR5cVFscHZwMDcxdFRoZnlDWXUzSUVaei1uMXhrYy1aM3JqOXBUcG9LVWJlMWxpeC1pRFFCR1VMUlBJWGpKcw?oc=5",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbExlX0dEOUxnUXBxLWFTX20zMXQyRFlpTnpUWXJ1WWlOVGQ2MUsySEpiRy1oVVAxTEV6cWlLbkpoU1VvWGpmVHpWVHhSalhTT0dPY2x0S203LXotdW9qMzRaWGxFV2VmUnBIa0pLSG1yUVlrVHNaNUplb21jWkRKdnY2VG92UWxod29YTXZwbW5SSEdGUEJKc2N3ZHUyLS0tMnE1NEdKclZtZ3NxbTVvRnRMSE1FTTVGNk9pc2FYeXowd0NmMmV3WUsxc9IBywFBVV95cUxQbExlX0dEOUxnUXBxLWFTX20zMXQyRFlpTnpUWXJ1WWlOVGQ2MUsySEpiRy1oVVAxTEV6cWlLbkpoU1VvWGpmVHpWVHhSalhTT0dPY2x0S203LXotdW9qMzRaWGxFV2VmUnBIa0pLSG1yUVlrVHNaNUplb21jWkRKdnY2VG92UWxod29YTXZwbW5SSEdGUEJKc2N3ZHUyLS0tMnE1NEdKclZtZ3NxbTVvRnRMSE1FTTVGNk9pc2FYeXowd0NmMmV3WUsxcw?oc=5",
-  "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUGRKc0cxU0l4TzBtUmlSdUprZGVlSXloRGZIVGRTOF9YQkxYYkFySlhJVDVjSE15ckxpQWUxa3Y4Z0w1RnlLcExoT2ltYmltUzlleG5qbmZ0b21ja2U2Q3BldF9oLThlVHBiOEI5MmhZZHZXbnZ4MU1BYjRmMzRYNVVjMGd5WFZ3X3h0aDREc3Z5VmJsR25BZGd3ZkVnYU1SOGJvU2d3R2pyMkt2d3dlYmtOUFJQc3EyTkx1Vm42VlkxNjlFb1hjdUNaM0hSRVpXdXRuZ2ViN1h4NlphMF9mWnctUdIB4wFBVV95cUxPUGRKc0cxU0l4TzBtUmlSdUprZGVlSXloRGZIVGRTOF9YQkxYYkFySlhJVDVjSE15ckxpQWUxa3Y4Z0w1RnlLcExoT2ltYmltUzlleG5qbmZ0b21ja2U2Q3BldF9oLThlVHBiOEI5MmhZZHZXbnZ4MU1BYjRmMzRYNVVjMGd5WFZ3X3h0aDREc3Z5VmJsR25BZGd3ZkVnYU1SOGJvU2d3R2pyMkt2d3dlYmtOUFJQc3EyTkx1Vm42VlkxNjlFb1hjdUNaM0hSRVpXdXRuZ2ViN1h4NlphMF9mWnctUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb1JlLUQ3VWlMakFRNzlNLWNsbG16OGJkR3JlNXVFV2xkT3JyNlhlNXUtVkpjcUhhVnJUc1ZXelBzTHY1aGcwWGdLaWZLUFJvQnhVY2VZal9pc1VrT3kyLUhuLTkwZzU3alB0WHh2bGg5eDk4REhWbzVDOF84Z20wN1kxWS1GU0UxbHFPYnhoR1Y3VlRoVEJLc3RNWVZEQ2xKZXBCZnliczJTRGRFRHd3dGlzZ0hoRlhRSmJzcTZSd9IBvwFBVV95cUxPb1JlLUQ3VWlMakFRNzlNLWNsbG16OGJkR3JlNXVFV2xkT3JyNlhlNXUtVkpjcUhhVnJUc1ZXelBzTHY1aGcwWGdLaWZLUFJvQnhVY2VZal9pc1VrT3kyLUhuLTkwZzU3alB0WHh2bGg5eDk4REhWbzVDOF84Z20wN1kxWS1GU0UxbHFPYnhoR1Y3VlRoVEJLc3RNWVZEQ2xKZXBCZnliczJTRGRFRHd3dGlzZ0hoRlhRSmJzcTZSdw?oc=5",
-  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMVlsd0JPVHZfekJyei1nSWpQQURNanZjYnhvSEJjMl95VE84LTV2ZHVWbkgyTzA1SE50OTJZanBHRHVUZWVNZ2pvejRVcFVCZFJsaGpPNGkzSkZ0elZEWlR0dkllMDZqdXFTWWN6VTlJMGtzNVNyOVZDX0JYNVJaR1JJTFU?oc=5",
-  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSVZoVXBvZlRzdnE0ck10X1ZaZF9idkJJbFpBbnh0WFkyNTFCcGQydHgzekJVd0FvbkRBOVBGWURtZHRPamI5R0VjeGZ5RnZVOENsTFBwQmFKbGgtaEM3OGNra0paOGVFSWdQcDZLR2FRYzB5blZzamo3UHUzQlFyVTMydm1uTjBHZFJDcXhiZVFsMnA4eERoeUpLR0J4YUg5TmMzRlNIZjh1eWpyM2Flb2ZuMWV5T1dJaVhpS3R2MFA0NlZDb1RBSTJaVkFWUy1tQXd3Q2dn0gHWAUFVX3lxTE1JVmhVcG9mVHN2cTRyTXRfVlpkX2J2QklsWkFueHRYWTI1MUJwZDJ0eDN6QlV3QW9uREE5UEZZRG1kdE9qYjlHRWN4ZnlGdlU4Q2xMUHBCYUpsaC1oQzc4Y2trSlo4ZUVJZ1BwNktHYVFjMHluVnNqajdQdTNCUXJVMzJ2bW5OMEdkUkNxeGJlUWwycDh4RGh5SktHQnhhSDlOYzNGU0hmOHV5anIzYWVvZm4xZXlPV0lpWGlLdHYwUDQ2VkNvVEFJMlpWQVZTLW1Bd3dDZ2c?oc=5",
-  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXR0NBd3JnR3hxS09qN2s4bTc4Q2pPeDZmWThkNWd2cG8tUVdQaFJsT1I5bWJyZmRVMTdmZXRmdXZMNE5zZWJyNmZob3dCdmY3ZGRDMXBwOXdfNmJCZWtKWEJfMjhLcGc?oc=5",
-  "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jT0gzTi1aX1FMTzY0WGpnYUpHS1ZJeGJuS1gyNzdrbmN1c3Zrd21tRGNoNXc3bFpuMVlrcHFyNmM5YVJYMThDS0c0MG5pV19zcVZGcjh3QkhYYldhTXF1OEFFTlBON0dGSV9sTHhkZjdvUjlhRk03YXBn?oc=5",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxNclJaY3ZWa2RWZGxsYzgycmxPLWc4LVE2MWF5dlFmaWxfSUx4RVVtNXFnWEFhWUxfMHBFUjBibUZrNExoTFQtc2ZidlJ6Qmp2WVVNVzFtVnhfaTBWQ2JtSTlZTHZfdjFCcklMS3drQVJ5WW1lSld3ZXJtTnVEdzlPdGU4QXNXeEpDeXBMRFRGYlAtTDJjWjhyYmJGNk1kNV9QLVM5bQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUVvZi1nVloxd3c3TE5aRnJzSE9nS3oxVHBnNTYwM3JYVnc5ZnZ3MGFpbEE5a24yRF9uakZ3WUtHc0RfQ1FCeW9yUGpZNHhVLUhaMUtBaDdzdW4xUXRmYjdsMnNtd19hc1UwdkV6MXZqbUdjYkd0SVAwQ1ZRMWlzXzdFZ0FnLTQ3dGFxSjctVTh1OV9yX1BBSmxyRzYyYXJXTU8w?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxObjYyelhEVjZ6emNTQnpDcmNEX2NqajVVaUh5Rmh1MzZkYS1lTlNlcWdQdkYyZXFRNEhBSVREbk80VFA3MkF0ZmUzdkNCOXNTbGl1Z05IT1dTRlNJdlJpU0VBVGhMM2dEQUFfdnRET0wtVlFYUWxDVnJXTmpuaWl0RVhlUENnN21wQ0l4UzRVdjVrc3V4X0pJZlR4TjBSUDQ2VXdvclJQVk1uSjQ0UW8yREVrMFduSU1MMG9VdzJTbw?oc=5",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQjE0XzBub1hQbHlZTm1PZktPbnA4Tld0SldiWUVaMWxoSWxXODBJUC0wczkxbWVzMUhxM2lQaFRtaDdxV0ZOOEJNUXJ6RHFKUHdTUXM3YnJFd0FIXzN0TFA4RTRqWWVqNGtVaHp1WG5NQ3B4OWZvWFZQUDMySlZQMGNtTDZKLTg3dWRKNExYVXBjaGZWUXQ3RU4xWmI4STg0RW5sRnNtbjVJdw?oc=5",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSlFXYzl6MHBvRzhlQ1A0UFk1YjFFWnJTVktqdnhyLWNkNTVTMjZQbEZtc1V6RlpVb25kTDF3ZzFXWGV2a0ZMd3I3ZTlaN3Q2S1FGejh3TEo5V1BibkV2a2hZcmZ4dURNdGtaUlNwRHM1QUJrOUZueXNHRGNUbk1lNmVmWUtLRzlrYTRLbUc0djZjTzl1WkZDaUExSENtdXdiQ1BVTDhhaGJCTHNyc0pPMi10VktTUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQlhteWdBWW1UOS1yczE2TExzS2k4bER5M19XUlFya2gyVVRFYnN3TExXaVl1RDg5QVFoZEkwLVRiN0NfZXNyRVhuVE9tUUlMTm5KMFhlMWQtcEl5bVVRS0lVUzQ3TkJZbU9NR0M4Z1ktZGx5YzJaaHJxdkdlaU1VS0ZMUUN1YkJ2c1JBTEljcU9IU0NVYjYwM3dmR3R6VHdBVEFNQWl2amNQVG8?oc=5",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSU5uNngxRjEtUmhPMlE1em1ud0tiQ25LalYxRlRBelVtN0h0QmczMkRhSlhFY3JKMU9sa2ptZ0Y2ckk2MlJBYUxoX0tfS3d3V3J4N1Ywd0ZkbUhZb2ptMDFRMTJGXzExdy16di00bHZFZkpwb0pMeWt3VXRLWEE4WkRTZFk2N1M3WnBKSG9YWDNqQm9NUEpSdHB3?oc=5",
-  "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zRmNwMHRyM1ZxWFhKM2tENTdWa09iSGhCRVU4SWJhX3o4OVFsMEpnWmozbXFxR3NGN3U2VnpQZEVMSWxRLVJDUE9oNFFscWtzdWl3MmwxMWRaaDFHS0s5Mlczb3Z6bzBuUUQ0?oc=5",
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc2cxZFFrbi1BNldzSFJLOGhZTzI4a0didmFINVN1N1ZmeWFDSkhmVnFrdVBXZlVqckxKMmZlYVJhYU1ETWVkY2pPblZjY0VwY0N4LXJtWlU3MXd0SjdmSE0zUlM4eVVMc18zajdXX3NLNkM5RDJfaDh3MnRXOEdTRWYyWmhnY0NjOU5TNUNIUU1oSXU5ZjJQOEZLclJ2OUF1VEhDYUFIMUdydmNF?oc=5",
   "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VcXhNV05aTmZ5WGc5MWh1aVk1elE1ZnhYSUFGRThrVHByOEJHRUptTnRUSmtIVkVGVFBXNF9YN2ZfZFpxeEIyeHRQbXhaamZBVWZOMm1fZmJFYjFfbEJ6cFNRMFRGNWVlYnBIYXl4YUVuRC1zckpYb0RB?oc=5",
   "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc2paSXJoTmZud1ljXzcwcUJ3Z05JS1M3MGxYcm1tUDh3WnlpZU82X1FwMUxyblViN1NtNjZ2czQwQVo2U3EzbUlkaFoxVFJZNWVzR0M5c3NHS0JWa2YtOFd2U01KUkVoLTNsUXI1clB4bjlsX2x0c0N0UEZLTVZoSXR2N3lMeFFDeHZjbjdRdkIzanc?oc=5",
@@ -11585,17 +11557,27 @@
   "https://www.tuttosport.com/news/calcio/serie-a/torino/2026/08/12-150495007/c_la_coppa_al_toro_servono_i_prodigi_di_simeone/",
   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcmVnMDhuYS01ejRKU2Q1S2tZTDJrWEhRaEtIUm0zME1lUWt0aW5RLXdJTkZobkIxQ2tuTmNMOEx0X2NFWXoxTnNwNUdTMGxxcWRtanRFMEpkX0RVSWhDUTVBeTFmc05MNFlZQ09id0ZQd1NQZ1pVeHlLZTFWNm1jaDJDbW1hVG1ZZDJ5ejlKUjAyQmlaaVdWeU50ZGU5WmRhQjkwa1h0THlWbkVRd25WWHQ1cUpWQWZETFVV?oc=5",
   "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRDVmVlI3bldNaUhBSjFUUml5dnpmaUE2MzZlNkI1UDJGbzFiVEJORmIzNDVyN2o0VUFPWkxQVlZTUEJ6REpocUlPb0RlU1BRcmdxTXF5ZmU5TERwakZxT1NlU2lvRUlNekgtM0lVSENseWFWLUtERmJWX0ppVjRLbmM0am1sUGhZM195ZEtfZXV1Q21TQXR3ZGowbGpRa0taZ3cyd2lHeFl2SUZXa1VqQzdUbkZPNlhMMlpyWHR3?oc=5",
-  "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtTk5HdjNzZkxlejVCSXhGcFgtZHZYaGRFSGthVDVfdVZhUjJRSExTMlA5NWVVV3FhN3BmY1MtSnJHTEI2dDkzWElMSnhwVHBORnkxbGU4OVdXd2tEZlBBQXlENjJmMU5QSXNUWUFISlpGc2pEeHotaERia0o?oc=5"
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtTk5HdjNzZkxlejVCSXhGcFgtZHZYaGRFSGthVDVfdVZhUjJRSExTMlA5NWVVV3FhN3BmY1MtSnJHTEI2dDkzWElMSnhwVHBORnkxbGU4OVdXd2tEZlBBQXlENjJmMU5QSXNUWUFISlpGc2pEeHotaERia0o?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/juve/2026/08/09-150433928/papere_e_critiche_di_gregorio_ora_un_problema_per_la_juve/",
+  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/inter/2026/08/09-150433570/senza_uscite_non_arriva_nessuno_e_se_alla_fine_linter_fosse_questa_/",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxOckhjM1VFR2Nvak1OeDh2X2FoMGlUa3EzZFozZVAyVE0tMVBYWkFabEFkdDhwZUZUeFJlS1IxR3ZYQ2VOYnRFUnE0N1JqTm56SXgtNWI3MzdZd2ZHbUhkdnRCR28yMFgzV0RwUlhpNG9jZklVVGFRb2tuSkQ2UC1yRkZQdkdoVmhEQVB2RnQ4cmU4RkxDN0EwaEQyX0fSAaIBQVVfeXFMUEYwM2VYVVBFaHFjZWZNWG9YNDYyRG5MaTRTUWh2T1dqSzJhYVU3R1dqckhEZy1fYl9EbGx2Mmt0VGFmS3ViTFhNbEVsWkJyM3hmMHpsTVN1cUM4WXdCd1dWTlJhYXhiT1psTmhaYlB4S0d5eVRrZGY2dTlkMElrTmg1RHo0WmpZT3BJQzhKcDhGSnFlRXJhOHk0RDYxSnBaa1ZB?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/08/09-150432994/giovani_e_forti_chi_sono_i_tre_obiettivi_della_roma_che_insegue_d_amico/",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDV6djltU1ZNYTFlcHo3WDhyRzhva1V4UDZ5N1VhZWExYm54b3FTZkt4bVFfQUFBaEEwT2hzSDFHamwyTXpyT1E3X2p0ZGZUS3oydzZKbGNnZ0dyZjdCZjhoM3JEX29hNnVhVkVRbFpqTkpzZkdKSU00NEtxMUFRLW1TcmR1aThNMVVMMXRrdFhBVUd4dE9yZXpDUjFRdnBTZHJhQ0h2blJPa2VZNHdBU3BFQUxndGc?oc=5",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/09-150433571/silenzio_parla_del_piero_yildiz_alajbegovic_e_l_europa_juve_i_cicli_vincenti_nascono_cos/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/08/09-150432993/gasperini_urla_a_tutta_la_squadra_suona_lallarme_alla_roma/",
+  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMlBzSndLRi0wZWRhZ0NGc3BIbFlSZGZwbEVaMlZ6dHFfZFlTUHoydDVNQV95c2liVmFEZkZKVFgwNWRKdmNHX0Z4ZkdMTjFYS0REV2dydWpJc3p4OXFSMW1uV1M3RWRWd0dIandYbWU1bml2WDJJaFZTRWdnSzdaRDEwcFh1c1lwRU9ISFptZFJLaWxIWWR3Q1hYRmhqUFdqM1g4b1FIdFlTcjRDSnNsUlJzaVhHOEhaOEd3aHlwRm1TMGkyWE50cTYyN0RtX2tQTjR4UNIB1wFBVV95cUxPRUpicnRkTWdYbjdDd1JDaXVHVnVTZHc5ZURDaHJqUjJOT0R0UGlSMTVZVkIta2ZoYjVjd1hiNWZ5bW1Hak1tOWdhT2dIVnBXLVhwckdDX3hzdkE2eVVfNFE5bnpxOTFVUGdaSG16amZnRnE4U1FCOTRqSE16U1BFYWZNMVNvVVRRQXZ2blhibnlERjMxUk5sUHlmSHpwNGpQQUF0MEJtQ2VYdnNFMG4wWERGRWE3X3JuZEhza1ZxLXhpN2pYVkFaWmFCdjVvX1hZaUExMnNoMA?oc=5",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNXV6Z2QyNFlqN05UZjBEamFfUmRKYnJPWFpzQUwwLXpsWVVJeTkyQzQ3bkk4elhzVWtxWUZYN0VWQUVoNEZCM1h5My1OQzM5WUhZY1lWN2NVXzBIWXpkZk5KVDdFWDBudkd5Y0pYR3RucDVqRU9BZHJJdTB6cjYyZ1R3VUozMjNFNzBZeUFkQUZSYXRrWjJhUTZfYnEzMUExZVdMOFR3?oc=5",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeUg2VExOY1AxaGk1MkpyWTNyZEdrX3RwSlJhSU4ycHdXZ2JGMVU0UURialBfcDdOSnpodmVXLWFQMHJxTjhwbmxxX0NvbElYTHlHZFZjd0pWTFVWM2YzaDVhTnFYaHlvZEV3TndIX3ZzOFlaNGlOR3Y1a1V3bFpYVHpXTkpveE1hWXFpcWdrWnFoUzVRc0ZUSFN3?oc=5",
+  "https://www.tuttosport.com/news/calcio/2026/08/12-150500012/messi_l_addio_a_pap_jorge_struggente_non_so_come_andare_avanti_cr7_si_stringe_all_argentino/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/12/lomaggio-di-messi-al-padre-non-so-cosa-faro-senza-di-te_711825f6-b8d7-494e-b762-419866b619a6.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/12/inter-sempre-piu-inglese-in-arrivo-spence-e-punta-jones_ab67bcff-72f2-47b3-8eeb-560fa3e6ef0f.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/12/il-calcio-torna-in-palestina-a-settembre-la-coppa-dei-mille-martiri_9ba04462-2f06-4de9-b449-3d4aac06a721.html",
+  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/inter/2026/08/12-150500107/inter_fatta_per_spence_i_dettagli_dell_affare_con_il_tottenham/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/12/il-ravenna-presenta-la-squadra-e-ronaldinho_89b981b7-aeea-4958-8eb4-f1655a6f3570.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/12/e-ufficiale-molina-alla-roma-contratto-di-5-anni_8bf21dea-fafc-4de5-89de-f1d6fd850524.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/12/supercoppa-europea-il-psg-sfida-laston-villa-ce-tanta-voglia-di-vincere_a1932199-0dd6-4aa3-8192-4a5268249628.html"
  ],
  "seenTitles": [
-  "dovevederebolognaheidenheimintvdaznoskyorario",
-  "lukakufiniscesulmercatoilnapolielrsquoagenteaspettanoofferte",
-  "bremerarrivalasvoltajuveilgalatasarayoffreuningaggiopazzescoesonopronteduealternative",
-  "ilgalatasarayoffre10milioniallrsquoannoaleaoeluiriflettequantochiedeilmilanperliberarlo",
-  "romaeadessolanuovastrategiadidrsquoamiconusapiacemalapistaegravecomplicataeccotuttiinomi",
-  "ilcasosummervilleelrsquoassurdovoltafacciaallaromaunaereoinviatodaifriedkinloaspettavamaluihasceltoisoldihellip",
-  "arbitropolimancanoletelefonatemaicellularinonvennerosequestratiperldquotroppoclamoremediaticordquo",
-  "rogersalchelseaufficialeegraveilsecondoacquistopiugravecostosodellapremierlecifre",
   "luttopermontellamortalasorellacaterinailmessaggiodicordogliodellafederazioneturca",
   "abetectitaliailveroprobelmaegraveunaltrolaspagnaservadaesempioesulcasobalogun",
   "kessieacutelajuveloprenotapassiavantiperfrancklachiaveperconvincerloepjanicproponealajbegovic",
@@ -16587,6 +16569,14 @@
   "domanilaconferenzastampadimistergrosso",
   "squadraalavoroalviolapark",
   "piccolialbolognavivianoottimaoperazioneperlafiorentinaepellegrinoèuntop",
-  "fiorentinainversionedimarciasivalutailrinnovoannualeperdodolasituazione"
+  "fiorentinainversionedimarciasivalutailrinnovoannualeperdodolasituazione",
+  "interegravefattaperspenceidettaglidellaffareconiltottenham",
+  "messiladdioapapagravejorgeegravestruggentenonsocomeandareavanticr7sistringeallargentino",
+  "lomaggiodimessialpadrenonsocosafaròsenzadite",
+  "intersemprepiùingleseinarrivospenceepuntajones",
+  "ilcalciotornainpalestinaasettembrelacoppadeimillemartiri",
+  "ilravennapresentalasquadraeronaldinho",
+  "èufficialemolinaallaromacontrattodi5anni",
+  "supercoppaeuropeailpsgsfidalastonvillacètantavogliadivincere"
  ]
 }
