@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T08:36:38.512Z",
+ "updated": "2026-08-15T10:29:25.920Z",
  "feedStatus": [
   {
    "name": "Gazzetta dello Sport",
@@ -19,7 +19,7 @@
    "name": "Tuttosport",
    "tag": "altro",
    "ok": true,
-   "newItems": 6,
+   "newItems": 2,
    "filteredOut": 0
   },
   {
@@ -41,69 +41,70 @@
   },
   {
    "name": "Google News (Serie A 全体)",
-   "tag": "altro",
-   "ok": true,
-   "newItems": 7,
-   "filteredOut": 16
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Milan)",
-   "tag": "milan",
-   "ok": true,
-   "newItems": 2,
-   "filteredOut": 17
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Inter)",
-   "tag": "inter",
-   "ok": true,
-   "newItems": 2,
-   "filteredOut": 2
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Juventus)",
-   "tag": "juventus",
-   "ok": true,
-   "newItems": 4,
-   "filteredOut": 17
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Roma)",
-   "tag": "roma",
-   "ok": true,
-   "newItems": 1,
-   "filteredOut": 17
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Lazio)",
-   "tag": "lazio",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 4
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Atalanta)",
-   "tag": "atalanta",
-   "ok": true,
-   "newItems": 3,
-   "filteredOut": 13
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Fiorentina)",
-   "tag": "fiorentina",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 6
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Napoli)",
-   "tag": "napoli",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 7
+   "ok": false,
+   "error": "Status code 503"
   }
  ],
  "articles": [
+  {
+   "url": "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/15-150554423/lucumi-juve_affare_fatto_ora_visite_e_firma_ecco_quanto_incassa_il_bologna_rugani-gatti-cabal_/",
+   "source": "Tuttosport",
+   "sources": [
+    {
+     "name": "Tuttosport",
+     "url": "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/15-150554423/lucumi-juve_affare_fatto_ora_visite_e_firma_ecco_quanto_incassa_il_bologna_rugani-gatti-cabal_/"
+    }
+   ],
+   "titleKey": "lucumijuveaffarefattooravisiteefirmaeccoquantoincassailbolognaruganigatticabal",
+   "club": "juventus",
+   "clubLabel": "ユベントス",
+   "confidence": "high",
+   "confidenceReason": "メディカル検査・契約署名待ち",
+   "headline": "ルクミ、ユベ移籍ほぼ決定。ボローニャから獲得金確定",
+   "summary": "ユベントスはボローニャのディフェンダー、ルクミの獲得がほぼ確定と報じられた。コロンビア人の中盤ディフェンダーは火曜日にメディカル検査と契約調印を予定している。スパレッティ監督の指示による獲得で、低い位置からのビルドアップに優れた選手。ノッティンガムフォレストやサンダーランドも関心を示していたが、ルクミはユベントスへの移籍を望んでいた。移籍金とボーナス、買い取りオプション条件も全て合意に至った。",
+   "publishedAt": "2026-08-15T09:04:21.000Z",
+   "addedAt": "2026-08-15T10:29:25.920Z"
+  },
   {
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNC16QWN0S081RjZTR01MMUFiRGJPWlZ4Zk5WY0hGMWRmak1HTVRzVGNqQWgzbURVMUhYbjdxZFdlbnpBTlU3d29meko5ZGJHdVp4OTh6Rm1abWxMVHdHcnc1a1ZCaUxQWFNJV0o2eFJSYUZULUpCd09vX2NsVzUwN2YtQ1oxQUlDRUZNWGlzOVVkUQ?oc=5",
    "source": "Gianluca Di Marzio",
@@ -328,6 +329,10 @@
     {
      "name": "La Gazzetta dello Sport",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcjJXcjMweHZ6OVZsUEY2NUNRSWZKemtSTUR5RThDd2kxbmVqUkZaa3hCaEo0SEJyVzJ6V3dCX0JoeWpaNzA4WHR3UnlnR1NVbm92Umc2YnFrVnhrRjFFYW5PUHoxNEp6VkxWankzTjZHcDI0el81YTNFU2xLMTRwZEhpUU9qeUVORHNwMVp4MXNyd2E1MnBaVDNLQzk4aHR1MGFxOVBJWmFUcmRJR0t5YWJ3LU1fUEFuMDJJ0gHAAUFVX3lxTFB2U3A5bk5TQTA1aElVdDBhR1VZRVFITjgzbFEtY2hVY0RkQVVKVy1mS1ZLSjUyVjdTSGZxdm9ZaUZFM2VhbExQOFRya0NFU3NOaWJLQ2Y4a3dSRDhjaENteTJmM0x3VlNONWJMMU5UTncxQzJvLXEzclR4Y3l1WEd0TzhzWDZMYkVTV0ZwcWRNNjdNd25WUTRCWkludGNtRjduR3h5blBEdFN6VV96RkpwOHdkNGZGbjJPOWxZVW5zcQ?oc=5"
+    },
+    {
+     "name": "Corriere dello Sport",
+     "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/napoli/2026/08/15-150551470/badiashile_i_muscoli_al_centro_chi_il_nuovo_colpo_del_napoli_in_difesa/"
     }
    ],
    "titleKey": "ilgiganteconilmancinoraffinatochièecomegiocabadiashileilnuovodifensoredelnapoli",
@@ -6660,56 +6665,9 @@
    "summary": "ユベントスはボローニャとの間で新たなローン移籍枠を模索しており、アルゼンチン人DFファン・カバルをボローニャへのローン移籍で送る構想が浮上した。この動きはボローニャへのルクミ獲得交渉と並行している。ユベは複数の補強ルートを検討し、柔軟な取引スキームで戦力強化を進めている。",
    "publishedAt": "2026-08-07T08:30:00.000Z",
    "addedAt": "2026-08-07T09:06:19.623Z"
-  },
-  {
-   "url": "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/07-150387114/leao_serve_un_offertona_dal_galatasaray_al_milan_intanto_si_rifiuta_di_firmare_la_maglia_a_yildiz/",
-   "source": "Tuttosport",
-   "sources": [
-    {
-     "name": "Tuttosport",
-     "url": "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/07-150387114/leao_serve_un_offertona_dal_galatasaray_al_milan_intanto_si_rifiuta_di_firmare_la_maglia_a_yildiz/"
-    }
-   ],
-   "titleKey": "leaoserveunoffertonadalgalatasarayalmilanintantosirifiutadifirmarelamagliaayildiz",
-   "club": "milan",
-   "clubLabel": "ミラン",
-   "confidence": "medium",
-   "confidenceReason": "交渉中、オファー予定段階",
-   "headline": "レアオ、ガラタサライから大型オファー必要。署名拒否で離脱に慎重か",
-   "summary": "ミランのポルトガル人FWレアオの去就が流動的だ。ガラタサライはレアオ獲得に強い関心を示しており、新たなオファーを準備しているとも報じられている。ただしレアオは現在、ジャカルタでのミラン移動中にガラタサライサポーターからの署名要求を複数回拒否するなど、離脱への態度が曖昧だ。ミランはレアオ売却で得た資金を活用して新戦力補強を進める方針。交渉はフェルナンバス後の加速が予想されている。",
-   "publishedAt": "2026-08-07T08:00:29.000Z",
-   "addedAt": "2026-08-07T09:06:30.324Z"
   }
  ],
  "seenUrls": [
-  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNy1JNGVXdTNoY2hqUzRtZEtBQUU0MnZfcWNjNmZvNDh6UGF2UUhxdXM5ekZoOEZVRmx2UGtyWUV0TVo5UTRkZ1JuX3EzMUpHdlVhVmZISmhiaGlDRGVrRkNxMk5tYUZwemxudVFLTHhvaVkwXzM4WHZnWnZSV05WaEVXTlNvdER0d1ZaMGRhRG5JUEs1ZThQd1lOenMzaUxyZ1E?oc=5",
-  "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZjh6TERFclNWUzg0QkV4TVdqa29jR04yVFNKVi0tRGd6NjV4eTM4aWpOa3JhblFlb2RsTklucER3YmVMc05hYS1oM3lxVmFHNmFieTV6RGRTRUhBS0lkZkhwbkxTT0hCZ2R4WDVlRmVBWFZzRkpXM1lkYnZjaFk0a1VvbVh6SlBVQ1o0Um9QUHRLWlpRWEVHQmRuUGdXODFPSVNsVkU2Yl91WHJJWUJLamhjNGYxLW51ZmxhTzhDbzFtOW0zXzcwZkU4ZndlU3FXem9tWkRvMDhGdkI3OGc?oc=5",
-  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZTJ1Wmt2TUdweHZKcTBwLVM4RDBuX2cwRFhwUUtwWG1nbHRUMUxLVWdFTkJROVVVRnNldkNIalpDcHJEd1QwMGdNY3FwVVVlWFIwZU95YmIwcnFXQmlTUnhRdU50bk5OTlZxR2lQLW0tRlc2RG9ncGNVaC16MG5tZnJBUjl5SkdWaXdsRXJDVktBa3JjOHJVTDRodVpMSEUwUzZjNWctSnh4THhheGlwVEVEbjVyQXN0T2dF0gHAAUFVX3lxTE5lZFlkUWRwYl8zQmJRSkVmRjY5WEtIaWJWMXlMS18tNjJrSWM0eXl4dmhLVlFWMmd4R0VCNURMU3hCdWRxdHdWWlNxTmtxTzFiY2JuZTFkUTA1U1JYTGRibnVkTWlHeVRZQllaSGlkMkM2ak5lcW52LWZkZDIzMTBRNU1GS2NhcWJ0NldYNnNjS1VRSTNPdkdmSUhjaUs2b2lEQnlQYUgwQ0o0NVg5R2xvS3hOeFdtaVlDOEczOGFwRw?oc=5",
-  "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY1IzQmVsWWRPUlZnV2tvODZmUlo5RzQwQ0JfRFo5TkRSTTFWM2I5Yjk4V1ZwZjg1S18ybV92YW1jMlNoTlRMb1B0RFJTalFQbXVHSkdKNVFaVmdFOUcwb0QyNHZ0dzk2VGs4WHdVd19zckZCU1RGT1hNSlpzTVlvdFh6U19NT3RHVFEyR1JJMTRYS3NoT0M1dzF4Z05USTRHR2dmWFQ2OGZTYjh1SnRJVWFmSWdoZTdla2tJbDhQTGw5TlJjLXI0am01Z1RXaG5sWXM0UFU3UTJndW42dnpQVUlGRQ?oc=5",
-  "https://news.google.com/rss/articles/CBMipAJBVV95cUxQZFB6bnlTTWZOM0dHcVFQRnAtNm84TEEwcFMtNFNlS2pkRmJMY0Y4dmZkWHdrUmJyYUJ5VVk4c05WaVQ1clNxQUxTcHZaSzJIWXhzZkFNeDEwQWhndXNIVEhZX1pQeWdvVFRqb0xCNnJwTVlPZGhCX01YLUQxbmV5djVKV2JSR0U4QnNRVzBldThJQ2Z0SFY2WVp0LTBobGhSM09na0ZsSWVwakZ1SUlGOG9HaDNpVlRlRTRTYy1iYXFuMk9PbGFBeXFxMUR3LW0wX2dPWXlRS0VqbjVxX2tkLUNuVGs3NUxKcWJKZGppNVM3UkxQMGVucDd0VEp2TVBpUW85c0JkMjNybUkyMk5sVkVZLURWZ2ExMWxNTVBlalJiVzAt?oc=5",
-  "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBcWVmeExUbXZ6NGI3Ml84a3hjN2FPUkoyNFFOUFVYRjBUVDdRbERIYU9oTGZBdVFyVHhOWVVaZVlCX0EySktFYWhWRmE1MklqdmphYUgzUGk2QnIx?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVzI0YkN4LVNIdnpORkU1bVY4Y2YxUUF0TUVYVjNEX0cySk9kQ0JyQmNsZ0RxX2NGeFFrN0FFeEIwQmdRTVlKQUV0akp3QkJBekF2LWtvdU91elFlMjZ0T2ZXZHpsSnlIcVh1Zk5YU3hQN3BxMWdBeUIzeDdhQ2RjcDVpT2hKUzhlQW1NdlhuRldsLUFRZV9MZGg0ODlKbU5jLUFPVlNuajBodG1wUzdpcWNaR3dRRjhfYmZCRTJKR01LTlBkbTJuWtIBzgFBVV95cUxOdGt1aXdNZmpmV0J2SGluWGs4QnFZZ2piR0ltY1V3b1UteFZUT3huY1Q2TE9sNGhpM3c1ZkU1bElndy1VLVh2UVpDTlRaVkRWRVZkLTAyMzNKOWo2R19QNlBNdnV6UG91R0wxZUxMNGF0YlhFRy1JOVJYcENGVUJoMkdFSFNlZFFoSGVFcm5qdmo5WUszVUVWYzJiRndsYTRrRk5Ic3p6RDBENlcxalFaeFdHdVc4OVVlNWtzc3k4elJ0MmNuaFpJUnZpOVJSUQ?oc=5",
-  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/2026/08/11-150491845/vlahovic_torna_da_italiano_accordo_trovato_con_il_besiktas_ecco_cosa_manca_per_l_annuncio_ufficiale/",
-  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/08/11-150491762/damico_al_lavoro_per_il_doppio_colpo_cos_rodrigo_mora_sblocca_luis_henrique_alla_roma/",
-  "https://www.corrieredellosport.it/news/calcio/calcio-estero/2026/08/11-150491512/ronaldo_e_georgina_si_sono_sposati_l_annuncio_social_e_le_foto_delle_fedi_nuziali/",
-  "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmU1bDVmTGxQQVhKd1hxcUdZMXpiWS1YZFN5TERIRi1CbnltYUZKVl9Xd201ZE91Ty1IVjIwaS1acjc2bHR6OGpJSUF4M3ZaT2w4enFoVXc5TnRJTzBtSEg4UG55RWhvMHVkUTJaanRpbDRQY0VqQ0M4RTByXzU3a1BwYjRBTjJlVGMyR2RYNWc?oc=5",
-  "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdmpXMXBtWkVDd2NwS1Jpc1c5dDlWelZWWWpsM2lfM1NRRHpTcWl1U1FNTlE2Z3B0NWNBOElGeWVkYmVSZDMyVWt0MXlMWkpXd0R4MEg2VFVPRjNkcnd6bThYM2o5SU1oeVQ5VTRWZWVwenBIR21NWE5zWnV2Y0VrUldkcExON0xGdmRLUlkwTWZhLUxrRU4wOE16TjNlNWVTbzF4VDI4UnNhYkFIMXV3cDREM1MtYXlTY3JOeFpDSXBIc0VyUHNsWXhFalBQQnV5RHhISGxYcjRieG5udFlYMHk1YUTSAfABQVVfeXFMT2RtZ25mYlFwTmhIb2E4Xzk5QkM2TE5yLWRJRXRIU19xd1ZXMVI5YVRFdzREamhDZFo0OHgyb1pqUFdMWFI0WXdwTTlKbm1xblVJb2h3c3ZqLXhNX21aWGNsNFlfZnhkR0xLT3RaRTZuWHJlSVVEcE1IaEJwdU1zYXNVay16UzVfbFg5Xzd3bnpULXNNT2VDSzZpb21Od3F5U1JjcWJFUFVCMFY5UmNiT3lfbHBXR0tkTi1FTHBLWERZV1VLd2FiVDQwMjRRTWRTQjdjQlctSnRuMkZwV0hIOFRjTXI3eWMxeGdCeDVEM21K?oc=5",
-  "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/08/08-150420118/il_bellissimo_gesto_di_bah_resta_con_la_roma_dopo_il_grave_infortunio/",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTWtCWVo3LXFkTFBsemd6dTBPelY5Z1paQ2xQNzZRcXdLQ3ByY004YUlVSFluZFBFZDhsa1dkRFBpcVhRTTJwWGJRQXB5RHhHN2lrWGhSZkxIY002ckptQThZLU04cEVRb0puYk1hMjdyMmVub2hiX3RucGlBZTR3VmFGUURlT1g5d3dFMGdXX2sxZ3FiX2ZBM9IBngFBVV95cUxOeElUTzlkZEE3X3BGeHp2RFVVNmswQW9pX1FpTmh5SW1nTERBRFRNUGV6OEJ1UV9OOU5tN0FaX1AzYjlHSFBCQVhyeTduZ2ZuQ1lYZktIaTNuZURsXy1mSUhaNWF5RnRleDZ2SjNLOGxidjl3N1RfWS1UbEY3XzR1Vnh6a0Ywem42dzVTOGdJS19pd2JaQmRRWXdxRDNRdw?oc=5",
-  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/05-150336547/yildiz_cosa_filtra_dall_allenamento_a_hong_kong_e_le_scelte_di_spalletti_per_juve-chelsea/",
-  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbjQ1UzRXckI4LWF3TlI3ZE1oVlc3WnFxdFVhZWFuZ1pXQ0JfV0FZclpRcnItMVhuUjR5VHl2WXhwVUloX1JCWEtpSk1EbHJIbWxVNWc4MkxMcGVZMGp4VzJDaXZSSl9xUFhpbjFaMEU1UXdYR0prazNWTF94aVdlMk5td1hQY0gta0t6cHpQQXFMWWVoc3RmemtXVGFJbWxFSUlmdmt3VEc?oc=5",
-  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQU3d4ZGY0dmdETG9jWDE3QktJM25GZmctSk5BXzY0NkdSX003VlJUbC01Skh3NFVKaWRUM21KekF2Y3hsRVdadklHWHFjODJ2Y3pMMjhYaHBwX2hBbjU4bjg4MV93eTBIR241cWlzNmg4ZEpOVHhmTXdOUWRHRkRReUw3Z3BZeTdsQjJYYkoxa1F5bjF2bE0tWGg1aFhIMnpEc0dqMFFMeUc1bVMzaW82Vk1qN2RkMGVJLUI1VGUxZEppajNVYzd0N0ZsMjA4XzRwbjVncWd3bTZmUdIB3wFBVV95cUxPZm40MXdQaEFveF9QLV9jU19aQW0xTk1IdGtqYVFSRkRndGhlWnFjV2dtZnRrMDNuYXVxdDlXZGhOcFBNQ2xVTnhQMGNMN2xnRkZjSkc2Q3ZzQ200T2FmWUhqb09NLUtJQlNpRUdJU05Za3Fka043X0tnMUlxTkE1MmVHT3o3cVl2Vlh6SHZ4VVh2VTBBaFlHWXpRV3ptY2JycW1NWGtkanJWQTB4TGVQTUFzczVCM2hqbHJ1SHk5dF8zaGFPNjZKeGVIUWtpWXBzVXlFU1otOXF5aHd2UjI4?oc=5",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS3BFTjl0ZUUybWxQQXhnTFhQbE45MURfQ013QmlzY3E2LTBWcDFuMjZKcDRmOVdVY1AtT04wc3hxUEFXTXlCSHE1b001d3lxTHhOa2xhZlpiT3J1YzNZdW1ON2NidW1KN1hHc2N3RjdWU0liZnljTVdBT1g1cTI1dUFJZkR3N3M0VlpFeDE0NFo2ZXZDOFVXaU1XYVBRNG8zMTdSUDZ5Qmktc0tMQzAwRXZfNHF1M2tTLTQtVlBleVB0X05rbXhqNy1FWQ?oc=5",
-  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/08/05-150338519/roma_stallo_per_read_svolta_molina_ora_ryan_friedkin_pu_sbloccare_tutto/",
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX0hJRHZXa3ZlblJuT2tsYzFwVnBSWVhuN1VjNjNGRFJvT1UzNnJFal9NUmtqVDd4RWtGZVY3Rld5M0tKNUp6NE5tQkl2aFNCM1k4QldmRDViMXNKZ25ONEFZWjZiZmR4Yk9FRk5ZS2hoano1Q3VqNW0tYm5JXzVnVm84Q0RmNC12WVBRWlFLNFpfQjFGeHpIVVlrN2EtTnFnaTFz?oc=5",
-  "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/05-150334848/fortini_il_torino_insiste_i_milioni_di_distanza_con_la_fiorentina/",
-  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/05-150339545/la_juve_rilancia_il_mercato_non_si_ferma_altri_cinque_acquisti_dopo_kolo_muani_e_alajbegovic/",
-  "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXh0WUltNHN2RmtzekdiM0dfX3BadDRuODdVU2VOU3J1UVViNDRTZThnMUxUNmg4OGJhRm82UElyOXZFWWZkUHM2OFdwMEVpVG1FS2NaREdXYjZ6SkZScnNkTEc2VHJycUJiYlpWV0pSS3Z1Y0FOb05GSGg0ZTN6Nk5WRGNIUkF3ZEpzZA?oc=5",
-  "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeDc0X215N3hWbS1rZVVRcmpWRWlkQnNCLUVoUlYwTnQxUUM0dGtDd3VmY0tDNjVBYURFcjFYb1pEQmRMWUQySnVDN19fTnJyZFVrdTU3Q2tTZHVvbVFRUy1lY3dNek5ZbXd4bU11SUE5Mjg4Y3VCSkFPc2RIRVdMc3RmanBUSzl2dEcwQlFVWnI4NmRuem9N0gGcAUFVX3lxTE5tSUNKYkxDOG5DSDBVeWdoZGQwMExVOUVDaV9Ba3J5RExUWFhIbmFLa1E4Um9qTGdlVW43dl9IR0FORFVXR3BKZ3FZM1B5Qy1TQkJXQjkyMDNEd3F1dGdQWjhrdTZNazVzNjRiSHNGa1BJdGlPcnZtVTgtdld2X2xDZ195bjNHUEVkOGppMnZuVk80UHZ1NTBSV2dPVQ?oc=5",
-  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQenNTalZyN3YxSXNOVFFhWGVWX21fa3YzVGs0XzB0TlZpNHJjbmhEd0Z6SU12ZnREc1JhMTBka1dGa3Bla0NELXpuU1BWOEhkN1A3SE5RaUd2Qmx4SUlydGJ4eGlreUNkM212R3h1WmlNYUtybjNxME5rR0ltNWx1aTBsZUN1dkNIVC1PYkp0Zw?oc=5",
-  "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNG1EbUZWbTFWVUV3Uk96WmdIQTV4bnJVZVZYeUNxdFBxYkJRR0dsRS1adVNCbmxhRU5meW5TLXN1eTZVUjRpcFhqLUtuOHRzSFVQM1JFWDdWcjlmZ2dtQVZpX1FQOU9wUlNRZmtUWk54YkJTRDdncC00WHRFMVE5dFNfSXpFQzdqMlJWWA?oc=5",
-  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWkRvZDMyNGNtR3laOXpmTURnejBLVDlZZi1ONnNKTndYbnZtMFUwbWFHWmx1MWQ1OENiZUVBd3pmUVpiNi1aVVRjVUxsbWRnOXo0TkVqQUNVTUdhbUhOdTJKT01xTlFxLWFpOWZMbWN3aHZQSHNLbmJjd3hpU3NBUEl5T0pjQjhtSEI4WGJGRl9zRDU2RXducWdDMlRsa1p4Zi10YlBYSEZaN2NTQm9mWFRhMDRpWkRlOXZTSFpQUkFRQm81eHp1WXZKU2pvQ3Y3Mno5SXNpLVpSeVZMdFV5X29yQVJyMkxKS3ZIU18xaU8xak04VktvUWk3MW8?oc=5",
-  "https://news.google.com/rss/articles/CBMipwJBVV95cUxObUhDaURHMGxJTjNSRjdqZFBpUzhUTGk3eTY2bnZHcU05dU5Yd0JnQXczTmxROHlNQmhNOUdPX0xuNko1TWFLeHNDY2RoalMwWEJISGNmQ19TMWdEVnRFM0ktTjJTOS1CZVNZWTlCU3ZPaHhDb1lxQVoyRmRSLXBlQ2FZVllSY0Radml1MG5sT2ZhcTNGV0t2M213Q3c5LUZvcmk3bmJmYWNIMXhFaEZtWDJNVktrWnFCTEVxU1lLbTBWZnBVeDltaHhtdkZIdGFVNEZSR3ExaVhjQjdxUGZsNXNRR0RqeUs4RGIzZ2ZYbFg3YWszM2tjWkFtczVmakdtem5DN2pDZklOODBsemhHMnQ1X2RqRDd6dENSNWZOMXhBWlp0NzRz?oc=5",
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSGo2SVN3anZ4T25GRjBSUHE3cnlaMkRuZDFaZERDelFYMzlINXJVTVBBdV9VdGFDUUdkejRGcl9zNk84UmRVV05Tb0RyMk5FUVFmUUZCRFNNb05RclNNVXlvbXN2NFRSa1RKT2ZUMnRteXFlaTZvQTdpOVFLUFM2Uzk0WTczWUh1UU5mMUJIMkwxYm9PRjNxU3p2YVhmVE1mX2FpSXdob2d5YTFH0gGwAUFVX3lxTE5YZWRqWGRMYXlWQm5hM0VySk5xUDN0UzBQeklRWE9UQ0lBU2V4dGNBUTFZX29uRWNwSzBXeTIydUdvd21jVHdlUll3ajRCMDZCazlGMnpBemdYOEt3RkpPVjBueHlndDFUQzFhYjV5X1VlZC12aElORlhaazNCbFV6OWpoRUtIMG9zc2pnekRPbVhmYnlTbXQ5REJSejVTc0NvaEdqUmtRc2Rlc3NoOEU3?oc=5",
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGgxc0NxaHZURld2ek8xckJ6X29ORm8ydU12WU5zak41b25mano1SHZIZHJHb3REUmpOVXhOWWs2eVRfUnZrZXpTVjh5ZlFGYmJJR2hmcV9lWkcwRVUwVmhjRVJLRlAyeFUwdzktS3M0VjlMVXhMRWdnZ3NaWEpvanlBeTFDc0RwYzRlaWJCazFIdVRJSXJOMW1lSHYzaEXSAZ8BQVVfeXFMUDBoMXNDcWh2VEZXdnpPMXJCel9vTkZvMnVNdllOc2pONW9uZmp6NUh2SGRyR290RFJqTlV4TllrNnlUX1J2a2V6U1Y4eWZRRmJiSUdoZnFfZVpHMEVVMFZoY0VSS0ZQMnhVMHc5LUtzNFY5TFV4TEVnZ2dzWlhKb2p5QXkxQ3NEcGM0ZWliQmsxSHVUSUlyTjFtZUh2M2hF?oc=5",
   "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsVjdjSXIwSTJVTFh2dUdFNHdnd2pFVGcweEpsY2RFUVZSNDl1bFFRWXdJQ3VwaGNlZEtrVFFJaGhwT0FKdmI3RWZDYU51SWVnY2hWdVR5YzBtSUU?oc=5",
@@ -11681,17 +11639,37 @@
   "https://www.tuttosport.com/news/calcio/coppa-italia/2026/08/15-150532664/torino-carrarese_orario_diretta_probabili_formazioni_e_dove_vedere_in_tv_e_streaming_la_coppa_italia/",
   "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObHQyRGVfdWVCb2xuemZUZ2RmT1czX2hpUERMZERJRjAxaFJEcTY1LXdTZHZfNC1pM3FpN3ViTVNic0QtdUZSY0RiMnlVd2tNSE1HMS12VTdFQVZieFYwUHJsTmhsRjNyOHJKTWZ5Q2NUeGhsVVBLa0VLd2VPMjA2WWQ3dkFNYWNDb0dEbHZBeVpqSnU1VEoxRW03d3g0QjUyU3RWaksyX3ptQzNUNUpXbTJsQU1fd2tDMjlEalpKNFZya1p6R0pVTUxsU082czJGVkw0OTF4WS1FQdIB3wFBVV95cUxNU2JpWHJVVS1FcW1fNm1LdGJDS1VyWU0zdFk2bC1FRkRHeDBaWFhiY29seFdHU3lpVjBRMHFuOHRxdlFxd3VjMXVZZzJFZTJ5NlRteWFWbThrdTZOMGx3bktOeHp3UHBLMldDTE4tWVlpWXF3UkxzS3plcVhVa1JaVm55OW9GeDYwVjlfNzc5a0tTUUc3QUlhQjZwaE1ENmNWOXlWVWF5UUxxeUlYdlEzdWtTLUlsSmcxakgwR2VFVkp5T0VESmFNMTlhWTBLMnlKNmlhb0JQdkR3cEs0c3JN?oc=5",
   "https://www.corrieredellosport.it/news/calcio/calcio-mercato/inter/2026/08/15-150550906/l_inter_vuole_vendere_luis_henrique_per_arrivare_a_jones_non_c_solo_la_roma_in_corsa/",
-  "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSEFTT3NFLUg5SHNfVDljMnUtRjhVdmhUcWdXXzd4Q21FcjYwb1lfeHM3QTFoQ3hFNHpWay1XeUhnVWlxNGZMT0p5QVhHYnUxQlJNV1pxZVVnZVJQY2tMcUhMN2ViTEZMX2hxNlVONm9IbHI5YnRUbkVFWWZleGxXZTZEVWtaVS1QSEx4UlZmWTJrOVdsN01EUVctYkdyckE1UWVjQmhWcWp1N3c4Wm1Ud1NlX0VlcjhaS0o0VFEwcWFSLUQ4YkRFTk9qdEFpS29sNU50SmRURGxMNnpueW5oVXRXYVhGeS1MV1h5dzJtbWJKQ05wOGVNdE43TzhlR25tdXfSAYQCQVVfeXFMT0pwQTltVjlVUEtVblR5cmFwdkNyRnl1VWxZeVVFZ0l5dVlpSFJYaFpwOGNocDc5b0JCb3ZReUxJSDFiMUNZM25pVmhiZjBEaGV3bUVRMk84cGZuUnJhbXlVdHRWc1hCLXJuVTNqdGRDUDRNVm1mWS12WDZ3YW8yTlRhWFJGcWgzS1g0QmQySG1zS2YxMVRhendGNVRMZndWUUZuZ1YxS1JMMFczZkdTX0VKOTdWclVfUXhZdDkyVkdSZWhUYVRBLUVIcXl2YkNnb0RETThvUUJ6UVJWOVcwQXphaEhYclRRTS1lM01uMFJYS25ic1czbnN3bEIyZVJFV1J4Ulg?oc=5"
+  "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSEFTT3NFLUg5SHNfVDljMnUtRjhVdmhUcWdXXzd4Q21FcjYwb1lfeHM3QTFoQ3hFNHpWay1XeUhnVWlxNGZMT0p5QVhHYnUxQlJNV1pxZVVnZVJQY2tMcUhMN2ViTEZMX2hxNlVONm9IbHI5YnRUbkVFWWZleGxXZTZEVWtaVS1QSEx4UlZmWTJrOVdsN01EUVctYkdyckE1UWVjQmhWcWp1N3c4Wm1Ud1NlX0VlcjhaS0o0VFEwcWFSLUQ4YkRFTk9qdEFpS29sNU50SmRURGxMNnpueW5oVXRXYVhGeS1MV1h5dzJtbWJKQ05wOGVNdE43TzhlR25tdXfSAYQCQVVfeXFMT0pwQTltVjlVUEtVblR5cmFwdkNyRnl1VWxZeVVFZ0l5dVlpSFJYaFpwOGNocDc5b0JCb3ZReUxJSDFiMUNZM25pVmhiZjBEaGV3bUVRMk84cGZuUnJhbXlVdHRWc1hCLXJuVTNqdGRDUDRNVm1mWS12WDZ3YW8yTlRhWFJGcWgzS1g0QmQySG1zS2YxMVRhendGNVRMZndWUUZuZ1YxS1JMMFczZkdTX0VKOTdWclVfUXhZdDkyVkdSZWhUYVRBLUVIcXl2YkNnb0RETThvUUJ6UVJWOVcwQXphaEhYclRRTS1lM01uMFJYS25ic1czbnN3bEIyZVJFV1J4Ulg?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/milan/2026/08/11-150487954/il_futuro_di_leao_svelato_in_un_criptico_messaggio_sui_social_penso_solo_a_/",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0l6dEhBcWJPR241MVNXcWpDSUlWNnh2cTd0Z0N0ckI0QXloVHozMWpsU2JYNHFEMHB3SVFMNnBUQzRFb2lUa1FqQWpSUEFBeFM5cExFMlJVM0Y0WUs3TXFRN2tHZzlJTFVYVjBqV2lreU1kQjhpWkxUVnBiQkc2QTlfZjBzdVU4UTlJN25RN3ZGRFNNQVZxUnJFQzNNWEd1WGZiMERhc0HSAa4BQVVfeXFMTmR4QWxoUG5OYmhpZlhFNVAxVkhMNG5hRmY0WXdhSFBFeHlUZlVkSi05S3lTZlBpaENlOGl5aHRZcjRXWmJVM3p5SzVFZEg4dUFjOXUySG94dHdCaHRxTUdIeDZJNnZyQldrU1pWSjhuOGFpaU5QMHBtS3dKcUZ4SklMV0JZbWxMcFlfWmI3dzRwUWxwRUlkMzhGQWNoalZmQ3RNR3RNTHNDV1UzVU53?oc=5",
+  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ19ISFRzb1RiWGZ1UlJmMVBwa3lzNU5aT0trZVR0RVNzTU53bXRqWGhwU09KeGdYd2JibnBDX3Bhajk3Z2JhbUtBZEdNRmpYZzVQaGRJT2hrM3NGczVWekFYZVZWd2lNR2Q0TjdFRmFUbVo2cG1LaFU3d2d0Vkdha2xLRWkwYXpDcWpuZUdHTHJ3d3pRQ2JKVEJESHVsY2FVSm1aRlJVbE1hZVJ5bzh2dXgtOFlrS1BpVXZXcTJpbFJRanfSAcgBQVVfeXFMTVY3cnV1V1ZkYnBPVmRxTU5rUk84Vmt3akI3M1ZqN1dEbTRZSmVnTlF3d3RUMFIybElURVo2Q0xvcHNfWkZVdEg5ZUk4RlhCMVFLTWNuV18yTlpOS2VsSVVMOFE5NXU1LUNfWWI1OUVWOWY2b2sxd3RONVJuQVI4dkRncldRQ0N1YjJLWHM3TXZzN2pybzY2NGFpS2VHVmJIZ0NWUzAteXJYVEtqX21KWWIzbmNWR0VwWkZ4RG9yaWRHSDhSRm1MWHQ?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/11/fiorentina-ecco-i-numeri-di-maglia-a-kean-il-9-mastantuono-prende-il-30_c2568318-c3c3-4114-a642-aa0d386b65d8.html",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUE9waDk0amdaZ3dZY1FRTEZaaUxmVjNYZHdiOG1udGctRkdkeGJ2eklNY2tnbFB2XzYyM2t3d1o1Q00yTl9FVVRtMGNLSUtka181dDAtbkdOTGFWR2hJTUpiZ3MwQ1JkYy1RODdvc3Z4bXlVX3FLaldhOWNvbDhqdXVpaEdWRERlbnpsWk1hV3N5S1lIejBNVC16aTI?oc=5",
+  "https://news.google.com/rss/articles/CBMinwJBVV95cUxQWTY0T01QSDlZZVpnZXVvamx0SVpDYUE5WHZsNm5KNjEyNEFkVl9LS1Y0UDdjdE5va2dSSWM1WUZHeDZWY3Y4c1BnTXVNNV8xZ0UtTjMyTlluYk8xblJTdUlJSkE2QlpkcDdkbFhpdEdQVjlpUHZkUHZMZ0NoWF82NFJTdHc5Z3dycUN3Zl9tbWJtT1VfdDVYSG54VGZMa09mU3h2elZJamE3YndicHVTdERfcVdMT3REdWpMWVNFY1ZQWElPRXZHcjB2Mk5DU2lzcDhUU2hjbVpQWFBIM0ZhSjFDcVJicW1OT0hyMzRoNXVLLVRPUUpjbEVTb1JxU0Jxd2hjUG1wLWZab1VKOFdhYm9fcVpKdm90anlScVl1bw?oc=5",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQTgza2JJZ3hsMVBESEdYNEowbmRnenFlVmZPMkdzMzBRY1lCRFZwUkNrZ0ZtQnY1SEhQZEk3cUs0RDBiWFZHc3ZtVUZLMHRXX1ZuMGFNcDU1Z0o5bEhlb3VxWldMT2wxMGZsVkNZWFhyWnBBMWJ3cFFJbUpkZTVpSUpZT1lfWEx1Tnd3cF9wdzVLSnJZR3AxNUFRbzVqRzNWbDVBbzhDdmhsSzUyRDY2QQ?oc=5",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWlh0VDctTkdXZDJVY2pnUEtkUDY3cXNsNHlLaXVuS2lXRE5CTHVmVkp0bmh4MDFMSkVYbHhPMktENU54NC1xb1N2Q3BuRDdZTEhfdDdjak9vZEF1d01TWEJUaUNnTy00c3dReGExNE5aWldtVUx4ZEl3SW5ERGtPS2pER3o2amFRWW80b2tTSE14UUphYmNPX0lHM3ptR01Kc1NjUVpqNkRETU92Smdj?oc=5",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnhPcTA1dkJGZU1YZno3dy1yczNNOHZZUXcwc01tLXVMS2xXMlhqR2lsSkwyYXVsbmE3LUE1U1NPZ1FvM1B3YUUxaWVVZDh0TFo4dEVZOUVpRHZ5SEZ2dGlpa1pOeVViWmU2M1M4ZllLY1JYbU1sT2Q2bU03elptVi1qZHRJalZmTWxmSlFqRnpoRVJLYkVVcjlMRmVMTkJieTRR?oc=5",
+  "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/08-150415381/lukaku_scaricato_da_allegri_vede_la_turchia_il_fenerbahce_tratta_col_napoli/",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRUg0c1Z4M0FvQmVnLU9ycWNQUm5hbTBwNDlOUXByeUFTVU94LWk0bkhCN2dpV1pTUmNMaS1LZWMwb2x2eV9tZEdIaXM4dzAxeHNSenQyenFjUXh1cEZUVkktakg5Sm5zMXNjQmtOYU54Q1hNY3JneDZWZmZZRjdON3lEakpLRnA4dkhMa0Eta19lT0F3azUwS1l2Q1h6c21RR1ViVVZDS1BCUW9qUVRFRThqTUxSalk?oc=5",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR1h4bjBTV2lHZWgxNHFnOXR6Mk41eXBURWtFX2dLWms5OGhqY0JPM1RGeVExNTZVVDdGcU1xWEdGdFJla0NQMjdXZFR2S2FUZkVsd1Z6TTVhbWJrLTh1WWtZZjZqUGVXaXkwVW1tdDA3R1IxN2VKQUZsM2ZwYU5NWTE1U3ZuOVNJV2RrVFk5a1p0c3hsZk9UenBNd0hvNW9JNU1vbQ?oc=5",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZGo4SGZqdGFjb3F5c0l6R0FPVHl5blp2Z1FNdHdqaTRNeW5OcWh4cnNmajQ5QXUzSldSQlpCQ21oaEVhVlFMOV9IQlhuLW53cUE4R1RKSmpNa21RRXBqYV93SE9qUWMxaVhWUkFVSDNoYk5HWHhmbW9zYUExZlVucDlVZEJaMzNRTXpUYUlrMGRNV0xCckpyaA?oc=5",
+  "https://www.tuttosport.com/news/calcio/serie-a/roma/2026/08/08-150412857/pellegrini_resta_alla_roma_ufficiale_il_comunicato_del_club_e_la_durata_del_nuovo_contratto/",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcy1pQ0Q1b1Y2MWF4MGJIMXRjUFdOeUl4cU9WSURzX1JzeEw1bTczQUw3Z1BxRllzLXVicXdHRExBWkxqbEMyVDlWZjVtVF8tUDlFeFJSQkYwcVpwQ3pocFlaUUV0UXBaeGVfOTlMWXZ5TENCRTZKSUxKRGhrclRtTjhIQ2pvOElSdkQwVEZkREQ3dks2a2xmRHRjb0FaUWdRLXFDWA?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/08/15-150540654/dove_vedere_inter-real_betis_in_tv_dazn_o_sky_orario/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/milan/2026/08/15-150540215/dove_vedere_manchester_united-milan_in_tv_dazn_o_sky_orario/",
+  "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/15-150549824/kessi_la_juve_apparecchiata_e_l_allenamento_speciale_cosa_sta_aspettando_il_capitano/",
+  "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/08/15-150543091/inter-betis_la_diretta_dell_amichevole_dove_in_tv_e_streaming_le_scelte_di_chivu/",
+  "https://www.tuttosport.com/news/calcio/serie-a/milan/2026/08/15-150540752/manchester_united-milan_in_diretta_dove_in_tv_e_streaming_amorim_e_la_crisi_mercato/",
+  "https://www.corrieredellosport.it/news/calcio/coppa-italia/2026/08/15-150539945/dove_vedere_venezia-modena_in_tv_dazn_sky_o_mediaset_orario/",
+  "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/15-150556045/ferran_torres_al_psg_ufficiale_la_durata_del_contratto_e_quanti_soldi_guadagna_il_barcellona/",
+  "https://www.corrieredellosport.it/news/calcio/coppa-italia/2026/08/15-150539588/dove_vedere_catanzaro-sdtirol_in_tv_dazn_sky_o_mediaset_orario/",
+  "https://www.corrieredellosport.it/news/calcio/2026/08/15-150555150/immobile_si_ritira_l_emozionante_messaggio_sui_social_ho_vissuto_un_meraviglioso_sogno/",
+  "https://www.corrieredellosport.it/news/calcio/coppa-italia/2026/08/15-150539596/dove_vedere_udinese-padova_in_tv_dazn_sky_o_mediaset_orario/",
+  "https://www.tuttosport.com/news/calcio/calciomercato/2026/08/15-150554423/lucumi-juve_affare_fatto_ora_visite_e_firma_ecco_quanto_incassa_il_bologna_rugani-gatti-cabal_/",
+  "https://www.corrieredellosport.it/news/calcio/coppa-italia/2026/08/15-150539946/dove_vedere_torino-carrarese_in_tv_dazn_sky_o_mediaset_orario/",
+  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/napoli/2026/08/15-150551470/badiashile_i_muscoli_al_centro_chi_il_nuovo_colpo_del_napoli_in_difesa/"
  ],
  "seenTitles": [
-  "napolileimmaginidellallenamentodadimaro",
-  "chiellinipersonegiustepercambiamenticalcioitaliano",
-  "comolaprimaamichevoleconilparisfcfinisce22",
-  "adimaropresentatoallegriconilsuostaffvideo",
-  "nazionalesceltopirlocomectchiusuraprevistaabreve",
-  "sassuolovolpatofermatosarebbepositivoallacocaina",
-  "allegrieilsuostaffprontialasciareilsegno",
-  "mercatobasketmatteoaccorsiprolungaconlavirtusevainprestitoallavlpesaro",
   "fantacampionatogazzettaeccocomeiscriversiinpaliopremiperoltre340milaeuro",
   "èiniziatotuttoconunpranzochiellinilanciailnuovoprogettojuvedicosasitratta",
   "comopareggioinamichevolecontroilparisfcingoldouvikasaseccomorata",
@@ -16683,6 +16661,14 @@
   "foggiaseckarrivainprestitodallaromademeterfirmafinoal2028",
   "atalantasarrisbottailmercatoèpallosoparlaresolodiquelloèuninsultoallamiaprofessione",
   "atalantazalewskiallontanalevociinuscitailmercatopermenoncènulladachiarire",
-  "atalantasarriallarmeesternosituazionecontingenteognipossibileacquistolovaluteremo"
+  "atalantasarriallarmeesternosituazionecontingenteognipossibileacquistolovaluteremo",
+  "dovevedereveneziamodenaintvdaznskyomediasetorario",
+  "dovevederecatanzarosuumldtirolintvdaznskyomediasetorario",
+  "immobilesiritiralemozionantemessaggiosuisocialhovissutounmeravigliososogno",
+  "dovevedereudinesepadovaintvdaznskyomediasetorario",
+  "dovevederetorinocarrareseintvdaznskyomediasetorario",
+  "badiashileimuscolialcentrochiegraveilnuovocolpodelnapoliindifesa",
+  "ferrantorresalpsgegraveufficialeladuratadelcontrattoequantisoldiguadagnailbarcellona",
+  "lucumijuveaffarefattooravisiteefirmaeccoquantoincassailbolognaruganigatticabal"
  ]
 }
