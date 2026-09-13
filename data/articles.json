@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T11:31:51.572Z",
+ "updated": "2026-09-13T16:01:07.170Z",
  "feedStatus": [
   {
    "name": "Gazzetta dello Sport",
@@ -12,14 +12,14 @@
    "name": "Corriere dello Sport",
    "tag": "altro",
    "ok": true,
-   "newItems": 18,
+   "newItems": 6,
    "filteredOut": 0
   },
   {
    "name": "Tuttosport",
    "tag": "altro",
    "ok": true,
-   "newItems": 13,
+   "newItems": 8,
    "filteredOut": 0
   },
   {
@@ -36,74 +36,136 @@
    "name": "ANSA Calcio",
    "tag": "altro",
    "ok": true,
-   "newItems": 3,
+   "newItems": 11,
    "filteredOut": 0
   },
   {
    "name": "Google News (Serie A 全体)",
-   "tag": "altro",
-   "ok": true,
-   "newItems": 18,
-   "filteredOut": 49
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Milan)",
-   "tag": "milan",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 9
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Inter)",
-   "tag": "inter",
-   "ok": true,
-   "newItems": 4,
-   "filteredOut": 16
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Juventus)",
-   "tag": "juventus",
-   "ok": true,
-   "newItems": 7,
-   "filteredOut": 20
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Roma)",
-   "tag": "roma",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 38
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Lazio)",
-   "tag": "lazio",
-   "ok": true,
-   "newItems": 1,
-   "filteredOut": 11
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Atalanta)",
-   "tag": "atalanta",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 21
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Fiorentina)",
-   "tag": "fiorentina",
-   "ok": true,
-   "newItems": 4,
-   "filteredOut": 56
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Napoli)",
-   "tag": "napoli",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 17
+   "ok": false,
+   "error": "Status code 503"
   }
  ],
  "articles": [
+  {
+   "url": "https://www.tuttosport.com/news/calcio/serie-a/torino/2026/09/13-151211210/abate_adams_ko_e_simeone_in_dubbio_ma_il_torino_pu_colpire_cos_una_roma_da_scudetto_zapata_/",
+   "source": "Tuttosport",
+   "sources": [
+    {
+     "name": "Tuttosport",
+     "url": "https://www.tuttosport.com/news/calcio/serie-a/torino/2026/09/13-151211210/abate_adams_ko_e_simeone_in_dubbio_ma_il_torino_pu_colpire_cos_una_roma_da_scudetto_zapata_/"
+    },
+    {
+     "name": "ANSA Calcio",
+     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/abate-roma-da-scudetto-il-mio-torino-vuole-provarci_167afc15-fbe7-4d7b-b974-450ec5dbe102.html"
+    }
+   ],
+   "titleKey": "abateadamskoesimeoneindubbiomailtorinopuogravecolpirecosigraveunaromadascudettozapata",
+   "club": "altro",
+   "clubLabel": "セリエA",
+   "confidence": "official",
+   "confidenceReason": "試合前会見での選手負傷・出場状況",
+   "headline": "アバテ監督、アダムス欠場・シメオーネ出場不透明を発表。ローマ戦へ",
+   "summary": "トリノのアバテ監督が試合前会見でローマ戦に向けた選手の状態を明かした。アダムスは欠場となり、シメオーネは試合当日の朝に状態を確認した上での判断となる見込み。ザパタは週を通じて完全にトレーニングに参加し、膝からのポジティブなシグナルが出ているという。監督は攻撃陣に別の選手も選択肢としてあり、状況に応じた対応をすると述べた。ガスペリーニについては「現代サッカーの革新者」と評価し、試合は実利重視の戦いになるとの見通しを示している。",
+   "publishedAt": "2026-09-13T14:04:27.000Z",
+   "addedAt": "2026-09-13T16:00:50.424Z"
+  },
+  {
+   "url": "https://www.tuttosport.com/news/calcio/serie-a/roma/2026/09/13-151208425/gasperini_mora_al_mondo_nessuno_come_lui_dybala_non_lo_metto_a_dormire_due_in_dubbio_malen_/",
+   "source": "Tuttosport",
+   "sources": [
+    {
+     "name": "Tuttosport",
+     "url": "https://www.tuttosport.com/news/calcio/serie-a/roma/2026/09/13-151208425/gasperini_mora_al_mondo_nessuno_come_lui_dybala_non_lo_metto_a_dormire_due_in_dubbio_malen_/"
+    }
+   ],
+   "titleKey": "gasperinimoraalmondonessunocomeluidybalanonlomettoadormiredueindubbiomalen",
+   "club": "roma",
+   "clubLabel": "ローマ",
+   "confidence": "medium",
+   "confidenceReason": "試合前会見での監督コメント",
+   "headline": "ガスペリーニ、トリノ戦へ「モーラは世界で唯一無二」ディバラ起用の考えを示唆",
+   "summary": "ローマのガスペリーニ監督がトリノ戦に向けた会見を開催。攻撃陣の充実を強調し、モーラについて「世界で彼のような選手はいない」と高く評価。ディバラについては「調子が良ければパウロはいつも出場する」と述べ、状態次第での起用を示唆した。また、新加入のマレンについても「期待以上の活躍をしており、何か特別なことをしている」とコメント。ポジション間の役割分担や選手層の充実が試合の鍵になると指摘しており、トリノとの対戦に向けて周到な準備が進んでいる。",
+   "publishedAt": "2026-09-13T13:05:47.000Z",
+   "addedAt": "2026-09-13T16:01:03.275Z"
+  },
+  {
+   "url": "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/09/13-151208605/chivu_non_ci_sta_l_inter_a_madrid_ha_perso_una_grande_opportunit_dimarco_sta_bene_spence_/",
+   "source": "Tuttosport",
+   "sources": [
+    {
+     "name": "Tuttosport",
+     "url": "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/09/13-151208605/chivu_non_ci_sta_l_inter_a_madrid_ha_perso_una_grande_opportunit_dimarco_sta_bene_spence_/"
+    }
+   ],
+   "titleKey": "chivunoncistalinteramadridhapersounagrandeopportunitagravedimarcostabenespence",
+   "club": "inter",
+   "clubLabel": "インテル",
+   "confidence": "high",
+   "confidenceReason": "監督会見での正式発表に準ずる",
+   "headline": "キウ監督、ウディネーゼ戦へディマルコ招集・スペンス不招集を発表",
+   "summary": "インテルのクリスティアン・キウ監督がウディネーゼ戦に向けた記者会見で選手招集状況を発表。ディマルコはグループ練習に合流し招集される見通しで、スペンスは今回不招集となる見込み。カルハノーヴルについては、ワールドカップからの復帰後の負傷から継続して調整が必要との方針を示した。キウ監督はマドリード戦での敗北について「機会を失った」と悔やみつつも、「最近のチャンピオンズリーグ7試合で1勝」という成績を改善する決意を表明。戦術については「フォーメーション以上に試合の解釈が重要」と述べ、現在のチームの進化を強調した。",
+   "publishedAt": "2026-09-13T12:56:42.000Z",
+   "addedAt": "2026-09-13T16:01:03.275Z"
+  },
+  {
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/09/13-151207939/gasperini_difende_de_roon_cosa_doveva_fare_all_atalanta_la_scarpa_vecchia_poi_esalta_malen_fuori_dal_normale/",
+   "source": "Corriere dello Sport",
+   "sources": [
+    {
+     "name": "Corriere dello Sport",
+     "url": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/09/13-151207939/gasperini_difende_de_roon_cosa_doveva_fare_all_atalanta_la_scarpa_vecchia_poi_esalta_malen_fuori_dal_normale/"
+    }
+   ],
+   "titleKey": "gasperinidifendederooncosadovevafareallatalantalascarpavecchiapoiesaltamalenfuoridalnormale",
+   "club": "roma",
+   "clubLabel": "ローマ",
+   "confidence": "medium",
+   "confidenceReason": "監督のコメント報道",
+   "headline": "ガスペリーニ、モラの成長を評価。マーレンの活躍を絶賛",
+   "summary": "ローマのガスペリーニ監督がトリノ戦を前に会見に登壇し、若き才能モラについて「身体的・戦術的な完成が必要だが、現時点で世界で最も活躍している若手の一人」と評価した。また、攻撃手マーレンの成績については「異常なレベルの数字を記録している。獲得時から重要な選手だと認識していたが、期待を上回る活躍をしている」とコメント。一方でポジション間の階級制度について「そうした議論は止めてほしい」と述べた。",
+   "publishedAt": "2026-09-13T11:57:03.000Z",
+   "addedAt": "2026-09-13T16:01:07.170Z"
+  },
   {
    "url": "https://www.tuttosport.com/news/calcio/serie-a/torino/2026/09/13-151205305/biraghi_rifiuta_le_offerte_dalla_grecia/",
    "source": "Tuttosport",
@@ -645,12 +707,16 @@
     {
      "name": "Corriere dello Sport",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTmhydFc2UDJtSlhDSEJoTEloZThxZnVVNjdVVURFeFI0bEVtOTdVdWhJWldHUlc4SGQwVlZnaFppbHZTbW9ZWGF0QTBFUC1BR3B0MU5ZV0R6eElIR2ZkdTVfVjNoX1R4Q2tkMEVGMWlXSHVDLTJ1Q1AySFExdU5RWGduLWRjZjhLYmozVTVBOTJuSEFMd1lLdXRlb1lhSTd3dktucS0yOGYwb1Rrc0NnWXFrQ3czam5iQTZPRzNkVFNaUW15NEVKSHRB0gHMAUFVX3lxTE5UaF9pQ21ZLUE4dUZ5amY3WGRtbVJBcmFNXzNtS0tueVI1b1JQd3ViczhHcVU5STZGdUlubFBEYll5UURDRnhWdmVwOG83OUp1eHVpUTZ3RF8yX2tRUjYwby1OdG9lX0xVTHFVWlhxUVlPamd5Q3p6VjJwQlhvWWVLaDFlaFJhS0hwdWtaa2NMZlliR2gzeXdzamhqdTRZaGRJMGhOcldkTWJnR2pncEdEcjJXWFZhWnRuOXNXemVqM01ycVJuRXVLVGdFdQ?oc=5"
+    },
+    {
+     "name": "Tuttosport",
+     "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/13-151212473/sassuolo-juve_diretta_formazioni_e_risultato_in_tempo_reale_in_campo_anche_la_next_gen/"
     }
    ],
    "titleKey": "sassuolojuvelaprobabileformazionedispalletti",
    "club": "juventus",
    "clubLabel": "ユベント",
-   "confidence": "medium",
+   "confidence": "high",
    "confidenceReason": "試合前の布陣予想報道",
    "headline": "サッスオーロ戦、スパレッティの予想スターティング11",
    "summary": "ユベントはサッスオーロ戦に向けて準備を進めており、スパレッティ監督が試合での布陣を検討している。本稿では同試合での予想されるスターティングイレブンが取り上げられている。負傷者や調整中の選手の状況を踏まえた構成が注視されている。",
@@ -6459,151 +6525,9 @@
    "summary": "ウィンガー、ウィルフリード・グノントがフィオレンティーナの公式サイトでコメントを発表し、同クラブへの加入について喜びを表明した。グノントは「フィオレンティーナに属することは光栄で、自分に寄せられた信頼に報いることを望む」とのコメントを残している。この発表により、グノントのフィオレンティーナ加入が正式に確認された。",
    "publishedAt": "2026-09-02T10:06:42.000Z",
    "addedAt": "2026-09-02T14:15:09.419Z"
-  },
-  {
-   "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/fiorentina/2026/09/02-150966201/rivoluzione_fiorentina_con_i_riscatti_si_sfonda_il_tetto_dei_200_milioni/",
-   "source": "Corriere dello Sport",
-   "sources": [
-    {
-     "name": "Corriere dello Sport",
-     "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/fiorentina/2026/09/02-150966201/rivoluzione_fiorentina_con_i_riscatti_si_sfonda_il_tetto_dei_200_milioni/"
-    }
-   ],
-   "titleKey": "rivoluzionefiorentinaconiriscattisisfondailtettodei200milioni",
-   "club": "fiorentina",
-   "clubLabel": "フィオレンティーナ",
-   "confidence": "official",
-   "confidenceReason": "市場が正式に閉鎖、複数補強確定",
-   "headline": "フィオレンティーナ、買い戻しで200百万ユーロ突破。パラティチが大規模改革",
-   "summary": "フィオレンティーナのフロント責任者パラティチが実施した今冬の移籍市場は、13人の新加入と1億3千万ユーロの投資で、買い戻し条項を含めると2億ユーロを超える大規模改革となった。ペドロ・ゴンサレスがリスボンから最終日にローン移籍で加入し、市場が閉鎖。ドラグシンやアッタ、ヒメネス、ジョアン・マリオ、マスタントゥオーノ、ペレグリーノなど多くの選手が獲得され、「競争力があり持続可能な」新しいチームが構築された。市場は7月1日に開始し、8月31日のペドロ・ゴンサレス加入で終了。",
-   "publishedAt": "2026-09-02T08:28:22.000Z",
-   "addedAt": "2026-09-02T08:43:42.690Z"
-  },
-  {
-   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/milan/2026/09/02-150965674/ramos_ecco_il_bomber_che_il_milan_ha_preso_per_lassalto_al_titolo/",
-   "source": "Corriere dello Sport",
-   "sources": [
-    {
-     "name": "Corriere dello Sport",
-     "url": "https://www.corrieredellosport.it/news/calcio/serie-a/milan/2026/09/02-150965674/ramos_ecco_il_bomber_che_il_milan_ha_preso_per_lassalto_al_titolo/"
-    }
-   ],
-   "titleKey": "ramoseccoilbombercheilmilanhapresoperlrsquoassaltoaltitolo",
-   "club": "milan",
-   "clubLabel": "ミラン",
-   "confidence": "official",
-   "confidenceReason": "既に加入済み、複数試合出場",
-   "headline": "ラモス、ミランの選手権争い切り札。74百万ユーロの歴代最高額補強",
-   "summary": "ミランは今夏、ポルトガル人FWゴンサロ・ラモスをPSGから7400万ユーロ（クラブ史上最高額）で獲得した。パリで3シーズン過ごし、2度のチャンピオンズリーグ優勝経験がある。アモリム監督が大きく期待しており、開幕後の初戦ヴェネツィア戦で得点を挙げるなど、ミランの選手権争いの重要な戦力となっている。初戦では不完全さもあるが、ピストレイロの異名を持つ新クラッシコストライカーの活躍に期待が集まっている。",
-   "publishedAt": "2026-09-02T08:19:41.000Z",
-   "addedAt": "2026-09-02T08:43:42.690Z"
-  },
-  {
-   "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/02-150964601/mckennie_non_rischia_chi_scende_e_una_juve_di_lotta_e_governo_le_novit_verso_il_milan/",
-   "source": "Tuttosport",
-   "sources": [
-    {
-     "name": "Tuttosport",
-     "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/02-150964601/mckennie_non_rischia_chi_scende_e_una_juve_di_lotta_e_governo_le_novit_verso_il_milan/"
-    }
-   ],
-   "titleKey": "mckennienonrischiachiscendeeunajuvedilottaegovernolenovitagraveversoilmilan",
-   "club": "juventus",
-   "clubLabel": "ユベント",
-   "confidence": "medium",
-   "confidenceReason": "負傷状況と練習予定の報道",
-   "headline": "マッケニー平気、スパレッティがミラン戦へ準備。カンビアーソ足首負傷で監視継続",
-   "summary": "スパレッティ監督はミラン戦に向けてユベントの布陣を整備中。テキサン国籍MFマッケニーはリスク要因とはならず、カンビアーソはパルマ戦での足首軽度捻挫で様子見。ジェグロヴァは筋肉的問題で別メニュー。ヴォルテマデとパペ・サール両新加入も調整中で、タクティカルな選択肢が増加。ニコ・ゴンサレス、コロ・ムアニからの反応に期待が集まり、基本フォーメーションは4-2-3-1を維持する見通し。",
-   "publishedAt": "2026-09-02T08:02:00.000Z",
-   "addedAt": "2026-09-02T08:43:42.691Z"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdnV6eV9WUDNKZ3hoMEtFN3lmZDgyaEtTZ0Nqa085RHY5dXVqWnhudURaN1phT0U1Z0hGUVViUXlhTkctV3d4Sy1uNTlmVDBNNDAwQjFfYnJlM2lPVHE4TW5sX0xfZVFjYWJfZDJRQWh0aVlPYUN2X2UteXNUb2xDQ2JHUS1xQ2lvbzZZbm9QY3dRUTZOaVJPWUt2aUdrN2NlSzhPS2FCYzRtSjA0ZFhOWmpfVDF5Ukpn?oc=5",
-   "source": "Gianluca Di Marzio",
-   "sources": [
-    {
-     "name": "Gianluca Di Marzio",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdnV6eV9WUDNKZ3hoMEtFN3lmZDgyaEtTZ0Nqa085RHY5dXVqWnhudURaN1phT0U1Z0hGUVViUXlhTkctV3d4Sy1uNTlmVDBNNDAwQjFfYnJlM2lPVHE4TW5sX0xfZVFjYWJfZDJRQWh0aVlPYUN2X2UteXNUb2xDQ2JHUS1xQ2lvbzZZbm9QY3dRUTZOaVJPWUt2aUdrN2NlSzhPS2FCYzRtSjA0ZFhOWmpfVDF5Ukpn?oc=5"
-    },
-    {
-     "name": "Corriere dello Sport",
-     "url": "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/09/02-150965570/esposito_fino_al_2032_sono_contento_linter_punta_sui_gol/"
-    }
-   ],
-   "titleKey": "interpioespositoèilprimoinitaliaafirmareconilnuovodecretocontratti",
-   "club": "inter",
-   "clubLabel": "インテル",
-   "confidence": "high",
-   "confidenceReason": "契約延長署名済み、発表待ち",
-   "headline": "エスポジト、新契約令で最初の署名者。2032年まで延長",
-   "summary": "インテルのピオ・エスポジトが4日、新しい契約令を活用して2032年までの長期契約に署名した。これはイタリア国内で新規制下での初の署名となる。2025年6月の新規制では最長8年契約が可能となり、本件は6シーズン相当の長期契約である。エスポジトは前季10ゴール48試合の実績から、ユベント傘下の若手から本隊の中核選手へと昇格。正式な発表は数日中に特別な形式で行われる予定。",
-   "publishedAt": "2026-09-02T07:43:58.000Z",
-   "addedAt": "2026-09-02T08:43:57.075Z"
   }
  ],
  "seenUrls": [
-  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeFg1bTZ6RUUxdVVKbmVkV3B6dmtMUS1zdC1tejhpMGx0cHJBOHRMeW1aR29yYzhMUDJydGliTWw2aXJld21DSERrcXlhUi1VWmZISUIwRlZwelNrTG9lRjdGV09GaEYzUEl2a3pTV0lLdlpPOURVZXI2SHFZSGYzWENJQk1zMk9IT1hXWHZldGtmZw?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEI1N0QwTXh1cHN4Ync5cF85U2NGRzJPelo4Wm9ERTNUN254YW5nMWtMZGxEZkMxVTlQbkhiSnFiOE1xcUtDRXBEWDJkdF9oMDZJWEpjQXhseHBRU1hXVW1ycFJIME9uVkVIRDRwWFRVLUhNN0FWQm90QmxDa0RtMjVWbWFDV29wVXVRLXVHWFVvU21hbTRMX0N0Z1dIUTZwT2ptX282eEh2NkJ2alA2Sy1sdzk5TTQ4eTFPSzZOVdIBeEFVX3lxTE1vRFR0QnhOZmhsczAzS1otRzh0WUc2bzU3WldSUGRzbDhMME8wb0RYZGVkU3lyWXN5Y1JyT2xpOFJuOXU1bDNCTGV5VDJ0SW9MVVFUV05maWZzQWJqX2x0MXBIYTR6YmhDd05aSl82QlFCZHFuVFZRSA?oc=5",
-  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV0NielNLZDkxekpXckpjZ3RwMXlwaUgzbC1GRlVVdE1iR2pLd2xVTzRDWjVHWnY4OFJwTTFnWDhfZkVrY1ZUN09vUTFyYkF3THpLMTUwaEN3TmJOeV9mbXd6U1E5ZjZEY0oyNUFybGkyZHR3Tk54aHl0V1llazhUaWpOdURFeWZxcUVtR1FqYnJwUFQtclhSQlJ4VWNVZ3BnVFRTYU44bDVwUWNxREZTMmdHMEs3ZlBlVkNNRDhiLXgtZjg2RWhibGl5R3ktY3FwMGc?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaHRGQnR4cmVzQVp6Q0tpeTIzbFhZWVFDZ0kwckVxYXF4OE13eUFBb1NiMW9NUnZzYzNsOWpuUmctQ2tPdkdBRV9MUFllay03ek8yc2F6NWs2VmQxeUYzV3M2RkNjc3RoOC1OOXFZZVBac1QyMmc4N1lpYzQydkxfclhoaTVDcEdZVDBVNndqdjktcTBPcUtkNDFCaENYdXFuSnpmTlA3dTBacVVFZU1vUFpOLWU2T3pudF92T1BWMHcyZm9peVhFRQ?oc=5",
-  "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM0NZVGdJT19QaGsxQVlFVjgyTGdYZC1CLWNEaUtfMHN1OHpReWNtRHlKN1NQZ3MwVTZYS1BNdFpCWEVOVkZvMi1teEVKT0pjRm16blZ2aVlzWmpRR0oteXZqZnJNTW5wOEpLX0lHX2liT1ItQ29HeWJvMWZuS2s4dXQzMHE5ZFJaQ0ZFcVpyRVg0OFU?oc=5",
-  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZWxVcWprTm9LcUZWeE1PaHhvZ0IzVmsyRXhneGVsb0ZTZVkzV29BOEZQQ25la0tBMk9sVWxrNEJ4NVcwaHd0VXFYdWJvdjBlcmZvX0NnQ0VfOHBxeGJjdzlaelVfZWlsMDJkanpmSkVMMWNxNEZGQWgxNXVlZTdaQV82ZHZIVXVHaUZjMzhwLWc?oc=5",
-  "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFVGh2TUFfYnpQRnhMRFdpdkp3ZF9Ea3BOY21KX2VXQTFkdU1PcHVjd1FObkhWYTRpQWNWZmxva3cyYW12S0xfaE9ESE5qZW0zVXNpaDNzSkdlNmFxWkNfN1VFbms0eWJVMVJFZTZnN1h0eDBJYTI4?oc=5",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxOajgyVTRBZ2l3RmJKXzdDYjRwdTZCd2Y5VTZYNmg4OV9BX21RNzNlOTh6SlB0cy0tVDFQdXV2M3pUYkNVMEZKWW5XTHdQRGlKR1RGbnNfRTU0NGwxeVlyanVaZ3V0QVNEUHMtSWt3RjdhUVZET1hkcnBtSjZvQzFIMG02LWU5WUxRV2JwTE9IUXYxcTBjQVNpNm9mbjBSa3N6RVRRNHNFSzNXNHFtZV9Oa2pRQlB3R2t1d25GVXpQck1YR2xKOUR2WGNvMA?oc=5",
-  "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQVhQWlhNcTVheTVYby1qeTdwZmF6RV91dlVzLWhodW4ySWRsdFBvVTJNdE5SSnFNOTJKanU3NGF0Wl9acmdPdlVOVVhjbXBCMkwxQjM1eGkxYmotRlRDbkx6WXlvaGF0WVBYOVNuVzRMX3pTUnZLenVtaGpGQklXYzlyYk1TTnF3NHl1alpRaG9oc2JzbEpNZ3R3Skx0am13MkNYbURhYkY3WEVBUU9HdDMzaHNzWnJQVXc?oc=5",
-  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTXN6Uy1ERDNJdVRyQkVTWXY0S1R4Y24yX1VkVjRPby1CWHMzS0NPOTljM0FBZ3BoaXh3bGxBMEJ4cHp5Q0M1YXdFWF9QMXVoV0FWalNUNFBjZGZ0amhJd05mdlUwMTdtUVJ6YWd5cXJjTFBrWEVhZmRtVW41LTNCNXFCdDh2a1JwRjBkUjJ5V1Npd2tOeVBtbEJ1ZGJFWWJ2bzRmMU1zTlBUeUtWVUpVQUVIb0psblZ2UDJhNzBiZ29mNDJ0NWJMaXJHS3c5NFBrSEsxcU9QcXJyendhVDNKQ2ozcjJBQjRyckZ1R0VR?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPa3BZVVBBZTJRbHFDV1lzVl8wUFY1MU9ZTWJmNzRaWnd1Q2Y2YWhXWnV1QkwzSjY0dXZDQnB6SVZoaEdoRE9mb19qWlpxNE1oMGpTb3hRd3R4V2xJWnJGeDk3S2ptZkEtUGVLSkRSZmVTenN3My1YbkNYUHNvdjJFV19MR2twaTFBcXhGc0lfQ2FUcGdzTm9mVnlEcWFST3d4b0ZINlNCWXVuc3pnSktHTm1SZjQ5X2twcmUySHlLVQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMWNhMXVIYkE4NzB1TFN0Ni1YbkRyM2hDVnBQeEJoVjlDUzFBa1BocUZQM1RGbEpWM1J1d0NyZTZSdzV3OW1NcHRvN3RFY0Q4a1h3S1lZOXU1V1MtZ05meEtYcUV4dXJ2Qkl4Rk1BQzY5Y3dtN2Qzb3Uyd25oRktTVDB0TTItSzkzdzBqWTRfV3RTVW03ZElwWTdWRnpiRmZvZFRBUVRHTFhSSm9nb1cya0JmSW5lUFVEUnpOM09vYzA4Y2I0V3hOV1FmMFBSb3NtYXY5Q1lXbFYtOEJnVkFpZ1VpNlJhQ2wzeE83anIxOVVVdw?oc=5",
-  "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZGxvZXFNdWpOTUhGdzJuWDl0NVdNMm1PdjdXRkY1dEpBNkxqa3VOY3BOUmxZWTA5bFk0UW5KSVg4N3ZuY3BySE5pajhNN1U4dUNHbnloR2s3S3U0Q2xsVmJDTXdsUl9wQUYyd1dZWjBFRVZfNVV5ZFFBRWRZN1FZbUtrZFg1OXNQSU5xQ0tVZm12d1M4RXQ2Yll1dV82YWt1bUZTTC1fbG9GaWIxZV9Sa3didThjQmp5R0JkNw?oc=5",
-  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUVpIc3M4SmlVQjgzejdpeHNiMjloQnhQRDdub0QyV0JBZVFvREZESUFuUkttTTdMNTNlaV81Z0hEYXh2ODM2ZUVKdWpkblB6bXRQNEZLNkdXUFF6NkhPNWlnUW5mdGoxRGtWdWdXQ3ZmNkVrRW1YVGdGQ19OQUFaOTdFWTlzRGRSMHo3NUFwUEVQMmU1RkJOY1dJNHJmODEyN3RKZTZIcWVJR0U5VWplQk9fQ05jcG82N3d4NThRNUxKZUhBX2g5WXJtV0dqdktUR0FtMEdwZ2loOU1x?oc=5",
-  "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdGMzRHBqVGo1U2l6UktNR3BaYmlFSHdMd0czMkpld1BYX2VTd05DZmdkSEF0RTZ4ZEVKQ18zbm1MLUNRTlpPMmxYUmpEWmhxdndiZnFNZHhORW5qWXBiUDBrcTVDR0UyRGk3UWZ5ajhWR3p1UVRXTEtTRmloS1VoR2lTN3dVeENfOEdPVW5oS0VabUdFLTVUUFpjV3JJZTNhd2tvX1Z3?oc=5",
-  "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRm9MNGVLWmhwTVByVVp2TUUxZzVpZUJBc0JzTHFEME8yRzQ3QU1OUEI3X1BTcXNscnhURTkxWm10NUxmLVVHLXVhZTRuSU94RUVHNDlOemFYbHpVQ0RTUHNpRF8xNERTZEdUQlNmVk9VY3NNODJ0VHVieHprQ2hJMmRMc0RvUnJwVTdQNGtXdE1lQTBrS3lMSXJkampiUWYtejJOV3BUcW9SQnpGMWtWMFpmblhFX1p4azgtVldmdHJrWVphWldua1dSNjJoemRuZ2czamVJTy04ZGpDUjF2UkxFb9IB5gFBVV95cUxOUl9US1owUUt5cVZGLUlfUzdmMThpNTZ2S3pQLTY3WnBmbEk0TVZnVVNDZ19nSXFJNnJuTU9hWHM1dFFSR0p4VV8zeHRHcVlnYUNiV2hFOFR4SWFyRFJhN1RvRDFRRWd1Q21udXdDT29venVoR21KQUtqek1wMlplVWx2UjRBWUllTGxYODlER0F4Um4xUEUxdnJCcFBYQVZUcVE5eU80X1p3RHBKbjhHMXpHMHJsM1NEeUh3NzRyVXBIUlc2NEs1QmI3RjlzMG12MUJ5V1Y4aXBOaWVPWHNaT0ZkVmFVUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTHlvQ0RkYU5wcHNsUkFPczBLR3lqMXFNUzFCRHZoWUFuSG9LdHpBSml1QlIyal9pUUdhU1FONjEyTzBsMlFOUTREc1BPMkhCUzJoMnlyQW93QlpTQkdKUXhReWd2Rm1uc29PdDhzRHlpSy1RQ1RHRE1SMzZrOXpxdFF2US1tc1FxR2xQanNoMEg3UWRqcG5Pekk3d2Z3QnVrbHk1ZXJUYi1ra3d2SjdSa1hWZk1Wdw?oc=5",
-  "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOFExOE1WV01yOGp2cWd3VWE5cE1vUlBhOXB4Rlk3WnJtZnBRaEk4aXNKbnRpN2dQa0pVVzhjdlVUNjQzcjFxWWFlU2xyLU1UTWpVcFVvSUNTUExvV1gySGotZ3pqQUZiVXBqSHR5TTRQbThLMkRkdEFuVGFqUjB5NnQzTG1FcFVDOFZ1TE54Mzhka1o0U0s2clJaYw?oc=5",
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxONERaZ0NId0hZR0YwdllRTm1fS1VIc05DTDJYWnprU0x3ZTVPOWZsNHFpMmltY2hvc2lBWEFqUUk3UVlsaGJ1cmtXS1dLOEtTMWM4akM4R1pkcDhlYjVGaVhTTkY1azhrYk9NRW8xZTJ2Yy1zbU50QUpISXFKUVFnVDBFXzhXb1BZeHM0RlpTNDB2VlY1ODhOY0VuWWJZZkVaN3lv?oc=5",
-  "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ0NyYnRseWF5bVhaVS1BQXRTVEJxbTJhejhDT2hXWVYxZmYwazA1bW9pNmhLM3J2cFFQZG02THJRaFZ4MDkwaXpYbS1zX19oaTJ0RlZGZ25hc0Vfc0ZyMXgtWnF3QUI0WTdVTWhaYnA5ZmlHN0QtaDNyMTlYdHRyM0prb2JJWXlNYUozSmltbG9TZVFneXJjM3dYRHpNYnZydG5tcFpzZE5Cc1QtQnVVdXdZVkdsWXBuSVJXSExB?oc=5",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb0ozQjdLRGtFS0lYZUJjeHdSWTBKcUtwbFV3YUxOZVByQmlSSTVBX0FLOGUwOVRfcWdLNVEwY25lWWs3V1JMZzdSbTFJUXlEeEluZC1aRm80SGlyTnBYVXNlckw2VkJ0LTRhZ1cwdW85a2x2eDVMSDdLUmNEQkp3QjZNTFp6NnlvU1BGMFRGcEZIeDg1NVRrUGgxWklweEFlTU1Icw?oc=5",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQazVnR29tS1JQclhBRFo0SjhIMVhZX3FtLWU1UUowQnpBZjVmU0RrNDVNcmtSUEpMT1l0aTQzQ2tEanhYOXNfandBdTZRcU84MXJiRlhMRmRhbWVyQVMxUXR4aGFxVXRiamtqSXVtU2xoZHgtQUlwemNHRXhtOEtkeE14T19vZGdNN1lFLVczWlh4RVdTV2Z4YUgtN2k5R0NWNW9vbTZfbVItSEdKRWdxdU9EQnNhdw?oc=5",
-  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNjRuUHRXQnNITmo5eXlQMWlkZkxudzV5Q2tiaWlwamV4OGN0Ymtua2ZGTENnZzhEYjA1XzVzSjRZT1daTlA0NEs2emVBbGZCVElhcXozc1hpazNxYjZWcm96b00yVU9jOThvTGQxbFRxZlZsVG9WUy01VVJqQkZtS0V0eFlpWjQ4eW11a3lpTkhHdVRGYWtTMzg4ZFJucmczSEFmdDhPanY?oc=5",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVEo2QU5PY3ZGM0ljZGN5dkhVSFhrT3B4R1lzanZabHo4YlhaU2FxVXFIcnRuUTJUZGVIcURmQzFkR3RuQVd4dkxETjY1S0xqemZtbDJpWGd5Q1N2OUtxY3pSMWp4SUcyWGFMWlA1c1pYNlVOdmtaNmlqSEdxMlIzZHdLazlwNjZDd1BF?oc=5",
-  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbmNfQnJmREpmYTRXTldjQ3BRa1VhRXVsQlhPTUJQVUVLcnBLUUFhRVlMeHNJQmhjWEZBaXg0Z1Fydi1YRE1CelFzal9oamg3bEZ6TUFqck5id294ZUxleHZNS29EVnpXZk92WEVteUZxMEZiRmJFTFUxdGFoS1FUeUF3VmZfdzU2WWF0UnVBUHo3RWZwbmxqbXNTeHFBMzZkMlJJN2JlOFc?oc=5",
-  "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYMkw5cXhZTklLd3BmazljZ3U0bk9wcUJBaW9uandGWFRCNnpTY3ZWb051RUszNEJ5c1RLRDdJeWt4bkREd01vNFZHT2NfaGRCWTRQM3o1Y3dLaWNNNUNKTmNWWXZGU0p4WU9LTDgzUG54VTBiaEszbVVHNDR2QQ?oc=5",
-  "https://news.google.com/rss/articles/CBMieEFVX3lxTFByX2R2NTE5ZTYxdFczbXBXT2d5eUxwQUtSVnZsdVJCbG9oUGxVZG43QVFOcXhZYW82WnZnTGtad3VPSXkzYXB5eTRJU1U3ZWlQcjQ2TTFEbUpxQ25DeUZkY09ROEo4Z2ZiS01CalozYmNMV09ocHktZA?oc=5",
-  "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeHJWbEowR0RtMTR0TE1ZMkJlQkRUMDgyMHlNZVY4bEdvRFozeVBhOWZkd3MyUWhKampabEFuVGN1QXprYzFGZlRubC1Jam9lVEdyYl9jN3p2Wm9nVks3dlJuUXdTbEY0N1JtbWJHcWpRekRONktKNHhqdU43TGhIaG1MR3BuZlFRT3lfaWlmUWJhNU9hZ0NTekJ3SUxVWEd2Yk51dkc5R1FmTmZKV2g0MzRJS2hNRWpwd2NDVGdsUm1yY1dN?oc=5",
-  "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVjJ4N1hkUUhUMC10S3U2NkZ5WFlrMTA0SEUxbEhDMzdrb09tZjY3SkxoUjFpYmxTQlc2MFhpQllkT3lNVXVONU9LaGFSd2hnZW9RZ25iRzY1TzMxX2phX0tkVVpJTDBVU2dUSlBuYjNfYURESWZwaGFDTDQtNDVGVFEyOGZtM09wSlhpbWZkanNsSnIyYVE?oc=5",
-  "https://news.google.com/rss/articles/CBMiekFVX3lxTE1KM0w2TS05ek1rSmRvTDNrbmhHdzZjcWNHRHNxRzhqVVlwNmk3TERmUGZHNkRQbXI2TXBZeUV2cXBCeVVYREhzbHpuMkJHWGJoQTBIdGkzZmt4b3U1QnQ0RDllUnJRdU9id2dPRTJxNzN4S3hHcEZIQnpR?oc=5",
-  "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSXZsd200U25ZWmd4QmNsSWtjRnhuVUhsaXVWOEhXUzZHTEtQNHNneW1QUWgwbTNGZHhPaHJWeWZsZFNkeTN3Z0I1Y1pZVDVoZklSZUttUnI1WjU2V2FOaUdWWVE4YTViYXN5YS04bk83NFl0VWlzTUMteDZQN25yZWxBQmtRZlhnVjQ4QkFlbG1BeVY3bGh0cm1CclpZQXNza28ybWdB?oc=5",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN3VYOXFkaTZSdzJOcHZMNjB6VkNudHN1eTFlancxT0dPSDFjRk5kM3l1SlRTc1pQaGh6WElBa0RZcm5DSVU4QmxpV1E5X1U2ZlFvX3dpb1VBdmFFTXJ4dmZLbnJzMmZib2Y3MlpnZXRkT0pWd1BrRXpUNGtlT1o0bFV3NUtWd1M3ZmF2RWZMbkU2RlpSeE05NjFn?oc=5",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPelQ4eGtyaFdMbFpuWkU3THphU2hlT0FJRExuNEFpMlpiUWhwLUliTjZaMHlwOVc3UDZ3eG5ocnBHbVNpRE5LNk9aUVZ0S3JkXzd2ZERUUVNEdElIZUhlbkV6UGcta05GRmRuMnNSSV9HbEZVbk90VmVvc0tOUll2dzNwaWVmOGdYS1pB?oc=5",
-  "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXcyOGZNbTBMMGdvQVo2TGFWbllHa25NX0o4UkJQY3dycUxybEVuRm9MeHJzMWdPeFFmWDNqUjRxaC00dHFBVER1S3JoLUZQU2UxUzlvNkRUTXk0ajF0azRybklVVjFkT0RSanJtRllodElnM1lIWGFTcTFFNFgzQTdCOGM0d1BDQ1Z5SUFNdng2SF9sZmI5ZzZxX0VyWVdFSl9uSGZHTXlzWTdIcWJZ?oc=5",
-  "https://news.google.com/rss/articles/CBMickFVX3lxTE1ld3dHZDhaNHNyNFZMYTdyMnljbmxkd3NOdEtXRWdDRVp4M1AwRmhHRWtZQXlLSHNYVVpJS1F0RlNySk8zTTQwZjVKY1pncTl3ZGlCVm4zNWljbWpMTDJNaVF3NERxeUZ0OGVZNHM3SHFTQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMEZPOHJjSzFUSVBVOUhOSTdmSUlnb0VjMC1wX0NiRE1wdFpXZEJyNXlOOUtUVGg1TzBMb09NZUY4N3ZCb1cteXlvRVFqcDlTOEtVMW9VRG1uajFYQXRRckNoWUcxRDdFOTJWNmdnQTVwMjRPSS11MlpPT0tRNFlKck16NVE?oc=5",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOHEwbmdEWGdQZnlSR3ZIVjVlVHpGX1p6UHhTTWc4UFE2eVhCZGMxcVIyb05YNE1iWDhpS1ZMZUxlVVY0T3RwSG41cXYzc3pDTjJ0cEFaOG1OSTllV3Q2emdJNTloeXlMTFN0dFhETXFMaGFXTEhsRHJSUVB3b1FyX1lUSmJsZ1g0NHlXN3VyOVJwRDBhMzdHU0ItV1d4VlUyd2l1ek9MS0ZvNFZqSUHSAbMBQVVfeXFMUEZjd2xhN2ZhMWNvdTdFNlBwc3hpUjcycnZZUG05TzNDNEVtVTZLaWFOS1BXVkNVTHR5NEZncll2LTVydy1hR21SX3Zyb3lZMm5Xem9sZUlYcFB1VzhZcmxSeVpZckVYVGowcXNMS1VJWXkxVDRyMGNuRjB0ZFJLbmxvaWlkSVVVTnFMUHpsSGtfSnh2SU1nY2xMbDdsbUV3Z1Q4d2ZCU1JpdXJXLURQd0xDZDg?oc=5",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd3kyOGxSMjBRdk9ZcDRDaFpLVUVSNTk1eUdJYnRETDhFN1FSOW9DNDZkYTBxS3NfRjExNHFCSUF2cWhiYlBRUGJBQ1NZRkN1U0NKOHlBYzZfbWxJSmhucm9ZMmV0OFZlRnR6dmlwRklLTzY3anAzOHlHMktFLXQ4TlVoRFZ5WVFKcWpidTh5a21QdkFSRzUzZnRSc2hFYWhw?oc=5",
-  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTGJfTG5TWVZqNGNtNm1JbWc1bDVsUkNnSmxzOW13RTJmRGFlRzlOZFBQR0RVeFh6dXVfQm9PMDhjUk5JMlF6Q0twejlPdS1HZGNNNGd4NnVvMHpGWkZFclZzRlNkaW1fdmFILTU2a0VQVDlZM3NWUmxsVm1HNUxiV2ZPSVlsenoyNzdlWE5kQmxZMmZLM0xwTFNCWUtlWTRJMEd2TG9Qb3dsY3poWWpRRHI2d0hSVE05b3N2TkROOXJMU1Zkdmpoa1AyMmw0R3NPWFBYZDdFbkFwUFE3dGtZeVdyQV9XdHFMY0gybDV3?oc=5",
-  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOHJsUUF5YkE0N2QxQUR6NTR6aHlyeWRMemJsUjdFSjV1OUZyUDVoNlBmU0JSLURwRWlTdWtCYU41TFFVb0FEZGtydXRFSEh0Smxmc1JTbHViWjBzemcxblExaV81eXlGazVpOU1SODg2eWJCV2ZWS1VTcjNubWZLdUJLa2tOY2tNYWdoUUtBRDcxRGNZ?oc=5",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhQzdTWnlKWmpwN3VuaDNMcjZSdG9QajItemVCc1l4UktkUmlkTi1LbjZWaW5tdTBMeVItYlVHMFE2MXJIdHhCckEyazY1bGZ0UjI5MnNNTnV4ekJCamZYMzdmVjduYlllUDdsZVRfU3drOFRu?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdXlhNGxWdW9JMW1pN0JHTUZaaFhtZEh5VDZ0WXhDei1oZEdUNlBtdUlHbG5kZTc3b2hWVGozVEJGa2kzYmNCV00yMFkwbnNvLVBpUGo3T3NDYjFlR0Y5N1F5X18tdGZ2XzhIdXFJLTUzMXRYTVRaa1dubnlPVm12VnhCWjFTcHFZRDdXeTdBSDdIYlp6aTJ1Q3JxQ1RTTE15bmx0ejJlLWJyODhjektkWFV1NlYyMFR4MnVGdThXQ05XQTVoZHQ1cw?oc=5",
-  "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR0I5SUVzb3BPcXgwZldxOXpTd09ySlRFVGg1eENMRkFya0VIZ2g2cE85Mm5vU1NXdjVUVjhOZEhQRzluYl8zWDM4Zk1NZ2Z4U3g2Wl9GakhsMlRjUm1LbzVUejktS3AwMnc0RU5lR19YNjJJRGMwX2lCbjViYzQtZHJjcVRFcEZkSHFHZWJwei1PeHBVR3RhX19GQThjS1dSSmxRekcxSnRHbVU0cnpOeVFaUkFFZUdrdFNxRzR5Vkdra3J4?oc=5",
-  "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTmxGTDBta25nMENaRXZldkZxaWJ4THMzcWtkWGdNcEhTNnRjNkVsc3VvejFWdV9RYTNTRHlwYnZLM2VvdG15ZXQ5Q0JWbDN2Uk1BeWVjUXBIeTNyXzd4cF9POFdxNEFyWThweGJWY1hCQTc2dGlBN29XczRvbXRDc3k2T00zM2VnemQtdU93YzBvZTFrUnoxV3ZSSWQyWl94cGtndm53alhHQURVRFZxV2IxZElDdTBaZ2lEWXIxZzFxVmRyWUhRWU9DTVo?oc=5",
-  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUnF1XzMyTFZWdDFiWXBUR1gtZVV3d2dYMnRQZ24zajliRDJaMVExeGRJS050VndzVV90OFA3TW1PeHBQdjVTXy1RNWQ2YkNCVzdXcTNWVGFmSTRHVnBZRG9kLVpOM2VNeklOMmNsV0VDV19YZWxvaFc4TTB4UzRGVlNEemNUdS15TkdraHBqSnZYZ0VUT2F1UU90T3h5cjF5dV9qcWdIUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3BwNnJvOFNXY2lYMHVZUDd5VmNTcE4yRWkzNnJQM2hFaURqTnpJeVZJYWpJaHpjWDN5bkJ5YzR5ZjJ4VTY4MVg4M2ZiMUFjYlM1NzhZdGxFTndTczFuTk5GcEdHdFZKYzNaYnZFTFN6cHBZWDdTSUEzTklYb2c5aExEQXc0dTU0akxrSml6R2xPZldVVEsxN251VElPbnNj?oc=5",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ycDhtQ0FjVElSbzNMRXJrd0J3bGdLbF9sN3BmbzBSNGMzV2d6WHlMeDJqalBGOTVFT2JQU3ZCNmYzckV3b3ZlY2pqdkJLVHUzUXgtLTg4UjlWcUdXZVZObHpqRWJYTUtDVXdnaVBDUWNqVzhV?oc=5",
-  "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQV3dQZXBWS2hrQjQtRjktemtkcEZfb21lamxEa2J5cWx6Q2gwOS1uNEpucG83WG5XWC0tRGVEM2JFNmI4M2FCdDR0NVJkQTVTMTUtdndxY0hfOFZGQktUNFJXNjRNYm1saEI3UnR4U3VtOE9lY1dYSFQzVl9nZTB3NHFYaGxkUFVReXgxdEw3YkJvY2xfV0c1QklNa3YxQzdnU281a095anVseHZpOVVpWnhHRXYwNURaVjRVdC0zUU5oWC1VOV84TnZDTUtyOVluOFZXQXZtUzhzSm9JTHdpS2ZIRXpOTHlhMEdTaXVsYkJnVHlKNGxaVHRB?oc=5",
-  "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUlYxcmI0RzVzckVqejZoaWFmdElySVRvYmhJbzIxWm9fNVNGWUZRRjFyTTBYS0ZRb3UyWm5IWHNPNVhpbzRDWlJ5bjdGQWNwbXEtTnBrWEhNSmpUb2VZM1hqSUdSQXpFVnljSl82SzJtX1lQanZVdEctNTJZMDIxRWdISGxEUUdxcG1KUGpYT0FWNi1VcW9UX01CcDVTcEc1bHVCbjFhYko0d2dQeWRXcXJVZWhVeDdyaTYwQ0NJVXJtUEZzQ1E?oc=5",
-  "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JdnVkQ19nWnZLY2lZSW4tOG9XNjRTb0xFcHBmVTNZVHBXRDNjSTlKMm5RUXMtSzg1WWcyWFB4RFpiYWs5clFua0t3R1BDQ2o2ckVzaXQzcmZVbGhWZU84OGJaQVRRbk05NjdLNmxTX3JOSUI1by1n?oc=5",
-  "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb08zNE5GdnpsNnZzZUxtUzF1RmtxZzlaaEt1cnlidEZtdjc1WHppY2FLRnlsMXJETHdjOVZyWWc2QVVVXzNTVkhFWmJBVWMyYXlheHdXM1NzQkd3a2lQano4dEkyR2VFclRNQlNUVWdJaHBxRmxYaElER2ppLXVnX3ZROFJUQ1ptVXNvR0xrc2Vpb3MxTVI2S2M0czB6cU5kcjlJY0VCenJNbGRZOWpsVFFaZTdXOGxKMnfSAboBQVVfeXFMTm9PMzRORnZ6bDZ2c2VMbVMxdUZrcWc5WmhLdXJ5YnRGbXY3NVh6aWNhS0Z5bDFyREx3YzlWcllnNkFVVV8zU1ZIRVpiQVVjMmF5YXh3VzNTc0JHd2tpUGp6OHRJMkdlRXJUTUJTVFVnSWhwcUZsWGhJREdqaS11Z192UThSVENabVVzb0dMa3NlaW9zMU1SNktjNHMwenFOZHI5SWNFQnpyTWxkWTlqbFRRWmU3VzhsSjJ3?oc=5",
-  "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SX1lScFp5aVRnQTNvZ29scVVTS3liZGtrUEt0ei1lbEt6U21ESHBmQzBIY2UzMTdxVDl4MUg2ekp5aTBpSjJ2bkEtYW0xcXpib0hRZkprQUdyUjZyMUcxZlpEdFVCRHNKX19JUFprUFZ5cjVZalRjUNIBfkFVX3lxTE5Sal91SVg0WDNybGdrMkJvbk9DdDU4WG4tOUZMYWlFaXhNbjVxcXNKYnhqcFhxQmR4Y3N5dW82aURmeUotM3loSVNmUC0xY25mV0J5b200b0pMLUV4SGlHOE1VcUJONFU5d3plejc3MlRrMDAtdGw4dmNnSWZuQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTTBXSVpBY1NnQV9iVGVZTzIzWGdQdDBhMFByd1phM3luRk9HWHBpbzREVTQyODBkU0lldnF0d2tBRUtlZ1c2Qzltb3FQRTB5dTZGaHFKWnlvV1U1ZFhpSl96QkdjTi14by1JbERXVnRDYUcyaWVZRjFxdDVqdDVoTUhsT1lONDd4RnlRdHpKY0QzUFlJZi1ROHJhN0x3cHoxUXdNNndn?oc=5",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLU1oTlNOYzZtZDZscnZERTJBTERLbDRXems5M3VHVk5Qbl92bXdOMDRXUXNsYkdhOVJxcTBMWHQ2X0xoOXVWYW5EdjRPUTZBYS1UT21vNWY4aTVhLTRtNDA1aUY5aWRSbFJ5Sk90Q0JYSkdxcHN6UFpBOFRrVWJUeDFSbHVjd0VwY2MyNEhGSnp1SVZYU1N1Yk5iWXZoWjdReWtIYzBLVkEwdHAybmJ2eEd1Ylotd9IBvAFBVV95cUxNNC11My0tQXZPMGlxQU95c3V0bGN5SVlWV0hqTG5lRlhKU0FmRmY0S0dQbm5nS25ObzdxdWhhM0VKTG5oeEEyVGoxOW9BQ0dYZ3I0TkY5VHVicEdObVBGTHAzTFY5OEtRbVNzOUZmd0M2b09MaUVTeHgyY2JlSGFsbllVN09XREMyU19FSVNmZ2c2elpkYXhLd2U5blhiaHhaSGNZM2szWDlGc2lMZnd2REg2WXJ5d3dGUmxveA?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSnpYNEVTa3l2dEEzekdUQjdxSk5qNTQtNVlNc3dfcndQX0RzSnpwb2xOM296SmRqUGVFME45M01Cb3VLY0RNb3pDZXZYZDE4RXJVNFV1YmotckV2M0pRS01zWTA0d0JOU2pwc2NHSXRhem16cGl4ZjMzMnEtcmNyNnR5LUdtN3pVYUpnU2hJbUJOYkNJc294X01JbTRGaEN0UWE1eHg5c09PM25ldmFxSi1nbEtpRWhWOXdpbVM0NNIBxAFBVV95cUxNQ0EtUXA5M2pqRTFCWDEzUkx1WmxQSHNPYjhwQ0JpYmZoX0t2YUdfZERQZlRQMFFSVV9HUm4xSHVQLWs5M0N1NTF3NVhQTUNwWVNBX1pXUHRzZG9qNVBRSHg3NjhNV3R5WUFzc1NHcjdxUkdPcDJVZ0RTZ2poSnRTSTZkbUIwemRsM0g2ZFdCT05kNi1tWWNWa21HY0VxNGZNeldaTmwwVGZfUmhmRVF3eE9lOGtWMG5mM2lUR0p4VmF0dlhj?oc=5",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTVk2T202Q216VmNvejJpN29YVjNOUnN1WE5PMFMwZ3NtYUY5eUNnc1BIczVFNzRyZ2NoWmZqVE1weWRrOURkSmo0UEVyTTJXR3h0NnlJeDFwLU9Ca0lxR1BEeUlPMnF5ZUZUb3lTanZrX1hjYl90RVc1MTRqMHN0TFZnc0lrZ3lsWmxCMXVuWVJOTFFGaW01Rm1BY2tpcFAyTlg3bU5Vb1Badw?oc=5",
-  "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWEpKMzJuTmNKb3ZZeEhCZXRJbW5DYnRXV3hKM2huYVM2bE5ZeUttdV9Bb1NVdUJzSjNON3NlWmhMUThhT0x0RFAwVWd3TDdHeUMwM244LXhBaVZ4VWE4TDg2djdOLXhMRzBlNEtzSnU5WjVZek9FUGFtM2g5UDNjTGQxMDZfenZldkFxdFNlZVlWRTdWT2RtMGUzSmh3Y1VUeUxONnhxcnR4QlhqNV9Eel9wcUl2WGloNzNmcTFjSUwyYkUwOEE?oc=5",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxQekJOUXNvNlVZaGZvdmVyWnlqT3NsVFdSbnN1TU9jQ1dWWjRDYTYxdFdNT3h4MFRhdHlJT0F6Nk90bE04NVJCcjNxT21UM2JqbWJrQ3NUbmlJeHdVWHpXRkozcHo0UWVCaUpMMzBtV19zSERHNmlfRGpvMG5tXzlNMVN1ZVlTUGF6VDdQZFpybnBnTlJxdE1DQ1I3VW56Q1Z0cG5lMlRnb1dVS1E0bHQ0ZFV4OS0?oc=5",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3BlVlhrYUNQMlRxTkl3U3JPUmlSZHJVYUhHR3loTkFsMk13U2NrMTIxOER5VjFzMXJIVDhsVWdjRllCLTRLY2k0ZUhlV0dMdzFJb0hkYm45dHMxTkZ3THBOdklBTlBJVDgzYi1QNGNJMmRsNlBVOEpsMllBTE40ZmpTNGhtQ0tFWndxdDlCRV9Sbm1TT2ZROVpFX3M5ZElkUnRHZGQ5ZVJHQdIBeEFVX3lxTFByMHFVM2dNNGpjQi1fZ3Jrczg3QnFEbUFESGpRUi14ZThlZHJGdExPQzd1SGFDSEVoSktMZE9pWkpDOFl2dmwyVHhvcWVPcEg3TWZja2lROGpuZEJwRFpySUhBcW1xT2E2QzRxX2pjYzhLLTh0d3E1UA?oc=5",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2Y4Z19nOTY2RzhTM0RSR0V4WVpNUTRzcnZ0UTRpY0NTNXdVU0I2MzV4dXdHWXMzWVRlTlBTOC1sT2sycjBJTnhTWFBxUDJtRlpvdW5PNVpteWx0Mkt3MkE3MmpaT3ZPMW5aT01lQW93ZGZDSHplSVlHYmZxUXRTb2pCTTVkS3pHMHVjOVNGUmxkMVR6anI5OUVENUFKMnpCWEFoLTJZMFl4NDFoUURiWHZFeW1HdVgxcFBiN09CUmM?oc=5",
-  "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdk9Cci1uOUJMUXpqT3JNdjV0cHF4TGVFUDc2RTRUal96Tzh1M3dRdURHMmd2U0tkVW5YRDJ4VFJxalRfa09ORE5POGd5VTVRYVdnYjJ2WGhvdktTQzR1dXVaNDVRRTVyNmJ4SnFlVDBLQ0lnM3g3aW1STzhiaFR4VmlhTHF5aVdtYXhqUURLb0I1Ulk2NTJGbXp2bw?oc=5",
-  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMlZlZjJyNkhZWFdvcXRKOFlBSW9nb0U1bENBbDBRczM4djdnTkpjNHBRMm5hQTFGQ0xjbjJqMHlpb0Z5N2Vtd0FkbmlDTTlrSUZTY3pCSXY5aWF1R1dhel84TkRUYUtLYUwtRUd0UDBYcXZrUnpEbUlyVVJwM094Q2lmM3RWVjJvNGkyTmhCS2VnQTQyOWkxcUpnTWVtOGw2RjZFeXNTNGM5VjRGZWZnRU1IWmJibUl5eFZZRkdNOXh3dkV3WGE0TXhMMEVSS1Q0QTAzTDlmMUlYQm5RaGNWOW1CX283TEpl?oc=5",
   "https://news.google.com/rss/articles/CBMihAJBVV95cUxPYWRhVDUxcTdtT0h6V1RMM1piRTVFdzZuQ3RRR2tJZWZaSHhKZXFoUVY5d0F4UzJMalNjQTYwMk1ZZDBhT0lhWnhYUTFRLXZudGJONjVfS0h4OHllSFg3bW8xWFpIUEoyeXgySHhKQlphSXhNZjZCWjRHdG10XzUtdFVZd19za0dKaS1VaEpqM3d5cU1XaEdiMHZvTzA1b2o2eGt1VTNTdlZKRU5RcnZSMUwwV25RaEpmTzNYWnd1YjUydkVaM2g1YUhXaVR3WkVORVhhbjBGNlVidGJ3djhrZUwzNUc4aGhYbVRqV2UxOGIxWXZxeWwtRlRiM0JPZXlsN3psRA?oc=5",
   "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNejl1UjNjelhZbHRPZE9fcUVINkstdzBGbi1xM1ctbXE2UlFQakdPdVhaYVFqRHIzTjk3Z2t3ME9wckhHZ19nRVF1Rzd6TVdwaXI4WGE0Sm9vOE56WENDUGUxY2k5d3E4TEJmMVhycDVGdEF0V3A1M0IzNzVjT05iRmhYUUFxX0tiM2o1SnYwUm1CeThQLS1Da3pHSzBxZ2taMHRlWUpRQmZ0MFZUbzVTX2RSNjR3dXc2ZnowNTdqNnhqYjRaTUl6X3NvVTlXbHRwTHRuSFpvaFQyX0ExUGoxcndfUEhRcE5FbF9zcVBHMC0xMG1pUEo3X2hHaw?oc=5",
   "https://news.google.com/rss/articles/CBMijAJBVV95cUxObFZSUXk1d2xsYy1aLWJ1Sm9JVFJPX01FTDI2bnRpYjlBemo1Ykp6TlgxbVN2VEJ1MmY0aER6eFVWRjZyZUJTVlBwZENVaVpkTjgzM0E4ODdDM0F2alFvZU1kWVpackE5akNHZEZUT0s1bmJNZDViZ1lrNFNHT3prYVNkRHNOSXhVcHJyT0FmYnNpaEEzZVVlc0lrS3Q5MTFFRV9GRTlWdEI3c0hmRGFxbGlITUdXeHZNMFhJNVNKcGVPNEdNd0V1M3BxSEpLbU9hQ0x3Q1VPZHF3MTZ6SWJyT19yYjI4dzJrQzFGNGVwWmxORkRsSHJ4NEplVEFJVU45TllZTmltVU93MkVR?oc=5",
@@ -11541,34 +11465,71 @@
   "https://www.tuttosport.com/news/calcio/serie-a/2026/09/13-151204397/pagelle_genoa-frosinone_palmisani_decisivo_kvernadze_domina_sprazzi_di_el_shaarawy_/",
   "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVENZNVZSY0gwZi1zOURZaG1lX25CYTkwMS1Sb2F1TEpXSWN5NE5sQXFRRG10U3E1WS1YcFZwWTFvZnB0d284U2JQY2pBcjJJbExoRDRDNjhYYTVHbHFJcE1YYndpaDdiS042bVVTLWpMUVM1R1BCTV9FYWUxb1N3RzYzaTE0SG1ZOHRRcW9DOTFNaUpuWmRQNlp2TEVJNUl1N0NTc2FBU1BNWFJmRFlZT1I0R2pfVUEzWUdYdEN6dXJGVUZRSENHX3lrVG5IU1HSAc8BQVVfeXFMTlRDWTVWUmNIMGYtczlEWWhtZV9uQmE5MDEtUm9hdUxKV0ljeTRObEFxUURtdFNxNVktWHBWcFkxb2ZwdHdvOFNiUGNqQXIySWxMaEQ0QzY4WGE1R2xxSXBNWGJ3aWg3YktONm1VUy1qTFFTNUdQQk1fRWFlMW9Td0c2M2kxNEhtWTh0UXFvQzkxTWlKblpkUDZadkxFSTVJdTdDU3NhQVNQTVhSZkRZWU9SNEdqX1VBM1lHWHRDenVyRlVGUUhDR195a1RuSFNR?oc=5",
   "https://www.corrieredellosport.it/news/calcio/serie-b/2026/09/13-151204949/dove_vedere_avellino-palermo_in_tv_dazn_o_prime_video_orario/",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRDhfdnBNRXJPTFA5UjZQTUlfVGNkV0g1QWhKS0cxVHV6bWYxMS1Yd2FXQk8zUGtMSnNUM2YxeTZwMXBoc0N0aC10Q0pRSmRnMXlXRFFwY25QdVM1NGVQdjRvTFl0bGZQQmdCQTRPOVdrdUp3VlFQVG9tR2VLVzRJRk1xSjlDUUh2VDVfeWdmcTE0UktzbVg0aGhXLUVDVkU1?oc=5"
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRDhfdnBNRXJPTFA5UjZQTUlfVGNkV0g1QWhKS0cxVHV6bWYxMS1Yd2FXQk8zUGtMSnNUM2YxeTZwMXBoc0N0aC10Q0pRSmRnMXlXRFFwY25QdVM1NGVQdjRvTFl0bGZQQmdCQTRPOVdrdUp3VlFQVG9tR2VLVzRJRk1xSjlDUUh2VDVfeWdmcTE0UktzbVg0aGhXLUVDVkU1?oc=5",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdmlwVG9LR1IzUlBDSGMxYW5pbEVRRnl6bXhCbFBjY2dmeGxBYzZha09qeFhOSlBlRkdQWGFFVHhIQ2h6ejlZQ2xyek9oMzhrTVY0SUhWSl9BR1BkTGZsSERla0RoVzlBLWwtYjlHVXBGNGs0VWgxakxYbnhyYkt0R0VQc1pDN0k3SFRtWXVpN2FubVdlRUJ2YmdsUjk2TXc?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/champions-league/2026/09/09-151131648/gasperini_prima_di_fenerbahce-roma_siamo_pronti_per_la_champions_ora_capiremo_il_nostro_vero_potenziale/",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/09-151131342/il_capitano_juve_senza_locatelli_scelta_fatta_come_cambia_adesso_la_gerarchia/",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/09-151130367/testa_vuota_kolo_woltemade_alla_chiellini_caos_cambio_e_spalletti_con_gatti_dietro_juve-milan/",
+  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNU2ZUeGNPMmxyTVgzS2Vtd0lxZWJwZkdET1FyT1JWTEFZTllMZzR3OHBfMWlrdzBEUTB4MG9vQ0FKbFVUeDBZXzhRWHljM21hZzV4Ykk5RFBlU1FENS1LYTZLS3R5VXI3OFMtUGxMSjZXYkliZHRlZ3pHeXoyci1rNVUySV8wVUJYVlE5SzlBYnRER2ZsYlR4RlVLa2JSaEEwbTgwc0pWVjRTcEJSc0d6N2lEWEZZRFZ4MXZFV0hjQTJsVVhUZ0VMaE45V19TUEFoR2RlX0ROR1nSAd4BQVVfeXFMTTlqTUZfSEh4bDFnNGtueklKN1k4MlB6QWtYaDYwLXV0NlJOdHl0WUlvbmRvbVpwaDN6NU5UcDRwejluQ1JiS3hKRUdrN2xFbTdQazlyX3pVOFFTQi1zd0hxVW83blJLY2ZuTDFCMWN0V1k2V3I2bzlwaFVCWm9pczdtWUlZazh5S19rR1ZsWVgwUFk5SXp3a0JRRzBCOUJxNTRZay1HdS1DVWY2WjA2LWtmdFUycW1YcGw0V2paNGx5dWs3NHE2ak5OV2IwTXo2OWdVaWNHd3JtSEN5VlN3?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/09/champions-mea-culpa-martinez-mi-prendo-la-responsabilita-dellerrore_1d158d8b-7257-422d-adb5-b2b4420cdc74.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/09/serie-a-gagliardini-ho-grande-ambizione-voglio-mantenere-un-livello-alto_fa044455-8694-4bd5-b034-be16dfa2b0de.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/09/serie-a-venezia-franjic-operato-alla-clavicola-stara-fuori-tre-mesi_db65116b-e128-4ee9-9f1a-0c548de1eb92.html",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUVdaT3MyRldfdFAxRG1tcXRCbDRLYm5oaTkxd19LdnVnV0xOMkswdmNOZjR3MlVnMnhiVUVSZktoaUJRRW9fMk9rUWRsVlZaX25JZGN1TlAydXN3TUdaUUY1NnpKdFlBbTRfVkpOX1BhVEMyS1NfT2xCLTFrR3dfcVdmY3l1M3FITjJ0Z3B4SXg0THlSdnYyOGVzYw?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/09/marcenaro-per-lazio-milan-maresca-per-torino-roma_14665051-0ec0-4220-a3b4-7b23243d8e27.html",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb25LM3lxZlFCMi15Uk5qeDFYVmxjcXF5RWdhdnV5S05VZlh4MnlRVzQ2bzlRYXBibGF2Mzc4Q0pzejJYaW9iVkJCUkxKTjdXWlN5ZG93YnJDb0VnM2IyQzBfUkNlM3VRY242U2lvd0VPZV90TWRSYXF6SzVHMXdvakNzSEtvdnd0V1BwY3RRMmJWdkxkYTgzT2IySkFjd3kxZ1lLOXZTZlVhUQ?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/napoli/2026/09/05-151039870/allegri_deluso_dopo_il_ko_del_napoli_bello_scontro_con_l_inter_ma_non_si_possono_prendere_tre_gol_in_mezz_ora_/",
+  "https://www.tuttosport.com/news/calcio/serie-a/napoli/2026/09/05-151034353/allegri_non_ci_sta_calcio_senza_logica_era_meglio_se_facevo_cose_diverse_poi_la_frase_su_alisson/",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdV9HdVJJeVNmVGVkTVR0bGIwMUU2aHd4Nm5XXy11c2dtLUVLUUNzbTlpS1pvS1l6YzZqbGhXb1hhZVJJMEZLNF85WjBzV1M5WUVmcDR2TXNCT2hNTVF3Z2k4SDV1UmEzUG9qbDBCeUUzNVRnZEF2VkJaZzlNZ3dhQzVMd3YtZHROUEI4d2xXdFBDaHRrdUc3MC1B?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/09/05-151038892/d_amico_kon_importante_per_noi_alla_roma_manca_un_rinforzo_sulla_fascia/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/2026/09/05-151034730/allegri_la_beffa_totale_la_rimonta_folle_dell_inter_affonda_un_napoli_avanti_2-0_/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/05/inter-vince-3-2-in-rimonta-con-il-napoli-con-una-doppietta-di-lautaro-martinez_f0786866-9862-46fc-b0c1-29d14f19c86c.html",
+  "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaVQ4V1hsRUM5cTM5U0tDYm9UUmllNlRDNmZNRUJqNzZNWDhPUFFQczBja3ZHZkRWRkVSU2RFVUp2N1FVSWU0d05oUUdNZHZfVjhhamJCVFoyZGZpZnVQc09iMjhJVExybFdVRllxamszSWo0SUo4cDdjSjVzRVRKMG1CUXBFVTdiQTJJZGdLcWo1MFRiS2dxeG1qOWYwdmpXd0xjMWdvNEVJSXJFRWNuaFl5U1pjblJXODJpVXlfZDFnOW4wS0hfZEluWmhXaURaeXhKdDNycjctTG92cGc3WWU2OTZUOXlFYWNjbDc4SW7SAfMBQVVfeXFMT2FJTzgxcnR4QjltbEZ5N1BEeWJTMXpXeXN2cjdpRzJhUE5iZHhsOFFtbFNoeHE3aVhPdjlCQlZEWlBnRWNxQ3Q0VWhMeUs4Wjg2MDBEelRfcGlFZzA5eTFEX2lQb1lmOWs2cUQ2MU14QXlyQnZMeTVtZHViZHkxSXg4TmVvVEFwMWlpVFowSUlJcXkxS1JOT0s1Vk9Bd21UQVRDYmlHM21PbDNxYzlXQ0VyeGVtNklfdjlJZVBYVmRoVHBHOEFhaTFzbWo4RHhqb29TQ1ZkdzRZdzZXTUduNnpIbVlPYWFCaEdITTdPYUJqWktB?oc=5",
+  "https://www.tuttosport.com/news/calcio/serie-a/roma/2026/09/02-150969036/de_roon_saluta_l_atalanta_solo_un_arrivederci_e_su_gasp_scelto_chi_mi_ha_cambiato_la_carriera/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/09/02-150967480/de_roon_saluta_l_atalanta_con_un_video_emozionante_solo_un_arrivederci_/",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS1pel9YengxZTU2RlZxUU5NcTJJdDFmTXVVNFBXZV9vRU96LTlzQXhkZVVFbkQzTmp6Y2NicEhGcUJvazVQYVN5Y2dDNFJNOHFiOUNSZFNod2FPaUxwbkdSVDY0bUs4ZC1xN2QzWWlvTno3MGZHRmJPamViU25fQnkzZk95TWk3NWdQOVhUUW9pYTJodUFNSE5RQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxON0otYl9CaTNDbm9QOXpWeDFDSnZsMHBaTWpvQkp5eGJ4aHNQNlBKb2hKSEppaGpXRVBUZTdBbl96NmFya2xYNko5NVhTY3JrNlVpYnRpd1NrZktwMFdGVmc4TEFLTHhQdjR2S1JkZnI1VjlZczFDSDZ1WUFSRVJodWR0WEYtQmQwU21QUGN3ZTRteGZCOFZIV09KSQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXJRMFZTS3JXU2xnWkExeUNzWlN0SnBSRHowVGh4Ri1jR1dEbURjMnZwVTZMNXhXRS1Ua28zXzZrenVTempib016Znl2dUs1cjFoZUcwV2RrSnVUOWVuMHVXVFV3emxVV2Iwb3VKOEgyNkRTckpFRmRSZ29GS09uaHl4VlBlRGlFVlk4X3pOQkVTWHRsQ2tjRnh3MVFMWndxaV8xejRrSFVJNWs?oc=5",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/02-150967304/kessie_lagente_in_tackle_su_carnevali_non_si_poteva_perdere_dignit_per_la_juve_ma_spalletti/",
+  "https://www.corrieredellosport.it/news/calcio/calcio-mercato/2026/09/02-150967308/l_agente_di_kessie_spiega_perch_ha_scelto_l_atalanta_ha_aspettato_la_juve_tutta_l_estate/",
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CbjNSZU9mUTNkR1FYTVBOaDlETEROYTJkWDNnTVlvWUN6QmdCT0RwNmVhQVpLc0JjTVgyM2tjU3dCcFBPX0ozVy1qcDg3SEpSSnJxMGg5eUFuazUy?oc=5",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/2026/09/13-151204852/dove_vedere_sassuolo-juve_in_tv_dazn_o_sky_orario/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/2026/09/13-151204584/dove_vedere_napoli-bologna_in_tv_dazn_o_sky_orario/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/juve/2026/09/13-151204390/woltemade_tocca_a_te_spalletti_sta_pensando_ad_una_mossa_contro_il_sassuolo_e_la_juve_freme/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/09/13-151203966/la_roma_cresce_i_friedkin_gasati_preparano_il_regalo_per_gennaio_il_nome_in_cima_alla_lista_farebbe_impazzire_i_tifosi/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/09/13-151203626/malen_a_caccia_di_un_record_da_pazzi_cosa_succede_se_segner_anche_al_torino/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/lazio/2026/09/13-151203537/retroscena_gattuso_quella_frase_su_fabiani_non_corretto_dirlo_cosa_successo_dopo_lazio-milan/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/2026/09/13-151203534/lazio-milan_il_dominato_e_il_dominante/",
+  "https://www.tuttosport.com/news/calcio/calcio-estero/premier-league/2026/09/13-151204405/il_primo_derby_di_maresca_city_all_ombra_di_pep_united_favorito_la_premier_si_infiamma/",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/13-151203536/gol_assist_e_ora_titolare_koopmeiners_prove_di_resurrezione_juve_dopo_un_mercato_/",
+  "https://www.tuttosport.com/news/calcio/calciomercato/2026/09/13-151203541/milik_toc_toc_juve_ecco_chi_bussa_e_carnevali_apre_prove_d_addio_e_c_una_data/",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/13-151201772/juve_faccio_il_conservatore_la_ricetta_se_vuoi_tornare_a_vincere_una_como_scudetto_se_/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/serie-a-la-doppietta-di-coulibaly-spinge-il-lecce-monza-ko-3-2_ec9b84a4-0b23-41d5-9247-e8d7327629f3.html",
+  "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/09/13-151212473/sassuolo-juve_diretta_formazioni_e_risultato_in_tempo_reale_in_campo_anche_la_next_gen/",
+  "https://www.tuttosport.com/news/calcio/calcio-estero/2026/09/13-151213676/il_brighton_travolge_il_coventry_il_lipsia_fa_lo_stesso_con_l_amburgo_bene_il_lille_di_ancelotti/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/daniel-maldini-positivo-alletilometro-ritirata-patente-dopo-incidente_600ef49c-82be-4f4a-aa94-83cabc745ad3.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/serie-a-lunedi-alle-1830-in-campo-torino-roma-diretta_5a077a0b-8853-4e04-a373-f0bfc25ada6e.html",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/2026/09/13-151207579/coulibaly_e_tiago_gabriel_trascinano_il_lecce_tris_al_monza_di_francesco_piega_juric/",
+  "https://www.corrieredellosport.it/news/calcio/serie-c/2026/09/13-151207476/ostiamare_sconfitta_in_rimonta_dalla_torres_tris_del_ravenna_al_perugia_gol_e_spettacolo_in_serie_c/",
+  "https://www.tuttosport.com/news/calcio/serie-a/lecce/2026/09/13-151213319/il_lecce_torna_a_vincere_grazie_a_coulibaly_al_via_del_mare_profondo_rosso_monza/",
+  "https://www.tuttosport.com/news/calcio/serie-a/como/2026/09/13-151212557/fabregas_como_da_fuori_sembra_una_favola_rispondo_cos_sul_turnover_col_parma_baturina_e_diao/",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/2026/09/13-151207480/napoli-bologna_diretta_serie_a_segui_la_sfida_tra_allegri_e_tedesco_live/",
+  "https://www.corrieredellosport.it/news/calcio/serie-b/2026/09/13-151207465/avellino-palermo_diretta_serie_b_segui_la_sfida_tra_nesta_e_inzaghi_live/",
+  "https://www.tuttosport.com/news/calcio/serie-a/torino/2026/09/13-151211210/abate_adams_ko_e_simeone_in_dubbio_ma_il_torino_pu_colpire_cos_una_roma_da_scudetto_zapata_/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/serie-a-fabregas-dopo-il-lipsia-serve-unaltra-grande-partita_1ded1b5c-ddc6-4ee7-b5d6-9511f3d357bf.html",
+  "https://www.tuttosport.com/news/calcio/calcio-estero/premier-league/tottenham/2026/09/13-151210454/de_zerbi_inizio_horror_e_conferenza_esilarante_in_italia_sarei_il_miglior_allenatore/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/abate-roma-da-scudetto-il-mio-torino-vuole-provarci_167afc15-fbe7-4d7b-b974-450ec5dbe102.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/serie-a-runjaic-linter-e-la-migliore-squadra-del-campionato_2d09f1a4-4e0c-483d-a984-a9ac2d7862f4.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/lecce-e-monza-ricordano-lorena-isceri-lungo-applauso-allo-stadio_6d89861f-6bad-443c-9d83-354f1f9cf545.html",
+  "https://www.tuttosport.com/news/calcio/serie-a/roma/2026/09/13-151208425/gasperini_mora_al_mondo_nessuno_come_lui_dybala_non_lo_metto_a_dormire_due_in_dubbio_malen_/",
+  "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/09/13-151208605/chivu_non_ci_sta_l_inter_a_madrid_ha_perso_una_grande_opportunit_dimarco_sta_bene_spence_/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/inter-chivu-amareggiati-dopo-madrid-persa-unopportunita_c46b8cd7-b520-4b0b-a969-6290ab422f3f.html",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/09/13-151207479/chivu_con_il_real_madrid_abbiamo_perso_un_opportunit_poi_sulle_condizioni_di_dimarco_e_spence/",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/inter-chivu-io-non-bado-al-modulo-ma-al-modo-in-cui-si-gioca_7f2cdd18-ea0c-436b-a866-fc9fc00d2393.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/chivu-siamo-abituati-alle-critiche-ma-linter-pensa-a-crescere_e9a4d587-690f-4c35-a2fb-3aeb60d27ad1.html",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/13/gasperini-malen-oltre-le-aspettative-ha-fatto-qualcosa-di-speciale_7fb23011-e61e-4466-9345-5f29d6217ee9.html",
+  "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/09/13-151207939/gasperini_difende_de_roon_cosa_doveva_fare_all_atalanta_la_scarpa_vecchia_poi_esalta_malen_fuori_dal_normale/"
  ],
  "seenTitles": [
-  "atalantapasaliccontrolhapoelconmoltofuocosenzaeuropasarebbedura",
-  "romagasperinidybalaemalenstraordinari",
-  "lintercercalrsquoaffarelastminutedimercatodecideragravetuttolacessionediluishenrique",
-  "sorlothozirkzeeletrattativeinchiusuradellajuveinquestasettimana",
-  "spenceejonesmettononelmirinolrsquoesordioconlrsquointerquandochivupotragraveaverlititolari",
-  "yildizspaventalajuveloscenariopeggioreelealternativeperspalletti",
-  "arbitrigiagravenelmirinodopolaprimagiornataiclubdiserieaagitatipericasiallimitieitroppierrori",
-  "mercenaroflopfagiolialzaeallargailgomitoquantesvistearbitraliinfiorentinaroma",
-  "pioggiadicartellinigiallinessunrossoegoldidiaannullatolamovioladibolognalazio",
-  "igemellidiversi",
-  "juveazzeccareilbomberegraveunbivioimportante",
-  "perfareunyildizallajuveneservonoduealajbegovicspallettieilmercatopuogravecambiare",
-  "infortunioyildizsicuracosigravevispiegoitempidirecuperoepercheacutenonavevadolore",
-  "toldochegoduriasegnareabuffonmiopadremivolevatabaccaioorasonovolontariodellaprotezionecivile",
-  "capelloelabenedizioneadamorimilsuocalcioènellatradizionedelmilan",
-  "arbitrigiànelmirinodopolaprimagiornataiclubdiserieaagitatipericasiallimitieitroppierrori",
-  "spenceejonesmettononelmirinolesordioconlinterquandochivupotràaverlititolari",
-  "lintercercalaffarelastminutedimercatodecideràtuttolacessionediluishenrique",
-  "luglio1969terremotoinserieaboninsegnafalintergrandeilcagliaridiventaunacorazzatacondomenghini",
-  "infortunioyildizsicuracosìvispiegoitempidirecuperoeperchénonavevadolore",
-  "juveserveun9flopkolomuanieccolastrategiaperarrivareasorloth",
-  "amorusojuvekolomuaninonèuncentravantietrazirkzeeesorlothscelgo",
-  "perfareunyildizallajuveneservonoduealajbegovicspallettieilmercatopuòcambiare",
-  "sarrivuolerowelatalantaoffre35milionimailbolognaresiste",
-  "atalantasarriritrovadeketelaereilbelgatitolarecontrolhapoeltelaviv",
   "atalantaperrowecisonodiversiostacoliresisteilnomedinoalangcomealternativa",
   "marottadicenoalbarçaperlautarodivaioapreallatalantaperrowe",
   "gaetanoregistaalcentrodellatalantauncentrocampochecresceamanoamano",
@@ -16543,6 +16504,31 @@
   "veneziafiorentinaleformazioniufficiali",
   "zaurisullafiorentinagrandeimpattodapartedivanolimaanchelasquadrahareagito",
   "fiorentinaantognonimastantuonoun10emezzocomebaggiopuòarrivareindoppiacifra",
-  "antognonisicuromastantuonofabeneallafiorentinavedoqualcosadiruicosta"
+  "antognonisicuromastantuonofabeneallafiorentinavedoqualcosadiruicosta",
+  "coulibalyetiagogabrieltrascinanoilleccetrisalmonzadifrancescopiegajuric",
+  "ostiamaresconfittainrimontadallatorrestrisdelravennaalperugiagolespettacoloinseriec",
+  "napolibolognadirettaserieaseguilasfidatraallegrietedescolive",
+  "avellinopalermodirettaseriebseguilasfidatranestaeinzaghilive",
+  "chivuconilrealmadridabbiamopersounopportunitagravepoisullecondizionididimarcoespence",
+  "gasperinidifendederooncosadovevafareallatalantalascarpavecchiapoiesaltamalenfuoridalnormale",
+  "sassuolojuvedirettaformazionierisultatointemporealeincampoanchelanextgen",
+  "ilbrightontravolgeilcoventryillipsiafalostessoconlamburgobeneillillediancelotti",
+  "illeccetornaavinceregrazieacoulibalyalviadelmareprofondorossomonza",
+  "fabregascomodafuorisembraunafavolarispondocosigravesulturnovercolparmabaturinaediao",
+  "abateadamskoesimeoneindubbiomailtorinopuogravecolpirecosigraveunaromadascudettozapata",
+  "dezerbiiniziohorroreconferenzaesilaranteldquoinitaliasareiilmigliorallenatorerdquo",
+  "gasperinimoraalmondonessunocomeluidybalanonlomettoadormiredueindubbiomalen",
+  "chivunoncistalinteramadridhapersounagrandeopportunitagravedimarcostabenespence",
+  "danielmaldinipositivoalletilometroritiratapatentedopoincidente",
+  "seriealadoppiettadicoulibalyspingeilleccemonzako32",
+  "serieafabregasdopoillipsiaserveunaltragrandepartita",
+  "abateromadascudettoilmiotorinovuoleprovarci",
+  "seriearunjaiclinterèlamiglioresquadradelcampionato",
+  "lecceemonzaricordanolorenaiscerilungoapplausoallostadio",
+  "interchivuamareggiatidopomadridpersaunopportunità",
+  "interchivuiononbadoalmodulomaalmodoincuisigioca",
+  "chivusiamoabituatiallecritichemalinterpensaacrescere",
+  "gasperinimalenoltreleaspettativehafattoqualcosadispeciale",
+  "seriealunedìalle1830incampotorinoromadiretta"
  ]
 }
