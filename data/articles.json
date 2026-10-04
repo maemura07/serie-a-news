@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T20:53:48.704Z",
+ "updated": "2026-10-04T00:27:20.749Z",
  "feedStatus": [
   {
    "name": "Gazzetta dello Sport",
@@ -12,14 +12,14 @@
    "name": "Corriere dello Sport",
    "tag": "altro",
    "ok": true,
-   "newItems": 6,
+   "newItems": 0,
    "filteredOut": 0
   },
   {
    "name": "Tuttosport",
    "tag": "altro",
    "ok": true,
-   "newItems": 5,
+   "newItems": 0,
    "filteredOut": 0
   },
   {
@@ -36,71 +36,53 @@
    "name": "ANSA Calcio",
    "tag": "altro",
    "ok": true,
-   "newItems": 8,
+   "newItems": 1,
    "filteredOut": 0
   },
   {
    "name": "Google News (Serie A 全体)",
-   "tag": "altro",
-   "ok": true,
-   "newItems": 11,
-   "filteredOut": 35
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Milan)",
-   "tag": "milan",
-   "ok": true,
-   "newItems": 1,
-   "filteredOut": 27
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Inter)",
-   "tag": "inter",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 6
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Juventus)",
-   "tag": "juventus",
-   "ok": true,
-   "newItems": 3,
-   "filteredOut": 25
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Roma)",
-   "tag": "roma",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 21
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Lazio)",
-   "tag": "lazio",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 12
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Atalanta)",
-   "tag": "atalanta",
-   "ok": true,
-   "newItems": 1,
-   "filteredOut": 20
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Fiorentina)",
-   "tag": "fiorentina",
-   "ok": true,
-   "newItems": 8,
-   "filteredOut": 32
+   "ok": false,
+   "error": "Status code 503"
   },
   {
    "name": "Google News (Napoli)",
-   "tag": "napoli",
-   "ok": true,
-   "newItems": 0,
-   "filteredOut": 16
+   "ok": false,
+   "error": "Status code 503"
   }
  ],
  "articles": [
@@ -6406,9 +6388,6 @@
   }
  ],
  "seenUrls": [
-  "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWEZCV1hUUm10OGdwRVpjMjhIaVdiR0xRTWZNd2xjUFdTWl81dlFiWDVGRlBYa0RNN0dzRmU3Q1A0NndMYXF2ckY4NW9XRUhUWjRYR0pYSURGOVFUUW1udGx4eWk5RnFFem04Rk9neGdsMWZENmVkQkNvZUw5NGtxWVZodExMOHF6QlZvdGdIR0tiS0NmdG9NRDZUMm1BeVF2YWpzakR3Z0hjenlicHlCZ1BXT1JzeEktY0NlN3BCYmJYWEV5aVV4bDZRbW1kUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMifkFVX3lxTE84LUNLVjR4SnlMUm5BNmdjUHViNDV4MGdkNGhnbDNRUE1DNXNsMnh2Tk9YOGlQbko1UzlIb1ZRaGpYV2xyTVd0S0RiT2hhX09XS0tmcDhWazg2UlM3WHNGSHY4VXVWc0VGVkkwLVNVWUc3b2pRMkZ3WlpOR0hVQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbkpOOVJ3Tkd0VXVmVFRwMnA3MmdFajd2TDNaMjVwSGVFZHFWYllaUlcxakU1TzhGWW5OTUIxaWtnczJfWEZFdDM3azRfRW5JWlRnc194MHJRSURXTzhIVnRFOEUwRlhQTmRKb0cyTXFQVlVheVlpbTNlUTl5ZmtjNzFHaDZ1bnlhWV9STktpQTFubzRZLTR6MFpRREc1YjRDaW5QZUVPb3NSTG43Q3lYOGNmZFc4bzNOOUtTOUJmeWhGaldZUU5KQ2Fn?oc=5",
   "https://news.google.com/rss/articles/CBMiywJBVV95cUxNM1J2WDFLMXdKR1pYSDNGb1EwdmJlbUdWMDRiM1JQWDh2T2ZnUmo5TDl4bURzOXhaaHJoMXViZXNBU1ZZVkVjbDdpNWpLQ1JTLXFXdFJ2UTlNOHg0bVliTTZkQ294UmFBZ095U3ZJaktqVlRla2VGbmZ6RUFmOVBzZnhDb1RVLUJPOGxSZjFhSlpLWXJNYmg2V21rV3BTMDJUMF9xeGFqbWpoWTdjXzhralVfTlJvNE5YQUJETEZuanRqY1dXVkQ2WDZ4Q2JFcDBLTU5kbUlNS2xYS0FUdnA4aUFkelhNVUlPMjJRdi1MYUp5MmU3WUJEVEJqOTJiYjRaSWV6bjFkdl94YzA0eDB4X01BZ0lueUl5Y1NVNWxaSW1PS25uQThmbXNyQXFvZDRNZ2JQaTl0Q3hXTDZGRWpGM0IzZkluc0R6dHpn?oc=5",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRndRT2toOU1VcjM3ZlROX21rOFZYNWdqZkNGaVZKak5wbVJJUTNmSTlkclB3N0JCVldJZi1XaHVncnAtNjlYbGZBb1NJUktNcHFRQUZIdWdJT1hkY0NVRnByVkFUSGVBYVRqRDVGWXZGeG82STkzUVpmVy1GQ2Ixa0JTV25oa2FoUExFYzNncWtDQnBUTlIyUzJILVhqX2l0Z2lZNFkxemdFQ0wyMFZwME9GME9WTmNnT25PcFZmMzI?oc=5",
   "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zeF9udkJnOFBqN0gwSHR4TmtqbWVzRzd1aURwS0M0eEViVnJLdG1BRmlUcWRPdlgwRWRoTFRmUl9aS3E4WWVROFRpWHdSQW5XWTR5NmVKajl5VWdweE1ZWVBmSU9KbDg?oc=5",
@@ -11405,10 +11384,12 @@
   "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/03/calcio-gli-sloveni-del-koper-battono-2-1-il-l.r.-vicenza_70e7f787-8883-4368-bb73-2a3000f65e8d.html",
   "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/03/lazio-gattuso-vogliamo-ricominciare-da-dove-abbiamo-lasciato_b55d4c72-504d-4fd6-8ed1-222e722564a6.html",
   "https://news.google.com/rss/articles/CBMingFBVV95cUxOZERFbjhFUmVMSENoNWk5ZlJvUkRvdF9teFNYZy1fcU5CTW9YWkdPY3NqSkQ3RmJuaEJwZW1xc2EwNmNHRlNqRUkwOE12RnVUOGhxTDRuT1IyeG82QUVFM0dMR1RySXhPMXRNQ3htZlVzVHFEbEVYOUQwUDFGMFB6NVBxMXdMcndvNnE5V3dJQkFSN3JNd05fTXdlT05rdw?oc=5",
-  "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTmMtTnhOY1ZzRDI0SE5YcFBQNGxRXzB3N2J0X2NoNVVFVVhnVzVNSWhsZlVMYk80VWFBYUlvUnYtNmhZVXV2YlJTZ2VvTWx3cEVEVEJnUlh1c3B4WlU2WHlJTXF5MHF4Z0d5Xzc5aWJYRjN4d1hrSkI4MnItWmU2bG9KTk9BUkxpMlNEMWtsOFI1XzY3a0xn?oc=5"
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTmMtTnhOY1ZzRDI0SE5YcFBQNGxRXzB3N2J0X2NoNVVFVVhnVzVNSWhsZlVMYk80VWFBYUlvUnYtNmhZVXV2YlJTZ2VvTWx3cEVEVEJnUlh1c3B4WlU2WHlJTXF5MHF4Z0d5Xzc5aWJYRjN4d1hrSkI4MnItWmU2bG9KTk9BUkxpMlNEMWtsOFI1XzY3a0xn?oc=5",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRDVIZmhMRzFpcFgwdWgwOW50akhHSjA1X3dlOEptV19WTkFvc2JZbXhKdTdXZ2xsb0wtOV9fdGZZU3gxVjlQMVFoV1dzSEVPX0FFTWVXSHlwVlQ5YXAyaklmX0ZpMDFfSkpSLXFtOFlvV1I2SW9FNFdTbk5HUFJOSVpoYTVDUmVJT0NBRmFfcXpVVGdrR2JHQmFORHdESlJNUEFFcm1R?oc=5",
+  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNGdONVJEUnM0NDBmTDluN3o4ZTZNbGRpY2hEeElsbkhJRm9DNWtQSTVmNk00bnU5ZWJIMDhPT0xiVjVReGdiLTNLWHotcnJzT1ZJSlNpMlYtaURIQThLa0d5RnBPRXJyQjNCYzdMZ2MyRVFjOHNtQXFSZ1Y2d1pUcjFPbkJmdHAtS3VJQzhsVWoxUHpMaWwza1dLOGFlOWdkVnZScjZtaTBZM2lZLWVOckg4ZGJNQkdraVZGeDYzLWNKVVpwNEtGR1R6U25fMFJlYnVPdXhuVmdHaVV10gHiAUFVX3lxTE92LWdLWjdQV1J1eThXajE3Zm5wV2Q3a2tFSGJYeTFGbFpEYTFKdFB0WkRKZzVCRzZ6MG5IVnNtOXhYdmMybjZQazNwX0RGdFRJTjlXWFNlYk1Dc0N6Wks0TTY3allKTVZrNzBrYWpOMFI2alBGbnVCRFZ4OUdFU3NQSlNQYUJ5c3dGa2M0Yl9CLTNMSzNTd0YyQm9vSFhYWTZraTd4dFU2bDdvdGlCT0FuVFo1MlU2THE4TEw0dWxWd2hQT2xVNFVnVER0UE5BTUlHdHc0SldzWDF4V1FoLVVsblE?oc=5",
+  "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/03/europa-league-spagna-rep.-ceca-3-1_b54c2f16-2190-429e-8ad8-44f36a6e327a.html"
  ],
  "seenTitles": [
-  "seriealeprobabilidiveneziafiorentina",
   "pronosticoatalantacagliariquoteanalisi4giornataseriea",
   "indisponibiliserieainfortunatiesqualificatiperla4giornata",
   "pronosticolaziomilanquotesfida4giornataseriea",
@@ -16407,6 +16388,7 @@
   "fiorentinaferrariroccocommissosarebbestatoluomopiùfelicealmondovogliamofarsognareitifosi",
   "fiorentinaildgferrarilavoriamoperriportareuntrofeospiegoilcambiodigrosso",
   "fiorentinapellegrinoconvanoliunaltraenergiamastantuonosopraffinobetomiaiuta",
-  "genoatraumadistorsivoallacavigliasinistrapercolombooutconlafiorentina"
+  "genoatraumadistorsivoallacavigliasinistrapercolombooutconlafiorentina",
+  "nationsleaguespagnarepceca31"
  ]
 }
